@@ -5,7 +5,6 @@ import mods.compatskills.Requirement.addRequirement;
 import crafttweaker.item.IItemStack;
 
 val recipe_only = [
-	<minecraft:wooden_sword:*>,
 	<minecraft:stone_pickaxe:*>,
 	<minecraft:stone_sword:*>,
 	<minecraft:leather_chestplate:*>,
@@ -13,7 +12,6 @@ val recipe_only = [
 	<minecraft:iron_chestplate:*>,
 	<minecraft:iron_helmet:*>,
 	<minecraft:iron_leggings:*>,
-	<minecraft:bow:*>,
 	<minecraft:diamond_axe:*>,
 	<minecraft:diamond_hoe:*>,
 	<minecraft:diamond_pickaxe:*>,
@@ -28,6 +26,7 @@ val recipe_only = [
 	<minecraft:iron_pickaxe:*>,
 	<minecraft:iron_shovel:*>,
 	<minecraft:iron_sword:*>,
+	<minecraft:bow:*>,
 	<botania:manasteelhelm:*>,
 	<botania:manasteelhelmreveal:*>,
 	<botania:manasteelchest:*>,
@@ -101,6 +100,7 @@ val disabled = [
 	<minecraft:wooden_shovel:*>,
 	<minecraft:wooden_axe:*>,
 	<minecraft:wooden_pickaxe:*>,
+	<minecraft:wooden_sword:*>,
 	<minecraft:leather_helmet:*>,
 	<minecraft:leather_leggings:*>,
 	<minecraft:leather_boots:*>,

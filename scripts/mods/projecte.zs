@@ -1,5 +1,9 @@
 #priority 800
 
+//Remove all philo stone smelting recipes
+recipes.removeByRegex("(projecte:philstone_smelt_).*");
+
+
 //Make Philo Stone easier as nether is locked and transmutation is staged
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.addShapedMirrored("CTPhiloStone", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust:1>, <ore:sonarStableStone>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>]]);

@@ -12,6 +12,7 @@ addModLock("thaumicbases", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumic_arcana", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicperiphery", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumictinkerer", "trait|compatskills:unlock_thaumcraft");
+addModLock("thaumicreadoption", "trait|compatskills:unlock_thaumcraft");
 addModLock("tg", "trait|compatskills:unlock_thaumcraft");
 
 //Botania
@@ -19,6 +20,8 @@ addModLock("botania", "trait|compatskills:unlock_botania");
 addModLock("botania_tweaks", "trait|compatskills:unlock_botania");
 addModLock("extrabotany", "trait|compatskills:unlock_botania");
 addModLock("incorporeal", "trait|compatskills:unlock_botania");
+addModLock("botanianeedsit", "trait|compatskills:unlock_botania");
+addModLock("botanicadds", "trait|compatskills:unlock_botania");
 
 //Blood Magic
 addModLock("bloodmagic", "trait|compatskills:unlock_bloodmagic");
