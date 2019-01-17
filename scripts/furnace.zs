@@ -24,8 +24,6 @@ furnace.addRecipe(<ceramics:clay_wall:2>, <ceramics:clay_wall>, 0.1000 as float)
 furnace.addRecipe(<ceramics:dark_bricks_stairs>, <minecraft:brick_stairs>, 0.1000 as float);
 furnace.addRecipe(<enderio:item_alloy_ingot:7>, <enderio:item_material:74>, 0.35000 as float);
 furnace.addRecipe(<enderio:item_material:4> * 2, <enderio:item_material:22>, 0.1000 as float);
-furnace.addRecipe(<exnihilocreatio:block_crucible:1>, <exnihilocreatio:block_crucible>, 0.7000 as float);
-furnace.addRecipe(<exnihilocreatio:item_cooked_silkworm>, <exnihilocreatio:item_material:2>, 0.7000 as float);
 furnace.addRecipe(<mekanism:ingot:1> * 2, <jaopca:item_clusterosmium>, 1.0000 as float);
 furnace.addRecipe(<mekanism:ingot:1>, <mekanism:oreblock> | <mekanism:dust:2>, 1.0000 as float);
 furnace.addRecipe(<mekanism:ingot:2>, <techreborn:dust:7>, 1.0000 as float);

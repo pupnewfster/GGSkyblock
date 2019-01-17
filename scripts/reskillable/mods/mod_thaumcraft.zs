@@ -8,9 +8,6 @@ import mods.compatskills.Thaumcraft.addKnowledgeLock;
 addRequirement(<thaumadditions:crafting_furnace>, "none");
 
 
-//Thaumic terminals
-addRequirement(<thaumicterminal:item_part>, "compatskills:technology|33", "trait|compatskills:unlock_thaumcraft");
-
 addRequirement(<thaumcraft:crystal_essence>, "unobtainable");
 
 //Research

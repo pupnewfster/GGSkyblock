@@ -19,15 +19,6 @@ mods.jei.JEI.removeAndHide(<tinker_io:ore_crusher>);
 mods.jei.JEI.removeAndHide(<tinker_io:what_a_beautiful_block>);
 mods.jei.JEI.removeAndHide(<tinker_io:crushed_ore>);
 
-mods.jei.JEI.removeAndHide(<tcomplement:manyullyn_helmet>);
-mods.jei.JEI.removeAndHide(<tcomplement:manyullyn_chestplate>);
-mods.jei.JEI.removeAndHide(<tcomplement:manyullyn_leggings>);
-mods.jei.JEI.removeAndHide(<tcomplement:manyullyn_boots>);
-mods.jei.JEI.removeAndHide(<tcomplement:knightslime_helmet>);
-mods.jei.JEI.removeAndHide(<tcomplement:knightslime_chestplate>);
-mods.jei.JEI.removeAndHide(<tcomplement:knightslime_leggings>);
-mods.jei.JEI.removeAndHide(<tcomplement:knightslime_boots>);
-
 mods.jei.JEI.removeAndHide(<tcomplement:melter>);
 mods.jei.JEI.removeAndHide(<tcomplement:melter:8>);
 
