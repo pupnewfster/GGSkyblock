@@ -1,6 +1,30 @@
-#disabled
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.LootCondition;
+import crafttweaker.data.IData;
 
-import mods.ltt.LootTable.removeGlobalItem;
+//val pig = LootTables.getTable("minecraft:entities/pig");
+//val mainPool = pig.getPool("main");
+//mainPool.addItemEntryHelper(<minecraft:diamond>, 1, 0, null, [getConditions(["reskillable:attack|5", "reskillable:magic|7"])]);
+
+
+
+function getConditions(conditions as string[]) as LootCondition {
+	var c = [] as IData;
+	for condition in conditions {
+		c += [condition];
+	}
+
+	return Conditions.parse({
+        "condition" : "reskillable:requirement",
+        "requiresPlayer" : true,
+        "requirements" : c
+    });
+}
+
+//TODO: Remove these from the loot tables that they are still in now that loot table tweaker is gone
+/*import mods.ltt.LootTable.removeGlobalItem;
 
 removeGlobalItem("enderio:item_material");
 removeGlobalItem("enderio:item_dark_steel_boots");
@@ -38,4 +62,4 @@ removeGlobalItem("minecraft:iron_sword");
 removeGlobalItem("minecraft:golden_chestplate");
 removeGlobalItem("minecraft:golden_sword");
 removeGlobalItem("minecraft:stone_axe");
-removeGlobalItem("minecraft:chainmail_chestplate");
+removeGlobalItem("minecraft:chainmail_chestplate");*/
