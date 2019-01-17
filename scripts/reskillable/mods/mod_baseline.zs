@@ -12,7 +12,7 @@ addModLock("thaumicbases", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumic_arcana", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicperiphery", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumictinkerer", "trait|compatskills:unlock_thaumcraft");
-addModLock("thaumicreadoption", "trait|compatskills:unlock_thaumcraft");
+addModLock("thaumicrestoration", "trait|compatskills:unlock_thaumcraft");
 addModLock("tg", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicenergistics", "compatskills:technology|33", "trait|compatskills:unlock_thaumcraft");
 
