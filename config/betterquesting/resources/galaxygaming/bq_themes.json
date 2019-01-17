@@ -1,0 +1,19 @@
+[
+	{
+		"themeType": "betterquesting:standard",
+		"name": "Galaxy Gaming Skyblock",
+		"texture": "galaxygaming:textures/gui/editor_gui_skyblock.png",
+		"textColor": 16776960,
+		"lineColor": {
+			"locked": 8421504,
+			"pending": 16776960,
+			"complete": 65280
+		},
+		"iconColor": {
+			"locked": 8421504,
+			"pending": 12517376,
+			"unclaimed": 65535,
+			"complete": 65280
+		}
+	}
+]

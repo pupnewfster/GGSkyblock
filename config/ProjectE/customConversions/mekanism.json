@@ -1,0 +1,169 @@
+{
+  "comment": "Mekanism",
+  "groups": {
+    "mekanism": {
+      "comment": "Mekanism recipes",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "mekanism:enrichedalloy|0",
+          "ingredients": {
+            "minecraft:iron_ingot|0": 1,
+			"minecraft:redstone|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:reinforcedalloy|0",
+          "ingredients": {
+            "mekanism:enrichedalloy|0": 1,
+			"mekanism:otherdust|0": 10
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:atomicalloy|0",
+          "ingredients": {
+            "mekanism:reinforcedalloy|0": 1,
+			"mekanism:otherdust|5": 100
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:ingot|0",
+          "ingredients": {
+            "mekanism:ingot|1": 1,
+			"mekanism:otherdust|5": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "OD|dustRefinedObsidian",
+          "ingredients": {
+            "mekanism:ingot|1": 1,
+			"OD|dustObsidian": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:ingot|3",
+          "ingredients": {
+            "mekanism:ingot|1": 1,
+			"minecraft:glowstone_dust|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:controlcircuit|0",
+          "ingredients": {
+            "mekanism:ingot|1": 1,
+			"minecraft:redstone|0": 10
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|0",
+          "ingredients": {
+            "OD|circuitBasic": 2,
+			"OD|blockGlass": 4,
+			"mekanism:energytablet|0": 1,
+			"FAKE|gastank": 1,
+			"FAKE|fluidtank": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|1",
+          "ingredients": {
+            "OD|circuitBasic": 2,
+			"mekanism:enrichedalloy|0": 4,
+			"mekanism:basicblock|9": 1,
+			"FAKE|gastank": 1,
+			"mekanism:machineblock|13": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|2",
+          "ingredients": {
+            "OD|circuitBasic": 2,
+			"mekanism:enrichedalloy|0": 4,
+			"mekanism:basicblock|9": 1,
+			"FAKE|gastank": 2
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|6",
+          "ingredients": {
+            "OD|circuitBasic": 4,
+			"mekanism:enrichedalloy|0": 2,
+			"mekanism:atomicalloy|0": 1,
+			"FAKE|gastank": 2
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|7",
+          "ingredients": {
+            "OD|circuitBasic": 4,
+			"mekanism:enrichedalloy|0": 2,
+			"mekanism:basicblock|8": 1,
+			"FAKE|gastank": 1,
+			"minecraft:bucket|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|8",
+          "ingredients": {
+            "OD|circuitBasic": 4,
+			"mekanism:atomicalloy|0": 2,
+			"mekanism:basicblock|8": 1,
+			"FAKE|gastank": 2
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|10",
+          "ingredients": {
+            "OD|circuitBasic": 2,
+			"mekanism:enrichedalloy|0": 1,
+			"mekanism:basicblock|9": 1,
+			"FAKE|gastank": 2,
+			"OD|ingotSteel": 2,
+			"mekanism:machineblock|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanism:machineblock2|14",
+          "ingredients": {
+			"FAKE|basicenergy": 2,
+			"OD|ingotSteel": 7,
+			"OD|gemDiamond": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "mekanismgenerators:reactor|0",
+          "ingredients": {
+			"FAKE|gastank": 1,
+			"OD|paneGlass": 1,
+			"OD|circuitUltimate": 2,
+			"mekanismgenerators:reactor|1": 5
+          }
+        }
+      ]
+    }
+  },
+  "values": {
+    "before": {
+	  "FAKE|gastank": 2304,
+	  "FAKE|fluidtank": 1280,
+	  "FAKE|basicenergy": 50812
+      },
+    "after": {},
+    "conversion": []
+  }
+}

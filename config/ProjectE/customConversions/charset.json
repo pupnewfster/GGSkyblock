@@ -1,0 +1,1453 @@
+{
+  "comment": "Charset",
+  "groups": {
+    "charsetrecipes": {
+      "comment": "Recipes",
+      "conversions": [
+		{
+          "count": 4,
+          "output": "charset:logic_wire_n|0",
+          "ingredients": {
+            "minecraft:redstone|0": 4,
+			"minecraft:iron_ingot|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "charset:logic_wire_n|1",
+          "ingredients": {
+			"charset:logic_wire_n|0": 1
+          }
+        },
+
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i0|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeWhite": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i0|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeWhite": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i1|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeOrange": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i1|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeOrange": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i2|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeMagenta": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i2|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeMagenta": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i3|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i3|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i4|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeYellow": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i4|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeYellow": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i5|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeLime": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i5|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeLime": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i6|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyePink": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i6|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyePink": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i7|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeGray": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i7|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeGray": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i8|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeLightGray": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i8|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeLightGray": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i9|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeCyan": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i9|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeCyan": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i10|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyePurple": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i10|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyePurple": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i11|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeBlue": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i11|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeBlue": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i12|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeBrown": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i12|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeBrown": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i13|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeGreen": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i13|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeGreen": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i14|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeRed": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i14|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeRed": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i15|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeBlack": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i15|1",
+          "ingredients": {
+            "charset:logic_wire_n|1": 4,
+			"OD|dyeBlack": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "charset:logic_wire_b|0",
+          "ingredients": {
+            "charset:logic_wire_i0|0": 5,
+			"minecraft:string|0": 4
+          }
+        },
+		{
+          "count": 1,
+          "output": "charset:logic_wire_b|1",
+          "ingredients": {
+            "charset:logic_wire_i0|1": 5,
+			"minecraft:string|0": 4
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_i0|0",
+          "ingredients": {
+            "charset:logic_wire_n|0": 4,
+			"OD|dyeWhite": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc0|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeWhite": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc1|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeOrange": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc1|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeOrange": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc2|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeMagenta": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc2|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeMagenta": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc3|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc3|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc4|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeYellow": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc4|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeYellow": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc5|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeLime": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc5|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeLime": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc6|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyePink": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc6|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyePink": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc7|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeGray": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc7|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeGray": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc8|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeLightGray": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc8|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeLightGray": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc9|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeCyan": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc9|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeCyan": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc10|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyePurple": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc10|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyePurple": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc11|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeBlue": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc11|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeBlue": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc12|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeBrown": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc12|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeBrown": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc13|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeGreen": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc13|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeGreen": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc14|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeRed": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc14|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeRed": 1
+          }
+        },
+		
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc15|0",
+          "ingredients": {
+            "charset:logic_wire_b|0": 4,
+			"OD|dyeBlack": 1
+          }
+        },
+		{
+          "count": 4,
+          "output": "charset:logic_wire_bc15|1",
+          "ingredients": {
+            "charset:logic_wire_b|1": 4,
+			"OD|dyeBlack": 1
+          }
+        }
+      ]
+    },
+	"complex": {
+      "comment": "Complex logic lamps",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_white|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeWhite": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_white_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeWhite": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_white|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeWhite": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_white_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeWhite": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_white|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeWhite": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_white_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeWhite": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_orange|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeOrange": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_orange_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeOrange": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_orange|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeOrange": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_orange_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeOrange": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_orange|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeOrange": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_orange_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeOrange": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_magenta|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeMagenta": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_magenta_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeMagenta": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_magenta|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeMagenta": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_magenta_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeMagenta": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_magenta|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeMagenta": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_magenta_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeMagenta": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_yellow|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeYellow": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_yellow_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeYellow": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_yellow|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeYellow": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_yellow_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeYellow": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_yellow|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeYellow": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_yellow_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeYellow": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_lime|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLime": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_lime_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLime": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_lime|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLime": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_lime_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLime": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_lime|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLime": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_lime_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLime": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_pink|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyePink": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_pink_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyePink": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_pink|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyePink": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_pink_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyePink": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_pink|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyePink": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_pink_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyePink": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_gray|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_gray_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_gray|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_gray_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_gray|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_gray_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_cyan|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeCyan": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_cyan_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeCyan": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_cyan|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeCyan": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_cyan_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeCyan": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_cyan|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeCyan": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_cyan_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeCyan": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_purple|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyePurple": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_purple_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyePurple": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_purple|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyePurple": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_purple_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyePurple": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_purple|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyePurple": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_purple_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyePurple": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_brown|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBrown": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_brown_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBrown": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_brown|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBrown": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_brown_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBrown": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_brown|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBrown": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_brown_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBrown": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_green|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeGreen": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_green_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeGreen": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_green|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeGreen": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_green_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeGreen": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_green|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeGreen": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_green_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeGreen": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_red|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeRed": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_red_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeRed": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_red|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeRed": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_red_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeRed": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_red|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeRed": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_red_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeRed": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_black|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBlack": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_black_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeBlack": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_black|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBlack": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_black_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeBlack": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_black|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBlack": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_black_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeBlack": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_silver|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLightGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_silver_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLightGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_silver|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLightGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_silver_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLightGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_silver|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLightGray": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_silver_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLightGray": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_light_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:cage_lamp_light_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"minecraft:iron_bars|0": 2,
+			"OD|dyeLightBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_light_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:flat_lamp_light_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 3,
+			"OD|dyeLightBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_light_blue|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLightBlue": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "complex-logic:color_lamp_light_blue_inverted|0",
+          "ingredients": {
+            "minecraft:redstone_lamp|0": 1,
+			"OD|dyeLightBlue": 1,
+			"minecraft:redstone_torch|0": 1
+          }
+        }
+      ]
+    }
+  }
+}

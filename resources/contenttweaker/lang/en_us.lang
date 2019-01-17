@@ -1,0 +1,85 @@
+fluid.liquidaeternalis=Liquid Aeternalis
+fluid.liquiddarkmatter=Liquid Dark Matter
+fluid.liquidredmatter=Liquid Red Matter
+fluid.liquidbluematter=Liquid Blue Matter
+fluid.dirtydarkmatter=Dirty Liquid Dark Matter
+
+fluid.liquidtier14=Liquid Tier 14 EMC Essence
+fluid.liquidtier18=Liquid Tier 18 EMC Essence
+fluid.liquidtier19=Liquid Tier 19 EMC Essence
+fluid.tier25blood=Bloody Tier 25 EMC Essence
+fluid.tier30_dirty=Dirty Tier 19 EMC Essence
+fluid.tier30_clean=Clean Tier 19 EMC Essence
+
+
+
+fluid.moltentier18=Molten Tier 18 EMC Essence
+fluid.moltentier19=Molten Tier 19 EMC Essence
+fluid.moltentier20=Molten Tier 20 EMC Essence
+fluid.moltentier25=Molten Tier 25 EMC Essence
+fluid.moltentier26=Molten Tier 26 EMC Essence
+fluid.moltentier29=Molten Tier 29 EMC Essence
+
+fluid.molten18_19=Molten Tier 18 - 19 EMC Alloy
+fluid.molten25_26=Molten Tier 25 - 26 EMC Alloy
+fluid.moltentier21=Molten Tier 21 EMC Essence
+fluid.moltentier21_evaporated=Evaporated Molten Tier 21 EMC Essence
+
+
+item.contenttweaker.compressed_tier1.name=Compressed Tier 1 EMC Essence
+item.contenttweaker.compressed_sugar.name=Compressed Sugar
+item.contenttweaker.compressed_lp.name=Compressed Solidified Life Essence
+
+item.contenttweaker.metallic_tier22_seeds.name=Metallic Tier 22 EMC Seeds
+item.contenttweaker.blood_tier23_seeds.name=Blood Infused Tier 23 EMC Seeds
+item.contenttweaker.composting_tier24_seeds.name=Composting Tier 24 EMC Seeds
+item.contenttweaker.blood_tier25_seeds.name=Blood Infused Tier 25 EMC Seeds
+item.contenttweaker.reconstructed_tier27_seeds.name=Atomically Reconstructed Tier 27 EMC Seeds
+item.contenttweaker.empowered_tier27_seeds.name=Empowered Atomically Reconstructed Tier 27 EMC Seeds
+
+
+item.contenttweaker.tier23alloy.name=Tier 23 EMC Essence Alloy
+item.contenttweaker.reconstructed_tier24.name=Reconstructed Tier 24 EMC Essence
+item.contenttweaker.empowered_tier25.name=Empowerered Tier 25 EMC Essence
+item.contenttweaker.bloody_tier27.name=Bloody Tier 27 EMC Essence
+
+item.contenttweaker.tier28_alchemy.name=Alchemified Tier 28 EMC Essence
+item.contenttweaker.tier28_elven.name=Elven Alchemified Tier 28 EMC Essence
+
+
+item.contenttweaker.tier30_crystal.name=Tier 30 EMC Essence Crystal
+item.contenttweaker.tier30_shard.name=Tier 30 EMC Essence Shard
+item.contenttweaker.tier30_clump.name=Tier 30 EMC Essence Clump
+item.contenttweaker.tier30_dust.name=Tier 30 EMC Essence Dust
+
+
+
+tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block
+tile.contenttweaker.imbued_tier16.name=Imbued Tier 16 EMC Essence Block
+tile.contenttweaker.pure_tier16.name=Pure Tier 16 EMC Essence Block
+tile.contenttweaker.tier17_block.name=Tier 17 EMC Essence Block
+tile.contenttweaker.tier18_block.name=Tier 18 EMC Essence Block
+tile.contenttweaker.tier18_blood_block.name=Blood Infused Tier 18 EMC Essence Block
+tile.contenttweaker.tier22_block.name=Tier 22 EMC Essence Block
+tile.contenttweaker.tier24_block.name=Tier 24 EMC Essence Block
+tile.contenttweaker.tier24_composting_block.name=Composting Tier 24 EMC Essence Block
+tile.contenttweaker.imbued_tier22.name=Imbued Tier 22 EMC Essence Block
+tile.contenttweaker.tier25_26_alloy_block.name=Tier 25 - 26 EMC Alloy Block
+
+
+tile.contenttweaker.black_sea_lantern.name=Black Sea Lantern
+tile.contenttweaker.gray_sea_lantern.name=Gray Sea Lantern
+tile.contenttweaker.purple_sea_lantern.name=Purple Sea Lantern
+tile.contenttweaker.red_sea_lantern.name=Red Sea Lantern
+tile.contenttweaker.light_blue_sea_lantern.name=Light Blue Sea Lantern
+tile.contenttweaker.brown_sea_lantern.name=Brown Sea Lantern
+tile.contenttweaker.light_gray_sea_lantern.name=Light Gray Sea Lantern
+tile.contenttweaker.green_sea_lantern.name=Green Sea Lantern
+tile.contenttweaker.lime_sea_lantern.name=Lime Sea Lantern
+tile.contenttweaker.cyan_sea_lantern.name=Cyan Sea Lantern
+tile.contenttweaker.orange_sea_lantern.name=Orange Sea Lantern
+tile.contenttweaker.yellow_sea_lantern.name=Yellow Sea Lantern
+tile.contenttweaker.pink_sea_lantern.name=Pink Sea Lantern
+tile.contenttweaker.magenta_sea_lantern.name=Magenta Sea Lantern
+tile.contenttweaker.white_sea_lantern.name=White Sea Lantern
+tile.contenttweaker.blue_sea_lantern.name=Blue Sea Lantern

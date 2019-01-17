@@ -1,0 +1,17 @@
+{
+  "comment": "Flux Networks",
+  "groups": {
+    "frecipes": {
+      "comment": "Recipes",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "fluxnetworks:flux|0",
+          "ingredients": {
+            "minecraft:redstone|0": 1
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "comment": "Actually Additions",
+  "groups": {
+	"food": {
+      "comment": "AA Food recipes",
+      "conversions": [
+		{
+          "count": 3,
+          "output": "actuallyadditions:item_food|20",
+          "ingredients": {
+			"minecraft:cooked_porkchop|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "actuallyadditions:item_food|14",
+          "ingredients": {
+			"minecraft:cooked_fish|0": 1,
+			"minecraft:carrot|0": 1,
+			"minecraft:brown_mushroom|0": 1,
+			"actuallyadditions:item_misc|4": 1,
+			"actuallyadditions:item_food|0": 2
+          }
+        },
+		{
+          "count": 1,
+          "output": "actuallyadditions:item_food|13",
+          "ingredients": {
+			"minecraft:cooked_beef|0": 1,
+			"actuallyadditions:item_food|10": 1,
+			"actuallyadditions:item_food|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "actuallyadditions:item_food|11",
+          "ingredients": {
+			"minecraft:cooked_beef|0": 1,
+			"actuallyadditions:item_food|15": 1,
+			"actuallyadditions:item_food|0": 2,
+			"minecraft:paper|0": 3
+          }
+        },
+		{
+          "count": 2,
+          "output": "actuallyadditions:item_food|5",
+          "ingredients": {
+			"minecraft:baked_potato|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "actuallyadditions:item_food|2",
+          "ingredients": {
+			"minecraft:carrot|0": 1,
+			"minecraft:glass_bottle|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "actuallyadditions:item_food|7",
+          "ingredients": {
+			"minecraft:wheat|0": 1
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "comment": "Ex Nihilo",
+  "groups": {
+    "hammer_recipes": {
+      "comment": "Hammer Recipes",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_netherrack_crushed|0",
+          "ingredients": {
+			"minecraft:netherrack|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_endstone_crushed|0",
+          "ingredients": {
+			"minecraft:end_stone|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_skystone_crushed|0",
+          "ingredients": {
+			"applied_energistics2:sky_stone_block|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_andesite_crushed|0",
+          "ingredients": {
+			"minecraft:stone|5": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_diorite_crushed|0",
+          "ingredients": {
+			"minecraft:stone|3": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_granite_crushed|0",
+          "ingredients": {
+			"minecraft:stone|1": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:block_dust|0",
+          "ingredients": {
+			"minecraft:sand|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_oak|0",
+          "ingredients": {
+			"minecraft:sapling|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_spruce|0",
+          "ingredients": {
+			"minecraft:sapling|1": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_birch|0",
+          "ingredients": {
+			"minecraft:sapling|2": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_jungle|0",
+          "ingredients": {
+			"minecraft:sapling|3": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_acacia|0",
+          "ingredients": {
+			"minecraft:sapling|4": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_darkoak|0",
+          "ingredients": {
+			"minecraft:sapling|5": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_cactus|0",
+          "ingredients": {
+			"minecraft:cactus|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_sugarcane|0",
+          "ingredients": {
+			"minecraft:reeds|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_carrot|0",
+          "ingredients": {
+			"minecraft:carrot|0": 1
+          }
+        },
+		{
+          "count": 1,
+          "output": "exnihilocreatio:item_seed_potato|0",
+          "ingredients": {
+			"minecraft:potato|0": 1
+          }
+        }
+	  ]
+    }
+  }
+}

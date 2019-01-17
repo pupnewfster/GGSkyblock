@@ -1,0 +1,32 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Dirt",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:dirt",
+				"meta": 0
+			},
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_empty_Hand"
+				},
+				{
+					"type": "reskillable_requirement",
+					"requirement": "not|reskillable:gathering|2"
+				}
+			],
+			"drops": [
+				{
+					"name": "exnihilocreatio:item_pebble"
+				}
+			]
+		}
+	]
+}

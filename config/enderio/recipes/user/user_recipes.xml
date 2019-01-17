@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Sagmill: Tier 12 EMC" required="true">
+    <sagmilling energy="250000" bonus="chance_only">
+      <input name="mysticalagriculture:nickel_essence"/>
+      <output name="extendedcrafting:material:24" amount="1" />
+      <output name="oredict:gemEmerald" chance="0.25" required="false" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Alloy: Endergy Crystalline Pink Slime Fixed" required="false">
+    <alloying energy="10000" exp="0.5">
+      <input name="ingotPulsatingIron"/>
+      <input name="tconstruct:edible:2"/>
+      <output name="ingotCrystallinePinkSlime"/>
+    </alloying>
+  </recipe>
+</enderio:recipes>

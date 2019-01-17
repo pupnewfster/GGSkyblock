@@ -1,0 +1,17 @@
+{
+  "comment": "Astral Sorcery",
+  "groups": {
+    "astral": {
+      "comment": "Recipes",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "astralsorcery:blockinfusedwood|0",
+          "ingredients": {
+            "OD|logWood": 1
+          }
+        }
+      ]
+    }
+  }
+}

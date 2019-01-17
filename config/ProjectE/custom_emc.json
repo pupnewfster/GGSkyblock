@@ -1,0 +1,5922 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:anvil|1",
+      "emc": 634
+    },
+    {
+      "item": "minecraft:anvil|2",
+      "emc": 317
+    },
+    {
+      "item": "minecraft:enchanted_book|0",
+      "emc": 0
+    },
+	{
+      "item": "minecraft:experience_bottle|0",
+      "emc": 0
+    },
+	{
+      "item": "minecraft:chainmail_helmet|*",
+      "emc": 1
+    },
+	{
+      "item": "minecraft:chainmail_chestplate|*",
+      "emc": 1
+    },
+	{
+      "item": "minecraft:chainmail_leggings|*",
+      "emc": 1
+    },
+	{
+      "item": "minecraft:chainmail_boots|*",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone|1",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone|3",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone|5",
+      "emc": 1
+    },
+	{
+      "item": "minecraft:skull|1",
+      "emc": 46388
+    },
+	
+	{
+      "item": "solarflux:mirror|0",
+      "emc": 0
+    },
+	
+	{
+      "item": "exnihilocreatio:item_material|2",
+      "emc": 8
+    },
+	
+	{
+      "item": "enderio:item_material|46",
+      "emc": 1
+    },
+	
+	{
+      "item": "betterbuilderswands:wandunbreakable|0",
+      "emc": 139272
+    },
+	
+	{
+      "item": "appliedenergistics2:part|120",
+      "emc": 42
+    },
+	
+	{
+      "item": "tconstruct:seared|*",
+      "emc": 4
+    },
+	{
+      "item": "tconstruct:edible|3",
+      "emc": 40
+    },
+	
+	{
+      "item": "botania:manaresource|5",
+      "emc": 34816
+    },
+	{
+      "item": "botania:manaresource|15",
+      "emc": 7
+    },
+	{
+      "item": "botania:manaresource|8",
+      "emc": 1624
+    },
+	{
+      "item": "botania:dreamwood|0",
+      "emc": 32
+    },
+	{
+      "item": "botania:biomestonea|*",
+      "emc": 2
+    },
+	{
+      "item": "botania:specialflower|0",
+      "emc": 0
+    },
+	{
+      "item": "botania:terrapick|0",
+      "emc": 0
+    },
+	
+	{
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+	
+	{
+      "item": "mekanism:basicblock|6",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:machineblock|5",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:machineblock|6",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:machineblock|7",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:energycube|0",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:gastank|0",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|0",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|1",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|2",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|3",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|4",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|5",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:transmitter|6",
+      "emc": 0
+    },
+	{
+      "item": "mekanism:machineblock2|11",
+      "emc": 0
+    },
+	
+	{
+      "item": "bhc:red_heart|0",
+      "emc": 2
+    },
+	{
+      "item": "bhc:orange_heart|0",
+      "emc": 139264
+    },
+	{
+      "item": "bhc:green_heart|0",
+      "emc": 262144
+    },
+	{
+      "item": "bhc:blue_heart|0",
+      "emc": 401408
+    },
+	{
+      "item": "OD|boneWithered",
+      "emc": 3865
+    },
+	
+    {
+      "item": "actuallyadditions:item_solidified_experience|0",
+      "emc": 0
+    },
+	{
+      "item": "actuallyadditions:block_misc|3",
+      "emc": 0
+    },
+	{
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 64
+    },
+	
+	{
+      "item": "astralsorcery:iteminfusedglass|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemwand|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemilluminationwand|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemsextant|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemjournal|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemskyresonator|0",
+      "emc": 0
+    },
+	{
+      "item": "astralsorcery:itemenchantmentamulet|0",
+      "emc": 0
+    },
+	
+	{
+      "item": "chisel:carpet_lime|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_yellow|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_lightblue|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_magenta|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_orange|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_white|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_black|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_red|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_green|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_brown|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_blue|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_purple|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_cyan|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_lightgray|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_gray|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:carpet_pink|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:block_charcoal|*",
+      "emc": 288
+    },
+	{
+      "item": "chisel:block_charcoal1|*",
+      "emc": 288
+    },
+	{
+      "item": "chisel:block_charcoal2|*",
+      "emc": 288
+    },
+	{
+      "item": "chisel:andesite|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:andesite1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:andesite2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:antiblock|*",
+      "emc": 49
+    },
+	{
+      "item": "chisel:basalt|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:basalt1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:basalt2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:bookshelf_oak|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bookshelf_spruce|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bookshelf_birch|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bookshelf_jungle|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bookshelf_acacia|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bookshelf_darkoak|*",
+      "emc": 408
+    },
+	{
+      "item": "chisel:bricks|*",
+      "emc": 64
+    },
+	{
+      "item": "chisel:bricks1|*",
+      "emc": 64
+    },
+	{
+      "item": "chisel:bricks2|*",
+      "emc": 64
+    },
+	{
+      "item": "chisel:brownstone|*",
+      "emc": 8
+    },
+	{
+      "item": "chisel:block_coal|*",
+      "emc": 1152
+    },
+	{
+      "item": "chisel:block_coal1|*",
+      "emc": 1152
+    },
+	{
+      "item": "chisel:block_coal2|*",
+      "emc": 1152
+    },
+	{
+      "item": "chisel:cobblestonemossy|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:cobblestonemossy1|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:cobblestonemossy2|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:cloud|*",
+      "emc": 6
+    },
+	{
+      "item": "chisel:concrete_black|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_black1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_black2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_red|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_red1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_red2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_green|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_green1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_green2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_brown|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_brown1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_brown2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_blue|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_blue1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_blue2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_purple|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_purple1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_purple2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_cyan|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_cyan1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_cyan2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightgray|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightgray1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightgray2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_gray|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_gray1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_gray2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_pink|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_pink1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_pink2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lime|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lime1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lime2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_yellow|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_yellow1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_yellow2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightblue|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightblue1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_lightblue2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_magenta|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_magenta1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_magenta2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_orange|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_orange1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_orange2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_white|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_white1|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:concrete_white2|*",
+      "emc": 3
+    },
+	{
+      "item": "chisel:lavastone|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:lavastone1|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:lavastone2|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:limestone|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:limestone1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:limestone2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:netherbrick|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:obsidian|*",
+      "emc": 64
+    },
+	{
+      "item": "chisel:paper|*",
+      "emc": 8
+    },
+	{
+      "item": "chisel:diamond|*",
+      "emc": 73728
+    },
+	{
+      "item": "chisel:diorite|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:diorite1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:diorite2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:dirt|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:emerald|*",
+      "emc": 147456
+    },
+	{
+      "item": "chisel:purpur|*",
+      "emc": 192
+    },
+	{
+      "item": "chisel:purpur1|*",
+      "emc": 192
+    },
+	{
+      "item": "chisel:purpur2|*",
+      "emc": 192
+    },
+	{
+      "item": "chisel:endstone|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:endstone1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:endstone2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:factory|*",
+      "emc": 32
+    },
+	{
+      "item": "chisel:factory1|*",
+      "emc": 32
+    },
+	{
+      "item": "chisel:futura|*",
+      "emc": 9
+    },
+	{
+      "item": "chisel:glowstone|*",
+      "emc": 1536
+    },
+	{
+      "item": "chisel:glowstone1|*",
+      "emc": 1536
+    },
+	{
+      "item": "chisel:glowstone2|*",
+      "emc": 1536
+    },
+	{
+      "item": "chisel:granite|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:granite1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:granite2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:hardenedclay|*",
+      "emc": 51
+    },
+	{
+      "item": "chisel:hardenedclay1|*",
+      "emc": 51
+    },
+	{
+      "item": "chisel:hardenedclay2|*",
+      "emc": 51
+    },
+	{
+      "item": "chisel:lapis|*",
+      "emc": 7776
+    },
+	{
+      "item": "chisel:prismarine|*",
+      "emc": 1024
+    },
+	{
+      "item": "chisel:prismarine1|*",
+      "emc": 1024
+    },
+	{
+      "item": "chisel:prismarine2|*",
+      "emc": 1024
+    },
+	{
+      "item": "chisel:quartz|*",
+      "emc": 1024
+    },
+	{
+      "item": "chisel:quartz1|*",
+      "emc": 1024
+    },
+	{
+      "item": "chisel:redstone|*",
+      "emc": 576
+    },
+	{
+      "item": "chisel:redstone1|*",
+      "emc": 576
+    },
+	{
+      "item": "chisel:sandstoneyellow|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstoneyellow1|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstoneyellow2|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstonered|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstonered1|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstonered2|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:sandstone-scribbles|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:technical|*",
+      "emc": 32
+    },
+	{
+      "item": "chisel:technical1|*",
+      "emc": 32
+    },
+	{
+      "item": "chisel:technicalnew|*",
+      "emc": 32
+    },
+	{
+      "item": "chisel:temple|*",
+      "emc": 2
+    },
+	{
+      "item": "chisel:templemossy|*",
+      "emc": 2
+    },
+	{
+      "item": "chisel:tyrian|*",
+      "emc": 8
+    },
+	{
+      "item": "chisel:valentines|*",
+      "emc": 4
+    },
+	{
+      "item": "chisel:voidstone|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:energizedvoidstone|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:voidstonerunic|*",
+      "emc": 37
+    },
+	{
+      "item": "chisel:waterstone|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:waterstone1|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:waterstone2|*",
+      "emc": 1
+    },
+	{
+      "item": "chisel:wool_black|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_red|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_green|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_brown|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_blue|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_purple|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_cyan|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_lightgray|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_gray|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_pink|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_lime|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_yellow|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_lightblue|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_magenta|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_orange|*",
+      "emc": 56
+    },
+	{
+      "item": "chisel:wool_white|*",
+      "emc": 56
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|0",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|1",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|2",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|3",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|4",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|5",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|6",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|7",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|8",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|9",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|10",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|11",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|12",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|13",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|14",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1|15",
+      "emc": 1
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|0",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|1",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|2",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|3",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|4",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|5",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|6",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|7",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|8",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|9",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|10",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|11",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|12",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|13",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|14",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1|15",
+      "emc": 1
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|0",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|1",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|2",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|3",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|4",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|5",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|6",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|7",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|8",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|9",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|10",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|11",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|12",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|13",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|14",
+      "emc": 1
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1|15",
+      "emc": 1
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|0",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|1",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|2",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|3",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|4",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|5",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|6",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|7",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|8",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|9",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|10",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|11",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|12",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|13",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|14",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1|15",
+      "emc": 8
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|0",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|1",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|2",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|3",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|4",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|5",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|6",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|7",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|8",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|9",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|10",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|11",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|12",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|13",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|14",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypemana_0|15",
+      "emc": 1124
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|0",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|1",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|2",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|3",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|4",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|5",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|6",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|7",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|8",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|9",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|10",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|11",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|12",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|13",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|14",
+      "emc": 1124
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypemana_0|15",
+      "emc": 1124
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypedark_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypedark_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeblaze_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypelavender_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypelavender_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypered_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypered_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypeelf_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypeelf_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_botania_quartztypesunny_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|0",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|1",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|2",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|3",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|4",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|5",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|6",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|7",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|8",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|9",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|10",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|11",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|12",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|13",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|14",
+      "emc": 1040
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_botania_quartztypesunny_0|15",
+      "emc": 1040
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|0",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|1",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|2",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|3",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|4",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|5",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|6",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|7",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|8",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|9",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|10",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|11",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|12",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|13",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|14",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_sonarcore_reinforcedstonebrick_0|15",
+      "emc": 8
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|0",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|1",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|2",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|3",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|4",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|5",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|6",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|7",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|8",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|9",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|10",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|11",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|12",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|13",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|14",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_sonarcore_reinforcedstonebrick_0|15",
+      "emc": 8
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|0",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|1",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|2",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|3",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|4",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|5",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|6",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|7",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|8",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|9",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|10",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|11",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|12",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|13",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|14",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_sonarcore_reinforcedstonebrick_0|15",
+      "emc": 8
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|10",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|11",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|12",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|13",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|14",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0|15",
+      "emc": 64
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|10",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|11",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|12",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|13",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|14",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0|15",
+      "emc": 64
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|0",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|1",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|2",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|3",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|4",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|5",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|6",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|7",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|8",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|9",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|10",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|11",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|12",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|13",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|14",
+      "emc": 64
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0|15",
+      "emc": 64
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|0",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|1",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|2",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|3",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|4",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|5",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|6",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|7",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|8",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|9",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|10",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|11",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|12",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|13",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|14",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz_appliedenergistics2_quartz_block_0|15",
+      "emc": 256
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|0",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|1",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|2",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|3",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|4",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|5",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|6",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|7",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|8",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|9",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|10",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|11",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|12",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|13",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|14",
+      "emc": 256
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0|15",
+      "emc": 256
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|0",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|1",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|2",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|3",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|4",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|5",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|6",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|7",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|8",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|9",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|10",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|11",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|12",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|13",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|14",
+      "emc": 8
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0|15",
+      "emc": 8
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_12|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_10|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_15|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_14|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_13|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_12|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_7|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_6|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_5|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_4|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_3|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_7|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_6|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_5|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_4|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_3|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_7|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_6|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_5|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_4|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_3|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_14|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_13|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_11|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_10|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_9|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone1_botania_biomestonea_8|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_15|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_14|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_13|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_12|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_11|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_10|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_9|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|0",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|1",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|2",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|3",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|4",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|5",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|6",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|7",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|8",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|9",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|10",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|11",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|12",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|13",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|14",
+      "emc": 2
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_cobblestone2_botania_biomestonea_8|15",
+      "emc": 2
+    },
+	
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|0",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|1",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|2",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|3",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|4",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|5",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|6",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|7",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|8",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|9",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|10",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|11",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|12",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|13",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|14",
+      "emc": 32
+    },
+	{
+      "item": "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1|15",
+      "emc": 32
+    },
+	
+    {
+      "item": "thaumcraft:vishroom|0",
+      "emc": 96
+    },
+    {
+      "item": "thaumcraft:void_seed|0",
+      "emc": 35172
+    },
+	
+	{
+      "item": "OD|ingotPigiron",
+      "emc": 296
+    },
+	{
+      "item": "OD|ingotAlubrass",
+      "emc": 128
+    },
+	{
+      "item": "OD|ingotZinc",
+      "emc": 256
+    },
+	{
+      "item": "OD|ingotCrystaltine",
+      "emc": 79296
+    },
+	{
+      "item": "OD|ingotKnightslime",
+      "emc": 300
+    },
+	{
+      "item": "OD|ingotTungsten",
+      "emc": 8192
+    },
+	{
+      "item": "OD|dustPyrite",
+      "emc": 1024
+    },
+	{
+      "item": "OD|gemRedGarnet",
+      "emc": 1024
+    },
+	{
+      "item": "OD|gemYellowGarnet",
+      "emc": 1024
+    },
+	{
+      "item": "OD|dustGalena",
+      "emc": 2048
+    },
+	{
+      "item": "OD|dustCinnabar",
+      "emc": 1024
+    },
+	{
+      "item": "OD|dustBauxite",
+      "emc": 1024
+    },
+	{
+      "item": "OD|dustSodalite",
+      "emc": 4096
+    },
+	{
+      "item": "OD|dustSphalerite",
+      "emc": 1024
+    },
+	{
+      "item": "OD|dustChrome",
+      "emc": 17984
+    }
+  ]
+}
