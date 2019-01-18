@@ -74,7 +74,7 @@ recipes.addShaped("CTCollectorMk7", <auxiliumequivalence:collector_mk7>, [[<auxi
 
 //Relays
 recipes.remove(<projecte:relay_mk1>);
-recipes.addShaped("CTRelayMk1", <projecte:relay_mk1>, [[<mekanism:basicblock:2>, <projecte:fuel_block:2>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <actuallyadditions:block_laser_relay_extreme>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk1", <projecte:relay_mk1>, [[<actuallyadditions:block_laser_relay_extreme>, <projecte:fuel_block:2>, <actuallyadditions:block_laser_relay_extreme>], [<mekanism:basicblock:2>, <actuallyadditions:block_laser_relay_extreme>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<projecte:relay_mk2>);
 recipes.addShaped("CTRelayMk2", <projecte:relay_mk2>, [[<projecte:relay_mk1>, <projecte:matter_block>, <projecte:relay_mk1>], [<mekanism:basicblock:2>, <projecte:relay_mk1>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
