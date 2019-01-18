@@ -35,6 +35,8 @@ addRequirement(<actuallyadditions:block_empowerer>, "compatskills:technology|25"
 
 addRequirement(<actuallyadditions:item_fertilizer>, "reskillable:farming|25");
 
+addRequirement(<actuallyadditions:item_color_lens>, "reskillable:magic|67", "compatskills:technology|62");
+
 /*addRequirement(<actuallyadditions:item_coffee>, "none");
 addRequirement(<actuallyadditions:item_food>, "none");
 addRequirement(<actuallyadditions:item_food:1>, "none");
@@ -59,5 +61,3 @@ addRequirement(<actuallyadditions:item_food:19>, "none");
 addRequirement(<actuallyadditions:item_food:20>, "none");
 addRequirement(<actuallyadditions:item_rice_seed>, "none");
 addRequirement(<actuallyadditions:block_rice>, "none");*/
-
-addRequirement(<actuallyadditions:item_solidified_experience>, "reskillable:magic|13");
