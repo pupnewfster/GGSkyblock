@@ -33,7 +33,7 @@ projecte.icon = "projecte:textures/items/philosophers_stone.png";
 
 //Farming
 
-var mystical = createTrait("unlock_mystical", 1, 1, "reskillable:farming", 3, "trait|compatskills:unlock_projecte");
+var mystical = createTrait("unlock_mystical", 1, 0, "reskillable:farming", 3, "trait|compatskills:unlock_projecte");
 mystical.name = "Mystical Agriculture";
 mystical.description = "Unlocks access to Mystical Agriculture crops";
 mystical.icon = "mysticalagriculture:textures/items/master_infusion_crystal.png";
