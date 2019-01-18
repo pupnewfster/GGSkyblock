@@ -8,3 +8,7 @@ recipes.addShaped("CTChunkLoader", <chickenchunks:chunk_loader>, [[<mekanism:tel
 
 //Disable probe paper
 mods.jei.JEI.removeAndHide(<theoneprobe:probenote>);
+
+
+//Pebbles to cobble
+recipes.addShapeless("CTPebbleToCobble", <minecraft:cobblestone>, [<contenttweaker:pebble>, <contenttweaker:pebble>, <contenttweaker:pebble>, <contenttweaker:pebble>]);

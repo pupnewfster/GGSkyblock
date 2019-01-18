@@ -24,7 +24,7 @@
 			],
 			"drops": [
 				{
-					"name": "minecraft:cobblestone"
+					"name": "contenttweaker:pebble"
 				}
 			]
 		}

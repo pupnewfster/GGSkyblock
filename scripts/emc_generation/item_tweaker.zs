@@ -17,6 +17,14 @@ import crafttweaker.world.IBlockAccess;
 import mods.contenttweaker.BlockState;
 import mods.contenttweaker.BlockPos;
 
+
+var pebble = VanillaFactory.createItem("pebble");
+pebble.setTextureLocation(ResourceLocation.create("botania:items/pebble"));
+pebble.register();
+
+
+
+
 global compressedItemMap as int[string] = {
     compressed_tier1 : colorLookup.tier1,
     compressed_sugar : -1,
