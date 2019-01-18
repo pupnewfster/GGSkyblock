@@ -6,7 +6,7 @@ import mods.compatskills.Skill;
 
 //Magic
 
-var thaumcraft = createTrait("unlock_thaumcraft", 0, 0, "reskillable:magic", 4);
+var thaumcraft = createTrait("unlock_thaumcraft", 0, 0, "reskillable:magic", 4, "trait|compatskills:unlock_botania");
 thaumcraft.name = "Thaumcraft";
 thaumcraft.description = "Unlocks access to Thaumcraft";
 thaumcraft.icon = "thaumcraft:textures/items/thaumonomicon.png";
