@@ -7,7 +7,8 @@ mods.avaritia.Compressor.add("CTInfinitySingularity", <extendedcrafting:singular
 
 mods.avaritia.Compressor.add("CTRedMatterSingularity", <extendedcrafting:singularity_custom>, 10000, <projecte:matter_block:1>);
 mods.avaritia.Compressor.add("CTDarkMatterSingularity", <extendedcrafting:singularity_custom:1>, 5000, <projecte:matter_block>);
-mods.avaritia.Compressor.add("CTBlueMatterSingularity", <extendedcrafting:singularity_custom:2>, 15000, <equivadditions:blue_matter_block>);
+//TODO orange, yellow, and green singularities??
+mods.avaritia.Compressor.add("CTBlueMatterSingularity", <extendedcrafting:singularity_custom:2>, 15000, <auxiliumequivalence:matter_block:3>);
 
 
 var neutronium = <avaritia:resource:4> as IItemStack;

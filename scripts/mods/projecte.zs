@@ -37,11 +37,6 @@ recipes.remove(<projecte:item.pe_fuel:2>);
 recipes.addShapeless("CTAeternalis1", <projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <projecte:fuel_block:1>, <projecte:fuel_block:1>, <projecte:fuel_block:1>, <projecte:fuel_block:1>]);
 recipes.addShapeless("CTAeternalis2", <projecte:item.pe_fuel:2> * 9, [<projecte:fuel_block:2>]);
 
-//Zeitheron fuel
-recipes.remove(<equivadditions:zeitheron_fuel>);
-recipes.addShapeless("CTZeitheron1", <equivadditions:zeitheron_fuel>, [<projecte:item.pe_philosophers_stone>, <projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]);
-recipes.addShapeless("CTZeitheron2", <equivadditions:zeitheron_fuel> * 9, [<equivadditions:zeitheron_fuel_block>]);
-
 //Coal from alchemical Coal
 recipes.removeShapeless(<minecraft:coal> * 4, [<projecte:item.pe_philosophers_stone>, <projecte:item.pe_fuel>]);
 recipes.addShapeless("CTACCoal", <minecraft:coal_block> * 4, [<projecte:item.pe_philosophers_stone>, <projecte:item.pe_fuel>]);
@@ -64,21 +59,40 @@ recipes.addShaped("CTCollectorMk2", <projecte:collector_mk2>, [[<projecte:collec
 recipes.remove(<projecte:collector_mk3>);
 recipes.addShaped("CTCollectorMk3", <projecte:collector_mk3>, [[<projecte:collector_mk2>, <projecte:matter_block:1>, <projecte:collector_mk2>], [<mekanism:basicblock:4>, <projecte:collector_mk2>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
 
-recipes.remove(<equivadditions:collector_mk4>);
-recipes.addShaped("CTCollectorMk4", <equivadditions:collector_mk4>, [[<projecte:collector_mk3>, <equivadditions:blue_matter_block>, <projecte:collector_mk3>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+recipes.remove(<auxiliumequivalence:collector_mk4>);
+recipes.addShaped("CTCollectorMk4", <auxiliumequivalence:collector_mk4>, [[<projecte:collector_mk3>, <auxiliumequivalence:matter_block>, <projecte:collector_mk3>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+
+recipes.remove(<auxiliumequivalence:collector_mk5>);
+recipes.addShaped("CTCollectorMk5", <auxiliumequivalence:collector_mk5>, [[<auxiliumequivalence:collector_mk4>, <auxiliumequivalence:matter_block:1>, <auxiliumequivalence:collector_mk4>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+
+recipes.remove(<auxiliumequivalence:collector_mk6>);
+recipes.addShaped("CTCollectorMk6", <auxiliumequivalence:collector_mk6>, [[<auxiliumequivalence:collector_mk5>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:collector_mk5>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+
+recipes.remove(<auxiliumequivalence:collector_mk7>);
+recipes.addShaped("CTCollectorMk7", <auxiliumequivalence:collector_mk7>, [[<auxiliumequivalence:collector_mk6>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:collector_mk6>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+
 
 //Relays
 recipes.remove(<projecte:relay_mk1>);
-recipes.addShaped("CTRelayMk1", <projecte:relay_mk1>, [[<equivadditions:pipe_emc_mk1>, <equivadditions:pipe_emc_mk1>, <equivadditions:pipe_emc_mk1>], [<mekanism:basicblock:2>, <actuallyadditions:block_laser_relay_extreme>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk1", <projecte:relay_mk1>, [[<mekanism:basicblock:2>, <projecte:fuel_block:2>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <actuallyadditions:block_laser_relay_extreme>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<projecte:relay_mk2>);
-recipes.addShaped("CTRelayMk2", <projecte:relay_mk2>, [[<projecte:relay_mk1>, <projecte:matter_block>, <projecte:relay_mk1>], [<equivadditions:pipe_emc_mk2>, <projecte:relay_mk1>, <equivadditions:pipe_emc_mk2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk2", <projecte:relay_mk2>, [[<projecte:relay_mk1>, <projecte:matter_block>, <projecte:relay_mk1>], [<mekanism:basicblock:2>, <projecte:relay_mk1>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<projecte:relay_mk3>);
-recipes.addShaped("CTRelayMk3", <projecte:relay_mk3>, [[<projecte:relay_mk2>, <projecte:matter_block:1>, <projecte:relay_mk2>], [<equivadditions:pipe_emc_mk3>, <projecte:relay_mk2>, <equivadditions:pipe_emc_mk3>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk3", <projecte:relay_mk3>, [[<projecte:relay_mk2>, <projecte:matter_block:1>, <projecte:relay_mk2>], [<mekanism:basicblock:2>, <projecte:relay_mk2>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
-//recipes.remove(<equivadditions:relay_mk4>);
-//recipes.addShaped("CTRelayMk4", <equivadditions:relay_mk4>, [[<projecte:relay_mk3>, <equivadditions:blue_matter_block>, <projecte:relay_mk3>], [<equivadditions:pipe_emc_mk4>, <projecte:relay_mk3>, <equivadditions:pipe_emc_mk4>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.remove(<auxiliumequivalence:relay_mk4>);
+recipes.addShaped("CTRelayMk4", <auxiliumequivalence:relay_mk4>, [[<projecte:relay_mk3>, <auxiliumequivalence:matter>, <projecte:relay_mk3>], [<mekanism:basicblock:2>, <projecte:relay_mk3>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+
+recipes.remove(<auxiliumequivalence:relay_mk5>);
+recipes.addShaped("CTRelayMk5", <auxiliumequivalence:relay_mk5>, [[<auxiliumequivalence:relay_mk4>, <auxiliumequivalence:matter:1>, <auxiliumequivalence:relay_mk4>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk4>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+
+recipes.remove(<auxiliumequivalence:relay_mk6>);
+recipes.addShaped("CTRelayMk6", <auxiliumequivalence:relay_mk6>, [[<auxiliumequivalence:relay_mk5>, <auxiliumequivalence:matter:2>, <auxiliumequivalence:relay_mk5>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk5>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+
+recipes.remove(<auxiliumequivalence:relay_mk7>);
+recipes.addShaped("CTRelayMk7", <auxiliumequivalence:relay_mk7>, [[<auxiliumequivalence:relay_mk6>, <auxiliumequivalence:matter:3>, <auxiliumequivalence:relay_mk6>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk6>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 
 //Make armors take blocks instead of base matter types (Thanks to longs they still will be transmutable)
@@ -111,16 +125,16 @@ recipes.addShaped("CTRedBoots", <projecte:item.pe_rm_armor_0>, [[<projecte:matte
 
 //Make gem armor require the full klein star like in ee2
 recipes.remove(<projecte:item.pe_gem_armor_3>);
-recipes.addShapeless("CTGemHelmet", <projecte:item.pe_gem_armor_3>, [<projecte:item.pe_rm_armor_3>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_evertide_amulet>, <projecte:item.pe_soul_stone>, <equivadditions:blue_matter>]);
+recipes.addShapeless("CTGemHelmet", <projecte:item.pe_gem_armor_3>, [<projecte:item.pe_rm_armor_3>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_evertide_amulet>, <projecte:item.pe_soul_stone>, <auxiliumequivalence:matter>]);
 
 recipes.remove(<projecte:item.pe_gem_armor_2>);
-recipes.addShapeless("CTGemChest", <projecte:item.pe_gem_armor_2>, [<projecte:item.pe_rm_armor_2>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_volcanite_amulet>, <projecte:item.pe_body_stone>, <equivadditions:blue_matter>]);
+recipes.addShapeless("CTGemChest", <projecte:item.pe_gem_armor_2>, [<projecte:item.pe_rm_armor_2>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_volcanite_amulet>, <projecte:item.pe_body_stone>, <auxiliumequivalence:matter>]);
 
 recipes.remove(<projecte:item.pe_gem_armor_1>);
-recipes.addShapeless("CTGemLeggings", <projecte:item.pe_gem_armor_1>, [<projecte:item.pe_rm_armor_1>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_black_hole>, <projecte:item.pe_time_watch>, <equivadditions:blue_matter>]);
+recipes.addShapeless("CTGemLeggings", <projecte:item.pe_gem_armor_1>, [<projecte:item.pe_rm_armor_1>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_black_hole>, <projecte:item.pe_time_watch>, <auxiliumequivalence:matter>]);
 
 recipes.remove(<projecte:item.pe_gem_armor_0>);
-recipes.addShapeless("CTGemBoots", <projecte:item.pe_gem_armor_0>, [<projecte:item.pe_rm_armor_0>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_swrg>, <projecte:item.pe_swrg>, <equivadditions:blue_matter>]);
+recipes.addShapeless("CTGemBoots", <projecte:item.pe_gem_armor_0>, [<projecte:item.pe_rm_armor_0>, <projecte:item.pe_klein_star:5>.withTag({StoredEMC: 5.12E7}), <projecte:item.pe_swrg>, <projecte:item.pe_swrg>, <auxiliumequivalence:matter>]);
 
 
 //Make dark matter require aeternalis blocks
@@ -134,12 +148,6 @@ recipes.remove(<projecte:item.pe_matter:1>);
 recipes.addShaped("CTRedMatter1", <projecte:item.pe_matter:1>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<projecte:matter_block>, <projecte:matter_block>, <projecte:matter_block>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
 recipes.addShaped("CTRedMatter2", <projecte:item.pe_matter:1>, [[<projecte:fuel_block:2>, <projecte:matter_block>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <projecte:matter_block>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <projecte:matter_block>, <projecte:fuel_block:2>]]);
 recipes.addShapeless("CTRedMatter3", <projecte:item.pe_matter:1> * 4, [<projecte:matter_block:1>]);
-
-//Make blue matter require blocks
-recipes.remove(<equivadditions:blue_matter>);
-recipes.addShaped("CTBlueMatter1", <equivadditions:blue_matter>, [[<equivadditions:zeitheron_fuel_block>, <equivadditions:zeitheron_fuel_block>, <equivadditions:zeitheron_fuel_block>], [<projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>], [<equivadditions:zeitheron_fuel_block>, <equivadditions:zeitheron_fuel_block>, <equivadditions:zeitheron_fuel_block>]]);
-recipes.addShaped("CTBlueMatter2", <equivadditions:blue_matter>, [[<equivadditions:zeitheron_fuel_block>, <projecte:matter_block:1>, <equivadditions:zeitheron_fuel_block>], [<equivadditions:zeitheron_fuel_block>, <projecte:matter_block:1>, <equivadditions:zeitheron_fuel_block>], [<equivadditions:zeitheron_fuel_block>, <projecte:matter_block:1>, <equivadditions:zeitheron_fuel_block>]]);
-recipes.addShapeless("CTBlueMatter3", <equivadditions:blue_matter> * 4, [<equivadditions:blue_matter_block>]);
 
 //Swiftwolf rending gale
 recipes.remove(<projecte:item.pe_swrg>);
@@ -162,3 +170,29 @@ recipes.removeByRecipeName("projecte:conversions/gold_to_iron");
 recipes.removeByRecipeName("projecte:conversions/diamond_to_iron");
 
 mods.jei.JEI.hide(<projecte:item.pe_manual>);
+
+
+
+//Orange Matter
+recipes.remove(<auxiliumequivalence:matter>);
+recipes.addShaped("CTOrangeMatter1", <auxiliumequivalence:matter>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShaped("CTOrangeMatter2", <auxiliumequivalence:matter>, [[<projecte:fuel_block:2>, <projecte:matter_block:1>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <projecte:matter_block:1>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <projecte:matter_block:1>, <projecte:fuel_block:2>]]);
+recipes.addShapeless("CTOrangeMatter3", <auxiliumequivalence:matter> * 4, [<auxiliumequivalence:matter_block>]);
+
+//Yellow Matter
+recipes.remove(<auxiliumequivalence:matter:1>);
+recipes.addShaped("CTYellowMatter1", <auxiliumequivalence:matter:1>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block>, <auxiliumequivalence:matter_block>, <auxiliumequivalence:matter_block>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShaped("CTYellowMatter2", <auxiliumequivalence:matter:1>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block>, <projecte:fuel_block:2>]]);
+recipes.addShapeless("CTYellowMatter3", <auxiliumequivalence:matter:1> * 4, [<auxiliumequivalence:matter_block:1>]);
+
+//Green Matter
+recipes.remove(<auxiliumequivalence:matter:2>);
+recipes.addShaped("CTGreenMatter1", <auxiliumequivalence:matter:2>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block:1>, <auxiliumequivalence:matter_block:1>, <auxiliumequivalence:matter_block:1>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShaped("CTGreenMatter2", <auxiliumequivalence:matter:2>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:1>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:1>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:1>, <projecte:fuel_block:2>]]);
+recipes.addShapeless("CTGreenMatter3", <auxiliumequivalence:matter:2> * 4, [<auxiliumequivalence:matter_block:2>]);
+
+//Blue Matter
+recipes.remove(<auxiliumequivalence:matter:3>);
+recipes.addShaped("CTBlueMatter1", <auxiliumequivalence:matter:3>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block:2>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:matter_block:2>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShaped("CTBlueMatter2", <auxiliumequivalence:matter:3>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShapeless("CTBlueMatter3", <auxiliumequivalence:matter:3> * 4, [<auxiliumequivalence:matter_block:3>]);

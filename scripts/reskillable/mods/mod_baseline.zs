@@ -33,7 +33,7 @@ addModLock("astralsorcery", "trait|compatskills:unlock_astralsorcery");
 
 addModLock("projecte", "trait|compatskills:unlock_projecte");
 addModLock("projectex", "trait|compatskills:unlock_projecte");
-addModLock("equivadditions", "trait|compatskills:unlock_projecte");
+addModLock("auxiliumequivalence", "trait|compatskills:unlock_projecte");
 
 addModLock("mysticalagriculture", "trait|compatskills:unlock_mystical");
 
