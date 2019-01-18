@@ -63,13 +63,13 @@ recipes.remove(<auxiliumequivalence:collector_mk4>);
 recipes.addShaped("CTCollectorMk4", <auxiliumequivalence:collector_mk4>, [[<projecte:collector_mk3>, <auxiliumequivalence:matter_block>, <projecte:collector_mk3>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
 
 recipes.remove(<auxiliumequivalence:collector_mk5>);
-recipes.addShaped("CTCollectorMk5", <auxiliumequivalence:collector_mk5>, [[<auxiliumequivalence:collector_mk4>, <auxiliumequivalence:matter_block:1>, <auxiliumequivalence:collector_mk4>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+recipes.addShaped("CTCollectorMk5", <auxiliumequivalence:collector_mk5>, [[<auxiliumequivalence:collector_mk4>, <auxiliumequivalence:matter_block:1>, <auxiliumequivalence:collector_mk4>], [<mekanism:basicblock:4>, <auxiliumequivalence:collector_mk4>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
 
 recipes.remove(<auxiliumequivalence:collector_mk6>);
-recipes.addShaped("CTCollectorMk6", <auxiliumequivalence:collector_mk6>, [[<auxiliumequivalence:collector_mk5>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:collector_mk5>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+recipes.addShaped("CTCollectorMk6", <auxiliumequivalence:collector_mk6>, [[<auxiliumequivalence:collector_mk5>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:collector_mk5>], [<mekanism:basicblock:4>, <auxiliumequivalence:collector_mk5>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
 
 recipes.remove(<auxiliumequivalence:collector_mk7>);
-recipes.addShaped("CTCollectorMk7", <auxiliumequivalence:collector_mk7>, [[<auxiliumequivalence:collector_mk6>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:collector_mk6>], [<mekanism:basicblock:4>, <projecte:collector_mk3>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
+recipes.addShaped("CTCollectorMk7", <auxiliumequivalence:collector_mk7>, [[<auxiliumequivalence:collector_mk6>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:collector_mk6>], [<mekanism:basicblock:4>, <auxiliumequivalence:collector_mk6>, <mekanism:basicblock:4>], [<mekanism:basicblock:4>, <mekanism:basicblock:4>, <mekanism:basicblock:4>]]);
 
 
 //Relays
@@ -83,16 +83,16 @@ recipes.remove(<projecte:relay_mk3>);
 recipes.addShaped("CTRelayMk3", <projecte:relay_mk3>, [[<projecte:relay_mk2>, <projecte:matter_block:1>, <projecte:relay_mk2>], [<mekanism:basicblock:2>, <projecte:relay_mk2>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<auxiliumequivalence:relay_mk4>);
-recipes.addShaped("CTRelayMk4", <auxiliumequivalence:relay_mk4>, [[<projecte:relay_mk3>, <auxiliumequivalence:matter>, <projecte:relay_mk3>], [<mekanism:basicblock:2>, <projecte:relay_mk3>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk4", <auxiliumequivalence:relay_mk4>, [[<projecte:relay_mk3>, <auxiliumequivalence:matter_block>, <projecte:relay_mk3>], [<mekanism:basicblock:2>, <projecte:relay_mk3>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<auxiliumequivalence:relay_mk5>);
-recipes.addShaped("CTRelayMk5", <auxiliumequivalence:relay_mk5>, [[<auxiliumequivalence:relay_mk4>, <auxiliumequivalence:matter:1>, <auxiliumequivalence:relay_mk4>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk4>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk5", <auxiliumequivalence:relay_mk5>, [[<auxiliumequivalence:relay_mk4>, <auxiliumequivalence:matter_block:1>, <auxiliumequivalence:relay_mk4>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk4>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<auxiliumequivalence:relay_mk6>);
-recipes.addShaped("CTRelayMk6", <auxiliumequivalence:relay_mk6>, [[<auxiliumequivalence:relay_mk5>, <auxiliumequivalence:matter:2>, <auxiliumequivalence:relay_mk5>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk5>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk6", <auxiliumequivalence:relay_mk6>, [[<auxiliumequivalence:relay_mk5>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:relay_mk5>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk5>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 recipes.remove(<auxiliumequivalence:relay_mk7>);
-recipes.addShaped("CTRelayMk7", <auxiliumequivalence:relay_mk7>, [[<auxiliumequivalence:relay_mk6>, <auxiliumequivalence:matter:3>, <auxiliumequivalence:relay_mk6>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk6>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
+recipes.addShaped("CTRelayMk7", <auxiliumequivalence:relay_mk7>, [[<auxiliumequivalence:relay_mk6>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:relay_mk6>], [<mekanism:basicblock:2>, <auxiliumequivalence:relay_mk6>, <mekanism:basicblock:2>], [<mekanism:basicblock:2>, <mekanism:basicblock:2>, <mekanism:basicblock:2>]]);
 
 
 //Make armors take blocks instead of base matter types (Thanks to longs they still will be transmutable)
