@@ -1,49 +1,5 @@
 #modloaded exnihilocreatio
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-
-import mods.exnihilocreatio.Compost;
-import mods.exnihilocreatio.Crook;
-import mods.exnihilocreatio.Hammer;
-import mods.exnihilocreatio.Heat;
-import mods.exnihilocreatio.Sieve;
-
-//Disable hammers in favor of sledgehammers
-mods.jei.JEI.removeAndHide(<exnihilocreatio:hammer_wood>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:hammer_stone>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:hammer_iron>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:hammer_diamond>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:hammer_gold>);
-
-mods.jei.JEI.removeAndHide(<exnihilocreatio:block_auto_sifter>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:block_waterwheel>);
-mods.jei.JEI.removeAndHide(<exnihilocreatio:block_axle_stone>);
-mods.jei.JEI.hide(<exnihilocreatio:block_grinder>);
-
-recipes.remove(<exnihilocreatio:block_end_cake>);
-recipes.addShaped("CTEndCake", <exnihilocreatio:block_end_cake>, [[<mekanism:teleportationcore>, <minecraft:end_crystal>, <mekanism:teleportationcore>], [<botania:endereyeblock>, <minecraft:cake>, <botania:endereyeblock>], [<mekanism:teleportationcore>, <minecraft:end_crystal>, <mekanism:teleportationcore>]]);
-
-//Compost.addRecipe(IIngredient input, Float value, String color, IItemStack block);
-//Crook.addRecipe(IIngredient input, IItemStack reward, Float chance, Float fortune);
-//Hammer.addRecipe(IIngredient input, IItemStack output, Int miningLevel, Float chance, Float fortune);
-//Sieve.addStringMeshRecipe(IIngredient block, IItemStack drop, Float chance);
-//Sieve.addFlintMeshRecipe(IIngredient block, IItemStack drop, Float chance);
-//Sieve.addIronMeshRecipe(IIngredient block, IItemStack drop, Float chance);
-//Sieve.addDiamondMeshRecipe(IIngredient block, IItemStack drop, Float chance);
-
-
-
-//Custom Hammer Recipes
-Hammer.addRecipe(<appliedenergistics2:sky_stone_block>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), 2, 0.5, 0.0);
-Hammer.addRecipe(<minecraft:grass>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), 2, 0.5, 0.0);
-Hammer.addRecipe(<minecraft:magma>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), 2, 0.5, 0.0);
-Hammer.addRecipe(<chisel:waterstone>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), 2, 0.5, 0.0);
-Hammer.addRecipe(<minecraft:packed_ice>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), 2, 0.5, 0.0);
-Hammer.addRecipe(<minecraft:obsidian>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), 3, 0.5, 0.0);
-
-//Sieve
-Sieve.removeAll();
 
 var sieveInfo = {
 	<ore:gravel> : {
