@@ -79,7 +79,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
 [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
 [null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null],
 [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null],
+[null, neutronium, infinity, infinity, <extendedcrafting:singularity_custom:3>, infinity, infinity, neutronium, null],
 [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
 [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null]
 ]);
@@ -87,7 +87,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
 mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_pants>, [
 [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium],
 [neutronium, infinity, infinity, infinity, singularity, infinity, infinity, infinity, neutronium],
-[neutronium, infinity, neutronium, neutronium, singularity, neutronium, neutronium, infinity, neutronium],
+[neutronium, infinity, neutronium, neutronium, <extendedcrafting:singularity_custom:3>, neutronium, neutronium, infinity, neutronium],
 [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
 [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
 [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
@@ -182,7 +182,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritiatweaks:enhancement_crysta
 [null, null, null, neutronium, crystal, neutronium, null, null, null],
 [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
 [null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null],
-[null, null, neutronium, crystal, singularity, crystal, neutronium, null, null],
+[null, null, neutronium, crystal, <extendedcrafting:singularity_custom:4>, crystal, neutronium, null, null],
 [null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null],
 [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
 [null, null, null, neutronium, crystal, neutronium, null, null, null],
