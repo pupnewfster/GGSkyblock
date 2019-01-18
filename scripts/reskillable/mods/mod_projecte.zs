@@ -6,6 +6,10 @@ import crafttweaker.data.IData;
 
 addRequirement(<projecte:item.pe_transmutation_tablet>, "trait|compatskills:wireless");
 addRequirement(<projecte:condenser_mk2>, "reskillable:magic|41");
+
+addRequirement(<projecte:dm_pedestal>, "reskillable:magic|67");
+addRequirement(<projectex:personal_link>, "reskillable:magic|128", "compatskills:technology|109");
+
 addRequirement(<projecte:transmutation_table>, "none");
 
 
