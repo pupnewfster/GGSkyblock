@@ -6,8 +6,8 @@ recipes.removeByRegex("(projecte:philstone_smelt_).*");
 
 //Make Philo Stone easier as nether is locked and transmutation is staged
 recipes.remove(<projecte:item.pe_philosophers_stone>);
-recipes.addShapedMirrored("CTPhiloStone", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust:1>, <ore:sonarStableStone>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>]]);
-recipes.addShapedMirrored("CTPhiloStone2", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <ore:sonarStableStone>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>]]);
+recipes.addShaped("CTPhiloStone", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust:1>, <ore:sonarStableStone>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>]]);
+recipes.addShaped("CTPhiloStone2", <projecte:item.pe_philosophers_stone>, [[<projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>], [<projecte:item.pe_covalence_dust>, <ore:sonarStableStone>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>]]);
 
 //Talisman of repair
 recipes.remove(<projecte:item.pe_repair_talisman>);
@@ -24,7 +24,7 @@ recipes.addShaped("CTAlchemicalChest", <projecte:alchemical_chest>, [[<projecte:
 
 //Alchemical Coal
 recipes.remove(<projecte:item.pe_fuel>);
-recipes.addShapeless("CTAlchemical1", <projecte:item.pe_fuel>, [<projecte:item.pe_philosophers_stone>, <minecraft:coal_block>, <minecraft:coal_block>, <minecraft:coal_block>, <minecraft:coal_block>]);
+recipes.addShapeless("CTAlchemical1", <projecte:item.pe_fuel>, [<projecte:item.pe_philosophers_stone>, <ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>]);
 recipes.addShapeless("CTAlchemical2", <projecte:item.pe_fuel> * 9, [<projecte:fuel_block>]);
 
 //Mobius fuel

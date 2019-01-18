@@ -6,7 +6,7 @@ import mods.compatskills.ModLock.addModLock;
 
 //Thaumcraft mods
 addModLock("thaumcraft", "trait|compatskills:unlock_thaumcraft");
-//addModLock("planarartifice", "trait|compatskills:unlock_thaumcraft");
+addModLock("planarartifice", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumadditions", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicbases", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumic_arcana", "trait|compatskills:unlock_thaumcraft");
@@ -22,7 +22,6 @@ addModLock("botania_tweaks", "trait|compatskills:unlock_botania");
 addModLock("extrabotany", "trait|compatskills:unlock_botania");
 addModLock("incorporeal", "trait|compatskills:unlock_botania");
 addModLock("botanianeedsit", "trait|compatskills:unlock_botania");
-addModLock("botanicadds", "trait|compatskills:unlock_botania");
 
 //Blood Magic
 addModLock("bloodmagic", "trait|compatskills:unlock_bloodmagic");
@@ -33,6 +32,7 @@ addModLock("bloodtinker", "trait|compatskills:unlock_bloodmagic");
 addModLock("astralsorcery", "trait|compatskills:unlock_astralsorcery");
 
 addModLock("projecte", "trait|compatskills:unlock_projecte");
+addModLock("projectex", "trait|compatskills:unlock_projecte");
 addModLock("equivadditions", "trait|compatskills:unlock_projecte");
 
 addModLock("mysticalagriculture", "trait|compatskills:unlock_mystical");
