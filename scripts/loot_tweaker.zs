@@ -4,6 +4,11 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.LootCondition;
 import crafttweaker.data.IData;
 
+
+//pool.addItemEntryHelper(item, weight, quality, function, conditions);
+//weight: Determines how often this entry will be chosen out of all the entries in the pool, higher weight will be used more often, chance is weight/all entries weight
+//quality: modify weight based on luck attribute, floor(weight + (quality * luck))
+
 //val pig = LootTables.getTable("minecraft:entities/pig");
 //val mainPool = pig.getPool("main");
 //mainPool.addItemEntryHelper(<minecraft:diamond>, 1, 0, null, [getConditions(["reskillable:attack|5", "reskillable:magic|7"])]);
@@ -22,6 +27,8 @@ function getConditions(conditions as string[]) as LootCondition {
         "requirements" : c
     });
 }
+
+//If high warp make mobs drop curious from thaumcraft if you have the thaumcraft trait
 
 //TODO: Remove these from the loot tables that they are still in now that loot table tweaker is gone
 /*import mods.ltt.LootTable.removeGlobalItem;

@@ -6,6 +6,7 @@ import crafttweaker.item.IItemStack;
 import mods.botania.Orechid;
 import mods.botania.OrechidIgnem;
 import mods.botania.ElvenTrade;
+import mods.botania.ManaInfusion;
 
 mods.jei.JEI.removeAndHide(<botania:manasteelpick>);
 mods.jei.JEI.removeAndHide(<botania:manasteelshovel>);
@@ -60,6 +61,16 @@ var ores = [
 	<ore:oreRuby>,
 	<ore:oreSapphire>,
 	<ore:oreGalena>,
+	<ore:oreDiamond>,
+	<ore:oreAmber>,
+	<ore:oreLapis>,
+	<ore:oreCoal>,
+	<ore:oreTin>,
+	<ore:oreCopper>,
+	<ore:oreOsmium>,
+	<ore:oreQuartzBlack>,
+	<ore:oreCertusQuartz>,
+	<ore:oreCinnabar>,
 	<ore:oreEmerald>
 ] as IOreDictEntry[];
 
@@ -87,11 +98,22 @@ for ore, value in newOres {
 }
 
 
-var newNetherOres = {
-	<ore:oreSphalerite> : 128,
-	<ore:orePyrite> : 128
-} as int[IOreDictEntry];
+ManaInfusion.removeRecipe(<minecraft:wheat_seeds>);
+ManaInfusion.removeRecipe(<minecraft:potato>);
+ManaInfusion.removeRecipe(<minecraft:carrot>);
+ManaInfusion.removeRecipe(<minecraft:beetroot_seeds>);
+ManaInfusion.removeRecipe(<minecraft:melon_seeds>);
+ManaInfusion.removeRecipe(<minecraft:pumpkin_seeds>);
+ManaInfusion.removeRecipe(<minecraft:dye:3>);
 
-for ore, value in newNetherOres {
-	OrechidIgnem.addOre(ore, value);
-}
+ManaInfusion.addAlchemy(<minecraft:wheat_seeds>, <minecraft:dye:3>, 20000);
+ManaInfusion.addAlchemy(<minecraft:potato>, <minecraft:wheat>, 20000);
+ManaInfusion.addAlchemy(<minecraft:carrot>, <minecraft:potato>, 20000);
+ManaInfusion.addAlchemy(<minecraft:beetroot_seeds>, <minecraft:carrot>, 20000);
+ManaInfusion.addAlchemy(<minecraft:melon_seeds>, <minecraft:beetroot_seeds>, 20000);
+ManaInfusion.addAlchemy(<minecraft:pumpkin_seeds>, <minecraft:melon_seeds>, 20000);
+ManaInfusion.addAlchemy(<actuallyadditions:item_flax_seed>, <minecraft:pumpkin_seeds>, 20000);
+ManaInfusion.addAlchemy(<actuallyadditions:item_rice_seed>, <actuallyadditions:item_flax_seed>, 20000);
+ManaInfusion.addAlchemy(<actuallyadditions:item_canola_seed>, <actuallyadditions:item_rice_seed>, 20000);
+ManaInfusion.addAlchemy(<actuallyadditions:item_coffee_seed>, <actuallyadditions:item_canola_seed>, 20000);
+ManaInfusion.addAlchemy(<minecraft:dye:3>, <actuallyadditions:item_coffee_seed>, 20000);
