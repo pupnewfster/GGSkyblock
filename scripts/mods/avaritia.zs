@@ -7,10 +7,10 @@ mods.avaritia.Compressor.add("CTInfinitySingularity", <extendedcrafting:singular
 
 mods.avaritia.Compressor.add("CTDarkMatterSingularity", <extendedcrafting:singularity_custom>, 5000, <projecte:matter_block>);
 mods.avaritia.Compressor.add("CTRedMatterSingularity", <extendedcrafting:singularity_custom:1>, 10000, <projecte:matter_block:1>);
-mods.avaritia.Compressor.add("CTOrangeMatterSingularity", <extendedcrafting:singularity_custom:2>, 10000, <auxiliumequivalence:matter_block>);
-mods.avaritia.Compressor.add("CTYellowMatterSingularity", <extendedcrafting:singularity_custom:3>, 10000, <auxiliumequivalence:matter_block:1>);
-mods.avaritia.Compressor.add("CTGreenMatterSingularity", <extendedcrafting:singularity_custom:4>, 10000, <auxiliumequivalence:matter_block:2>);
-mods.avaritia.Compressor.add("CTBlueMatterSingularity", <extendedcrafting:singularity_custom:5>, 10000, <auxiliumequivalence:matter_block:3>);
+mods.avaritia.Compressor.add("CTOrangeMatterSingularity", <extendedcrafting:singularity_custom:2>, 11000, <auxiliumequivalence:matter_block>);
+mods.avaritia.Compressor.add("CTYellowMatterSingularity", <extendedcrafting:singularity_custom:3>, 12000, <auxiliumequivalence:matter_block:1>);
+mods.avaritia.Compressor.add("CTGreenMatterSingularity", <extendedcrafting:singularity_custom:4>, 13000, <auxiliumequivalence:matter_block:2>);
+mods.avaritia.Compressor.add("CTBlueMatterSingularity", <extendedcrafting:singularity_custom:5>, 14000, <auxiliumequivalence:matter_block:3>);
 
 
 var neutronium = <avaritia:resource:4> as IItemStack;
