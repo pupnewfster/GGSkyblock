@@ -11,7 +11,3 @@ addRequirement(<solarflux:solar_panel_6>, "compatskills:technology|63");
 addRequirement(<solarflux:solar_panel_7>, "compatskills:technology|82");
 addRequirement(<solarflux:solar_panel_8>, "compatskills:technology|97");
 addRequirement(<solarflux:solar_panel_neutronium>, "compatskills:technology|163");
-
-addRequirement(<solarflux:solar_panel_alchemical_brass>, "compatskills:technology|25", "trait|compatskills:unlock_thaumcraft");
-addRequirement(<solarflux:solar_panel_thaumium>, "compatskills:technology|37", "trait|compatskills:unlock_thaumcraft");
-addRequirement(<solarflux:solar_panel_void_metal>, "compatskills:technology|48", "trait|compatskills:unlock_thaumcraft");
