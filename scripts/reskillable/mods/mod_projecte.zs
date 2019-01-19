@@ -10,6 +10,8 @@ addRequirement(<projecte:condenser_mk2>, "reskillable:magic|41");
 addRequirement(<projecte:dm_pedestal>, "reskillable:magic|67");
 addRequirement(<projectex:personal_link>, "reskillable:magic|128", "compatskills:technology|109");
 
+addRequirement(<projectex:item.pe_mercurial_eye>, "reskillable:building|37", "reskillable:magic|27");
+
 addRequirement(<projecte:transmutation_table>, "none");
 
 
