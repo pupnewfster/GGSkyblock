@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/witch");
 
 //iron, lapis, redstone, certus quartz, galena, bauxite, lead, amber, cinnabar
 
@@ -51,4 +46,10 @@ var drops = {
     } as string[][int]
 } as string[][int][IItemStack];
 
+val table = LootTables.getTable("minecraft:entities/witch");
+
 addDrops(table, drops, null);
+
+val main = table.getPool("main");
+main.removeEntry("minecraft:glowstone_dust");
+main.removeEntry("minecraft:redstone");

@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/wither_skeleton");
 
 //coal, quartz, black quartz, certus quartz, ruby, sapphire, pyrite, sphalerite, peridot, lead, amber, ardite, cobalt
 
@@ -67,4 +62,9 @@ var drops = {
     } as string[][int]
 } as string[][int][IItemStack];
 
+val table = LootTables.getTable("minecraft:entities/wither_skeleton");
+
 addDrops(table, drops, null);
+
+val main = table.getPool("main");
+main.removeEntry("minecraft:coal");

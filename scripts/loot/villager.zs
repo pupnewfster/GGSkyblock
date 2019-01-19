@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/villager");
 
 //iron, gold, diamond, emerald, certus quartz, iridium, ruby, sapphire, peridot
 
@@ -50,5 +45,7 @@ var drops = {
         6 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
+
+val table = LootTables.getTable("minecraft:entities/villager");
 
 addDrops(table, drops, null);

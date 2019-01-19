@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/ghast");
 
 //coal, quartz, certus quartz, pyrite, sphalerite, cobalt, ardte
 
@@ -42,5 +37,7 @@ var drops = {
         1 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
+
+val table = LootTables.getTable("minecraft:entities/ghast");
 
 addDrops(table, drops, null);

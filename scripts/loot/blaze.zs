@@ -4,12 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/blaze");
-
 
 //redstone, quartz, certus quartz, copper, pyrite, sphalerite, silver, amber, cobalt, ardite
 
@@ -55,5 +49,7 @@ var drops = {
         2 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
+
+val table = LootTables.getTable("minecraft:entities/blaze");
 
 addDrops(table, drops, null);

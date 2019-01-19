@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/creeper");
 
 //iron, coal, redstone, black quartz, copper, silver
 
@@ -38,5 +33,7 @@ var drops = {
         2 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
+
+val table = LootTables.getTable("minecraft:entities/creeper");
 
 addDrops(table, drops, null);

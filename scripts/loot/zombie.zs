@@ -4,11 +4,6 @@ import scripts.loot.loot_tweaker.addDrops;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.LootCondition;
-
-val table = LootTables.getTable("minecraft:entities/zombie");
 
 //coal, copper, tin
 
@@ -27,4 +22,9 @@ var drops = {
     } as string[][int]
 } as string[][int][IItemStack];
 
+val table = LootTables.getTable("minecraft:entities/zombie");
+
 addDrops(table, drops, null);
+
+val pool1 = table.getPool("pool1");
+pool1.removeEntry("minecraft:iron_ingot");
