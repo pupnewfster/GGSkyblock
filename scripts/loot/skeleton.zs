@@ -18,26 +18,26 @@ val table = LootTables.getTable("minecraft:entities/skeleton");
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        1 : ["reskillable:mining|5"]
+        9 : ["reskillable:mining|5"]
     } as string[][int],
     //osmium ore
     <mekanism:oreblock> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //copper ore
     <mekanism:oreblock:1> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //tin ore
     <mekanism:oreblock:2> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
 
     //Nether only
 
     //quartz
     <minecraft:quartz> : {
-        1 : ["dim|-1", "reskillable:mining|5"]
+        6 : ["dim|-1", "reskillable:mining|5"]
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
@@ -49,11 +49,11 @@ var drops = {
     } as string[][int],
     //cobalt ore
     <tconstruct:ore:0> : {
-        1 : ["dim|-1", "reskillable:mining|5"]
+        2 : ["dim|-1", "reskillable:mining|5"]
     } as string[][int],
     //ardite ore
     <tconstruct:ore:1> : {
-        1 : ["dim|-1", "reskillable:mining|5"]
+        2 : ["dim|-1", "reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

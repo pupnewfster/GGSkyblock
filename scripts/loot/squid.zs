@@ -15,11 +15,11 @@ val table = LootTables.getTable("minecraft:entities/squid");
 var drops = {
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|5"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //galena ore
     <techreborn:ore> : {
@@ -31,7 +31,7 @@ var drops = {
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

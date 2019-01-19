@@ -15,15 +15,15 @@ val table = LootTables.getTable("minecraft:entities/creeper");
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //redstone dust
     <minecraft:redstone> : {
-        1 : ["reskillable:mining|5"]
+        4 : ["reskillable:mining|5"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
@@ -31,11 +31,11 @@ var drops = {
     } as string[][int],
     //copper ore
     <mekanism:oreblock:1> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int],
     //silver ore
     <techreborn:ore:13> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

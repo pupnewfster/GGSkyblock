@@ -15,11 +15,11 @@ val table = LootTables.getTable("minecraft:entities/zombie_villager");
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //emerald
     <minecraft:emerald> : {
@@ -27,11 +27,11 @@ var drops = {
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //tin ore
     <mekanism:oreblock:2> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

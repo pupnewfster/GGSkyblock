@@ -15,7 +15,7 @@ val table = LootTables.getTable("minecraft:entities/spider");
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //coal
     <minecraft:coal> : {
@@ -23,15 +23,15 @@ var drops = {
     } as string[][int],
     //lapis lazuli
     <minecraft:dye:4> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //redstone dust
     <minecraft:redstone> : {
-        1 : ["reskillable:mining|5"]
+        4 : ["reskillable:mining|5"]
     } as string[][int],
     //cinnabar
     <thaumcraft:ore_cinnabar> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

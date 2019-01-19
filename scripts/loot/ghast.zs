@@ -15,15 +15,15 @@ val table = LootTables.getTable("minecraft:entities/ghast");
 var drops = {
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        1 : ["reskillable:mining|5"]
+        5 : ["reskillable:mining|5"]
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        1 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|5"]
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {

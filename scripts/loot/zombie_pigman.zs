@@ -15,15 +15,15 @@ val table = LootTables.getTable("minecraft:entities/zombie_pigman");
 var drops = {
     //gold ore
     <minecraft:gold_ore> : {
-        1 : ["reskillable:mining|5"]
+        5 : ["reskillable:mining|5"]
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //osmium ore
     <mekanism:oreblock> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
@@ -35,7 +35,7 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

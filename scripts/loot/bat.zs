@@ -19,8 +19,8 @@ var drops = {
     } as string[][int],
     //black quartz ore 1/5
     <actuallyadditions:block_misc:3> : {
-            1 : ["reskillable:mining|5"]
-        } as string[][int]
+        1 : ["reskillable:mining|5"]
+    } as string[][int]
 } as string[][int][IItemStack];
 
 addDrops(table, drops, null);

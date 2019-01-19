@@ -15,15 +15,15 @@ val table = LootTables.getTable("minecraft:entities/wither_skeleton");
 var drops = {
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        1 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|5"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        1 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|5"]
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
@@ -31,11 +31,11 @@ var drops = {
     } as string[][int],
     //ruby
     <techreborn:gem> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int],
     //sapphire
     <techreborn:gem:1> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
@@ -47,7 +47,7 @@ var drops = {
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
-        1 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5"]
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
@@ -55,15 +55,15 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        1 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|5"]
     } as string[][int],
     //cobalt ore
     <tconstruct:ore:0> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //ardite ore
     <tconstruct:ore:1> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

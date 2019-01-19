@@ -19,11 +19,11 @@ var drops = {
     } as string[][int],
     //copper ore
     <mekanism:oreblock:1> : {
-        1 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|5"]
     } as string[][int],
     //tin ore
     <mekanism:oreblock:2> : {
-        1 : ["reskillable:mining|5"]
+        4 : ["reskillable:mining|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 
