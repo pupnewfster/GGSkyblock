@@ -1,3 +1,5 @@
+#priority 1300
+
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
@@ -8,6 +10,9 @@ import crafttweaker.data.IData;
 //pool.addItemEntryHelper(item, weight, quality, function, conditions);
 //weight: Determines how often this entry will be chosen out of all the entries in the pool, higher weight will be used more often, chance is weight/all entries weight
 //quality: modify weight based on luck attribute, floor(weight + (quality * luck))
+
+//https://github.com/Daomephsta/LootTweaker/blob/1.12/src/main/java/leviathan143/loottweaker/common/zenscript/adders/ItemEntryAdder.java
+//https://minecraft.gamepedia.com/Loot_table
 
 //val pig = LootTables.getTable("minecraft:entities/pig");
 //val mainPool = pig.getPool("main");
