@@ -1,13 +1,38 @@
 #priority 1000
 
-import scripts.loot.loot_tweaker.getConditions;
+import scripts.loot.loot_tweaker.addDrops;
 
+import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.LootCondition;
 
 val table = LootTables.getTable("minecraft:entities/spider");
-val pool = table.getPool("main");
 
 //iron, coal, lapis, redstone, cinnabar
+
+var drops = {
+    //iron ore
+    <minecraft:iron_ore> : {
+        1 : ["reskillable:mining|5"]
+    } as string[][int],
+    //coal
+    <minecraft:coal> : {
+        1 : ["reskillable:mining|5"]
+    } as string[][int],
+    //lapis lazuli
+    <minecraft:dye:4> : {
+        1 : ["reskillable:mining|5"]
+    } as string[][int],
+    //redstone dust
+    <minecraft:redstone> : {
+        1 : ["reskillable:mining|5"]
+    } as string[][int],
+    //cinnabar
+    <thaumcraft:ore_cinnabar> : {
+        1 : ["reskillable:mining|5"]
+    } as string[][int]
+} as string[][int][IItemStack];
+
+addDrops(table, drops, null);
