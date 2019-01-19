@@ -13,3 +13,7 @@ Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "i
 Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), <chisel:waterstone>);
 Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <minecraft:packed_ice>);
 Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <minecraft:obsidian>);
+
+//Disable the liquids from being op in smeltery
+<liquid:molten_alkimium>.definition.temperature = 300;
+<liquid:molten_bismuth>.definition.temperature = 300;
