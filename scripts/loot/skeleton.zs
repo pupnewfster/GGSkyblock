@@ -2,6 +2,14 @@
 
 import scripts.loot.loot_tweaker.getConditions;
 
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.LootCondition;
+
+val table = LootTables.getTable("minecraft:entities/skeleton");
+val pool = table.getPool("main");
+
 //iron, osmium, copper, tin
 
 //nether: quartz, pyrite, sphalerite, ardite, cobalt

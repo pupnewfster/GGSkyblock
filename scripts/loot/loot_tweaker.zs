@@ -14,9 +14,9 @@ import crafttweaker.data.IData;
 //https://github.com/Daomephsta/LootTweaker/blob/1.12/src/main/java/leviathan143/loottweaker/common/zenscript/adders/ItemEntryAdder.java
 //https://minecraft.gamepedia.com/Loot_table
 
-//val pig = LootTables.getTable("minecraft:entities/pig");
-//val mainPool = pig.getPool("main");
-//mainPool.addItemEntryHelper(<minecraft:diamond>, 1, 0, null, [getConditions(["reskillable:attack|5", "reskillable:magic|7"])]);
+//val table = LootTables.getTable("minecraft:entities/pig");
+//val pool = table.getPool("main");
+//pool.addItemEntryHelper(<minecraft:diamond>, 1, 0, null, [getConditions(["reskillable:attack|5", "reskillable:magic|7"])]);
 
 
 
