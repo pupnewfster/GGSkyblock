@@ -90,12 +90,12 @@ addMaterialLock("endrod", materials.end);
 addMaterialLock("darkmatter", materials.darkmatter);
 addMaterialLock("redmatter", materials.redmatter);
 addMaterialLock("thaumium", materials.thaumium);
-//addMaterialLock("bismuth", materials.bismuth);
+addMaterialLock("bismuth", materials.bismuth);
 addMaterialLock("infinity_avaritia_plustic", materials.infinity_avaritia_plustic);
 addMaterialLock("manasteel", materials.manasteel);
 addMaterialLock("elementium", materials.elementium);
 addMaterialLock("terrasteel", materials.terrasteel);
-//addMaterialLock("alkimium", materials.alkimium);
+addMaterialLock("alkimium", materials.alkimium);
 addMaterialLock("extrabotany:ingotshadowium", materials.shadowium);
 addMaterialLock("extrabotany:ingotorichalcos", materials.orichalcos);
 

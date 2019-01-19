@@ -506,10 +506,10 @@ addModifierLock("fortifyterrasteel", materials.terrasteel);
 addModifierLock("polished_armorterrasteel", materials.terrasteel);
 addModifierLock("fortifyelementium", materials.elementium);
 addModifierLock("polished_armorelementium", materials.elementium);
-/*addModifierLock("fortifybismuth", materials.bismuth);
+addModifierLock("fortifybismuth", materials.bismuth);
 addModifierLock("polished_armorbismuth", materials.bismuth);
 addModifierLock("fortifyalkimium", materials.alkimium);
-addModifierLock("polished_armoralkimium", materials.alkimium);*/
+addModifierLock("polished_armoralkimium", materials.alkimium);
 addModifierLock("fortifyextrabotany:ingotshadowium", materials.shadowium);
 addModifierLock("polished_armorextrabotany:ingotshadowium", materials.shadowium);
 addModifierLock("fortifyextrabotany:ingotorichalcos", materials.orichalcos);
