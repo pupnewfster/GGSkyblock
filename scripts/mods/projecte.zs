@@ -196,3 +196,9 @@ recipes.remove(<auxiliumequivalence:matter:3>);
 recipes.addShaped("CTBlueMatter1", <auxiliumequivalence:matter:3>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block:2>, <auxiliumequivalence:matter_block:2>, <auxiliumequivalence:matter_block:2>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
 recipes.addShaped("CTBlueMatter2", <auxiliumequivalence:matter:3>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:2>, <projecte:fuel_block:2>]]);
 recipes.addShapeless("CTBlueMatter3", <auxiliumequivalence:matter:3> * 4, [<auxiliumequivalence:matter_block:3>]);
+
+//Rainbow Matter
+recipes.remove(<auxiliumequivalence:matter:4>);
+recipes.addShaped("CTRainbowMatter1", <auxiliumequivalence:matter:4>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block:3>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:matter_block:3>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
+recipes.addShaped("CTRainbowMatter2", <auxiliumequivalence:matter:4>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>]]);
+recipes.addShapeless("CTRainbowMatter3", <auxiliumequivalence:matter:4> * 4, [<auxiliumequivalence:matter_block:4>]);
