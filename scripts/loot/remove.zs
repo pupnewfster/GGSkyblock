@@ -1,43 +1,31 @@
+import loottweaker.vanilla.loot.LootTables;
 
+//Remove things from the end cities and nether fortresses
 
+val end_city = LootTables.getTable("minecraft:chests/end_city_treasure");
+end_city.removePool("Ender IO");
+end_city.removePool("lootPool_techreborn:chests/end_city_treasure");
 
-//TODO: Remove these from the loot tables that they are still in now that loot table tweaker is gone
-/*import mods.ltt.LootTable.removeGlobalItem;
+val main_end_city = end_city.getPool("main");
+main_end_city.removeEntry("minecraft:diamond_sword");
+main_end_city.removeEntry("minecraft:diamond_boots");
+main_end_city.removeEntry("minecraft:diamond_chestplate");
+main_end_city.removeEntry("minecraft:diamond_leggings");
+main_end_city.removeEntry("minecraft:diamond_helmet");
+main_end_city.removeEntry("minecraft:diamond_pickaxe");
+main_end_city.removeEntry("minecraft:diamond_shovel");
+main_end_city.removeEntry("minecraft:iron_sword");
+main_end_city.removeEntry("minecraft:iron_boots");
+main_end_city.removeEntry("minecraft:iron_chestplate");
+main_end_city.removeEntry("minecraft:iron_leggings");
+main_end_city.removeEntry("minecraft:iron_helmet");
+main_end_city.removeEntry("minecraft:iron_pickaxe");
+main_end_city.removeEntry("minecraft:iron_shovel");
 
-removeGlobalItem("enderio:item_material");
-removeGlobalItem("enderio:item_dark_steel_boots");
-removeGlobalItem("enderio:item_conduit_probe");
-removeGlobalItem("enderio:item_alloy_ingot");
-removeGlobalItem("enderio:item_dark_steel_sword");
-removeGlobalItem("enderio:item_dark_steel_bow");
-removeGlobalItem("enderio:item_dark_steel_axe");
-removeGlobalItem("enderio:item_travel_staff");
-removeGlobalItem("techreborn:machine_frame");
-removeGlobalItem("techreborn:machine_frame:2");
-removeGlobalItem("techreborn:ingot");
-removeGlobalItem("techreborn:part");
-removeGlobalItem("techreborn:part:2");
-removeGlobalItem("techreborn:part:29");
-removeGlobalItem("botania:lexicon");
-removeGlobalItem("botania:manabottle");
-removeGlobalItem("botania:manaresource");
+val nether_bridge = LootTables.getTable("minecraft:chests/nether_bridge");
+nether_bridge.removePool("Ender IO");
+nether_bridge.removePool("lootPool_techreborn:chests/nether_bridge");
 
-removeGlobalItem("minecraft:diamond_helmet");
-removeGlobalItem("minecraft:diamond_chestplate");
-removeGlobalItem("minecraft:diamond_leggings");
-removeGlobalItem("minecraft:diamond_boots");
-removeGlobalItem("minecraft:iron_helmet");
-removeGlobalItem("minecraft:iron_chestplate");
-removeGlobalItem("minecraft:iron_leggings");
-removeGlobalItem("minecraft:iron_boots");
-removeGlobalItem("minecraft:diamond_pickaxe");
-removeGlobalItem("minecraft:diamond_shovel");
-removeGlobalItem("minecraft:diamond_sword");
-removeGlobalItem("minecraft:diamond_hoe");
-removeGlobalItem("minecraft:iron_pickaxe");
-removeGlobalItem("minecraft:iron_shovel");
-removeGlobalItem("minecraft:iron_sword");
-removeGlobalItem("minecraft:golden_chestplate");
-removeGlobalItem("minecraft:golden_sword");
-removeGlobalItem("minecraft:stone_axe");
-removeGlobalItem("minecraft:chainmail_chestplate");*/
+val main_nether_bridge = nether_bridge.getPool("main");
+main_nether_bridge.removeEntry("minecraft:golden_chestplate");
+main_nether_bridge.removeEntry("minecraft:golden_sword");
