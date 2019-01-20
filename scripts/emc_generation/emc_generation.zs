@@ -283,7 +283,7 @@ enrichment.addRecipe(<contenttweaker:tier30_dust>, <projecte:item.pe_matter>);
 
 //Tier 33
 //<mysticalagriculture:elementium_seeds>
-//<avaritia:resource:5> //3,742,891,984
+//<avaritia:resource:5> //3,746,018,080
 
 
 //Tier 34
@@ -303,12 +303,12 @@ enrichment.addRecipe(<contenttweaker:tier30_dust>, <projecte:item.pe_matter>);
 
 //Tier 37
 //<mysticalagriculture:osmium_seeds>
-//<avaritia:resource:6> //41,177,230,832
+//<avaritia:resource:6> //41,211,617,888
 
 
 //Tier 38
 //<mysticalagriculture:glowstone_ingot_seeds>
-//<equivadditions:blue_matter> //77,407,322,112
+//<auxiliumequivalence:matter> //66,120,302,592
 
 
 //Tier 39
