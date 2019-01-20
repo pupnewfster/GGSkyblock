@@ -72,7 +72,8 @@ function addDrops(table as LootTable, drops as string[][int][IItemStack], minReq
 
     for item, value in drops {
         for weight, requirements in value {//Only ever should be one iteration of this loop
-            pool.addItemEntryHelper(item, weight, 0, scripts.loot.loot_tweaker.looting, [getConditions(requirements)]);
+            val c = getConditions(requirements);
+            pool.addItemEntryHelper(item, weight, 0, scripts.loot.loot_tweaker.looting, isNull(c) ? [] : [c]);
         }
     }
 }

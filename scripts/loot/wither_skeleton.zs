@@ -10,19 +10,19 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        6 : ["reskillable:mining|5"]
+        6 : ["reskillable:gathering|3", "reskillable:mining|3"]
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        7 : ["reskillable:mining|5"]
+        7 : ["reskillable:gathering|8", "reskillable:mining|15", "reskillable:attack|5", "compatskills:smithing|9"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        7 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|5", "compatskills:smithing|3"]
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
     } as string[][int],
     //ruby
     <techreborn:gem> : {
@@ -46,7 +46,7 @@ var drops = {
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10", "compatskills:smithing|13", "reskillable:magic|12", "reskillable:defense|16"]
     } as string[][int],
     //amber
     <thaumcraft:amber> : {

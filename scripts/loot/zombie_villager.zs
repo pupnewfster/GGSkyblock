@@ -10,7 +10,7 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|5", "compatskills:smithing|3"]
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
@@ -22,11 +22,11 @@ var drops = {
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
     } as string[][int],
     //tin ore
     <mekanism:oreblock:2> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|7", "compatskills:smithing|6", "compatskills:agility|5"]
     } as string[][int]
 } as string[][int][IItemStack];
 

@@ -10,11 +10,11 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        4 : ["reskillable:mining|5"]
+        4 : ["reskillable:gathering|3", "reskillable:mining|3"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|5", "compatskills:smithing|3"]
     } as string[][int]
 } as string[][int][IItemStack];
 

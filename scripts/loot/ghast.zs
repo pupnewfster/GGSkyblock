@@ -10,15 +10,15 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|3", "reskillable:mining|3"]
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        5 : ["reskillable:mining|5"]
+        5 : ["reskillable:gathering|8", "reskillable:mining|15", "reskillable:attack|5", "compatskills:smithing|9"]
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        7 : ["reskillable:mining|5"]
+        7 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {

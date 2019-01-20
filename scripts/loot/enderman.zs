@@ -12,7 +12,7 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        4 : ["reskillable:mining|5"]
+        4 : ["reskillable:mining|5", "compatskills:smithing|3"]
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
@@ -20,11 +20,11 @@ var drops = {
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        5 : ["reskillable:mining|5"]
+        5 : ["reskillable:mining|5", "compatskills:smithing|3"]
     } as string[][int],
     //osmium ore
     <mekanism:oreblock> : {
-        7 : ["reskillable:mining|5"]
+        7 : ["reskillable:mining|7", "compatskills:smithing|9", "compatskills:technology|17"]
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
