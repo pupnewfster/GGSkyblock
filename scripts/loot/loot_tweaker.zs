@@ -78,4 +78,9 @@ function addDrops(table as LootTable, drops as string[][int][IItemStack], minReq
     }
 }
 
-//If high warp make mobs drop curious from thaumcraft if you have the thaumcraft trait, witches, wither skeletons, villagers, other things that drop amber
+function addTCCurio(table as LootTable) {
+    val pool = table.addPool("curios", 1, 1, 0, 0);
+    val minReqs = getConditions(["trait|compatskills:unlock_thaumcraft", "warp|100"]);
+    pool.addConditionsHelper([getConditions(["trait|compatskills:unlock_thaumcraft", "warp|100"])]);
+    pool.addItemEntryHelper(<thaumcraft:curio:1>, 1, 0, scripts.loot.loot_tweaker.looting, null);
+}

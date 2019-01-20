@@ -1,6 +1,7 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_tweaker.addTCCurio;
 
 import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
@@ -41,5 +42,6 @@ var drops = {
 val table = LootTables.getTable("minecraft:entities/zombie_pigman");
 
 addDrops(table, drops, null);
+addTCCurio(table);
 
 table.removePool("pool2");
