@@ -19,7 +19,7 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
     } as string[][int],
 
     //Nether
@@ -30,11 +30,11 @@ var drops = {
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
-        1 : ["dim|-1", "reskillable:mining|5"]
+        1 : ["dim|-1", "reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
     } as string[][int],
     //sphalerite dust
     <techreborn:dust:50> : {
-        1 : ["dim|-1", "reskillable:mining|5"]
+        1 : ["dim|-1", "reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
     } as string[][int]
 } as string[][int][IItemStack];
 

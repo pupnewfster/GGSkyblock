@@ -26,11 +26,11 @@ var drops = {
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
     } as string[][int],
     //sphalerite dust
     <techreborn:dust:50> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
     } as string[][int],
     //silver ore
     <techreborn:ore:13> : {
@@ -38,15 +38,15 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
     } as string[][int],
     //cobalt ore
     <tconstruct:ore:0> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
     } as string[][int],
     //ardite ore
     <tconstruct:ore:1> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
     } as string[][int]
 } as string[][int][IItemStack];
 

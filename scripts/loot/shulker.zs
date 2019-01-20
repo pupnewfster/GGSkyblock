@@ -10,7 +10,7 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //galena ore
     <techreborn:ore> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10"]
     } as string[][int],
     //ruby
     <techreborn:gem> : {
@@ -22,11 +22,11 @@ var drops = {
     } as string[][int],
     //tungsten ore
     <techreborn:ore:8> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|17", "reskillable:magic|13", "reskillable:defense|11"]
     } as string[][int],
     //sheldonite ore
     <techreborn:ore:9> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10", "reskillable:magic|5"]
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
@@ -34,7 +34,7 @@ var drops = {
     } as string[][int],
     //sodalite dust
     <techreborn:dust:48> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:gathering|13", "reskillable:mining|21", "compatskills:technology|17", "reskillable:magic|10"]
     } as string[][int]
 } as string[][int][IItemStack];
 

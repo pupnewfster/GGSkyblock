@@ -14,7 +14,7 @@ var drops = {
     } as string[][int],
     //lapis lazuli
     <minecraft:dye:4> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|8", "reskillable:mining|10", "reskillable:magic|12"]
     } as string[][int],
     //redstone dust
     <minecraft:redstone> : {
@@ -26,11 +26,11 @@ var drops = {
     } as string[][int],
     //galena ore
     <techreborn:ore> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10"]
     } as string[][int],
     //bauxite ore
     <techreborn:ore:4> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10"]
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
@@ -38,11 +38,11 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
     } as string[][int],
     //cinnabar
     <thaumcraft:ore_cinnabar> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|10", "reskillable:magic|12", "compatskills:smithing|13"]
     } as string[][int]
 } as string[][int][IItemStack];
 

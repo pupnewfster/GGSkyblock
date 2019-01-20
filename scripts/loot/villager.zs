@@ -30,7 +30,7 @@ var drops = {
     } as string[][int],
     //iridium ore
     <techreborn:ore:1> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|22", "compatskills:smithing|24", "compatskills:technology|42"]
     } as string[][int],
     //ruby
     <techreborn:gem> : {

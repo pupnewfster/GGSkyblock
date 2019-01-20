@@ -18,11 +18,11 @@ var drops = {
     } as string[][int],
     //galena ore
     <techreborn:ore> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10"]
     } as string[][int],
     //bauxite ore
     <techreborn:ore:4> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:mining|10"]
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {

@@ -28,11 +28,11 @@ var drops = {
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        6 : ["reskillable:mining|5"]
+        6 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
     } as string[][int],
     //cinnabar
     <thaumcraft:ore_cinnabar> : {
-        2 : ["reskillable:mining|5"]
+        2 : ["reskillable:mining|10", "reskillable:magic|12", "compatskills:smithing|13"]
     } as string[][int],
 
     //End only
@@ -55,11 +55,11 @@ var drops = {
     } as string[][int],
     //tungsten ore
     <techreborn:ore:8> : {
-        1 : ["dim|1", "reskillable:mining|5"]
+        1 : ["dim|1", "reskillable:mining|17", "reskillable:magic|13", "reskillable:defense|11"]
     } as string[][int],
     //sheldonite ore
     <techreborn:ore:9> : {
-        1 : ["dim|1", "reskillable:mining|5"]
+        1 : ["dim|1", "reskillable:mining|10", "reskillable:magic|5"]
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
@@ -67,7 +67,7 @@ var drops = {
     } as string[][int],
     //sodalite dust
     <techreborn:dust:48> : {
-        1 : ["dim|1", "reskillable:mining|5"]
+        1 : ["dim|1", "reskillable:gathering|13", "reskillable:mining|21", "compatskills:technology|17", "reskillable:magic|10"]
     } as string[][int]
 } as string[][int][IItemStack];
 
