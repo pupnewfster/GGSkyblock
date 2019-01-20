@@ -7,7 +7,21 @@
       <output name="oredict:gemEmerald" chance="0.25" required="false" />
     </sagmilling>
   </recipe>
-  <recipe name="Alloy: Endergy Crystalline Pink Slime Fixed" required="false">
+  
+  <recipe name="Alloy: Tier 23 EMC">
+    <alloying energy="250000">
+      <input name="mysticalagriculture:electrical_steel_essence" amount="3"/>
+      <output name="contenttweaker:tier23alloy"/>
+    </alloying>
+  </recipe>
+  <recipe name="Sagmill: Tier 23 EMC">
+    <sagmilling energy="250000">
+      <input name="contenttweaker:tier23alloy"/>
+      <output name="techreborn:nuke" amount="3" />
+    </sagmilling>
+  </recipe>
+  
+  <recipe name="Alloy: Endergy Crystalline Pink Slime Fixed">
     <alloying energy="10000" exp="0.5">
       <input name="ingotPulsatingIron"/>
       <input name="tconstruct:edible:2"/>
