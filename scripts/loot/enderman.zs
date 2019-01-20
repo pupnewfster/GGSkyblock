@@ -16,7 +16,7 @@ var drops = {
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
-        6 : ["reskillable:mining|5"]
+        6 : ["reskillable:mining|10", "compatskills:smithing|5", "compatskills:magic|7"]
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
@@ -39,19 +39,19 @@ var drops = {
 
     //diamond
     <minecraft:diamond> : {
-        4 : ["dim|1", "reskillable:mining|5"]
+        4 : ["dim|1", "reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5", "reskillable:attack|5", "reskillable:defense|5"]
     } as string[][int],
     //emerald
     <minecraft:emerald> : {
-        3 : ["dim|1", "reskillable:mining|5"]
+        3 : ["dim|1", "reskillable:gathering|18", "reskillable:mining|22", "compatskills:smithing|24", "reskillable:agility|9", "reskillable:magic|14"]
     } as string[][int],
     //ruby
     <techreborn:gem> : {
-        4 : ["dim|1", "reskillable:mining|5"]
+        4 : ["dim|1", "reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //sapphire
     <techreborn:gem:1> : {
-        4 : ["dim|1", "reskillable:mining|5"]
+        4 : ["dim|1", "reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //tungsten ore
     <techreborn:ore:8> : {
@@ -63,7 +63,7 @@ var drops = {
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
-        4 : ["dim|1", "reskillable:mining|5"]
+        4 : ["dim|1", "reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //sodalite dust
     <techreborn:dust:48> : {

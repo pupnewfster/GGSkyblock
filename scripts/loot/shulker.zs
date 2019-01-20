@@ -14,11 +14,11 @@ var drops = {
     } as string[][int],
     //ruby
     <techreborn:gem> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //sapphire
     <techreborn:gem:1> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //tungsten ore
     <techreborn:ore:8> : {
@@ -30,7 +30,7 @@ var drops = {
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
     } as string[][int],
     //sodalite dust
     <techreborn:dust:48> : {

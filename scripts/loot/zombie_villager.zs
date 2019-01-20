@@ -14,11 +14,11 @@ var drops = {
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
-        3 : ["reskillable:mining|5"]
+        3 : ["reskillable:mining|10", "compatskills:smithing|5", "compatskills:magic|7"]
     } as string[][int],
     //emerald
     <minecraft:emerald> : {
-        1 : ["reskillable:mining|5"]
+        1 : ["reskillable:gathering|18", "reskillable:mining|22", "compatskills:smithing|24", "reskillable:agility|9", "reskillable:magic|14"]
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {

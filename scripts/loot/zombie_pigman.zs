@@ -11,7 +11,7 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //gold ore
     <minecraft:gold_ore> : {
-        5 : ["reskillable:mining|5"]
+        5 : ["reskillable:mining|10", "compatskills:smithing|5", "compatskills:magic|7"]
     } as string[][int],
     //osmium ore
     <mekanism:oreblock> : {
