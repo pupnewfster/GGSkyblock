@@ -208,7 +208,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Gold Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Gold Ore from killing:\n\nEndermen\nVillagers\nZombie Pigmen\nZombie Villagers"
         }
       },
       "tasks:9": {
@@ -220,6 +220,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -314,7 +331,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Coal",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Coal from killing:\n\nBats\nCreepers\nGhasts\nSpiders\nSquids\nWither Skeletons\nZombies"
         }
       },
       "tasks:9": {
@@ -325,6 +342,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -581,8 +615,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Lapis",
-          "desc:8": ""
+          "name:8": "Lapis Lazuli",
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Lapis Lazuli from killing:\n\nSpiders\nWitches"
         }
       },
       "tasks:9": {
@@ -594,6 +628,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -624,7 +675,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Diamond",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Diamonds from killing:\n\nVillagers\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -640,6 +691,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -670,7 +738,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Emerald",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Emeralds from killing:\n\nVillagers\nZombie Villagers\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -684,6 +752,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:emerald",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -714,7 +799,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Redstone",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Redstone from killing:\n\nBlazes\nCreepers\nSpiders\nWitches"
         }
       },
       "tasks:9": {
@@ -727,6 +812,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -885,7 +987,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Quartz",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Quartz from killing:\n\nBlazes\nGhasts\nWither Skeletons\n\nAnd in the Nether from killing:\n\nSkeletons\nZombie Pigmen"
         }
       },
       "tasks:9": {
@@ -898,6 +1000,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:quartz",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -928,7 +1047,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Black Quartz Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Black Quartz Ore from killing:\n\nBats\nCreepers\nEndermen\nSquids\nWither Skeletons"
         }
       },
       "tasks:9": {
@@ -939,6 +1058,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_misc",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -969,7 +1105,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Certus Quartz",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Certus Quartz from killing:\n\nBlazes\nGhasts\nVillagers\nWitches\nWither Skeletons\nZombie Villagers"
         }
       },
       "tasks:9": {
@@ -982,6 +1118,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1012,7 +1165,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Osmium Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Osmium Ore from killing:\n\nEndermen\nSkeletons\nZombie Pigmen"
         }
       },
       "tasks:9": {
@@ -1024,6 +1177,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:oreblock",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1054,7 +1224,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Iron Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Iron Ore from killing:\n\nCreepers\nEndermen\nSkeletons\nSpiders\nVillagers\nWitches\nZombie Villagers"
         }
       },
       "tasks:9": {
@@ -1065,6 +1235,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1365,7 +1552,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Copper Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Copper Ore from killing:\n\nBlazes\nCreepers\nSkeletons\nZombies"
         }
       },
       "tasks:9": {
@@ -1377,6 +1564,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:oreblock",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1407,7 +1611,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Tin Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Tin Ore from killing:\n\nSkeletons\nZombies\nZombie Villagers"
         }
       },
       "tasks:9": {
@@ -1419,6 +1623,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:oreblock",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1449,7 +1670,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Galena Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Galena Ore from killing:\n\nShulkers\nSquids\nWitches"
         }
       },
       "tasks:9": {
@@ -1459,6 +1680,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1489,7 +1727,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Iridium Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Iridium Ore from killing:\n\nVillagers"
         }
       },
       "tasks:9": {
@@ -1501,6 +1739,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1531,7 +1786,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Ruby",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Rubies from killing:\n\nShulkers\nVillagers\nWither Skeletons\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -1545,6 +1800,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:gem",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1575,7 +1847,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Sapphire",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Sapphires from killing:\n\nShulkers\nVillagers\nWither Skeletons\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -1589,6 +1861,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:gem",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3167,7 +3456,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Bauxite Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Bauxite Ore from killing:\n\nSquids\nWitches"
         }
       },
       "tasks:9": {
@@ -3177,6 +3466,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3206,8 +3512,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Pyrite",
-          "desc:8": ""
+          "name:8": "Pyrite Dust",
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Pyrite Dust from killing:\n\nBlazes\nGhasts\nWither Skeletons\n\nAnd in the Nether from killing:\n\nSkeletons\nZombie Pigmen"
         }
       },
       "tasks:9": {
@@ -3219,6 +3525,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:dust",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 39
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3248,8 +3571,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Sphalerite",
-          "desc:8": ""
+          "name:8": "Sphalerite Dust",
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Sphalerite Dust from killing:\n\nBlazes\nGhasts\nWither Skeletons\n\nAnd in the Nether from killing:\n\nSkeletons\nZombie Pigmen"
         }
       },
       "tasks:9": {
@@ -3261,6 +3584,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:dust",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 50
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3291,7 +3631,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Tungsten Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Tungsten Ore from killing:\n\nShulkers\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -3303,6 +3643,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 8
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3333,7 +3690,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Peridot",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Peridot from killing:\n\nShulkers\nVillagers\nWither Skeletons\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -3347,6 +3704,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:gem",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3377,7 +3751,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Lead Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Lead Ore from killing:\n\nSquids\nWitches\nWither Skeletons"
         }
       },
       "tasks:9": {
@@ -3390,6 +3764,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 12
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3420,7 +3811,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Amber",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Amber from killing:\n\nBlazes\nEndermen\nWitches\nWither Skeletons\nZombie Pigmen"
         }
       },
       "tasks:9": {
@@ -3433,6 +3824,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:amber",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3463,7 +3871,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Ardite Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Ardite Ore from killing:\n\nBlazes\nGhasts\nWither Skeletons\n\nAnd in the Nether from killing:\n\nSkeletons"
         }
       },
       "tasks:9": {
@@ -3475,6 +3883,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3505,7 +3930,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Sheldonite Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Sheldonite Ore from killing:\n\nShulkers\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -3516,6 +3941,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 9
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3545,8 +3987,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Sodalite",
-          "desc:8": ""
+          "name:8": "Sodalite Dust",
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Sodalite Dust from killing:\n\nShulkers\n\nAnd in the End from killing:\n\nEndermen"
         }
       },
       "tasks:9": {
@@ -3559,6 +4001,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:dust",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 48
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3589,7 +4048,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Silver Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Silver Ore from killing:\n\nBlazes\nCreepers"
         }
       },
       "tasks:9": {
@@ -3601,6 +4060,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 13
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3631,7 +4107,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Cinnabar Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Cinnabar Ore from killing:\n\nEndermen\nSpiders\nWitches"
         }
       },
       "tasks:9": {
@@ -3643,6 +4119,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:ore_cinnabar",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3673,7 +4166,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Cobalt Ore",
-          "desc:8": ""
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Cobalt Ore from killing:\n\nBlazes\nGhasts\nWither Skeletons\n\nAnd in the Nether from killing:\n\nSkeletons"
         }
       },
       "tasks:9": {
@@ -3685,6 +4178,23 @@
           },
           "index:3": 0,
           "taskID:8": "compatskills:req_task_factory"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
