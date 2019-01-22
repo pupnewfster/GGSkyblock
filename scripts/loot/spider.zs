@@ -10,23 +10,23 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        3 : ["reskillable:mining|5", "compatskills:smithing|3"]
+        3 : null
     } as string[][int],
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:gathering|3", "reskillable:mining|3"]
+        1 : null
     } as string[][int],
     //lapis lazuli
     <minecraft:dye:4> : {
-        3 : ["reskillable:gathering|8", "reskillable:mining|10", "reskillable:magic|12"]
+        3 : null
     } as string[][int],
     //redstone dust
     <minecraft:redstone> : {
-        4 : ["reskillable:gathering|6", "reskillable:mining|10", "compatskills:smithing|5", "compatskills:technology|7"]
+        4 : null
     } as string[][int],
     //cinnabar
     <thaumcraft:ore_cinnabar> : {
-        2 : ["reskillable:mining|10", "reskillable:magic|12", "compatskills:smithing|13"]
+        2 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

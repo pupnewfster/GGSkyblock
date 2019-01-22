@@ -10,23 +10,23 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        7 : ["reskillable:gathering|3", "reskillable:mining|3"]
+        7 : null
     } as string[][int],
     //black quartz ore
     <actuallyadditions:block_misc:3> : {
-        3 : ["reskillable:mining|5", "compatskills:smithing|3"]
+        3 : null
     } as string[][int],
     //galena ore
     <techreborn:ore> : {
-        1 : ["reskillable:mining|10"]
+        1 : null
     } as string[][int],
     //bauxite ore
     <techreborn:ore:4> : {
-        1 : ["reskillable:mining|10"]
+        1 : null
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
-        3 : ["reskillable:mining|10", "compatskills:smithing|13", "reskillable:magic|12", "reskillable:defense|16"]
+        3 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

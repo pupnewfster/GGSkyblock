@@ -11,43 +11,43 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //redstone dust
     <minecraft:redstone> : {
-        5 : ["reskillable:gathering|6", "reskillable:mining|10", "compatskills:smithing|5", "compatskills:technology|7"]
+        5 : null
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        15 : ["reskillable:gathering|8", "reskillable:mining|15", "reskillable:attack|5", "compatskills:smithing|9"]
+        15 : null
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        5 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
+        5 : null
     } as string[][int],
     //copper ore
     <mekanism:oreblock:1> : {
-        5 : ["reskillable:mining|7", "compatskills:smithing|7", "compatskills:technology|13"]
+        5 : null
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
-        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
+        1 : null
     } as string[][int],
     //sphalerite dust
     <techreborn:dust:50> : {
-        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
+        1 : null
     } as string[][int],
     //silver ore
     <techreborn:ore:13> : {
-        3 : ["reskillable:mining|10", "compatskills:smithing|16", "reskillable:magic|8"]
+        3 : null
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        3 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
+        3 : null
     } as string[][int],
     //cobalt ore
-    <tconstruct:ore:0> : {
-        2 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
+    <tconstruct:ore> : {
+        2 : null
     } as string[][int],
     //ardite ore
     <tconstruct:ore:1> : {
-        2 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
+        2 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

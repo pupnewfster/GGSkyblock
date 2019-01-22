@@ -10,39 +10,39 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        16 : ["reskillable:mining|5", "compatskills:smithing|3"]
+        16 : null
     } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
-        12 : ["reskillable:mining|10", "compatskills:smithing|5", "compatskills:magic|7"]
+        12 : null
     } as string[][int],
     //diamond
     <minecraft:diamond> : {
-        4 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5", "reskillable:attack|5", "reskillable:defense|5"]
+        4 : null
     } as string[][int],
     //emerald
     <minecraft:emerald> : {
-        4 : ["reskillable:gathering|18", "reskillable:mining|22", "compatskills:smithing|24", "reskillable:agility|9", "reskillable:magic|14"]
+        4 : null
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        8 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
+        8 : null
     } as string[][int],
     //iridium ore
     <techreborn:ore:1> : {
-        1 : ["reskillable:mining|22", "compatskills:smithing|24", "compatskills:technology|42"]
+        1 : null
     } as string[][int],
     //ruby
     <techreborn:gem> : {
-        6 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
+        6 : null
     } as string[][int],
     //sapphire
     <techreborn:gem:1> : {
-        6 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
+        6 : null
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
-        6 : ["reskillable:gathering|15", "reskillable:mining|20", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5"]
+        6 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

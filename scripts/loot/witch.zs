@@ -11,39 +11,39 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //iron ore
     <minecraft:iron_ore> : {
-        1 : ["reskillable:mining|5", "compatskills:smithing|3"]
+        1 : null
     } as string[][int],
     //lapis lazuli
     <minecraft:dye:4> : {
-        3 : ["reskillable:gathering|8", "reskillable:mining|10", "reskillable:magic|12"]
+        3 : null
     } as string[][int],
     //redstone dust
     <minecraft:redstone> : {
-        1 : ["reskillable:gathering|6", "reskillable:mining|10", "compatskills:smithing|5", "compatskills:technology|7"]
+        1 : null
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        2 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
+        2 : null
     } as string[][int],
     //galena ore
     <techreborn:ore> : {
-        1 : ["reskillable:mining|10"]
+        1 : null
     } as string[][int],
     //bauxite ore
     <techreborn:ore:4> : {
-        1 : ["reskillable:mining|10"]
+        1 : null
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
-        2 : ["reskillable:mining|10", "compatskills:smithing|13", "reskillable:magic|12", "reskillable:defense|16"]
+        2 : null
     } as string[][int],
     //amber
     <thaumcraft:amber> : {
-        3 : ["reskillable:gathering|9", "reskillable:mining|5", "reskillable:magic|13", "compatskills:smithing|13"]
+        3 : null
     } as string[][int],
     //cinnabar
     <thaumcraft:ore_cinnabar> : {
-        2 : ["reskillable:mining|10", "reskillable:magic|12", "compatskills:smithing|13"]
+        2 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

@@ -10,31 +10,31 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        3 : ["reskillable:gathering|3", "reskillable:mining|3"]
+        3 : null
     } as string[][int],
     //quartz
     <minecraft:quartz> : {
-        5 : ["reskillable:gathering|8", "reskillable:mining|15", "reskillable:attack|5", "compatskills:smithing|9"]
+        5 : null
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
-        7 : ["reskillable:gathering|8", "reskillable:mining|16", "compatskills:smithing|21", "compatskills:technology|21"]
+        7 : null
     } as string[][int],
     //pyrite dust
     <techreborn:dust:39> : {
-        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
+        1 : null
     } as string[][int],
     //sphalerite dust
     <techreborn:dust:50> : {
-        1 : ["reskillable:gathering|11", "reskillable:mining|16", "compatskills:technology|12"]
+        1 : null
     } as string[][int],
     //cobalt ore
-    <tconstruct:ore:0> : {
-        1 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
+    <tconstruct:ore> : {
+        1 : null
     } as string[][int],
     //ardite ore
     <tconstruct:ore:1> : {
-        1 : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"]
+        1 : null
     } as string[][int]
 } as string[][int][IItemStack];
 

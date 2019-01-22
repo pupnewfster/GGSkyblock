@@ -10,15 +10,15 @@ import loottweaker.vanilla.loot.LootTables;
 var drops = {
     //coal
     <minecraft:coal> : {
-        1 : ["reskillable:gathering|3", "reskillable:mining|3"]
+        1 : null
     } as string[][int],
     //copper ore
     <mekanism:oreblock:1> : {
-        6 : ["reskillable:mining|7", "compatskills:smithing|7", "compatskills:technology|13"]
+        6 : null
     } as string[][int],
     //tin ore
     <mekanism:oreblock:2> : {
-        4 : ["reskillable:mining|7", "compatskills:smithing|6", "compatskills:agility|5"]
+        4 : null
     } as string[][int]
 } as string[][int][IItemStack];
 
