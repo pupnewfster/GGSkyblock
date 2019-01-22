@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable solarflux
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<solarflux:solar_panel_1>, "compatskills:technology|7");

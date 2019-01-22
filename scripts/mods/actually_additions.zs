@@ -1,5 +1,3 @@
-#modloaded actuallyadditions
-
 import crafttweaker.item.IItemStack;
 
 //Iron Casing needs Tech reborn standard casing

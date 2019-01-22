@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<minecraft:torch>, "compatskills:technology|5");

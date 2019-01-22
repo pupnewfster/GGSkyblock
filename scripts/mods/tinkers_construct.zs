@@ -1,5 +1,3 @@
-#modloaded tconstruct
-
 import mods.tconstruct.Fuel;
 
 recipes.addShapeless("CTBlueVine", <tconstruct:slime_vine_blue>, [<minecraft:vine>, <tconstruct:edible:1>]);

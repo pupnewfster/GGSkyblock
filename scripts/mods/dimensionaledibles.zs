@@ -1,5 +1,3 @@
-#modloaded dimensionaledibles
-
 recipes.remove(<dimensionaledibles:end_cake>);
 recipes.addShaped("CTEndCake", <dimensionaledibles:end_cake>, [[<mekanism:teleportationcore>, <minecraft:end_crystal>, <mekanism:teleportationcore>], [<botania:endereyeblock>, <minecraft:cake>, <botania:endereyeblock>], [<mekanism:teleportationcore>, <minecraft:end_crystal>, <mekanism:teleportationcore>]]);
 

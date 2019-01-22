@@ -1,5 +1,3 @@
-#modloaded techreborn
-
 //Circuit (add a recipe to mekanism)
 mods.jei.JEI.removeAndHide(<techreborn:part:29>);
 mods.jei.JEI.removeAndHide(<techreborn:part:30>);

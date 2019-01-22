@@ -1,5 +1,3 @@
-#modloaded botania
-
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 

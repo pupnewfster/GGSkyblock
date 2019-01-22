@@ -1,5 +1,3 @@
-#modloaded astralsorcery
-
 import mods.astralsorcery.LightTransmutation;
 
 LightTransmutation.addTransmutation(<minecraft:concrete_powder:4>, <minecraft:glowstone>, 25);

@@ -1,5 +1,3 @@
-#modloaded solarflux
-
 mods.jei.JEI.removeAndHide(<solarflux:blank_upgrade>);
 
 //Mirror

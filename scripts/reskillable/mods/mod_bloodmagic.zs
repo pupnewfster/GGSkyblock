@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable bloodmagic
-
 import mods.compatskills.Requirement.addRequirement;
 import mods.compatskills.RitualHandler.addRitualCostLock;
 

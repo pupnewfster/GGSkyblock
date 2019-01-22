@@ -1,4 +1,3 @@
-#modloaded compatskills reskillable
 #priority 800
 
 import mods.compatskills.ArmorLock.addArmorLock;

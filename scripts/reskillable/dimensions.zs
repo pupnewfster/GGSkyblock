@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.DimensionLock.addDimensionLock;
 
 addDimensionLock(-1, "reskillable:magic|27");

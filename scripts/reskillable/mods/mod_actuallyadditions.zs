@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable actuallyadditions
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<actuallyadditions:block_laser_relay>, "trait|compatskills:wireless");

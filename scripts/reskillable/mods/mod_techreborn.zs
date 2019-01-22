@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable techreborn
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<techreborn:wind_mill>, "trait|compatskills:clean_energy");

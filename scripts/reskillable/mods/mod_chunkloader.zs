@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable chickenchunks
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<chickenchunks:chunk_loader>, "reskillable:magic|36", "compatskills:technology|23");

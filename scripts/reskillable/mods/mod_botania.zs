@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable botania
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<botania:pool:1>, "none");

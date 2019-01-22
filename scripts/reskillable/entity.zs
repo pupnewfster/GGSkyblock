@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.AnimalTameLock.addTameLock;
 import mods.compatskills.EntityMountLock.addMountLock;
 import mods.compatskills.EntityDamageLock.addEntityLock;

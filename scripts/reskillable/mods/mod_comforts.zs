@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 
 val sleeping_bag_requirements = ["compatskills:technology|3", "reskillable:building|8"] as string[];

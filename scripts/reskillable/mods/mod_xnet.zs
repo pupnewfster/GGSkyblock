@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable xnet
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<xnet:antenna>, "trait|compatskills:wireless");

@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable fluxnetworks
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<fluxnetworks:fluxplug>, "trait|compatskills:wireless");

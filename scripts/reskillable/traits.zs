@@ -1,4 +1,3 @@
-#modloaded compatskills reskillable
 #priority 990
 
 import mods.compatskills.TraitCreator.createTrait;

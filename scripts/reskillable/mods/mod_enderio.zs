@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable enderio
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<enderio:block_cap_bank>, "none");

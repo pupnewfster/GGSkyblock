@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable appliedenergistics2
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<appliedenergistics2:creative_energy_cell>, "none");

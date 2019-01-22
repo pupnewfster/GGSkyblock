@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 import mods.compatskills.Thaumcraft.addResearchLock;
 import mods.compatskills.Thaumcraft.addKnowledgeLock;

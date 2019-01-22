@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable storagedrawers
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<storagedrawers:upgrade_storage>, "reskillable:building|14", "compatskills:technology|6");

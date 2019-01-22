@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<actuallyadditions:block_misc:3>, "none");

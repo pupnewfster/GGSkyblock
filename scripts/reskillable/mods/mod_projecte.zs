@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable projecte
-
 import mods.compatskills.Requirement.addRequirement;
 import mods.compatskills.EMCLock.addEMCLock;
 import crafttweaker.data.IData;

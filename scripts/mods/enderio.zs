@@ -1,5 +1,3 @@
-#modloaded enderio
-
 //Simple Machine Chassis, Force steel to force tech reborn blast furnace
 recipes.remove(<enderio:item_material>);
 recipes.addShaped("CTSimpleChassis", <enderio:item_material>, [[<minecraft:iron_bars>, <ore:ingotSteel>, <minecraft:iron_bars>], [<ore:ingotSteel>, <enderio:item_material:20>, <ore:ingotSteel>], [<minecraft:iron_bars>, <ore:ingotSteel>, <minecraft:iron_bars>]]);

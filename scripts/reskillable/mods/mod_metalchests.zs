@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable metalchests
-
 import mods.compatskills.Requirement.addRequirement;
 import crafttweaker.item.IItemStack;
 

@@ -1,4 +1,3 @@
-#modloaded compatskills reskillable tconstruct
 #priority 950
 
 import mods.compatskills.MaterialLock.addMaterialLock;

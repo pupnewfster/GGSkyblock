@@ -1,6 +1,3 @@
-#modloaded compatskills reskillable
-#priority 700
-
 import mods.compatskills.Requirement.addRequirement;
 import crafttweaker.item.IItemStack;
 

@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<astralsorcery:blockmarblestairs>, "none");

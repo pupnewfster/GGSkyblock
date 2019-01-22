@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable mekanism
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<mekanism:basicblock:6>.withTag({tier: 4}), "none");

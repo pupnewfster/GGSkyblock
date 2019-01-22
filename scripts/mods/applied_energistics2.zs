@@ -1,5 +1,3 @@
-#modloaded appliedenergistics2
-
 //Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped("CTInscriber", <appliedenergistics2:inscriber>, [[<ore:ingotSteel>, <minecraft:sticky_piston>, <ore:ingotSteel>], [<appliedenergistics2:material:12>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:sticky_piston>, <ore:ingotSteel>]]);

@@ -1,5 +1,3 @@
-#modloaded thaumcraft
-
 import mods.botania.ManaInfusion.addAlchemy;
 import mods.extrabotany.Pedestal;
 

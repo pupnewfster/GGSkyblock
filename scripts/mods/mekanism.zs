@@ -1,4 +1,3 @@
-#modloaded mekanism
 #priority 400
 
 //Infuser

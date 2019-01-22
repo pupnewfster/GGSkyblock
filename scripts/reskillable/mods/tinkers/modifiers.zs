@@ -1,4 +1,3 @@
-#modloaded compatskills reskillable tconstruct
 #priority 940
 
 import mods.compatskills.ModifierLock.addModifierLock;

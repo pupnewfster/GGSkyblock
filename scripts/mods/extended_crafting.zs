@@ -1,5 +1,3 @@
-#modloaded extendedcrafting
-
 import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.hide(<extendedcrafting:crafting_table>);

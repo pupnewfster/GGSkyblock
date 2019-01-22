@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable avaritia
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<avaritia:extreme_crafting_table>, "none");

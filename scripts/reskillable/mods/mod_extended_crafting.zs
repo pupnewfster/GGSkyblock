@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable extendedcrafting
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<extendedcrafting:interface>, "compatskills:technology|93");

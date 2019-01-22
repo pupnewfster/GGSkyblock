@@ -1,5 +1,3 @@
-#modloaded mysticalagriculture
-
 import crafttweaker.item.IItemStack;
 
 recipes.removeByRegex("mysticalagriculture:.*");

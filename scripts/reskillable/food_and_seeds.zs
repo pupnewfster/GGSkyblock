@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.Requirement.addRequirement;
 import mods.compatskills.FoodTweaker.addHungerLock;
 import mods.compatskills.FoodTweaker.addSaturationLock;

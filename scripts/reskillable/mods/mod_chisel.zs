@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable chisel
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<chisel:chisel_hitech>, "reskillable:building|45", "compatskills:technology|31");

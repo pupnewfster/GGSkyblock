@@ -1,4 +1,3 @@
-#modloaded compatskills reskillable
 #priority 1000
 
 import mods.compatskills.SkillCreator.createSkill;

@@ -1,5 +1,3 @@
-#modloaded avaritia
-
 import crafttweaker.item.IItemStack;
 
 <extendedcrafting:singularity_ultimate>.displayName = "Infinity Singularity";

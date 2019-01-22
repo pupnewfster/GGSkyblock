@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable
-
 import mods.compatskills.ModLock.addModLock;
 
 //Magic Mods

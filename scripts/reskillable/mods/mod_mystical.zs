@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable mysticalagriculture
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<mysticalagriculture:experience_seeds>, "reskillable:farming|31", "reskillable:magic|25", "reskillable:gathering|14");

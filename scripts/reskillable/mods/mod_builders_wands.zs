@@ -1,5 +1,3 @@
-#modloaded compatskills reskillable betterbuilderswands
-
 import mods.compatskills.Requirement.addRequirement;
 
 addRequirement(<betterbuilderswands:wandstone>, "reskillable:building|7", "reskillable:magic|7");
