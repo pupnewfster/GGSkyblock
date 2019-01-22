@@ -24,7 +24,7 @@ static baseValues as string[][IItemStack] = {
    <minecraft:redstone> : ["reskillable:mining|10", "reskillable:gathering|6", "compatskills:smithing|5", "compatskills:technology|7"],
    <minecraft:quartz> : ["reskillable:mining|15", "reskillable:gathering|8", "compatskills:smithing|9", "reskillable:attack|5"],
    <minecraft:iron_ore> : ["reskillable:mining|5", "compatskills:smithing|3"],
-   <minecraft:gold_ore> : ["reskillable:mining|10", "compatskills:smithing|5", "compatskills:magic|7"],
+   <minecraft:gold_ore> : ["reskillable:mining|10", "compatskills:smithing|5", "reskillable:magic|7"],
    <minecraft:diamond> : ["reskillable:mining|20", "reskillable:gathering|15", "compatskills:smithing|21", "reskillable:agility|9", "reskillable:magic|5", "reskillable:attack|5", "reskillable:defense|5"],
    <minecraft:emerald> : ["reskillable:mining|22", "reskillable:gathering|18", "compatskills:smithing|24", "reskillable:agility|9", "reskillable:magic|14"],
    //Lapis
@@ -44,7 +44,7 @@ static baseValues as string[][IItemStack] = {
    //Copper ore
    <mekanism:oreblock:1> : ["reskillable:mining|7", "compatskills:smithing|7", "compatskills:technology|13"],
    //Tin ore
-   <mekanism:oreblock:2> : ["reskillable:mining|7", "compatskills:smithing|6", "compatskills:agility|5"],
+   <mekanism:oreblock:2> : ["reskillable:mining|7", "compatskills:smithing|6", "reskillable:agility|5"],
 
    //Cobalt Ore
    <tconstruct:ore> : ["reskillable:mining|32", "compatskills:smithing|35", "reskillable:attack|10"],
@@ -60,9 +60,9 @@ static baseValues as string[][IItemStack] = {
 
    //Pyrite dust
    <techreborn:dust:39> : ["reskillable:mining|16", "reskillable:gathering|11", "compatskills:technology|12"],
-   //sodalite dust
+   //Sodalite dust
    <techreborn:dust:48> : ["reskillable:mining|21", "reskillable:gathering|13", "compatskills:technology|17", "reskillable:magic|10"],
-   //sphalerite dust
+   //Sphalerite dust
    <techreborn:dust:50> : ["reskillable:mining|16", "reskillable:gathering|11", "compatskills:technology|12"],
 
    //Galena Ore
@@ -73,7 +73,7 @@ static baseValues as string[][IItemStack] = {
    <techreborn:ore:4> : ["reskillable:mining|10"],
    //Tungsten Ore
    <techreborn:ore:8> : ["reskillable:mining|17", "reskillable:magic|13", "reskillable:defense|11"],
-   //sheldonite ore
+   //Sheldonite ore
    <techreborn:ore:9> : ["reskillable:mining|10", "reskillable:magic|5"],
    //Lead Ore
    <techreborn:ore:12> : ["reskillable:mining|10", "compatskills:smithing|13", "reskillable:magic|12", "reskillable:defense|16"],

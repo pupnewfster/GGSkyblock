@@ -211,7 +211,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "compatskills:smithing|5",
+            "2:8": "reskillable:magic|7"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "6:10": {
@@ -307,7 +317,16 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|3",
+            "1:8": "reskillable:gathering|3"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "8:10": {
@@ -566,7 +585,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "reskillable:gathering|8",
+            "2:8": "reskillable:magic|12"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "12:10": {
@@ -598,7 +627,21 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|20",
+            "1:8": "reskillable:gathering|15",
+            "2:8": "compatskills:smithing|21",
+            "3:8": "reskillable:agility|9",
+            "4:8": "reskillable:magic|5",
+            "5:8": "reskillable:attack|5",
+            "6:8": "reskillable:defense|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "13:10": {
@@ -630,7 +673,19 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|22",
+            "1:8": "reskillable:gathering|18",
+            "2:8": "compatskills:smithing|24",
+            "3:8": "reskillable:agility|9",
+            "4:8": "reskillable:magic|14"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "14:10": {
@@ -662,7 +717,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "reskillable:gathering|6",
+            "2:8": "compatskills:smithing|5",
+            "3:8": "compatskills:technology|7"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "15:10": {
@@ -822,7 +888,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|15",
+            "1:8": "reskillable:gathering|8",
+            "2:8": "compatskills:smithing|9",
+            "3:8": "reskillable:attack|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "19:10": {
@@ -854,7 +931,16 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|5",
+            "1:8": "compatskills:smithing|3"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "20:10": {
@@ -886,7 +972,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|16",
+            "1:8": "reskillable:gathering|8",
+            "2:8": "compatskills:smithing|21",
+            "3:8": "compatskills:technology|21"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "21:10": {
@@ -918,7 +1015,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|7",
+            "1:8": "compatskills:smithing|9",
+            "2:8": "compatskills:technology|17"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "22:10": {
@@ -950,7 +1057,16 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|5",
+            "1:8": "compatskills:smithing|3"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "23:10": {
@@ -1252,7 +1368,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|7",
+            "1:8": "compatskills:smithing|7",
+            "2:8": "compatskills:technology|13"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "32:10": {
@@ -1284,7 +1410,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|7",
+            "1:8": "compatskills:smithing|6",
+            "2:8": "reskillable:agility|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "33:10": {
@@ -1316,7 +1452,15 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "34:10": {
@@ -1348,7 +1492,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|22",
+            "1:8": "compatskills:smithing|24",
+            "2:8": "compatskills:technology|42"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "35:10": {
@@ -1380,7 +1534,19 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|20",
+            "1:8": "reskillable:gathering|15",
+            "2:8": "compatskills:smithing|21",
+            "3:8": "reskillable:agility|9",
+            "4:8": "reskillable:magic|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "36:10": {
@@ -1412,7 +1578,19 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|20",
+            "1:8": "reskillable:gathering|15",
+            "2:8": "compatskills:smithing|21",
+            "3:8": "reskillable:agility|9",
+            "4:8": "reskillable:magic|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "37:10": {
@@ -2992,7 +3170,15 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "71:10": {
@@ -3024,7 +3210,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|16",
+            "1:8": "reskillable:gathering|11",
+            "2:8": "compatskills:technology|12"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "72:10": {
@@ -3056,7 +3252,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|16",
+            "1:8": "reskillable:gathering|11",
+            "2:8": "compatskills:technology|12"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "73:10": {
@@ -3088,7 +3294,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|17",
+            "1:8": "reskillable:magic|13",
+            "2:8": "reskillable:defense|11"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "74:10": {
@@ -3120,7 +3336,19 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|20",
+            "1:8": "reskillable:gathering|15",
+            "2:8": "compatskills:smithing|21",
+            "3:8": "reskillable:agility|9",
+            "4:8": "reskillable:magic|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "75:10": {
@@ -3152,7 +3380,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "compatskills:smithing|13",
+            "2:8": "reskillable:magic|12",
+            "3:8": "reskillable:defense|16"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "76:10": {
@@ -3184,7 +3423,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|5",
+            "1:8": "reskillable:gathering|9",
+            "2:8": "compatskills:smithing|13",
+            "3:8": "reskillable:magic|13"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "77:10": {
@@ -3216,7 +3466,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|32",
+            "1:8": "compatskills:smithing|35",
+            "2:8": "reskillable:attack|10"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "78:10": {
@@ -3248,7 +3508,16 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "reskillable:magic|5"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "79:10": {
@@ -3280,7 +3549,18 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|21",
+            "1:8": "reskillable:gathering|13",
+            "2:8": "compatskills:technology|17",
+            "3:8": "reskillable:magic|10"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "80:10": {
@@ -3312,7 +3592,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "compatskills:smithing|16",
+            "2:8": "reskillable:magic|8"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "81:10": {
@@ -3344,7 +3634,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|10",
+            "1:8": "compatskills:smithing|13",
+            "2:8": "reskillable:magic|12"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "82:10": {
@@ -3376,7 +3676,17 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:mining|32",
+            "1:8": "compatskills:smithing|35",
+            "2:8": "reskillable:attack|10"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
       "rewards:9": {}
     },
     "83:10": {
