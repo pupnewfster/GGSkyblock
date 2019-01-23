@@ -11,7 +11,7 @@ recipes.addShaped("CTCreativeStorage", <appliedenergistics2:creative_storage_cel
 
 //Energy
 var creativeCube = <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}) as IItemStack;
-recipes.addShaped("CTCreativeEnergy", creativeCube, [[<mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_neutronium>, <appliedenergistics2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0, internalCurrentPower: 1600000.0})], [<extendedcrafting:singularity_custom:1>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_custom>], [<mekanismgenerators:reactor>, <extendedcrafting:singularity_custom:2>, <techreborn:fusion_control_computer>]]);
+recipes.addShaped("CTCreativeEnergy", creativeCube, [[<mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_infinity>, <appliedenergistics2:dense_energy_cell>.withTag({internalMaxPower: 1600000.0, internalCurrentPower: 1600000.0})], [<extendedcrafting:singularity_custom:1>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_custom>], [<mekanismgenerators:reactor>, <extendedcrafting:singularity_custom:2>, <techreborn:fusion_control_computer>]]);
 
 recipes.addShapeless("CTCreativeCapacitor", <enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}), [creativeCube]);
 recipes.addShapeless("CTCreativeCell", <appliedenergistics2:creative_energy_cell>, [<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})]);

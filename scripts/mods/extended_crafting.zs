@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 
+import mods.extendedcrafting.TableCrafting;
+
 mods.jei.JEI.hide(<extendedcrafting:crafting_table>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:lamp>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:lamp:1>);
@@ -41,9 +43,9 @@ recipes.removeByRecipeName("extendedcrafting:block_of_luminessence_from");
 
 recipes.remove(<extendedcrafting:material:24>);
 
-mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+TableCrafting.remove(<extendedcrafting:material:24>);
 
-mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:material:24>, [
+TableCrafting.addShaped(<extendedcrafting:material:24>, [
 [<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], 
 [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], 
 [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], 
@@ -61,7 +63,7 @@ var catalyst = <avaritia:resource:5> as IItemStack;
 var crystal = <avaritia:resource:1> as IItemStack;
 var nugget = <avaritia:resource:3> as IItemStack;
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_helmet>, [
+TableCrafting.addShaped(<avaritia:infinity_helmet>, [
 [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null],
 [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
 [null, neutronium, null, catalyst, infinity, catalyst, null, neutronium, null],
@@ -70,7 +72,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_helmet>, [
 [null, neutronium, infinity, null, infinity, null, infinity, neutronium, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
+TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
 [null, neutronium, neutronium, null, null, null, neutronium, neutronium, null],
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
@@ -82,7 +84,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
 [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_pants>, [
+TableCrafting.addShaped(<avaritia:infinity_pants>, [
 [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium],
 [neutronium, infinity, infinity, infinity, singularity, infinity, infinity, infinity, neutronium],
 [neutronium, infinity, neutronium, neutronium, <extendedcrafting:singularity_custom:3>, neutronium, neutronium, infinity, neutronium],
@@ -94,7 +96,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_pants>, [
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_boots>, [
+TableCrafting.addShaped(<avaritia:infinity_boots>, [
 [null, neutronium, neutronium, neutronium, singularity, neutronium, neutronium, neutronium, null],
 [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
 [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
@@ -103,7 +105,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_boots>, [
 [neutronium, neutronium, neutronium, neutronium, null, neutronium, neutronium, neutronium, neutronium]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_shovel>, [
+TableCrafting.addShaped(<avaritia:infinity_shovel>, [
 [null, null, null, null, null, null, infinity, infinity, infinity],
 [null, null, null, null, null, infinity, infinity, singularity, infinity],
 [null, null, null, null, null, null, infinity, infinity, infinity],
@@ -115,7 +117,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_shovel>, [
 [neutronium, null, null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_axe>, [
+TableCrafting.addShaped(<avaritia:infinity_axe>, [
 [null, null, null, infinity, null, null, null, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, null, null],
 [null, null, null, infinity, infinity, infinity, infinity, null, null],
@@ -127,7 +129,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_axe>, [
 [null, null, null, null, null, null, neutronium, null, null],
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_pickaxe>, [
+TableCrafting.addShaped(<avaritia:infinity_pickaxe>, [
 [null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
 [infinity, infinity, infinity, infinity, singularity, infinity, infinity, infinity, infinity],
 [infinity, infinity, null, null, neutronium, null, null, infinity, infinity],
@@ -139,7 +141,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_pickaxe>, [
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_hoe>, [
+TableCrafting.addShaped(<avaritia:infinity_hoe>, [
 [null, null, null, null, null, null, singularity, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, infinity, null],
 [null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
@@ -151,7 +153,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_hoe>, [
 [null, null, null, null, null, null, neutronium, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_sword>, [
+TableCrafting.addShaped(<avaritia:infinity_sword>, [
 [null, null, null, null, null, null, null, infinity, infinity],
 [null, null, null, null, null, null, infinity, infinity, infinity],
 [null, null, null, null, null, infinity, infinity, infinity, null],
@@ -163,7 +165,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_sword>, [
 [singularity, null, null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_bow>, [
+TableCrafting.addShaped(<avaritia:infinity_bow>, [
 [null, null, null, infinity, infinity, null, null, null, null],
 [null, null, infinity, null, <ore:blockWool>, null, null, null, null],
 [null, infinity, null, null, <ore:blockWool>, null, null, null, null],
@@ -175,7 +177,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_bow>, [
 [null, null, null, infinity, infinity, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritiatweaks:enhancement_crystal>, [
+TableCrafting.addShaped(<avaritiatweaks:enhancement_crystal>, [
 [null, null, null, null, neutronium, null, null, null, null],
 [null, null, null, neutronium, crystal, neutronium, null, null, null],
 [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
@@ -187,7 +189,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritiatweaks:enhancement_crysta
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<botania:specialflower>.withTag({type: "asgardandelion"}), [
+TableCrafting.addShaped(<botania:specialflower>.withTag({type: "asgardandelion"}), [
 [null, null, null, infinity, infinity, infinity, null, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, null, null],
 [null, null, infinity, infinity, singularity, infinity, infinity, null, null],
@@ -199,7 +201,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<botania:specialflower>.withTag({t
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritiatweaks:infinitato>, [
+TableCrafting.addShaped(<avaritiatweaks:infinitato>, [
 [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
 [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
 [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
@@ -211,7 +213,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritiatweaks:infinitato>, [
 [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:neutron_collector>, [
+TableCrafting.addShaped(<avaritia:neutron_collector>, [
 [<ore:blockIron>, <ore:blockIron>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockIron>, <ore:blockIron>], 
 [<ore:blockIron>, null, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, null, <ore:blockIron>], 
 [<ore:blockIron>, null, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, null, <ore:blockIron>], 
@@ -223,19 +225,19 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:neutron_collector>, [
 [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:neutronium_compressor>, [
+TableCrafting.addShaped(<avaritia:neutronium_compressor>, [
 [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>], 
 [crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
 [<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], 
 [crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
-[<ore:blockRedstone>, neutronium, neutronium, null, <ore:blockCosmicNeutronium>, null, neutronium, neutronium, <ore:blockRedstone>], 
+[<ore:blockRedstone>, neutronium, neutronium, null, <avaritia:block_resource>, null, neutronium, neutronium, <ore:blockRedstone>], 
 [crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
 [<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], 
 [crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
 [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:endest_pearl>, [
+TableCrafting.addShaped(<avaritia:endest_pearl>, [
 [null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null], 
 [null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], 
 [null, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, null], 
@@ -247,7 +249,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:endest_pearl>, [
 [null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:6>, [
+TableCrafting.addShaped(<avaritia:resource:6>, [
 [null, null, null, null, null, null, null, null, null], 
 [null, null, null, null, null, null, null, null, null], 
 [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], 
@@ -259,7 +261,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:6>, [
 [null, null, null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:skullfire_sword>, [
+TableCrafting.addShaped(<avaritia:skullfire_sword>, [
 [null, null, null, null, null, null, null, crystal, <ore:powderBlaze>], 
 [null, null, null, null, null, null, crystal, <ore:powderBlaze>, crystal], 
 [null, null, null, null, null, crystal, <ore:powderBlaze>, crystal, null], 
@@ -271,11 +273,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:skullfire_sword>, [
 [<ore:netherStar>, null, null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(<avaritia:ultimate_stew>, [<avaritia:resource:2>, <ore:cropWheat>, <ore:cropCarrot>, <ore:cropPotato>, <ore:blockCactus>, <ore:cropMushroomRed>, <ore:cropMushroomBrown>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:cropFlax>, <ore:cropCoffee>]);
+TableCrafting.addShapeless(<avaritia:ultimate_stew>, [<avaritia:resource:2>, <ore:cropWheat>, <ore:cropCarrot>, <ore:cropPotato>, <ore:blockCactus>, <ore:cropMushroomRed>, <ore:cropMushroomBrown>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:cropFlax>, <ore:cropCoffee>]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(<avaritia:cosmic_meatballs>, [<avaritia:resource:2>, <minecraft:beef>, <minecraft:beef>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:porkchop>, <minecraft:rabbit>, <minecraft:rabbit>, <ore:fish>, <ore:fish>]);
+TableCrafting.addShapeless(<avaritia:cosmic_meatballs>, [<avaritia:resource:2>, <minecraft:beef>, <minecraft:beef>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:porkchop>, <minecraft:rabbit>, <minecraft:rabbit>, <ore:fish>, <ore:fish>]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(catalyst, [<avaritia:resource>, crystal, <avaritia:resource:2>, <avaritia:resource:3>, neutronium, <avaritia:ultimate_stew>, <avaritia:cosmic_meatballs>, <avaritia:endest_pearl>, <avaritia:resource:7>, <avaritia:singularity>, <avaritia:singularity:1>, <avaritia:singularity:2>, <avaritia:singularity:3>, <avaritia:singularity:4>, <avaritia:singularity:10>, <avaritia:singularity:11>, <avaritia:singularity:5>, <avaritia:singularity:6>, <avaritia:singularity:7>, <avaritia:singularity:8>, <avaritia:singularity:9>, <ore:blockSteel>, <ore:blockDarkSteel>, <avaritia:singularity:13>, <avaritia:singularity:14>, <ore:singularityArdite>, <ore:singularityAstralStarmetal>, <ore:singularityCobalt>, <ore:singularityOsmium>, <ore:singularityTungsten>, <ore:singularityAmber>, <ore:singularityAquamarine>, <ore:singularityCertusQuartz>, <ore:singularityCoal>, <ore:singularityPeridot>, <ore:singularityQuartzBlack>, <ore:singularityRuby>, <ore:singularitySapphire>, <ore:singularityBauxite>, <ore:singularityCinnabar>, <ore:singularityGalena>, <ore:singularityPyrite>, <ore:singularitySodalite>, <ore:singularitySphalerite>]);
+TableCrafting.addShapeless(catalyst, [<avaritia:resource>, crystal, <avaritia:resource:2>, <avaritia:resource:3>, neutronium, <avaritia:ultimate_stew>, <avaritia:cosmic_meatballs>, <avaritia:endest_pearl>, <avaritia:resource:7>, <avaritia:singularity>, <avaritia:singularity:1>, <avaritia:singularity:2>, <avaritia:singularity:3>, <avaritia:singularity:4>, <avaritia:singularity:10>, <avaritia:singularity:11>, <avaritia:singularity:5>, <avaritia:singularity:6>, <avaritia:singularity:7>, <avaritia:singularity:8>, <avaritia:singularity:9>, <ore:blockSteel>, <ore:blockDarkSteel>, <avaritia:singularity:13>, <avaritia:singularity:14>, <ore:singularityArdite>, <ore:singularityAstralStarmetal>, <ore:singularityCobalt>, <ore:singularityOsmium>, <ore:singularityTungsten>, <ore:singularityAmber>, <ore:singularityAquamarine>, <ore:singularityCertusQuartz>, <ore:singularityCoal>, <ore:singularityPeridot>, <ore:singularityQuartzBlack>, <ore:singularityRuby>, <ore:singularitySapphire>, <ore:singularityBauxite>, <ore:singularityCinnabar>, <ore:singularityGalena>, <ore:singularityPyrite>, <ore:singularitySodalite>, <ore:singularitySphalerite>]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<solarflux:solar_panel_neutronium> * 2, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [null, <solarflux:solar_panel_8>, nugget, <avaritia:resource:2>, singularity, <avaritia:resource:2>, nugget, <solarflux:solar_panel_8>, null], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);
+TableCrafting.addShaped(<solarflux:solar_panel_neutronium> * 2, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [null, <solarflux:solar_panel_8>, nugget, <avaritia:resource:2>, singularity, <avaritia:resource:2>, nugget, <solarflux:solar_panel_8>, null], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);
+
+TableCrafting.addShaped(<solarflux:solar_panel_infinity>, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <avaritia:block_resource>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, <avaritia:resource:3>, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <extendedcrafting:singularity_custom:4>, <avaritia:resource:2>, null, crystal, neutronium], [null, <avaritia:block_resource>, <avaritia:resource:3>, <extendedcrafting:singularity_custom:3>, <solarflux:solar_panel_neutronium>, <extendedcrafting:singularity_custom:1>, <avaritia:resource:3>, <avaritia:block_resource>, null], [neutronium, crystal, null, <avaritia:resource:2>, <extendedcrafting:singularity_custom:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, <avaritia:resource:3>, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <avaritia:block_resource>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);

@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.avaritia.ExtremeCrafting;
 
 <extendedcrafting:singularity_ultimate>.displayName = "Infinity Singularity";
 mods.avaritia.Compressor.add("CTInfinitySingularity", <extendedcrafting:singularity_ultimate>, 100000, <avaritia:block_resource:1>);
@@ -18,8 +19,8 @@ var catalyst = <avaritia:resource:5> as IItemStack;
 var crystal = <avaritia:resource:1> as IItemStack;
 var nugget = <avaritia:resource:3> as IItemStack;
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityHelmet", <avaritia:infinity_helmet>, [
+ExtremeCrafting.remove(<avaritia:infinity_helmet>);
+ExtremeCrafting.addShaped("CTInfinityHelmet", <avaritia:infinity_helmet>, [
 [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null],
 [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
 [null, neutronium, null, catalyst, infinity, catalyst, null, neutronium, null],
@@ -28,8 +29,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityHelmet", <avaritia:infinity_h
 [null, neutronium, infinity, null, infinity, null, infinity, neutronium, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityChestplate", <avaritia:infinity_chestplate>, [
+ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
+ExtremeCrafting.addShaped("CTInfinityChestplate", <avaritia:infinity_chestplate>, [
 [null, neutronium, neutronium, null, null, null, neutronium, neutronium, null],
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
@@ -41,8 +42,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityChestplate", <avaritia:infini
 [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pants>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityLeggings", <avaritia:infinity_pants>, [
+ExtremeCrafting.remove(<avaritia:infinity_pants>);
+ExtremeCrafting.addShaped("CTInfinityLeggings", <avaritia:infinity_pants>, [
 [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium],
 [neutronium, infinity, infinity, infinity, singularity, infinity, infinity, infinity, neutronium],
 [neutronium, infinity, neutronium, neutronium, <extendedcrafting:singularity_custom:3>, neutronium, neutronium, infinity, neutronium],
@@ -54,8 +55,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityLeggings", <avaritia:infinity
 [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_boots>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityBoots", <avaritia:infinity_boots>, [
+ExtremeCrafting.remove(<avaritia:infinity_boots>);
+ExtremeCrafting.addShaped("CTInfinityBoots", <avaritia:infinity_boots>, [
 [null, neutronium, neutronium, neutronium, singularity, neutronium, neutronium, neutronium, null],
 [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
 [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
@@ -64,8 +65,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityBoots", <avaritia:infinity_bo
 [neutronium, neutronium, neutronium, neutronium, null, neutronium, neutronium, neutronium, neutronium]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_shovel>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityShovel", <avaritia:infinity_shovel>, [
+ExtremeCrafting.remove(<avaritia:infinity_shovel>);
+ExtremeCrafting.addShaped("CTInfinityShovel", <avaritia:infinity_shovel>, [
 [null, null, null, null, null, null, infinity, infinity, infinity],
 [null, null, null, null, null, infinity, infinity, singularity, infinity],
 [null, null, null, null, null, null, infinity, infinity, infinity],
@@ -77,8 +78,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityShovel", <avaritia:infinity_s
 [neutronium, null, null, null, null, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityAxe", <avaritia:infinity_axe>, [
+ExtremeCrafting.remove(<avaritia:infinity_axe>);
+ExtremeCrafting.addShaped("CTInfinityAxe", <avaritia:infinity_axe>, [
 [null, null, null, infinity, null, null, null, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, null, null],
 [null, null, null, infinity, infinity, infinity, infinity, null, null],
@@ -90,8 +91,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityAxe", <avaritia:infinity_axe>
 [null, null, null, null, null, null, neutronium, null, null],
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pickaxe>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityPick", <avaritia:infinity_pickaxe>, [
+ExtremeCrafting.remove(<avaritia:infinity_pickaxe>);
+ExtremeCrafting.addShaped("CTInfinityPick", <avaritia:infinity_pickaxe>, [
 [null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
 [infinity, infinity, infinity, infinity, singularity, infinity, infinity, infinity, infinity],
 [infinity, infinity, null, null, neutronium, null, null, infinity, infinity],
@@ -103,8 +104,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityPick", <avaritia:infinity_pic
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityHoe", <avaritia:infinity_hoe>, [
+ExtremeCrafting.remove(<avaritia:infinity_hoe>);
+ExtremeCrafting.addShaped("CTInfinityHoe", <avaritia:infinity_hoe>, [
 [null, null, null, null, null, null, singularity, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, infinity, null],
 [null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
@@ -116,8 +117,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityHoe", <avaritia:infinity_hoe>
 [null, null, null, null, null, null, neutronium, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_sword>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinitySword", <avaritia:infinity_sword>, [
+ExtremeCrafting.remove(<avaritia:infinity_sword>);
+ExtremeCrafting.addShaped("CTInfinitySword", <avaritia:infinity_sword>, [
 [null, null, null, null, null, null, null, infinity, infinity],
 [null, null, null, null, null, null, infinity, infinity, infinity],
 [null, null, null, null, null, infinity, infinity, infinity, null],
@@ -129,8 +130,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinitySword", <avaritia:infinity_sw
 [singularity, null, null, null, null, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_bow>);
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityBow", <avaritia:infinity_bow>, [
+ExtremeCrafting.remove(<avaritia:infinity_bow>);
+ExtremeCrafting.addShaped("CTInfinityBow", <avaritia:infinity_bow>, [
 [null, null, null, infinity, infinity, null, null, null, null],
 [null, null, infinity, null, <minecraft:wool>, null, null, null, null],
 [null, infinity, null, null, <minecraft:wool>, null, null, null, null],
@@ -142,8 +143,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityBow", <avaritia:infinity_bow>
 [null, null, null, infinity, infinity, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritiatweaks:enhancement_crystal>);
-mods.avaritia.ExtremeCrafting.addShaped("CTEnhancementCrystal", <avaritiatweaks:enhancement_crystal>, [
+ExtremeCrafting.remove(<avaritiatweaks:enhancement_crystal>);
+ExtremeCrafting.addShaped("CTEnhancementCrystal", <avaritiatweaks:enhancement_crystal>, [
 [null, null, null, null, neutronium, null, null, null, null],
 [null, null, null, neutronium, crystal, neutronium, null, null, null],
 [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
@@ -155,8 +156,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTEnhancementCrystal", <avaritiatweaks:
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<botania:specialflower>.withTag({type: "asgardandelion"}));
-mods.avaritia.ExtremeCrafting.addShaped("CTInfinityFlower", <botania:specialflower>.withTag({type: "asgardandelion"}), [
+ExtremeCrafting.remove(<botania:specialflower>.withTag({type: "asgardandelion"}));
+ExtremeCrafting.addShaped("CTInfinityFlower", <botania:specialflower>.withTag({type: "asgardandelion"}), [
 [null, null, null, infinity, infinity, infinity, null, null, null],
 [null, null, infinity, infinity, infinity, infinity, infinity, null, null],
 [null, null, infinity, infinity, singularity, infinity, infinity, null, null],
@@ -168,5 +169,8 @@ mods.avaritia.ExtremeCrafting.addShaped("CTInfinityFlower", <botania:specialflow
 [null, null, null, null, neutronium, null, null, null, null]
 ]);
 
-mods.avaritia.ExtremeCrafting.remove(<solarflux:solar_panel_neutronium>);
-mods.avaritia.ExtremeCrafting.addShaped("CTNeutroniumPanel", <solarflux:solar_panel_neutronium> * 2, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [null, <solarflux:solar_panel_8>, nugget, <avaritia:resource:2>, singularity, <avaritia:resource:2>, nugget, <solarflux:solar_panel_8>, null], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);
+ExtremeCrafting.remove(<solarflux:solar_panel_neutronium>);
+ExtremeCrafting.addShaped("CTNeutroniumPanel", <solarflux:solar_panel_neutronium> * 2, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [null, <solarflux:solar_panel_8>, nugget, <avaritia:resource:2>, singularity, <avaritia:resource:2>, nugget, <solarflux:solar_panel_8>, null], [neutronium, crystal, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, nugget, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <solarflux:solar_panel_8>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);
+
+ExtremeCrafting.remove(<solarflux:solar_panel_infinity>);
+ExtremeCrafting.addShaped("CTInfinityPanel", <solarflux:solar_panel_infinity>, [[null, null, neutronium, neutronium, null, neutronium, neutronium, null, null], [null, neutronium, crystal, crystal, <avaritia:block_resource>, crystal, crystal, neutronium, null], [neutronium, crystal, null, null, <avaritia:resource:3>, null, null, crystal, neutronium], [neutronium, crystal, null, <avaritia:resource:2>, <extendedcrafting:singularity_custom:4>, <avaritia:resource:2>, null, crystal, neutronium], [null, <avaritia:block_resource>, <avaritia:resource:3>, <extendedcrafting:singularity_custom:3>, <solarflux:solar_panel_neutronium>, <extendedcrafting:singularity_custom:1>, <avaritia:resource:3>, <avaritia:block_resource>, null], [neutronium, crystal, null, <avaritia:resource:2>, <extendedcrafting:singularity_custom:2>, <avaritia:resource:2>, null, crystal, neutronium], [neutronium, crystal, null, null, <avaritia:resource:3>, null, null, crystal, neutronium], [null, neutronium, crystal, crystal, <avaritia:block_resource>, crystal, crystal, neutronium, null], [null, null, neutronium, neutronium, null, neutronium, neutronium, null, null]]);
