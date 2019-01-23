@@ -1408,7 +1408,9 @@
     },
     "23:10": {
       "questID:3": 23,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        20
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2368,7 +2370,9 @@
     },
     "40:10": {
       "questID:3": 40,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        38
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2579,7 +2583,9 @@
     },
     "44:10": {
       "questID:3": 44,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        40
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2775,7 +2781,9 @@
     },
     "48:10": {
       "questID:3": 48,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        44
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3007,7 +3015,9 @@
     },
     "53:10": {
       "questID:3": 53,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        206
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3321,7 +3331,9 @@
     },
     "59:10": {
       "questID:3": 59,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        213
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -9640,7 +9652,7 @@
     "174:10": {
       "questID:3": 174,
       "preRequisites:11": [
-        24
+        212
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10717,7 +10729,9 @@
     },
     "195:10": {
       "questID:3": 195,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        212
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -10765,7 +10779,9 @@
     },
     "196:10": {
       "questID:3": 196,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        213
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11313,7 +11329,9 @@
     },
     "207:10": {
       "questID:3": 207,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        38
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11502,6 +11520,1020 @@
         }
       },
       "rewards:9": {}
+    },
+    "211:10": {
+      "questID:3": 211,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_simple_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Simple Processing",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_simple_alloy_smelter",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "enderio:block_simple_sag_mill",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "212:10": {
+      "questID:3": 212,
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:inscriber",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Inscribing Circuits",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:inscriber",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 13
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 14
+            },
+            "3:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 15
+            },
+            "4:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 19
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "213:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        211
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Faster Processing",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_alloy_smelter",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "enderio:block_sag_mill",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "214:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        83
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_farm_station",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Automated Farming",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_farm_station",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "215:10": {
+      "questID:3": 215,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_slice_and_splice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Slicing and Splicing",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_slice_and_splice",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "216:10": {
+      "questID:3": 216,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_soul_binder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Binding Souls",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_soul_binder",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:machineblock3",
+            "Count:3": 1,
+            "tag:10": {
+              "mekData:10": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Quantum Entangloptation",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock3",
+              "Count:3": 2,
+              "tag:10": {
+                "mekData:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "218:10": {
+      "questID:3": 218,
+      "preRequisites:11": [
+        219
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_empowerer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Empowering",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_empowerer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "actuallyadditions:block_display_stand",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "219:10": {
+      "questID:3": 219,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_atomic_reconstructor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Atomic Reconstruction",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_atomic_reconstructor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        219
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyaddon:advanced_reconstructor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Advanced Reconstruction",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyaddon:advanced_reconstructor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "221:10": {
+      "questID:3": 221,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:tierinstaller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Basic Installation",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:tierinstaller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "222:10": {
+      "questID:3": 222,
+      "preRequisites:11": [
+        221
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:tierinstaller",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Advanced Installation",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:tierinstaller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "223:10": {
+      "questID:3": 223,
+      "preRequisites:11": [
+        222
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:tierinstaller",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Elite Installation",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:tierinstaller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "224:10": {
+      "questID:3": 224,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:machineblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Metallurgic Infusing",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 8
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "225:10": {
+      "questID:3": 225,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:machineblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Enrichment Chamber",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:machineblock",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        225,
+        224
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:compressedredstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Enrichment Efficiency",
+          "desc:8": "Compress items in the Enrichment Chamber to make them a lot more efficient in the Metallurgic Infuser."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:compressedcarbon",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "mekanism:compressedredstone",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "227:10": {
+      "questID:3": 227,
+      "preRequisites:11": [
+        224
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:enrichedalloy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Enriched Alloy",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:enrichedalloy",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "228:10": {
+      "questID:3": 228,
+      "preRequisites:11": [
+        227
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:reinforcedalloy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Reinforced Alloy",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:reinforcedalloy",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "229:10": {
+      "questID:3": 229,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:atomicalloy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Atomic Alloy",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:atomicalloy",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -11607,56 +12639,56 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -234,
-          "y:3": -126,
+          "x:3": -258,
+          "y:3": -66,
           "id:3": 23
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -204,
-          "y:3": -126,
+          "x:3": -228,
+          "y:3": -66,
           "id:3": 24
         },
         "2:10": {
           "size:3": 24,
-          "x:3": -234,
-          "y:3": -96,
+          "x:3": -186,
+          "y:3": -156,
           "id:3": 53
         },
         "3:10": {
           "size:3": 24,
-          "x:3": -204,
-          "y:3": -96,
+          "x:3": -186,
+          "y:3": -126,
           "id:3": 54
         },
         "4:10": {
           "size:3": 24,
-          "x:3": -234,
-          "y:3": -66,
+          "x:3": -216,
+          "y:3": -156,
           "id:3": 55
         },
         "5:10": {
           "size:3": 24,
-          "x:3": -156,
-          "y:3": -126,
+          "x:3": -126,
+          "y:3": -96,
           "id:3": 57
         },
         "6:10": {
           "size:3": 24,
-          "x:3": -126,
-          "y:3": -126,
+          "x:3": -96,
+          "y:3": -96,
           "id:3": 58
         },
         "7:10": {
           "size:3": 24,
-          "x:3": -156,
-          "y:3": -96,
+          "x:3": -126,
+          "y:3": -156,
           "id:3": 59
         },
         "8:10": {
           "size:3": 24,
-          "x:3": -156,
-          "y:3": -66,
+          "x:3": -126,
+          "y:3": -36,
           "id:3": 60
         },
         "9:10": {
@@ -11667,75 +12699,147 @@
         },
         "10:10": {
           "size:3": 24,
-          "x:3": -126,
+          "x:3": -96,
           "y:3": -36,
           "id:3": 194
         },
         "11:10": {
           "size:3": 24,
-          "x:3": -234,
-          "y:3": -156,
+          "x:3": -258,
+          "y:3": -96,
           "id:3": 195
         },
         "12:10": {
           "size:3": 24,
-          "x:3": -78,
-          "y:3": -126,
+          "x:3": -66,
+          "y:3": -96,
           "id:3": 199
         },
         "13:10": {
           "size:3": 24,
-          "x:3": -78,
-          "y:3": -96,
+          "x:3": -66,
+          "y:3": -66,
           "id:3": 200
         },
         "14:10": {
           "size:3": 24,
-          "x:3": -78,
-          "y:3": -66,
+          "x:3": -66,
+          "y:3": -36,
           "id:3": 201
         },
         "15:10": {
           "size:3": 24,
           "x:3": -156,
-          "y:3": -162,
+          "y:3": -186,
           "id:3": 202
         },
         "16:10": {
           "size:3": 24,
           "x:3": -126,
-          "y:3": -162,
+          "y:3": -186,
           "id:3": 203
         },
         "17:10": {
           "size:3": 24,
           "x:3": -96,
-          "y:3": -162,
+          "y:3": -186,
           "id:3": 204
         },
         "18:10": {
           "size:3": 24,
           "x:3": -66,
-          "y:3": -162,
+          "y:3": -186,
           "id:3": 205
         },
         "19:10": {
           "size:3": 24,
           "x:3": -186,
-          "y:3": -162,
+          "y:3": -186,
           "id:3": 206
         },
         "20:10": {
           "size:3": 24,
-          "x:3": -210,
-          "y:3": -36,
+          "x:3": -66,
+          "y:3": -156,
           "id:3": 209
         },
         "21:10": {
           "size:3": 24,
-          "x:3": -180,
-          "y:3": -36,
+          "x:3": -96,
+          "y:3": -156,
           "id:3": 210
+        },
+        "22:10": {
+          "size:3": 24,
+          "x:3": -228,
+          "y:3": -96,
+          "id:3": 212
+        },
+        "23:10": {
+          "size:3": 24,
+          "x:3": -96,
+          "y:3": -66,
+          "id:3": 214
+        },
+        "24:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -66,
+          "id:3": 215
+        },
+        "25:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -36,
+          "id:3": 216
+        },
+        "26:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -156,
+          "id:3": 217
+        },
+        "27:10": {
+          "size:3": 24,
+          "x:3": -192,
+          "y:3": -36,
+          "id:3": 218
+        },
+        "28:10": {
+          "size:3": 24,
+          "x:3": -192,
+          "y:3": -66,
+          "id:3": 220
+        },
+        "29:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": -156,
+          "id:3": 221
+        },
+        "30:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": -156,
+          "id:3": 222
+        },
+        "31:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": -156,
+          "id:3": 223
+        },
+        "32:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": -126,
+          "id:3": 228
+        },
+        "33:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": -126,
+          "id:3": 229
         }
       },
       "lineID:3": 1,
@@ -11759,69 +12863,111 @@
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 30,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": 36,
           "id:3": 40
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": 36,
+          "x:3": 60,
+          "y:3": -24,
           "id:3": 41
         },
         "3:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": -54,
           "id:3": 42
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 78,
-          "y:3": 36,
+          "x:3": 0,
+          "y:3": 66,
           "id:3": 44
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 60,
+          "x:3": 30,
+          "y:3": -24,
           "id:3": 47
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 78,
-          "y:3": 60,
+          "x:3": 0,
+          "y:3": 96,
           "id:3": 48
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": 6,
           "id:3": 196
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": 36,
           "id:3": 197
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": 66,
           "id:3": 198
         },
         "10:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": -24,
           "id:3": 207
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 150,
-          "y:3": 6,
+          "x:3": 60,
+          "y:3": 36,
           "id:3": 208
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": 6,
+          "id:3": 211
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": 6,
+          "id:3": 213
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": -24,
+          "id:3": 219
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": -54,
+          "y:3": 36,
+          "id:3": 224
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": -54,
+          "y:3": 6,
+          "id:3": 225
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": -96,
+          "y:3": 18,
+          "id:3": 226
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": -54,
+          "y:3": 66,
+          "id:3": 227
         }
       },
       "lineID:3": 3,
