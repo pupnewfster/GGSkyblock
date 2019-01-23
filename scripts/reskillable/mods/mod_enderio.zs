@@ -17,6 +17,8 @@ addRequirement(<enderio:block_xp_vacuum>, "trait|compatskills:wireless");
 addRequirement(<enderio:block_dialing_device>, "compatskills:technology|13");
 addRequirement(<enderio:item_liquid_conduit:1>, "compatskills:technology|26");
 addRequirement(<enderio:item_liquid_conduit:2>, "compatskills:technology|39");
+addRequirement(<enderio:item_gas_conduit:1>, "compatskills:technology|26");
+addRequirement(<enderio:item_gas_conduit:2>, "compatskills:technology|39");
 addRequirement(<enderio:item_me_conduit>, "compatskills:technology|33");
 addRequirement(<enderio:item_me_conduit:1>, "compatskills:technology|33");
 
