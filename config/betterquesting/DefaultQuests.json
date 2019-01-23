@@ -2453,7 +2453,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Wrench Please.",
-          "desc:8": "Wrench is useful for picking up the tech reborn machines."
+          "desc:8": "A wrench is useful for picking up the tech reborn machines."
         }
       },
       "tasks:9": {
@@ -2921,6 +2921,505 @@
       "rewards:9": {}
     },
     "51:10": {
+      "questID:3": 51,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thaumcraft:salis_mundus",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Salis Mundo",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "52:10": {
+      "questID:3": 52,
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "thaumcraft:thaumonomicon",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Thaumonomicon",
+          "desc:8": "Right click a bookshelf with a piece of salis mundo to create a thaumonomicon."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:thaumonomicon",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "53:10": {
+      "questID:3": 53,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "fluxnetworks:fluxpoint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Wireless Energy",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "fluxnetworks:fluxplug",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "fluxnetworks:fluxpoint",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "54:10": {
+      "questID:3": 54,
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "fluxnetworks:fluxcontroller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Wireless Charging",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "fluxnetworks:fluxcontroller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "55:10": {
+      "questID:3": 55,
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "fluxnetworks:fluxconfigurator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Wireless Settings",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "fluxnetworks:fluxconfigurator",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "56:10": {
+      "questID:3": 56,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:experience_bottle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Knowledge is all powerful",
+          "desc:8": "Get to max level in all skills."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "requirements:9": {
+            "0:8": "reskillable:agility|256",
+            "1:8": "reskillable:attack|256",
+            "2:8": "reskillable:building|256",
+            "3:8": "reskillable:defense|256",
+            "4:8": "reskillable:farming|256",
+            "5:8": "reskillable:gathering|256",
+            "6:8": "reskillable:magic|256",
+            "7:8": "reskillable:mining|256",
+            "8:8": "compatskills:smithing|256",
+            "9:8": "compatskills:technology|256",
+            "10:8": "compatskills:taming|256"
+          },
+          "index:3": 0,
+          "taskID:8": "compatskills:req_task_factory"
+        }
+      },
+      "rewards:9": {}
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_travel_anchor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Localized Fast Travel",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_travel_anchor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        57
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "enderio:item_travel_staff",
+            "Count:3": 1,
+            "tag:10": {
+              "enderio.darksteel.upgrade.energyUpgrade:10": {
+                "level:3": 3,
+                "energy:3": 1000000
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Portable Localized Teleportation",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_travel_staff",
+              "Count:3": 1,
+              "tag:10": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "level:3": 0
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "59:10": {
+      "questID:3": 59,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_enhanced_alloy_smelter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Enhanced Machines",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_enhanced_alloy_smelter",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "enderio:block_enhanced_sag_mill",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "60:10": {
+      "questID:3": 60,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_powered_spawner",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Powered Spawning",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_powered_spawner",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "61:10": {
       "questID:3": 61,
       "preRequisites:11": [
         15
@@ -2989,7 +3488,7 @@
         }
       }
     },
-    "52:10": {
+    "62:10": {
       "questID:3": 62,
       "preRequisites:11": [
         61
@@ -3088,7 +3587,7 @@
         }
       }
     },
-    "53:10": {
+    "63:10": {
       "questID:3": 63,
       "preRequisites:11": [
         62
@@ -3154,7 +3653,7 @@
       },
       "rewards:9": {}
     },
-    "54:10": {
+    "64:10": {
       "questID:3": 64,
       "preRequisites:11": [],
       "properties:10": {
@@ -3208,7 +3707,7 @@
       },
       "rewards:9": {}
     },
-    "55:10": {
+    "65:10": {
       "questID:3": 65,
       "preRequisites:11": [],
       "properties:10": {
@@ -3238,7 +3737,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "56:10": {
+    "66:10": {
       "questID:3": 66,
       "preRequisites:11": [],
       "properties:10": {
@@ -3268,7 +3767,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "57:10": {
+    "67:10": {
       "questID:3": 67,
       "preRequisites:11": [],
       "properties:10": {
@@ -3298,7 +3797,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "58:10": {
+    "68:10": {
       "questID:3": 68,
       "preRequisites:11": [],
       "properties:10": {
@@ -3328,7 +3827,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "59:10": {
+    "69:10": {
       "questID:3": 69,
       "preRequisites:11": [
         125
@@ -3410,7 +3909,7 @@
         }
       }
     },
-    "60:10": {
+    "70:10": {
       "questID:3": 70,
       "preRequisites:11": [
         15
@@ -3467,7 +3966,7 @@
       },
       "rewards:9": {}
     },
-    "61:10": {
+    "71:10": {
       "questID:3": 71,
       "preRequisites:11": [
         15
@@ -3526,7 +4025,7 @@
       },
       "rewards:9": {}
     },
-    "62:10": {
+    "72:10": {
       "questID:3": 72,
       "preRequisites:11": [
         15
@@ -3585,7 +4084,7 @@
       },
       "rewards:9": {}
     },
-    "63:10": {
+    "73:10": {
       "questID:3": 73,
       "preRequisites:11": [
         15
@@ -3644,7 +4143,7 @@
       },
       "rewards:9": {}
     },
-    "64:10": {
+    "74:10": {
       "questID:3": 74,
       "preRequisites:11": [
         15
@@ -3705,7 +4204,7 @@
       },
       "rewards:9": {}
     },
-    "65:10": {
+    "75:10": {
       "questID:3": 75,
       "preRequisites:11": [
         15
@@ -3765,7 +4264,7 @@
       },
       "rewards:9": {}
     },
-    "66:10": {
+    "76:10": {
       "questID:3": 76,
       "preRequisites:11": [
         15
@@ -3825,7 +4324,7 @@
       },
       "rewards:9": {}
     },
-    "67:10": {
+    "77:10": {
       "questID:3": 77,
       "preRequisites:11": [
         15
@@ -3884,7 +4383,7 @@
       },
       "rewards:9": {}
     },
-    "68:10": {
+    "78:10": {
       "questID:3": 78,
       "preRequisites:11": [
         15
@@ -3942,7 +4441,7 @@
       },
       "rewards:9": {}
     },
-    "69:10": {
+    "79:10": {
       "questID:3": 79,
       "preRequisites:11": [
         15
@@ -4002,7 +4501,7 @@
       },
       "rewards:9": {}
     },
-    "70:10": {
+    "80:10": {
       "questID:3": 80,
       "preRequisites:11": [
         15
@@ -4061,7 +4560,7 @@
       },
       "rewards:9": {}
     },
-    "71:10": {
+    "81:10": {
       "questID:3": 81,
       "preRequisites:11": [
         15
@@ -4120,7 +4619,7 @@
       },
       "rewards:9": {}
     },
-    "72:10": {
+    "82:10": {
       "questID:3": 82,
       "preRequisites:11": [
         15
@@ -4179,7 +4678,7 @@
       },
       "rewards:9": {}
     },
-    "73:10": {
+    "83:10": {
       "questID:3": 83,
       "preRequisites:11": [],
       "properties:10": {
@@ -4227,7 +4726,7 @@
         }
       }
     },
-    "74:10": {
+    "84:10": {
       "questID:3": 84,
       "preRequisites:11": [
         83
@@ -4277,7 +4776,7 @@
       },
       "rewards:9": {}
     },
-    "75:10": {
+    "85:10": {
       "questID:3": 85,
       "preRequisites:11": [
         84
@@ -4327,7 +4826,7 @@
       },
       "rewards:9": {}
     },
-    "76:10": {
+    "86:10": {
       "questID:3": 86,
       "preRequisites:11": [
         85
@@ -4377,7 +4876,7 @@
       },
       "rewards:9": {}
     },
-    "77:10": {
+    "87:10": {
       "questID:3": 87,
       "preRequisites:11": [
         86
@@ -4427,7 +4926,7 @@
       },
       "rewards:9": {}
     },
-    "78:10": {
+    "88:10": {
       "questID:3": 88,
       "preRequisites:11": [
         88
@@ -4477,7 +4976,7 @@
       },
       "rewards:9": {}
     },
-    "79:10": {
+    "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
         88
@@ -4527,7 +5026,7 @@
       },
       "rewards:9": {}
     },
-    "80:10": {
+    "90:10": {
       "questID:3": 90,
       "preRequisites:11": [
         108
@@ -4577,7 +5076,7 @@
       },
       "rewards:9": {}
     },
-    "81:10": {
+    "91:10": {
       "questID:3": 91,
       "preRequisites:11": [
         109
@@ -4627,7 +5126,7 @@
       },
       "rewards:9": {}
     },
-    "82:10": {
+    "92:10": {
       "questID:3": 92,
       "preRequisites:11": [
         122
@@ -4677,7 +5176,7 @@
       },
       "rewards:9": {}
     },
-    "83:10": {
+    "93:10": {
       "questID:3": 93,
       "preRequisites:11": [
         123
@@ -4727,7 +5226,7 @@
       },
       "rewards:9": {}
     },
-    "84:10": {
+    "94:10": {
       "questID:3": 94,
       "preRequisites:11": [
         95
@@ -4777,7 +5276,7 @@
       },
       "rewards:9": {}
     },
-    "85:10": {
+    "95:10": {
       "questID:3": 95,
       "preRequisites:11": [
         96
@@ -4827,7 +5326,7 @@
       },
       "rewards:9": {}
     },
-    "86:10": {
+    "96:10": {
       "questID:3": 96,
       "preRequisites:11": [
         97
@@ -4877,7 +5376,7 @@
       },
       "rewards:9": {}
     },
-    "87:10": {
+    "97:10": {
       "questID:3": 97,
       "preRequisites:11": [
         98
@@ -4927,7 +5426,7 @@
       },
       "rewards:9": {}
     },
-    "88:10": {
+    "98:10": {
       "questID:3": 98,
       "preRequisites:11": [
         99
@@ -4977,7 +5476,7 @@
       },
       "rewards:9": {}
     },
-    "89:10": {
+    "99:10": {
       "questID:3": 99,
       "preRequisites:11": [
         93
@@ -5027,7 +5526,7 @@
       },
       "rewards:9": {}
     },
-    "90:10": {
+    "100:10": {
       "questID:3": 100,
       "preRequisites:11": [
         92
@@ -5077,7 +5576,7 @@
       },
       "rewards:9": {}
     },
-    "91:10": {
+    "101:10": {
       "questID:3": 101,
       "preRequisites:11": [
         91
@@ -5127,7 +5626,7 @@
       },
       "rewards:9": {}
     },
-    "92:10": {
+    "102:10": {
       "questID:3": 102,
       "preRequisites:11": [
         90
@@ -5177,7 +5676,7 @@
       },
       "rewards:9": {}
     },
-    "93:10": {
+    "103:10": {
       "questID:3": 103,
       "preRequisites:11": [
         89
@@ -5227,7 +5726,7 @@
       },
       "rewards:9": {}
     },
-    "94:10": {
+    "104:10": {
       "questID:3": 104,
       "preRequisites:11": [
         103
@@ -5277,7 +5776,7 @@
       },
       "rewards:9": {}
     },
-    "95:10": {
+    "105:10": {
       "questID:3": 105,
       "preRequisites:11": [
         104
@@ -5327,7 +5826,7 @@
       },
       "rewards:9": {}
     },
-    "96:10": {
+    "106:10": {
       "questID:3": 106,
       "preRequisites:11": [
         105
@@ -5377,7 +5876,7 @@
       },
       "rewards:9": {}
     },
-    "97:10": {
+    "107:10": {
       "questID:3": 107,
       "preRequisites:11": [
         106
@@ -5427,7 +5926,7 @@
       },
       "rewards:9": {}
     },
-    "98:10": {
+    "108:10": {
       "questID:3": 108,
       "preRequisites:11": [
         107
@@ -5477,7 +5976,7 @@
       },
       "rewards:9": {}
     },
-    "99:10": {
+    "109:10": {
       "questID:3": 109,
       "preRequisites:11": [
         110
@@ -5527,7 +6026,7 @@
       },
       "rewards:9": {}
     },
-    "100:10": {
+    "110:10": {
       "questID:3": 110,
       "preRequisites:11": [
         111
@@ -5577,7 +6076,7 @@
       },
       "rewards:9": {}
     },
-    "101:10": {
+    "111:10": {
       "questID:3": 111,
       "preRequisites:11": [
         112
@@ -5627,7 +6126,7 @@
       },
       "rewards:9": {}
     },
-    "102:10": {
+    "112:10": {
       "questID:3": 112,
       "preRequisites:11": [
         113
@@ -5677,7 +6176,7 @@
       },
       "rewards:9": {}
     },
-    "103:10": {
+    "113:10": {
       "questID:3": 113,
       "preRequisites:11": [
         102
@@ -5727,7 +6226,7 @@
       },
       "rewards:9": {}
     },
-    "104:10": {
+    "114:10": {
       "questID:3": 114,
       "preRequisites:11": [
         101
@@ -5777,7 +6276,7 @@
       },
       "rewards:9": {}
     },
-    "105:10": {
+    "115:10": {
       "questID:3": 115,
       "preRequisites:11": [
         100
@@ -5827,7 +6326,7 @@
       },
       "rewards:9": {}
     },
-    "106:10": {
+    "116:10": {
       "questID:3": 116,
       "preRequisites:11": [
         115
@@ -5877,7 +6376,7 @@
       },
       "rewards:9": {}
     },
-    "107:10": {
+    "117:10": {
       "questID:3": 117,
       "preRequisites:11": [
         114
@@ -5927,7 +6426,7 @@
       },
       "rewards:9": {}
     },
-    "108:10": {
+    "118:10": {
       "questID:3": 118,
       "preRequisites:11": [
         117
@@ -5977,7 +6476,7 @@
       },
       "rewards:9": {}
     },
-    "109:10": {
+    "119:10": {
       "questID:3": 119,
       "preRequisites:11": [
         116
@@ -6027,7 +6526,7 @@
       },
       "rewards:9": {}
     },
-    "110:10": {
+    "120:10": {
       "questID:3": 120,
       "preRequisites:11": [
         119
@@ -6077,7 +6576,7 @@
       },
       "rewards:9": {}
     },
-    "111:10": {
+    "121:10": {
       "questID:3": 121,
       "preRequisites:11": [
         118
@@ -6127,7 +6626,7 @@
       },
       "rewards:9": {}
     },
-    "112:10": {
+    "122:10": {
       "questID:3": 122,
       "preRequisites:11": [
         121
@@ -6177,7 +6676,7 @@
       },
       "rewards:9": {}
     },
-    "113:10": {
+    "123:10": {
       "questID:3": 123,
       "preRequisites:11": [
         120
@@ -6227,7 +6726,7 @@
       },
       "rewards:9": {}
     },
-    "114:10": {
+    "124:10": {
       "questID:3": 124,
       "preRequisites:11": [
         94
@@ -6277,7 +6776,7 @@
       },
       "rewards:9": {}
     },
-    "115:10": {
+    "125:10": {
       "questID:3": 125,
       "preRequisites:11": [],
       "properties:10": {
@@ -6329,7 +6828,7 @@
         }
       }
     },
-    "116:10": {
+    "126:10": {
       "questID:3": 126,
       "preRequisites:11": [
         69
@@ -6401,7 +6900,7 @@
         }
       }
     },
-    "117:10": {
+    "127:10": {
       "questID:3": 127,
       "preRequisites:11": [
         126
@@ -6476,7 +6975,7 @@
       },
       "rewards:9": {}
     },
-    "118:10": {
+    "128:10": {
       "questID:3": 128,
       "preRequisites:11": [
         126
@@ -6533,7 +7032,7 @@
         }
       }
     },
-    "119:10": {
+    "129:10": {
       "questID:3": 129,
       "preRequisites:11": [
         127,
@@ -6594,7 +7093,7 @@
         }
       }
     },
-    "120:10": {
+    "130:10": {
       "questID:3": 130,
       "preRequisites:11": [
         126
@@ -6660,7 +7159,7 @@
         }
       }
     },
-    "121:10": {
+    "131:10": {
       "questID:3": 131,
       "preRequisites:11": [
         130,
@@ -6719,7 +7218,7 @@
         }
       }
     },
-    "122:10": {
+    "132:10": {
       "questID:3": 132,
       "preRequisites:11": [
         129
@@ -6788,7 +7287,7 @@
         }
       }
     },
-    "123:10": {
+    "133:10": {
       "questID:3": 133,
       "preRequisites:11": [
         130
@@ -6860,7 +7359,7 @@
         }
       }
     },
-    "124:10": {
+    "134:10": {
       "questID:3": 134,
       "preRequisites:11": [
         133,
@@ -6918,7 +7417,7 @@
         }
       }
     },
-    "125:10": {
+    "135:10": {
       "questID:3": 135,
       "preRequisites:11": [
         134
@@ -6978,7 +7477,7 @@
         }
       }
     },
-    "126:10": {
+    "136:10": {
       "questID:3": 136,
       "preRequisites:11": [
         135
@@ -7035,7 +7534,7 @@
         }
       }
     },
-    "127:10": {
+    "137:10": {
       "questID:3": 137,
       "preRequisites:11": [
         127,
@@ -7118,7 +7617,7 @@
         }
       }
     },
-    "128:10": {
+    "138:10": {
       "questID:3": 138,
       "preRequisites:11": [
         137,
@@ -7179,7 +7678,7 @@
         }
       }
     },
-    "129:10": {
+    "139:10": {
       "questID:3": 139,
       "preRequisites:11": [
         131,
@@ -7237,7 +7736,7 @@
         }
       }
     },
-    "130:10": {
+    "140:10": {
       "questID:3": 140,
       "preRequisites:11": [
         138,
@@ -7305,7 +7804,7 @@
         }
       }
     },
-    "131:10": {
+    "141:10": {
       "questID:3": 141,
       "preRequisites:11": [
         15
@@ -7369,7 +7868,7 @@
         }
       }
     },
-    "132:10": {
+    "142:10": {
       "questID:3": 142,
       "preRequisites:11": [
         10
@@ -7468,7 +7967,7 @@
         }
       }
     },
-    "133:10": {
+    "143:10": {
       "questID:3": 143,
       "preRequisites:11": [
         142
@@ -7530,7 +8029,7 @@
       },
       "rewards:9": {}
     },
-    "134:10": {
+    "144:10": {
       "questID:3": 144,
       "preRequisites:11": [],
       "properties:10": {
@@ -7593,7 +8092,7 @@
       },
       "rewards:9": {}
     },
-    "135:10": {
+    "145:10": {
       "questID:3": 145,
       "preRequisites:11": [
         144
@@ -7654,7 +8153,7 @@
       },
       "rewards:9": {}
     },
-    "136:10": {
+    "146:10": {
       "questID:3": 146,
       "preRequisites:11": [
         145
@@ -7704,7 +8203,7 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
+    "147:10": {
       "questID:3": 147,
       "preRequisites:11": [
         150,
@@ -7755,7 +8254,7 @@
       },
       "rewards:9": {}
     },
-    "138:10": {
+    "148:10": {
       "questID:3": 148,
       "preRequisites:11": [
         145
@@ -7816,7 +8315,7 @@
       },
       "rewards:9": {}
     },
-    "139:10": {
+    "149:10": {
       "questID:3": 149,
       "preRequisites:11": [
         173
@@ -7871,7 +8370,7 @@
       },
       "rewards:9": {}
     },
-    "140:10": {
+    "150:10": {
       "questID:3": 150,
       "preRequisites:11": [],
       "properties:10": {
@@ -7940,7 +8439,7 @@
       },
       "rewards:9": {}
     },
-    "141:10": {
+    "151:10": {
       "questID:3": 151,
       "preRequisites:11": [],
       "properties:10": {
@@ -7991,7 +8490,7 @@
       },
       "rewards:9": {}
     },
-    "142:10": {
+    "152:10": {
       "questID:3": 152,
       "preRequisites:11": [],
       "properties:10": {
@@ -8042,7 +8541,7 @@
       },
       "rewards:9": {}
     },
-    "143:10": {
+    "153:10": {
       "questID:3": 153,
       "preRequisites:11": [
         152
@@ -8095,7 +8594,7 @@
       },
       "rewards:9": {}
     },
-    "144:10": {
+    "154:10": {
       "questID:3": 154,
       "preRequisites:11": [
         31
@@ -8145,7 +8644,7 @@
       },
       "rewards:9": {}
     },
-    "145:10": {
+    "155:10": {
       "questID:3": 155,
       "preRequisites:11": [
         22,
@@ -8196,7 +8695,7 @@
       },
       "rewards:9": {}
     },
-    "146:10": {
+    "156:10": {
       "questID:3": 156,
       "preRequisites:11": [
         158,
@@ -8247,7 +8746,7 @@
       },
       "rewards:9": {}
     },
-    "147:10": {
+    "157:10": {
       "questID:3": 157,
       "preRequisites:11": [
         80,
@@ -8298,7 +8797,7 @@
       },
       "rewards:9": {}
     },
-    "148:10": {
+    "158:10": {
       "questID:3": 158,
       "preRequisites:11": [
         157,
@@ -8349,7 +8848,7 @@
       },
       "rewards:9": {}
     },
-    "149:10": {
+    "159:10": {
       "questID:3": 159,
       "preRequisites:11": [
         9
@@ -8405,7 +8904,7 @@
       },
       "rewards:9": {}
     },
-    "150:10": {
+    "160:10": {
       "questID:3": 160,
       "preRequisites:11": [
         159,
@@ -8456,7 +8955,7 @@
       },
       "rewards:9": {}
     },
-    "151:10": {
+    "161:10": {
       "questID:3": 161,
       "preRequisites:11": [
         22,
@@ -8507,7 +9006,7 @@
       },
       "rewards:9": {}
     },
-    "152:10": {
+    "162:10": {
       "questID:3": 162,
       "preRequisites:11": [
         161,
@@ -8558,7 +9057,7 @@
       },
       "rewards:9": {}
     },
-    "153:10": {
+    "163:10": {
       "questID:3": 163,
       "preRequisites:11": [
         12,
@@ -8609,7 +9108,7 @@
       },
       "rewards:9": {}
     },
-    "154:10": {
+    "164:10": {
       "questID:3": 164,
       "preRequisites:11": [
         163,
@@ -8660,7 +9159,7 @@
       },
       "rewards:9": {}
     },
-    "155:10": {
+    "165:10": {
       "questID:3": 165,
       "preRequisites:11": [
         141,
@@ -8736,7 +9235,7 @@
         }
       }
     },
-    "156:10": {
+    "166:10": {
       "questID:3": 166,
       "preRequisites:11": [
         174
@@ -8786,7 +9285,7 @@
       },
       "rewards:9": {}
     },
-    "157:10": {
+    "167:10": {
       "questID:3": 167,
       "preRequisites:11": [
         166
@@ -8836,7 +9335,7 @@
       },
       "rewards:9": {}
     },
-    "158:10": {
+    "168:10": {
       "questID:3": 168,
       "preRequisites:11": [
         167
@@ -8886,7 +9385,7 @@
       },
       "rewards:9": {}
     },
-    "159:10": {
+    "169:10": {
       "questID:3": 169,
       "preRequisites:11": [
         168
@@ -8936,7 +9435,7 @@
       },
       "rewards:9": {}
     },
-    "160:10": {
+    "170:10": {
       "questID:3": 170,
       "preRequisites:11": [
         169
@@ -8986,7 +9485,7 @@
       },
       "rewards:9": {}
     },
-    "161:10": {
+    "171:10": {
       "questID:3": 171,
       "preRequisites:11": [
         170
@@ -9036,7 +9535,7 @@
       },
       "rewards:9": {}
     },
-    "162:10": {
+    "172:10": {
       "questID:3": 172,
       "preRequisites:11": [
         171
@@ -9086,7 +9585,7 @@
       },
       "rewards:9": {}
     },
-    "163:10": {
+    "173:10": {
       "questID:3": 173,
       "preRequisites:11": [
         172
@@ -9136,7 +9635,7 @@
       },
       "rewards:9": {}
     },
-    "164:10": {
+    "174:10": {
       "questID:3": 174,
       "preRequisites:11": [
         24
@@ -9210,7 +9709,7 @@
       },
       "rewards:9": {}
     },
-    "165:10": {
+    "175:10": {
       "questID:3": 175,
       "preRequisites:11": [
         174
@@ -9260,7 +9759,7 @@
       },
       "rewards:9": {}
     },
-    "166:10": {
+    "176:10": {
       "questID:3": 176,
       "preRequisites:11": [
         175
@@ -9310,7 +9809,7 @@
       },
       "rewards:9": {}
     },
-    "167:10": {
+    "177:10": {
       "questID:3": 177,
       "preRequisites:11": [
         176
@@ -9360,7 +9859,7 @@
       },
       "rewards:9": {}
     },
-    "168:10": {
+    "178:10": {
       "questID:3": 178,
       "preRequisites:11": [
         177
@@ -9410,7 +9909,7 @@
       },
       "rewards:9": {}
     },
-    "169:10": {
+    "179:10": {
       "questID:3": 179,
       "preRequisites:11": [
         178
@@ -9460,7 +9959,7 @@
       },
       "rewards:9": {}
     },
-    "170:10": {
+    "180:10": {
       "questID:3": 180,
       "preRequisites:11": [
         179
@@ -9510,7 +10009,7 @@
       },
       "rewards:9": {}
     },
-    "171:10": {
+    "181:10": {
       "questID:3": 181,
       "preRequisites:11": [
         180
@@ -9560,7 +10059,7 @@
       },
       "rewards:9": {}
     },
-    "172:10": {
+    "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
         174
@@ -9610,7 +10109,7 @@
       },
       "rewards:9": {}
     },
-    "173:10": {
+    "183:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182
@@ -9660,7 +10159,7 @@
       },
       "rewards:9": {}
     },
-    "174:10": {
+    "184:10": {
       "questID:3": 184,
       "preRequisites:11": [
         174
@@ -9710,7 +10209,7 @@
       },
       "rewards:9": {}
     },
-    "175:10": {
+    "185:10": {
       "questID:3": 185,
       "preRequisites:11": [
         184
@@ -9760,7 +10259,7 @@
       },
       "rewards:9": {}
     },
-    "176:10": {
+    "186:10": {
       "questID:3": 186,
       "preRequisites:11": [
         185
@@ -9810,7 +10309,7 @@
       },
       "rewards:9": {}
     },
-    "177:10": {
+    "187:10": {
       "questID:3": 187,
       "preRequisites:11": [
         186
@@ -9860,7 +10359,7 @@
       },
       "rewards:9": {}
     },
-    "178:10": {
+    "188:10": {
       "questID:3": 188,
       "preRequisites:11": [
         187
@@ -9910,7 +10409,7 @@
       },
       "rewards:9": {}
     },
-    "179:10": {
+    "189:10": {
       "questID:3": 189,
       "preRequisites:11": [
         188
@@ -9960,7 +10459,7 @@
       },
       "rewards:9": {}
     },
-    "180:10": {
+    "190:10": {
       "questID:3": 190,
       "preRequisites:11": [
         189
@@ -10010,7 +10509,7 @@
       },
       "rewards:9": {}
     },
-    "181:10": {
+    "191:10": {
       "questID:3": 191,
       "preRequisites:11": [
         183
@@ -10060,7 +10559,7 @@
       },
       "rewards:9": {}
     },
-    "182:10": {
+    "192:10": {
       "questID:3": 192,
       "preRequisites:11": [
         191
@@ -10101,6 +10600,456 @@
             "0:10": {
               "id:8": "thaumicenergistics:essentia_component_64k",
               "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "193:10": {
+      "questID:3": 193,
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_xp_vacuum",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Loot Gathering",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_vacuum_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "enderio:block_xp_vacuum",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "194:10": {
+      "questID:3": 194,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_experience_obelisk",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Experience Storage",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:block_experience_obelisk",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "195:10": {
+      "questID:3": 195,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:molecular_assembler",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Autocrafting",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "196:10": {
+      "questID:3": 196,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_basic_capacitor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Basic Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_basic_capacitor",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "197:10": {
+      "questID:3": 197,
+      "preRequisites:11": [
+        196
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_basic_capacitor",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Double-Layered Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_basic_capacitor",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "198:10": {
+      "questID:3": 198,
+      "preRequisites:11": [
+        197
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_basic_capacitor",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Octadict Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_basic_capacitor",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "199:10": {
+      "questID:3": 199,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_capacitor_crystalline",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Crystalline Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_capacitor_crystalline",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "200:10": {
+      "questID:3": 200,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_capacitor_melodic",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Melodic Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_capacitor_melodic",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "201:10": {
+      "questID:3": 201,
+      "preRequisites:11": [
+        200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_capacitor_stellar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Stellar Capacitors",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_capacitor_stellar",
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -10214,15 +11163,93 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -162,
-          "y:3": -102,
+          "x:3": -234,
+          "y:3": -126,
           "id:3": 23
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -132,
-          "y:3": -102,
+          "x:3": -204,
+          "y:3": -126,
           "id:3": 24
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -234,
+          "y:3": -96,
+          "id:3": 53
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -204,
+          "y:3": -96,
+          "id:3": 54
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -234,
+          "y:3": -66,
+          "id:3": 55
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -126,
+          "id:3": 57
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": -126,
+          "id:3": 58
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -96,
+          "id:3": 59
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -66,
+          "id:3": 60
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": -66,
+          "id:3": 193
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": -36,
+          "id:3": 194
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": -204,
+          "y:3": -156,
+          "id:3": 195
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": -78,
+          "y:3": -126,
+          "id:3": 199
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": -78,
+          "y:3": -96,
+          "id:3": 200
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": -78,
+          "y:3": -66,
+          "id:3": 201
         }
       },
       "lineID:3": 1,
@@ -10279,6 +11306,24 @@
           "x:3": 78,
           "y:3": 60,
           "id:3": 48
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": 120,
+          "y:3": 6,
+          "id:3": 196
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 120,
+          "y:3": 36,
+          "id:3": 197
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 120,
+          "y:3": 66,
+          "id:3": 198
         }
       },
       "lineID:3": 3,
@@ -10659,7 +11704,20 @@
       "order:3": 7
     },
     "6:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -96,
+          "id:3": 51
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": -96,
+          "id:3": 52
+        }
+      },
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
@@ -11293,59 +12351,65 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
+          "x:3": -48,
+          "y:3": 90,
+          "id:3": 56
+        },
+        "1:10": {
+          "size:3": 24,
           "x:3": -78,
           "y:3": 30,
           "id:3": 144
         },
-        "1:10": {
+        "2:10": {
           "size:3": 24,
           "x:3": -48,
           "y:3": 60,
           "id:3": 145
         },
-        "2:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": -78,
           "y:3": 60,
           "id:3": 146
         },
-        "3:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": 12,
           "y:3": 30,
           "id:3": 147
         },
-        "4:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": -48,
           "y:3": 30,
           "id:3": 148
         },
-        "5:10": {
+        "6:10": {
           "size:3": 24,
-          "x:3": -48,
+          "x:3": -18,
           "y:3": 90,
           "id:3": 149
         },
-        "6:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": -18,
           "y:3": 30,
           "id:3": 150
         },
-        "7:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": -18,
           "y:3": 60,
           "id:3": 151
         },
-        "8:10": {
+        "9:10": {
           "size:3": 24,
           "x:3": -78,
           "y:3": 90,
           "id:3": 152
         },
-        "9:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": -78,
           "y:3": 120,
