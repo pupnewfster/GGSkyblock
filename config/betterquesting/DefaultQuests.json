@@ -2733,7 +2733,9 @@
     },
     "47:10": {
       "questID:3": 47,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        38
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2755,7 +2757,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Rolling in the Deep",
-          "desc:8": "No Description"
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -7821,7 +7823,8 @@
     "141:10": {
       "questID:3": 141,
       "preRequisites:11": [
-        15
+        15,
+        40
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -11524,7 +11527,7 @@
     "211:10": {
       "questID:3": 211,
       "preRequisites:11": [
-        38
+        232
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12227,7 +12230,9 @@
     },
     "224:10": {
       "questID:3": 224,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        231
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12278,7 +12283,9 @@
     },
     "225:10": {
       "questID:3": 225,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        231
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12526,6 +12533,157 @@
             "0:10": {
               "id:8": "mekanism:atomicalloy",
               "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "230:10": {
+      "questID:3": 230,
+      "preRequisites:11": [
+        211
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_material",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Industrial Chassis",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "231:10": {
+      "questID:3": 231,
+      "preRequisites:11": [
+        230,
+        218
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Steel Casing",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 8
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_material",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Simple Chassis",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -12802,40 +12960,34 @@
         "27:10": {
           "size:3": 24,
           "x:3": -192,
-          "y:3": -36,
-          "id:3": 218
-        },
-        "28:10": {
-          "size:3": 24,
-          "x:3": -192,
           "y:3": -66,
           "id:3": 220
         },
-        "29:10": {
+        "28:10": {
           "size:3": 24,
           "x:3": -30,
           "y:3": -156,
           "id:3": 221
         },
-        "30:10": {
+        "29:10": {
           "size:3": 24,
           "x:3": 0,
           "y:3": -156,
           "id:3": 222
         },
-        "31:10": {
+        "30:10": {
           "size:3": 24,
           "x:3": 30,
           "y:3": -156,
           "id:3": 223
         },
-        "32:10": {
+        "31:10": {
           "size:3": 24,
           "x:3": -30,
           "y:3": -126,
           "id:3": 228
         },
-        "33:10": {
+        "32:10": {
           "size:3": 24,
           "x:3": 0,
           "y:3": -126,
@@ -12863,13 +13015,13 @@
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": 36,
+          "x:3": -30,
+          "y:3": 6,
           "id:3": 40
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": -30,
           "y:3": -24,
           "id:3": 41
         },
@@ -12881,8 +13033,8 @@
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": 66,
+          "x:3": -60,
+          "y:3": 6,
           "id:3": 44
         },
         "5:10": {
@@ -12893,26 +13045,26 @@
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": 96,
+          "x:3": -90,
+          "y:3": 6,
           "id:3": 48
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 90,
+          "x:3": 120,
           "y:3": 6,
           "id:3": 196
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 36,
+          "x:3": 120,
+          "y:3": -24,
           "id:3": 197
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 66,
+          "x:3": 120,
+          "y:3": -54,
           "id:3": 198
         },
         "10:10": {
@@ -12923,51 +13075,75 @@
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 30,
           "y:3": 36,
           "id:3": 208
         },
         "12:10": {
           "size:3": 24,
-          "x:3": 30,
+          "x:3": 60,
           "y:3": 6,
           "id:3": 211
         },
         "13:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 90,
           "y:3": 6,
           "id:3": 213
         },
         "14:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": -24,
-          "id:3": 219
+          "x:3": 0,
+          "y:3": 66,
+          "id:3": 218
         },
         "15:10": {
           "size:3": 24,
-          "x:3": -54,
+          "x:3": 0,
           "y:3": 36,
-          "id:3": 224
+          "id:3": 219
         },
         "16:10": {
           "size:3": 24,
-          "x:3": -54,
-          "y:3": 6,
-          "id:3": 225
+          "x:3": 90,
+          "y:3": 66,
+          "id:3": 224
         },
         "17:10": {
           "size:3": 24,
-          "x:3": -96,
-          "y:3": 18,
-          "id:3": 226
+          "x:3": 60,
+          "y:3": 96,
+          "id:3": 225
         },
         "18:10": {
           "size:3": 24,
-          "x:3": -54,
+          "x:3": 90,
+          "y:3": 96,
+          "id:3": 226
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 120,
           "y:3": 66,
           "id:3": 227
+        },
+        "20:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": 36,
+          "id:3": 230
+        },
+        "21:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": 66,
+          "id:3": 231
+        },
+        "22:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": 6,
+          "id:3": 232
         }
       },
       "lineID:3": 3,
