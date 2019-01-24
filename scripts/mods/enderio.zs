@@ -16,6 +16,10 @@ recipes.addShaped("CTTravelAnchor", <enderio:block_travel_anchor>, [[<ore:ingotS
 recipes.remove(<enderio:item_travel_staff>);
 recipes.addShapedMirrored("CTTravelStaff", <enderio:item_travel_staff>, [[null, null, <enderio:item_material:16>], [null, <enderio:item_material:71>, null], [<enderio:block_travel_anchor>, null, null]]);
 
+//Fix Missing pink slime
+mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>, [<enderio:item_alloy_ingot:5>, <tconstruct:edible:2>], 25000, 0.5);
+
+
 
 
 mods.jei.JEI.removeAndHide(<enderio:item_dark_steel_helmet>);

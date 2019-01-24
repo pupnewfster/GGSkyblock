@@ -20,6 +20,13 @@ import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 
+//Ender IO
+import mods.enderio.AlloySmelter;
+import mods.enderio.SagMill;
+import mods.enderio.SliceNSplice;
+import mods.enderio.SoulBinder;
+import mods.enderio.Vat;
+
 //Extended Crafting
 import mods.extendedcrafting.TableCrafting;
 
@@ -111,6 +118,7 @@ recipes.addShaped("CTT11EMC", <extendedcrafting:material:24> * 9, [[<mysticalagr
 //Tier 12
 reaction.addRecipe(<mysticalagriculture:steel_seeds>, <liquid:liquidsulfurtrioxide> * 1000, <gas:heavywater> * 1000, <mysticalagriculture:nickel_seeds>, <gas:water> * 10, 1000, 3000);
 //In enderio User recipes. Sag mill gives previous tier ingot and 25% chance of a emerald
+SagMill.addRecipe([<extendedcrafting:material:24>, <minecraft:emerald>], [1, 0.25], <mysticalagriculture:nickel_essence>, "CHANCE_ONLY", 250000);
 
 //Tier 13
 blastFurnace.addRecipe(<mysticalagriculture:electrum_seeds>, null, <mysticalagriculture:nickel_seeds>, <mysticalagriculture:nickel_essence> * 8, 6000, 25000, 3730);
@@ -196,7 +204,8 @@ infuser.addRecipe("TIER1", 1800, <mysticalagriculture:manyullyn_seeds>, <content
 Inscriber.addRecipe(<mysticalagriculture:electrical_steel_seeds>, <contenttweaker:metallic_tier22_seeds>, false, <mysticalagriculture:manyullyn_essence>, <minecraft:iron_block>);
 
 //3 into alloy smelter to sag mill is how to get emc from this tier
-
+AlloySmelter.addRecipe(<contenttweaker:tier23alloy>, [<mysticalagriculture:electrical_steel_essence> * 3], 250000, 0.5);
+SagMill.addRecipe([<techreborn:nuke> * 3], [1], <contenttweaker:tier23alloy>, "NONE", 250000);
 
 
 //Tier 24
@@ -402,6 +411,9 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
 
-
-
-//Ideally make byproducts of things be able to be optimized also at least to an extent
+//EnderIO
+//AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+//SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//SoulBinder.addRecipe(IItemStack output, IIngredient input, String[] entities, int xp, @Optional int energyCost);
+//Vat.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
