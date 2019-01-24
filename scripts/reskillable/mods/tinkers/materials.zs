@@ -47,6 +47,12 @@ static materials as string[][string] = {
 	shadowium : ["trait|compatskills:master", "trait|compatskills:unlock_botania"],
 	orichalcos : ["trait|compatskills:master", "trait|compatskills:unlock_botania"],
 	bloodbronze : ["trait|compatskills:novice", "trait|compatskills:unlock_bloodmagic"],
+	aer_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:agility|21"],
+	ignis_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:attack|13"],
+	aqua_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:farming|8"],
+	terra_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:defense|13"],
+	ordo_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:magic|21"],
+	perditio_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:mining|16"],
 	metal1 : ["compatskills:smithing|5"],
 	metal2 : ["trait|compatskills:novice"],
 	metal3 : ["trait|compatskills:apprentice"],
@@ -97,6 +103,13 @@ addMaterialLock("terrasteel", materials.terrasteel);
 addMaterialLock("alkimium", materials.alkimium);
 addMaterialLock("extrabotany:ingotshadowium", materials.shadowium);
 addMaterialLock("extrabotany:ingotorichalcos", materials.orichalcos);
+addMaterialLock("bloodbronze", materials.bloodbronze);
+addMaterialLock("aer_thaumium", materials.aer_thaumium);
+addMaterialLock("ignis_thaumium", materials.ignis_thaumium);
+addMaterialLock("aqua_thaumium", materials.aqua_thaumium);
+addMaterialLock("terra_thaumium", materials.terra_thaumium);
+addMaterialLock("ordo_thaumium", materials.ordo_thaumium);
+addMaterialLock("perditio_thaumium", materials.perditio_thaumium);
 
 
 val tierOneMetals = [
@@ -105,7 +118,9 @@ val tierOneMetals = [
 	"copper",
 	"lead",
 	"silver",
-	"construction_alloy"
+	"construction_alloy",
+	"crude_steel",
+	"energetic_silver"
 ] as string[];
 
 val tierTwoMetals = [
@@ -118,7 +133,8 @@ val tierTwoMetals = [
 	"electrum",
 	"osmium",
 	"blackquartz_plustic",
-	"certusquartz_plustic"
+	"certusquartz_plustic",
+    "vivid_alloy"
 ] as string[];
 
 val tierThreeMetals = [
@@ -130,7 +146,8 @@ val tierThreeMetals = [
 	"iridium",
 	"enori_actadd_plustic",
 	"nickel",
-	"void_actadd_plustic"
+	"void_actadd_plustic",
+	"crystalline_alloy"
 ] as string[];
 
 val tierFourMetals = [
@@ -144,14 +161,17 @@ val tierFourMetals = [
 	"diamatine_actadd_plustic",
 	"alumite",
 	"palis_actadd_plustic",
-	"emerald_plustic"
+	"emerald_plustic",
+	"crystalline_pink_slime"
 ] as string[];
 
 val tierFiveMetals = [
 	"manyullyn",
 	"soularium",
 	"osgloglas",
-	"mirion"
+	"mirion",
+	"melodic_alloy",
+	"stellar_alloy"
 ] as string[];
 
 

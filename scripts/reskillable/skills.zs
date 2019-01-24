@@ -1,4 +1,4 @@
-#priority 1000
+#priority 10000
 
 import mods.compatskills.SkillCreator.createSkill;
 import mods.compatskills.Skill;

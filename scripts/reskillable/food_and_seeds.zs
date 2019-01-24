@@ -8,6 +8,8 @@ addHungerLock(8, "reskillable:farming|14");
 addHungerLock(14, "reskillable:farming|27");
 addHungerLock(20, "reskillable:farming|42");
 
+addSaturationLock(10, "reskillable:farming|14");
+addSaturationLock(15, "reskillable:farming|27");
 addSaturationLock(20, "reskillable:farming|87");
 
 

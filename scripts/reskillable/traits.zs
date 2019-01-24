@@ -1,19 +1,19 @@
-#priority 990
+#priority 9999
 
 import mods.compatskills.TraitCreator.createTrait;
 import mods.compatskills.Skill;
 
 //Magic
 
-var thaumcraft = createTrait("unlock_thaumcraft", 0, 0, "reskillable:magic", 4, "trait|compatskills:unlock_botania");
-thaumcraft.name = "Thaumcraft";
-thaumcraft.description = "Unlocks access to Thaumcraft";
-thaumcraft.icon = "thaumcraft:textures/items/thaumonomicon.png";
-
 var botania = createTrait("unlock_botania", 0, 2, "reskillable:magic", 3);
 botania.name = "Botania";
 botania.description = "Unlocks access to Botania";
 botania.icon = "botania:textures/items/rune0.png";
+
+var thaumcraft = createTrait("unlock_thaumcraft", 0, 0, "reskillable:magic", 4, "trait|compatskills:unlock_botania");
+thaumcraft.name = "Thaumcraft";
+thaumcraft.description = "Unlocks access to Thaumcraft";
+thaumcraft.icon = "thaumcraft:textures/items/thaumonomicon.png";
 
 var bloodmagic = createTrait("unlock_bloodmagic", 3, 0, "reskillable:magic", 3);
 bloodmagic.name = "Blood Magic";
