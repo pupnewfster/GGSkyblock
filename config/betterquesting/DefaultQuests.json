@@ -2934,7 +2934,9 @@
     },
     "51:10": {
       "questID:3": 51,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        233
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2956,10 +2958,28 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Salis Mundo",
-          "desc:8": ""
+          "desc:8": "Using your livingrock pedestal and hammer smash various items into the base Thaumcraft Crystals:\n\nAer : Sky Stone\nTerra : Grass\nIgnis : Magma Block\nAqua : Waterstone\nOrdo : Packed Ice\nPerditio : Obsidian\n\nCombine three different crystal types with redstone dust, flint, and a bowl to create salis mundo."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:salis_mundus",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "52:10": {
@@ -7341,8 +7361,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 0,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemconstellationpaper",
@@ -12692,6 +12715,105 @@
         }
       },
       "rewards:9": {}
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extrabotany:pedestal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Livingrock Pedestal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "extrabotany:pedestal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [
+        76,
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thaumcraft:curio",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Curios Curiosities",
+          "desc:8": "Right clicking curiosities gives random research and knowledge for Thaumcraft. Once you reach 100 warp killing any mob that drops amber also has a chance of dropping preserved curiosities."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -13400,6 +13522,12 @@
           "x:3": 132,
           "y:3": 90,
           "id:3": 125
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 204,
+          "y:3": 90,
+          "id:3": 233
         }
       },
       "lineID:3": 5,
@@ -13536,6 +13664,12 @@
           "x:3": -126,
           "y:3": -96,
           "id:3": 52
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -96,
+          "y:3": -96,
+          "id:3": 234
         }
       },
       "lineID:3": 7,
