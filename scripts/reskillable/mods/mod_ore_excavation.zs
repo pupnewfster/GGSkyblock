@@ -1,0 +1,1 @@
+mods.compatskills.Excavation.addExcavationLock("reskillable:mining|5", "reskillable:gathering|5", "reskillable:building|5");
