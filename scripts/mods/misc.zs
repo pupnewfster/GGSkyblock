@@ -12,3 +12,6 @@ mods.jei.JEI.removeAndHide(<theoneprobe:probenote>);
 
 //Pebbles to cobble
 recipes.addShapeless("CTPebbleToCobble", <minecraft:cobblestone>, [<contenttweaker:pebble>, <contenttweaker:pebble>, <contenttweaker:pebble>, <contenttweaker:pebble>]);
+
+//Way to get clay that keeps emc value the same
+recipes.addShaped("CTClay", <minecraft:clay_ball>, [[<ore:dirt>, <ore:cobblestone>, <ore:dirt>], [<ore:cobblestone>, <ore:plankWood>, <ore:cobblestone>], [<ore:dirt>, <ore:cobblestone>, <ore:dirt>]]);
