@@ -103,6 +103,8 @@ ManaInfusion.removeRecipe(<minecraft:beetroot_seeds>);
 ManaInfusion.removeRecipe(<minecraft:melon_seeds>);
 ManaInfusion.removeRecipe(<minecraft:pumpkin_seeds>);
 ManaInfusion.removeRecipe(<minecraft:dye:3>);
+ManaInfusion.removeRecipe(<minecraft:slime_ball>);
+ManaInfusion.removeRecipe(<minecraft:cactus>);
 
 ManaInfusion.addAlchemy(<minecraft:wheat_seeds>, <minecraft:dye:3>, 20000);
 ManaInfusion.addAlchemy(<minecraft:potato>, <minecraft:wheat>, 20000);
@@ -115,3 +117,7 @@ ManaInfusion.addAlchemy(<actuallyadditions:item_rice_seed>, <actuallyadditions:i
 ManaInfusion.addAlchemy(<actuallyadditions:item_canola_seed>, <actuallyadditions:item_rice_seed>, 20000);
 ManaInfusion.addAlchemy(<actuallyadditions:item_coffee_seed>, <actuallyadditions:item_canola_seed>, 20000);
 ManaInfusion.addAlchemy(<minecraft:dye:3>, <actuallyadditions:item_coffee_seed>, 20000);
+
+ManaInfusion.addAlchemy(<minecraft:slime_ball>, <minecraft:reeds>, 20000);
+ManaInfusion.addAlchemy(<minecraft:reeds>, <minecraft:cactus>, 20000);
+ManaInfusion.addAlchemy(<minecraft:cactus>, <minecraft:slime_ball>, 20000);
