@@ -1,8 +1,8 @@
 import mods.botania.ManaInfusion.addAlchemy;
 import mods.extrabotany.Pedestal;
 
-addAlchemy(<thaumcraft:vishroom>, <minecraft:brown_mushroom>, 500);
-addAlchemy(<thaumcraft:vishroom>, <minecraft:red_mushroom>, 500);
+addAlchemy(<thaumcraft:vishroom>, <minecraft:brown_mushroom>, 5000);
+addAlchemy(<thaumcraft:vishroom>, <minecraft:red_mushroom>, 5000);
 
 
 Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <appliedenergistics2:sky_stone_block>);
