@@ -169,7 +169,9 @@
     },
     "3:10": {
       "questID:3": 3,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2432,7 +2434,9 @@
     },
     "41:10": {
       "questID:3": 41,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        38
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3193,7 +3197,9 @@
     },
     "56:10": {
       "questID:3": 56,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        1
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3241,7 +3247,9 @@
     },
     "57:10": {
       "questID:3": 57,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        224
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3409,7 +3417,9 @@
     },
     "60:10": {
       "questID:3": 60,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        254
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4716,7 +4726,9 @@
     },
     "83:10": {
       "questID:3": 83,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8089,7 +8101,9 @@
     },
     "144:10": {
       "questID:3": 144,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        205
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8430,7 +8444,9 @@
     },
     "150:10": {
       "questID:3": 150,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        15
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8499,7 +8515,9 @@
     },
     "151:10": {
       "questID:3": 151,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        15
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8550,7 +8568,9 @@
     },
     "152:10": {
       "questID:3": 152,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8602,7 +8622,8 @@
     "153:10": {
       "questID:3": 153,
       "preRequisites:11": [
-        152
+        152,
+        56
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10725,7 +10746,9 @@
     },
     "194:10": {
       "questID:3": 194,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        254
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11423,7 +11446,9 @@
     },
     "208:10": {
       "questID:3": 208,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        211
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11471,7 +11496,9 @@
     },
     "209:10": {
       "questID:3": 209,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        208
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11519,7 +11546,9 @@
     },
     "210:10": {
       "questID:3": 210,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        208
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11803,7 +11832,9 @@
     },
     "215:10": {
       "questID:3": 215,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        254
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -11851,7 +11882,9 @@
     },
     "216:10": {
       "questID:3": 216,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        254
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12114,7 +12147,9 @@
     },
     "221:10": {
       "questID:3": 221,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        224
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -13762,6 +13797,56 @@
         }
       },
       "rewards:9": {}
+    },
+    "254:10": {
+      "questID:3": 254,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_material",
+            "Count:3": 1,
+            "Damage:2": 53,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Soul Chassis",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 53
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -13933,8 +14018,8 @@
         },
         "10:10": {
           "size:3": 24,
-          "x:3": -96,
-          "y:3": -36,
+          "x:3": -186,
+          "y:3": -66,
           "id:3": 194
         },
         "11:10": {
@@ -14023,7 +14108,7 @@
         },
         "25:10": {
           "size:3": 24,
-          "x:3": -156,
+          "x:3": -186,
           "y:3": -36,
           "id:3": 216
         },
@@ -14035,8 +14120,8 @@
         },
         "27:10": {
           "size:3": 24,
-          "x:3": -192,
-          "y:3": -66,
+          "x:3": -186,
+          "y:3": -96,
           "id:3": 220
         },
         "28:10": {
@@ -14074,6 +14159,12 @@
           "x:3": -30,
           "y:3": -96,
           "id:3": 237
+        },
+        "34:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": -36,
+          "id:3": 254
         }
       },
       "lineID:3": 1,
@@ -14157,8 +14248,8 @@
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 30,
-          "y:3": 36,
+          "x:3": 60,
+          "y:3": -24,
           "id:3": 208
         },
         "12:10": {
@@ -14493,7 +14584,7 @@
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Botania/Extra botany",
+          "name:8": "Botania",
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": ""
