@@ -3537,7 +3537,8 @@
     "62:10": {
       "questID:3": 62,
       "preRequisites:11": [
-        61
+        61,
+        8
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3580,33 +3581,22 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "id:8": "botania:livingrock",
               "Count:3": 32,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "1:10": {
+            "2:10": {
               "id:8": "botania:livingwood",
               "Count:3": 32,
               "OreDict:8": "",
               "Damage:3": 0
             },
-            "2:10": {
+            "3:10": {
               "id:8": "botania:specialflower",
-              "Count:3": 2,
+              "Count:3": 1,
               "tag:10": {
                 "type:8": "puredaisy"
               },
@@ -3617,21 +3607,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:lexicon",
-              "Count:3": 1,
-              "tag:10": {},
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "63:10": {
       "questID:3": 63,
@@ -3701,7 +3677,9 @@
     },
     "64:10": {
       "questID:3": 64,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        62
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3755,7 +3733,9 @@
     },
     "65:10": {
       "questID:3": 65,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        257
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3765,8 +3745,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:manaring",
             "Count:3": 1,
+            "tag:10": {
+              "mana:3": 500000
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3776,16 +3762,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "mana gen flower 3",
-          "desc:8": "No Description"
+          "name:8": "Mana Band",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaring",
+              "Count:3": 1,
+              "tag:10": {
+                "mana:3": 500000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "66:10": {
       "questID:3": 66,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        65
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3795,8 +3804,14 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:manaringgreater",
             "Count:3": 1,
+            "tag:10": {
+              "mana:3": 2000000
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3806,16 +3821,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Mana gen flower 2",
-          "desc:8": "No Description"
+          "name:8": "Greater Mana Band",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaringgreater",
+              "Count:3": 1,
+              "tag:10": {
+                "mana:3": 2000000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "67:10": {
       "questID:3": 67,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        68
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3825,7 +3863,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "botania:rune",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3836,16 +3874,54 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "mana gen flower",
-          "desc:8": "No Description"
+          "name:8": "Basic Runecrafting",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:rune",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "botania:rune",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "2:10": {
+              "id:8": "botania:rune",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "3:10": {
+              "id:8": "botania:rune",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "68:10": {
       "questID:3": 68,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        63
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3855,7 +3931,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "botania:runealtar",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3866,11 +3942,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "mana gen flower 4",
-          "desc:8": "No Description"
+          "name:8": "Runic Altar",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:runealtar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "69:10": {
@@ -6826,7 +6920,9 @@
     },
     "125:10": {
       "questID:3": 125,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        62
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12771,7 +12867,10 @@
     },
     "233:10": {
       "questID:3": 233,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        62,
+        264
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12807,6 +12906,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "extrabotany:pedestal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "extrabotany:manasteelhammer",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -13847,6 +13952,527 @@
         }
       },
       "rewards:9": {}
+    },
+    "255:10": {
+      "questID:3": 255,
+      "preRequisites:11": [
+        264
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:lens",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mana Lens",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:lens",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "256:10": {
+      "questID:3": 256,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botanianeedsit:itemblockmanacharger",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mana Charger",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botanianeedsit:itemblockmanacharger",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "257:10": {
+      "questID:3": 257,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:manatablet",
+            "Count:3": 1,
+            "tag:10": {
+              "mana:3": 500000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mana Tablet",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manatablet",
+              "Count:3": 1,
+              "tag:10": {
+                "mana:3": 500000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "258:10": {
+      "questID:3": 258,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:spark",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Spark",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:spark",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "259:10": {
+      "questID:3": 259,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extrabotany:manabarrel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mana Buffer",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "extrabotany:manabarrel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "260:10": {
+      "questID:3": 260,
+      "preRequisites:11": [
+        264,
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Terrasteel",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "261:10": {
+      "questID:3": 261,
+      "preRequisites:11": [
+        62
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "extrabotany:elfjar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Livingrock Barrel",
+          "desc:8": "Livingrock Barrels can fill neighboring Petal Apothocaries with water assuming the barrel has water to supply it with."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "extrabotany:elfjar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "262:10": {
+      "questID:3": 262,
+      "preRequisites:11": [
+        62
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:specialflower",
+            "Count:3": 1,
+            "tag:10": {
+              "type:8": "dandelifeon"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Dandelifeon",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:specialflower",
+              "Count:3": 1,
+              "tag:10": {
+                "type:8": "dandelifeon"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "263:10": {
+      "questID:3": 263,
+      "preRequisites:11": [
+        264
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Elementium",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 7
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "264:10": {
+      "questID:3": 264,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Manasteel",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -14528,8 +15154,8 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 168,
-          "y:3": 126,
+          "x:3": 132,
+          "y:3": 150,
           "id:3": 62
         },
         "1:10": {
@@ -14540,45 +15166,105 @@
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 168,
-          "y:3": 54,
+          "x:3": 108,
+          "y:3": 96,
           "id:3": 64
         },
         "3:10": {
           "size:3": 24,
-          "x:3": 204,
-          "y:3": 54,
+          "x:3": 108,
+          "y:3": 30,
           "id:3": 65
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 132,
-          "y:3": 54,
+          "x:3": 90,
+          "y:3": 60,
           "id:3": 66
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 96,
-          "y:3": 54,
+          "x:3": 168,
+          "y:3": 12,
           "id:3": 67
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 240,
-          "y:3": 54,
+          "x:3": 168,
+          "y:3": 48,
           "id:3": 68
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 132,
-          "y:3": 90,
+          "x:3": 84,
+          "y:3": 120,
           "id:3": 125
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 204,
-          "y:3": 90,
+          "x:3": 168,
+          "y:3": 162,
           "id:3": 233
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 210,
+          "y:3": 108,
+          "id:3": 255
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": 198,
+          "y:3": 48,
+          "id:3": 256
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 132,
+          "y:3": 60,
+          "id:3": 257
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 234,
+          "y:3": 90,
+          "id:3": 258
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 234,
+          "y:3": 60,
+          "id:3": 259
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 234,
+          "y:3": 156,
+          "id:3": 260
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 138,
+          "y:3": 102,
+          "id:3": 261
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": 84,
+          "y:3": 150,
+          "id:3": 262
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 204,
+          "y:3": 174,
+          "id:3": 263
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 132,
+          "id:3": 264
         }
       },
       "lineID:3": 5,
