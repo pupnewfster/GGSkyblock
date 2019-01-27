@@ -92,5 +92,5 @@ medium_tamer.icon = "minecraft:textures/items/bone.png";
 
 var large_tamer = createTrait("large_tamer", 3, 1, "compatskills:taming", 0, "compatskills:taming|37", "reskillable:agility|45");
 large_tamer.name = "Large Tamer";
-large_tamer.description = "Allows the taming of larged animals.";
+large_tamer.description = "Allows the taming of large animals.";
 large_tamer.icon = "minecraft:textures/items/saddle.png";
