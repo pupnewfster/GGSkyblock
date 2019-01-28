@@ -1,5 +1,7 @@
 #priority 800
 
+import mods.projecte.WorldTransmutation;
+
 //Remove all philo stone smelting recipes
 recipes.removeByRegex("(projecte:philstone_smelt_).*");
 
@@ -202,3 +204,13 @@ recipes.remove(<auxiliumequivalence:matter:4>);
 recipes.addShaped("CTRainbowMatter1", <auxiliumequivalence:matter:4>, [[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>], [<auxiliumequivalence:matter_block:3>, <auxiliumequivalence:matter_block:3>, <auxiliumequivalence:matter_block:3>], [<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]]);
 recipes.addShaped("CTRainbowMatter2", <auxiliumequivalence:matter:4>, [[<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>], [<projecte:fuel_block:2>, <auxiliumequivalence:matter_block:3>, <projecte:fuel_block:2>]]);
 recipes.addShapeless("CTRainbowMatter3", <auxiliumequivalence:matter:4> * 4, [<auxiliumequivalence:matter_block:4>]);
+
+
+
+//Make other saplings accessible
+WorldTransmutation.remove(<minecraft:sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>);
+
+WorldTransmutation.add(<techreborn:rubber_sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>); //dark oak -> rubber, acacia
+WorldTransmutation.add(<thaumcraft:sapling_greatwood>, <techreborn:rubber_sapling>, <minecraft:sapling:5>); //rubber -> greatwood, dark oak
+WorldTransmutation.add(<thaumcraft:sapling_silverwood>, <thaumcraft:sapling_greatwood>, <techreborn:rubber_sapling>); //greatwood -> silverwood, rubber
+WorldTransmutation.add(<minecraft:sapling:0>, <thaumcraft:sapling_silverwood>, <thaumcraft:sapling_greatwood>); //silverwood -> oak, greatwood
