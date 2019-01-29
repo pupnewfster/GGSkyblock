@@ -3819,8 +3819,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Pure as (insert something witty)",
-          "desc:8": "Craft some pure dasies to kick start botania"
+          "name:8": "Pure as Life",
+          "desc:8": "Craft some pure dasies to kick start botania."
         }
       },
       "tasks:9": {
@@ -3974,7 +3974,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Endoflame",
-          "desc:8": "Endoflames are great passive mana generation if you can automate dropping fuel onto the flowers"
+          "desc:8": "Endoflames are great passive mana generation if you can automate dropping fuel onto the flowers.\n\nThis works even better than with solidified fuel from Tinker I/O."
         }
       },
       "tasks:9": {
@@ -4040,7 +4040,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Mana Band",
-          "desc:8": ""
+          "desc:8": "When you need a larger amount of portable mana, create a band of mana."
         }
       },
       "tasks:9": {
@@ -4106,7 +4106,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Greater Mana Band",
-          "desc:8": ""
+          "desc:8": "When you need an even larger amount of portable mana, create a greater band of mana."
         }
       },
       "tasks:9": {
@@ -4241,7 +4241,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Runic Altar",
-          "desc:8": ""
+          "desc:8": "Create a Runic Altar to start making runes."
         }
       },
       "tasks:9": {
@@ -14006,7 +14006,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Livingrock Pedestal",
-          "desc:8": ""
+          "desc:8": "Use a livingrock pedestal to crush various materials into new things."
         }
       },
       "tasks:9": {
@@ -15249,7 +15249,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Mana Lens",
-          "desc:8": ""
+          "desc:8": "Use mana lenses to change the effects of mana bursts, from mana spreaders."
         }
       },
       "tasks:9": {
@@ -15307,7 +15307,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Mana Charger",
-          "desc:8": ""
+          "desc:8": "You can use a mana charger to automate charging items that need mana."
         }
       },
       "tasks:9": {
@@ -15369,8 +15369,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Mana Tablet",
-          "desc:8": ""
+          "name:8": "Portable Mana",
+          "desc:8": "Create a Mana Tablet to power various handheld items."
         }
       },
       "tasks:9": {
@@ -15430,7 +15430,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Spark",
-          "desc:8": ""
+          "desc:8": "You can use sparks to transfer mana."
         }
       },
       "tasks:9": {
@@ -15487,7 +15487,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Mana Buffer",
-          "desc:8": ""
+          "desc:8": "When you need even more mana storage, create a mana buffer. Mana buffers accept mana from the neighbouring pools and output to a pool placed ontop of itself."
         }
       },
       "tasks:9": {
@@ -15545,7 +15545,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Terrasteel",
-          "desc:8": ""
+          "desc:8": "Create some terrasteel."
         }
       },
       "tasks:9": {
@@ -15662,7 +15662,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Dandelifeon",
-          "desc:8": ""
+          "desc:8": "One of the more interesting generating flowers there are. The Dandelifeon produces mana by simulating Conway\u0027s Game of Life. This is one of the highest generating mana flowers there is, and can be fully automated."
         }
       },
       "tasks:9": {
@@ -15722,7 +15722,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Elementium",
-          "desc:8": ""
+          "desc:8": "Throw some manasteel into an elven portal to get elementium."
         }
       },
       "tasks:9": {
@@ -15779,7 +15779,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Manasteel",
-          "desc:8": ""
+          "desc:8": "Create some manasteel."
         }
       },
       "tasks:9": {
