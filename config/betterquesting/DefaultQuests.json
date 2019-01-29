@@ -199,7 +199,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Blood Altar",
-          "desc:8": ""
+          "desc:8": "Make a Blood Altar to start delving into Blood Magic."
         }
       },
       "tasks:9": {
@@ -293,7 +293,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "5:10": {
       "questID:3": 5,
@@ -1086,7 +1093,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Sacrificial Dagger",
-          "desc:8": ""
+          "desc:8": "Just a small prick of your finger."
         }
       },
       "tasks:9": {
@@ -1109,7 +1116,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "17:10": {
       "questID:3": 17,
@@ -1159,7 +1173,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "18:10": {
       "questID:3": 18,
@@ -1647,7 +1668,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "26:10": {
       "questID:3": 26,
@@ -1697,7 +1725,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "27:10": {
       "questID:3": 27,
@@ -1747,7 +1782,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 15,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "28:10": {
       "questID:3": 28,
@@ -1797,7 +1839,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 20,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "29:10": {
       "questID:3": 29,
@@ -1856,7 +1905,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 25,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "30:10": {
       "questID:3": 30,
@@ -1909,7 +1965,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "31:10": {
       "questID:3": 31,
@@ -2708,7 +2771,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "44:10": {
       "questID:3": 44,
@@ -2808,7 +2878,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "46:10": {
       "questID:3": 46,
@@ -2858,7 +2935,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "47:10": {
       "questID:3": 47,
@@ -3008,7 +3092,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "50:10": {
       "questID:3": 50,
@@ -3059,7 +3150,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "51:10": {
       "questID:3": 51,
@@ -3109,7 +3207,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "52:10": {
       "questID:3": 52,
@@ -13930,7 +14035,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "235:10": {
       "questID:3": 235,
@@ -14036,7 +14148,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "237:10": {
       "questID:3": 237,
@@ -14153,7 +14272,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "239:10": {
       "questID:3": 239,
@@ -14203,7 +14329,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "240:10": {
       "questID:3": 240,
@@ -14253,7 +14386,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "241:10": {
       "questID:3": 241,
@@ -14303,7 +14443,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "242:10": {
       "questID:3": 242,
@@ -14353,7 +14500,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "243:10": {
       "questID:3": 243,
@@ -14406,7 +14560,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "244:10": {
       "questID:3": 244,
@@ -14456,7 +14617,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "245:10": {
       "questID:3": 245,
@@ -14562,7 +14730,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "247:10": {
       "questID:3": 247,
@@ -14602,7 +14777,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "248:10": {
       "questID:3": 248,
@@ -14645,7 +14827,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "249:10": {
       "questID:3": 249,
@@ -14685,7 +14874,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "250:10": {
       "questID:3": 250,
@@ -14730,7 +14926,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 7,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "251:10": {
       "questID:3": 251,
@@ -14774,7 +14977,14 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 20,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "252:10": {
       "questID:3": 252,
@@ -14805,7 +15015,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Caster\u0027s Gauntlet",
-          "desc:8": ""
+          "desc:8": "A Caster\u0027s Gauntlet is used to start the infusion process. Right click the Runic Matrix with the gauntlet to begin the infusion process."
         }
       },
       "tasks:9": {
@@ -14827,7 +15037,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 7,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "253:10": {
       "questID:3": 253,
@@ -14880,7 +15097,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "254:10": {
       "questID:3": 254,
