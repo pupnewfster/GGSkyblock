@@ -268,7 +268,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "First Blood Orb",
-          "desc:8": ""
+          "desc:8": "Create a Weak Blood Orb and right click with it to create your soul network."
         }
       },
       "tasks:9": {
@@ -1151,7 +1151,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Blank Slate",
-          "desc:8": ""
+          "desc:8": "Slates are used for crafting runes and a lot of other things in Blood Magic."
         }
       },
       "tasks:9": {
@@ -2749,7 +2749,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Speed Runes",
-          "desc:8": ""
+          "desc:8": "Speed runes increase the speed at which the Blood Altar can infuse items."
         }
       },
       "tasks:9": {
@@ -2856,7 +2856,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Runes of Sacrifice",
-          "desc:8": ""
+          "desc:8": "Will increase the amount of Life Essence gathered from sacrificing mobs."
         }
       },
       "tasks:9": {
@@ -2913,7 +2913,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Runes of Self Sacrifice",
-          "desc:8": ""
+          "desc:8": "Will increase the amount of Life Essence gathered from using the sacrificial dagger."
         }
       },
       "tasks:9": {
@@ -3070,7 +3070,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Runes of Capacity",
-          "desc:8": ""
+          "desc:8": "Increases the max capacity of your blood altar."
         }
       },
       "tasks:9": {
@@ -10360,7 +10360,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "1K Storage",
-          "desc:8": ""
+          "desc:8": "Item Storage"
         }
       },
       "tasks:9": {
@@ -10897,7 +10897,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "1K Fluid Storage",
-          "desc:8": ""
+          "desc:8": "Fluid Storage"
         }
       },
       "tasks:9": {
@@ -11273,7 +11273,8 @@
     "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
-        174
+        174,
+        52
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -11296,7 +11297,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "1K Essentia Storage",
-          "desc:8": ""
+          "desc:8": "Essentia Storage"
         }
       },
       "tasks:9": {
@@ -11410,7 +11411,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "1K Gas Storage",
-          "desc:8": ""
+          "desc:8": "Gas Storage"
         }
       },
       "tasks:9": {
@@ -14181,8 +14182,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Double Jump",
-          "desc:8": ""
+          "name:8": "Stepping On Clouds",
+          "desc:8": "Create a cloud stepper\u0027s ring to gain the ability to double jump."
         }
       },
       "tasks:9": {
@@ -14305,8 +14306,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Thaumometer",
-          "desc:8": ""
+          "name:8": "Scanning All The Things",
+          "desc:8": "Build a thaumometer and start scanning all the things."
         }
       },
       "tasks:9": {
@@ -14363,7 +14364,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Arcane Workbench",
-          "desc:8": ""
+          "desc:8": "Crafting with Essentia."
         }
       },
       "tasks:9": {
@@ -14420,7 +14421,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Research",
-          "desc:8": ""
+          "desc:8": "Create a research table and start researching more thaumcraft."
         }
       },
       "tasks:9": {
@@ -14477,7 +14478,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crucible",
-          "desc:8": ""
+          "desc:8": "Create a crucible to be able to create even more things."
         }
       },
       "tasks:9": {
@@ -14534,7 +14535,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Essentia Smelting",
-          "desc:8": ""
+          "desc:8": "Smelt items in an essentia smeltery to extract the essentia from them."
         }
       },
       "tasks:9": {
@@ -14548,6 +14549,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "thaumcraft:smelter_basic",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "thaumcraft:alembic",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -14594,7 +14601,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Sanity Checking",
-          "desc:8": ""
+          "desc:8": "Build a sanity checker and see how insane you are becoming."
         }
       },
       "tasks:9": {
@@ -14651,7 +14658,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Workbench Recharging",
-          "desc:8": ""
+          "desc:8": "A workbench charger allows you to charge your Arcane Workbench, and extend the range of it to 3x3 chunks instead of just the chunk it is in."
         }
       },
       "tasks:9": {
@@ -14711,7 +14718,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Reusable Salis Mundo",
-          "desc:8": ""
+          "desc:8": "Wands can be used as reusable salis mundo."
         }
       },
       "tasks:9": {
@@ -14774,7 +14781,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Auromancy",
-          "desc:8": ""
+          "desc:8": "Unlock Auromancy in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -14821,7 +14828,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Alchemy",
-          "desc:8": ""
+          "desc:8": "Unlock Alchemy in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -14871,7 +14878,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Artifice",
-          "desc:8": ""
+          "desc:8": "Unlock Artifice in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -14918,7 +14925,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Infusion",
-          "desc:8": ""
+          "desc:8": "Unlock Infusion in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -14970,7 +14977,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Golemancy",
-          "desc:8": ""
+          "desc:8": "Unlock Golemancy in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -15021,7 +15028,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Eldritch",
-          "desc:8": ""
+          "desc:8": "Unlock Eldritch in your Thaumonomicon."
         }
       },
       "tasks:9": {
@@ -15131,7 +15138,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Goggles of revealing",
-          "desc:8": ""
+          "desc:8": "Goggles of revealing will allow you to see the different aspects that make up various things."
         }
       },
       "tasks:9": {
