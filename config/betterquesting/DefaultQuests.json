@@ -3381,7 +3381,20 @@
           "taskID:8": "compatskills:req_task_factory"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "auxiliumequivalence:matter",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          }
+        }
+      }
     },
     "57:10": {
       "questID:3": 57,
@@ -8782,7 +8795,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "145:10": {
       "questID:3": 145,
@@ -8843,7 +8863,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "146:10": {
       "questID:3": 146,
@@ -8893,7 +8920,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "147:10": {
       "questID:3": 147,
@@ -8944,7 +8978,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "148:10": {
       "questID:3": 148,
@@ -9005,7 +9046,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "149:10": {
       "questID:3": 149,
@@ -9060,7 +9108,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "150:10": {
       "questID:3": 150,
@@ -9131,7 +9186,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "151:10": {
       "questID:3": 151,
@@ -9184,7 +9246,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "152:10": {
       "questID:3": 152,
@@ -9237,7 +9306,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 100,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "153:10": {
       "questID:3": 153,
@@ -9291,7 +9367,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "auxiliumequivalence:matter_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          }
+        }
+      }
     },
     "154:10": {
       "questID:3": 154,
@@ -9319,7 +9408,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Copper Chests",
-          "desc:8": ""
+          "desc:8": "Create a copper chest to increase your available storage per chest."
         }
       },
       "tasks:9": {
@@ -9339,6 +9428,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|6",
+            "1:8": "compatskills:technology|9"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9377,7 +9474,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Iron Chests",
-          "desc:8": ""
+          "desc:8": "Create an iron chest to increase your available storage per chest."
         }
       },
       "tasks:9": {
@@ -9397,6 +9494,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|9",
+            "1:8": "compatskills:technology|22"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9435,7 +9540,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Diamond Chests",
-          "desc:8": ""
+          "desc:8": "Create a diamond chest to increase your available storage per chest."
         }
       },
       "tasks:9": {
@@ -9455,6 +9560,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|23",
+            "1:8": "compatskills:technology|58"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9493,7 +9606,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Silver Chests",
-          "desc:8": ""
+          "desc:8": "Create a silver chest to increase your available storage per chest."
         }
       },
       "tasks:9": {
@@ -9513,6 +9626,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|12",
+            "1:8": "compatskills:technology|31"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9551,7 +9672,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Gold Chests",
-          "desc:8": ""
+          "desc:8": "Create a gold chest to increase your available storage per chest."
         }
       },
       "tasks:9": {
@@ -9571,6 +9692,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|17",
+            "1:8": "compatskills:technology|43"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9611,7 +9740,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Simple Drawers",
-          "desc:8": ""
+          "desc:8": "When you need to store a lot of a single type of material, either make some storage drawers, or use Mekanism bins."
         }
       },
       "tasks:9": {
@@ -9672,7 +9801,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storage Upgrading",
-          "desc:8": ""
+          "desc:8": "Double a drawer\u0027s storage space."
         }
       },
       "tasks:9": {
@@ -9692,6 +9821,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|14",
+            "1:8": "compatskills:technology|6"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9730,7 +9867,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storage Upgrading 2",
-          "desc:8": ""
+          "desc:8": "Quadruple a drawer\u0027s storage space."
         }
       },
       "tasks:9": {
@@ -9750,6 +9887,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|28",
+            "1:8": "compatskills:technology|12"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9788,7 +9933,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storage Upgrading 3",
-          "desc:8": ""
+          "desc:8": "8x a drawer\u0027s storage space."
         }
       },
       "tasks:9": {
@@ -9808,6 +9953,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|56",
+            "1:8": "compatskills:technology|24"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9846,7 +9999,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storage Upgrading 4",
-          "desc:8": ""
+          "desc:8": "16x a drawer\u0027s storage space."
         }
       },
       "tasks:9": {
@@ -9866,6 +10019,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|112",
+            "1:8": "compatskills:technology|48"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -9904,7 +10065,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Storage Upgrading 5",
-          "desc:8": ""
+          "desc:8": "32x a drawer\u0027s storage space."
         }
       },
       "tasks:9": {
@@ -9924,6 +10085,14 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "requirements:9": {
+            "0:8": "reskillable:building|224",
+            "1:8": "compatskills:technology|96"
+          },
+          "index:3": 1,
+          "taskID:8": "compatskills:req_task_factory"
         }
       },
       "rewards:9": {
@@ -10492,8 +10661,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "AE System",
-          "desc:8": ""
+          "name:8": "ME System",
+          "desc:8": "Build an ME System to store all your items and no longer have a need for chests."
         }
       },
       "tasks:9": {
