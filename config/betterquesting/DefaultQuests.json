@@ -9269,7 +9269,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Infinite Knowledge",
-          "desc:8": "Craft a Tome of Knowledge to learn how to create all items that have an EMC value."
+          "desc:8": "Craft a Tome of Knowledge to learn how to create all items that have an EMC value.\n\nNote: You must put the Tome in the \"Burn Slot\" in the transmutation table, putting it on the left will not teach you the knowledge."
         }
       },
       "tasks:9": {
