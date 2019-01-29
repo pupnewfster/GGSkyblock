@@ -206,6 +206,10 @@ recipes.addShaped("CTRainbowMatter2", <auxiliumequivalence:matter:4>, [[<project
 recipes.addShapeless("CTRainbowMatter3", <auxiliumequivalence:matter:4> * 4, [<auxiliumequivalence:matter_block:4>]);
 
 
+//Tome of knowledge
+recipes.remove(<projecte:item.pe_tome>);
+recipes.addShaped("CTKnowledgeTome", <projecte:item.pe_tome>, [[<projectex:final_star>, <projectex:final_star>, <projectex:final_star>], [<projectex:final_star>, <projectex:knowledge_sharing_book>, <projectex:final_star>], [<projectex:final_star>, <projectex:final_star>, <projectex:final_star>]]);
+
 
 //Make other saplings accessible
 WorldTransmutation.remove(<minecraft:sapling>, <minecraft:sapling:5>, <minecraft:sapling:4>);
