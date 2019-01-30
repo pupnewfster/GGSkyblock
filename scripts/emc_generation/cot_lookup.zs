@@ -2,7 +2,7 @@
 #priority 9999
 
 
-global colorLookup as int[string] = {
+static colorLookup as int[string] = {
 	tier1 : 0xE1C17D,
 	tier2 : 0xFFFF8B,
 	tier3 : 0xCACCDA,

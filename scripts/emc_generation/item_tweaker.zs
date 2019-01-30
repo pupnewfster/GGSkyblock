@@ -1,5 +1,7 @@
 #loader contenttweaker
 
+import scripts.emc_generation.cot_lookup.colorLookup;
+
 import mods.contenttweaker.IBlockColorSupplier;
 import mods.contenttweaker.IItemColorSupplier;
 import mods.contenttweaker.ResourceLocation;
@@ -16,29 +18,6 @@ import mods.contenttweaker.BlockMaterial;
 import crafttweaker.world.IBlockAccess;
 import mods.contenttweaker.BlockState;
 import mods.contenttweaker.BlockPos;
-
-
-var pebble = VanillaFactory.createItem("pebble");
-pebble.setTextureLocation(ResourceLocation.create("botania:items/pebble"));
-pebble.register();
-
-
-
-
-global compressedItemMap as int[string] = {
-    compressed_tier1 : colorLookup.tier1,
-    compressed_sugar : -1,
-	compressed_lp : colorLookup.blood
-} as int[string];
-
-for name in compressedItemMap {
-	var compressedItem = VanillaFactory.createItem(name);	
-	compressedItem.setTextureLocation(ResourceLocation.create("contenttweaker:items/infuser_compressed"));
-	compressedItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-		return Color.fromInt(compressedItemMap[stack.definition.id.substring(15)]);
-	});
-	compressedItem.register();
-}
 
 
 var metallicTier22 = VanillaFactory.createItem("metallic_tier22_seeds");	
@@ -240,7 +219,7 @@ tier24CompostingBlock.register();
 
 
 
-global customBlocks as int[string] = {
+static customBlocks as int[string] = {
 	tier16_block : colorLookup.tier16,
 	tier17_block : colorLookup.tier17,
     tier18_block : colorLookup.tier18,
@@ -259,29 +238,11 @@ for name in customBlocks {
 	
 	block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/base_block"));
 	block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-		return Color.fromInt(customBlocks[stack.definition.id.substring(15)]);
+		return Color.fromInt(scripts.emc_generation.item_tweaker.customBlocks[stack.definition.id.substring(15)]);
 	});
 	block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
-		return Color.fromInt(customBlocks[state.block.definition.id.substring(15)]);
+		return Color.fromInt(scripts.emc_generation.item_tweaker.customBlocks[state.block.definition.id.substring(15)]);
 	});
 	
-	block.register();
-}
-
-
-
-
-
-
-
-
-var customLanterns = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"] as string[];
-
-
-for name in customLanterns {
-	var block = VanillaFactory.createBlock(name + "_sea_lantern", <blockmaterial:glass>);
-	block.setBlockHardness(0.3);
-	block.setLightValue(1);
-	block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/sea_lanterns/" + name));
 	block.register();
 }
