@@ -2677,7 +2677,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Wrench Please.",
-          "desc:8": "A wrench is useful for picking up the tech reborn machines."
+          "desc:8": "A wrench is required for picking up the tech reborn machines. Without it you will lose the majority of the machine."
         }
       },
       "tasks:9": {
@@ -2734,7 +2734,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Enhanced Energy Conduits",
-          "desc:8": ""
+          "desc:8": "Enhanced Energy Conduits allow you to transfer eight times as much energy as normal Energy Conduits."
         }
       },
       "tasks:9": {
@@ -3019,7 +3019,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Rolling in the Deep",
-          "desc:8": ""
+          "desc:8": "You will end up needing to make a rolling machine to make some of the more advanced tech reborn machines later on."
         }
       },
       "tasks:9": {
@@ -12220,7 +12220,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Basic Capacitors",
-          "desc:8": ""
+          "desc:8": "The first capacitor you will make, required to run your new machines."
         }
       },
       "tasks:9": {
@@ -12277,7 +12277,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Double-Layered Capacitors",
-          "desc:8": ""
+          "desc:8": "Upgraded version of Basic Capacitors."
         }
       },
       "tasks:9": {
@@ -12334,7 +12334,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Octadict Capacitors",
-          "desc:8": ""
+          "desc:8": "Upgraded version of Double-Layered Capacitors."
         }
       },
       "tasks:9": {
@@ -12790,7 +12790,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Ender Energy Conduits",
-          "desc:8": ""
+          "desc:8": "Ender Energy Conduits allow you to transfer four times as much energy as Enhanced Energy Conduits."
         }
       },
       "tasks:9": {
@@ -12847,7 +12847,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Energy Conduits",
-          "desc:8": ""
+          "desc:8": "This is likely one of the first energy conduits/cables you will make. There are some slightly cheaper ones from Ender IO Endergy that don\u0027t transfer as much power, as well as the insulated copper cables from Tech Reborn you can use before you start making better power transfer."
         }
       },
       "tasks:9": {
@@ -13075,7 +13075,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Simple Processing",
-          "desc:8": ""
+          "desc:8": "The most basic Ender IO machines, they are not that efficient, and run very slowly but they will get the job done."
         }
       },
       "tasks:9": {
@@ -13196,7 +13196,7 @@
     "213:10": {
       "questID:3": 213,
       "preRequisites:11": [
-        211
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13525,7 +13525,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Empowering",
-          "desc:8": ""
+          "desc:8": "An empowerer is used to empower various items to a more powerful state."
         }
       },
       "tasks:9": {
@@ -13588,7 +13588,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Atomic Reconstruction",
-          "desc:8": ""
+          "desc:8": "An atomic reconstructor lets you convert items of one type into items of another type."
         }
       },
       "tasks:9": {
@@ -13885,7 +13885,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Metallurgic Infusing",
-          "desc:8": ""
+          "desc:8": "A Metallurgic Infuser allows you to infuse simple items with various other materials."
         }
       },
       "tasks:9": {
@@ -13945,7 +13945,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Enrichment Chamber",
-          "desc:8": ""
+          "desc:8": "The Enrichment chamber lets you improve the effictiveness of various items in the metallurgic infuser, as well as, allow you to double lots of resources that come from ores."
         }
       },
       "tasks:9": {
@@ -14066,7 +14066,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Enriched Alloy",
-          "desc:8": ""
+          "desc:8": "This is the most basic Mekanism Alloy that is needed in a large number of Mekanism machines."
         }
       },
       "tasks:9": {
@@ -14238,7 +14238,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Industrial Chassis",
-          "desc:8": ""
+          "desc:8": "The Industrial Machine Chassis is the second chassis you will probably end up creating. It is needed to make the majority of more advanced machines, and machine casings."
         }
       },
       "tasks:9": {
@@ -14296,7 +14296,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Steel Casing",
-          "desc:8": ""
+          "desc:8": "Steel Casings are the third tier of machine casings you will probably end up creating. They are used for all Mekanism machines and for creating even more advanced casings."
         }
       },
       "tasks:9": {
@@ -14353,7 +14353,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Simple Chassis",
-          "desc:8": ""
+          "desc:8": "The simplest machine chassis you can make. To get the Grains of Infinite light the bedrock in the center of your starting platform on fire and wait for it to burn out. There is a 50% chance that grains of infinity will drop."
         }
       },
       "tasks:9": {
@@ -16473,7 +16473,7 @@
     "269:10": {
       "questID:3": 269,
       "preRequisites:11": [
-        38
+        47
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17350,19 +17350,19 @@
         "7:10": {
           "size:3": 24,
           "x:3": 120,
-          "y:3": 6,
+          "y:3": 36,
           "id:3": 196
         },
         "8:10": {
           "size:3": 24,
           "x:3": 120,
-          "y:3": -24,
+          "y:3": 6,
           "id:3": 197
         },
         "9:10": {
           "size:3": 24,
           "x:3": 120,
-          "y:3": -54,
+          "y:3": -24,
           "id:3": 198
         },
         "10:10": {
@@ -17386,7 +17386,7 @@
         "13:10": {
           "size:3": 24,
           "x:3": 90,
-          "y:3": 6,
+          "y:3": 36,
           "id:3": 213
         },
         "14:10": {
