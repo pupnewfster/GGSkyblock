@@ -58,5 +58,4 @@ static colorLookup as int[string] = {
 	
 	lime : 0x00FF00,
 	aqua : 0x33FFFF
-	
 } as int[string];

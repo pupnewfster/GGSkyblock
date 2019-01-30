@@ -14,7 +14,6 @@ createFluidRarity("yellow_matter", colorLookup.yellow_matter, 1500, 3500, 48000,
 createFluidRarity("green_matter", colorLookup.green_matter, 2000, 4000, 64000, "EPIC");
 createFluidRarity("blue_matter", colorLookup.blue_matter, 2500, 4500, 88000, "EPIC");
 
-
 createFluid("tier14", colorLookup.tier14);
 createFluid("tier18", colorLookup.tier18);
 createFluid("tier19", colorLookup.tier19);
@@ -22,7 +21,6 @@ createFluid("tier25blood", 0x760000);
 createFluid("tier30_dirty", 0xC49147);
 
 createFluidLight("tier30_clean", colorLookup.tier30, 1000);
-
 
 
 function createFluid(name as string, color as int) {
@@ -54,5 +52,3 @@ function createFluidRarity(name as string, color as int, luminosity as int, temp
     fluid.rarity = rarity;
     fluid.register();
 }
-
-//https://manytools.org/image/colorize-filter/ multiply
