@@ -16197,7 +16197,7 @@
           "name:8": "Advanced Technology",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Some more advanced technology that you will find useful."
         }
       },
       "order:3": 6
@@ -16671,7 +16671,7 @@
           "name:8": "Botania",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Learn some of the basics of Botania"
         }
       },
       "order:3": 2
@@ -16781,7 +16781,7 @@
           "name:8": "Astral Sorcery",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Learn some of the basics of Astral Sorcery"
         }
       },
       "order:3": 7
@@ -16915,7 +16915,7 @@
           "name:8": "Thaumcraft",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Learn some of the basics of Thaumcraft"
         }
       },
       "order:3": 8
@@ -17181,7 +17181,7 @@
           "name:8": "EMC Generation",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "Growing EMC"
+          "desc:8": "Learn how to grow EMC"
         }
       },
       "order:3": 3
@@ -17291,7 +17291,7 @@
           "name:8": "Blood Magic",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Learn some of the basics of Blood Magic"
         }
       },
       "order:3": 9
@@ -17533,7 +17533,7 @@
           "name:8": "Item Storage",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Learn various ways of storing all your items."
         }
       },
       "order:3": 4
