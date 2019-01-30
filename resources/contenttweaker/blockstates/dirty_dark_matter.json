@@ -3,7 +3,7 @@
   "defaults": {
     "model": "forge:fluid",
     "custom": {
-      "fluid": "liquidaeternalis"
+      "fluid": "dirty_dark_matter"
     }
   },
   "variants": {

@@ -21,7 +21,10 @@ mods.jei.JEI.removeAndHide(<tcomplement:melter>);
 mods.jei.JEI.removeAndHide(<tcomplement:melter:8>);
 
 
-Fuel.registerFuel(<liquid:liquidaeternalis>, 160);
-Fuel.registerFuel(<liquid:liquiddarkmatter>, 320);
-Fuel.registerFuel(<liquid:liquidredmatter>, 640);
-Fuel.registerFuel(<liquid:liquidbluematter>, 1280);
+Fuel.registerFuel(<liquid:aeternalis>, 160);
+Fuel.registerFuel(<liquid:dark_matter>, 320);
+Fuel.registerFuel(<liquid:red_matter>, 640);
+Fuel.registerFuel(<liquid:orange_matter>, 1280);
+Fuel.registerFuel(<liquid:yellow_matter>, 2560);
+Fuel.registerFuel(<liquid:green_matter>, 5120);
+Fuel.registerFuel(<liquid:blue_matter>, 10240);

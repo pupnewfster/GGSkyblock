@@ -1,15 +1,19 @@
-fluid.liquidaeternalis=Liquid Aeternalis
-fluid.liquiddarkmatter=Liquid Dark Matter
-fluid.liquidredmatter=Liquid Red Matter
-fluid.liquidbluematter=Liquid Blue Matter
-fluid.dirtydarkmatter=Dirty Liquid Dark Matter
+fluid.aeternalis=Liquid Aeternalis
+fluid.dark_matter=Liquid Dark Matter
+fluid.red_matter=Liquid Red Matter
+fluid.orange_matter=Liquid Orange Matter
+fluid.yellow_matter=Liquid Yellow Matter
+fluid.green_matter=Liquid Green Matter
+fluid.blue_matter=Liquid Blue Matter
 
-fluid.liquidtier14=Liquid Tier 14 EMC Essence
-fluid.liquidtier18=Liquid Tier 18 EMC Essence
-fluid.liquidtier19=Liquid Tier 19 EMC Essence
+fluid.dirty_dark_matter=Dirty Liquid Dark Matter
+
+fluid.tier14=Liquid Tier 14 EMC Essence
+fluid.tier18=Liquid Tier 18 EMC Essence
+fluid.tier19=Liquid Tier 19 EMC Essence
 fluid.tier25blood=Bloody Tier 25 EMC Essence
-fluid.tier30_dirty=Dirty Tier 19 EMC Essence
-fluid.tier30_clean=Clean Tier 19 EMC Essence
+fluid.tier30_dirty=Dirty Tier 30 EMC Essence
+fluid.tier30_clean=Clean Tier 30 EMC Essence
 
 
 

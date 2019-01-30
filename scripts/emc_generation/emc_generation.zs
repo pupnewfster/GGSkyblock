@@ -126,8 +126,8 @@ BloodAltar.addRecipe(<minecraft:nether_star>, <mysticalagriculture:electrum_esse
 
 
 //Tier 14
-dissolution.addRecipe(<mysticalagriculture:electrum_seeds>, <gas:liquidtier14> * 1000);
-crystallizer.addRecipe(<gas:liquidtier14> * 1000, <mysticalagriculture:tungsten_seeds>);
+dissolution.addRecipe(<mysticalagriculture:electrum_seeds>, <gas:tier14> * 1000);
+crystallizer.addRecipe(<gas:tier14> * 1000, <mysticalagriculture:tungsten_seeds>);
 compressor.addRecipe(<mysticalagriculture:tungsten_essence>, <projecte:item.pe_fuel:1>);
 
 
@@ -164,9 +164,9 @@ recipes.addShapeless("CTT18ToEMC", <projecte:fuel_block:1> * 9, [<contenttweaker
 
 
 //Tier 19
-dissolution.addRecipe(<mysticalagriculture:aluminum_brass_seeds>, <gas:liquidtier18> * 1000);
-chemicalInfuser.addRecipe(<gas:refined_life_essence>, <gas:liquidtier18>, <gas:liquidtier19>);
-crystallizer.addRecipe(<gas:liquidtier19> * 1000, <mysticalagriculture:knightslime_seeds>);
+dissolution.addRecipe(<mysticalagriculture:aluminum_brass_seeds>, <gas:tier18> * 1000);
+chemicalInfuser.addRecipe(<gas:refined_life_essence>, <gas:tier18>, <gas:tier19>);
+crystallizer.addRecipe(<gas:tier19> * 1000, <mysticalagriculture:knightslime_seeds>);
 
 Melting.addRecipe(<liquid:moltentier18> * 144, <mysticalagriculture:aluminum_brass_essence>, 500);
 Melting.addRecipe(<liquid:moltentier18> * 1296, <contenttweaker:tier18_block>, 700);
@@ -258,10 +258,10 @@ ManaInfusion.addInfusion(<avaritia:singularity:13>, <contenttweaker:tier28_elven
 
 
 //Tier 29
-dissolution.addRecipe(<projecte:item.pe_matter>, <gas:dirtydarkmatter> * 100);
-washer.addRecipe(<gas:dirtydarkmatter>, <gas:liquiddarkmatter>);
-separator.addRecipe(<liquid:liquiddarkmatter>, 10000, <gas:liquidaeternalis> * 2, <gas:liquidaeternalis> * 2);
-reaction.addRecipe(<mysticalagriculture:pulsating_iron_seeds>, <liquid:liquidaeternalis> * 1000, <gas:refined_life_essence> * 500, <mysticalagriculture:energetic_alloy_seeds>, <gas:lifeessence> * 10, 1000, 3000);
+dissolution.addRecipe(<projecte:item.pe_matter>, <gas:dirty_dark_matter> * 100);
+washer.addRecipe(<gas:dirty_dark_matter>, <gas:dark_matter>);
+separator.addRecipe(<liquid:dark_matter>, 10000, <gas:aeternalis> * 2, <gas:aeternalis> * 2);
+reaction.addRecipe(<mysticalagriculture:pulsating_iron_seeds>, <liquid:aeternalis> * 1000, <gas:refined_life_essence> * 500, <mysticalagriculture:energetic_alloy_seeds>, <gas:lifeessence> * 10, 1000, 3000);
 
 Melting.addRecipe(<liquid:moltentier29> * 144, <mysticalagriculture:energetic_alloy_essence>, 1700);
 Casting.addTableRecipe(<jaopca:item_singularitytungsten>, null, <liquid:moltentier29>, 144, false, 1200);

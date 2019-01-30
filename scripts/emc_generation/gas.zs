@@ -3,50 +3,31 @@
 import mods.mekatweaker.GasFactory;
 import mods.mekatweaker.Gas;
 
-var heavyGas = GasFactory.createFromFluid(<liquid:heavywater>);
-heavyGas.register();
+import crafttweaker.liquid.ILiquidStack;
 
-var gasAeternalis = GasFactory.createFromFluid(<liquid:liquidaeternalis>);
-gasAeternalis.register();
+val liquids = [
+    <liquid:heavywater>,
+    <liquid:aeternalis>,
+    <liquid:dirty_dark_matter>,
+    <liquid:dark_matter>,
+    <liquid:red_matter>,
+    <liquid:orange_matter>,
+    <liquid:yellow_matter>,
+    <liquid:green_matter>,
+    <liquid:blue_matter>,
 
-var gasDirtyDarkMatter = GasFactory.createFromFluid(<liquid:dirtydarkmatter>);
-gasDirtyDarkMatter.register();
+    <liquid:lifeessence>,
+    <liquid:refined_life_essence>,
 
-var gasDarkMatter = GasFactory.createFromFluid(<liquid:liquiddarkmatter>);
-gasDarkMatter.register();
+    <liquid:tier14>,
+    <liquid:tier18>,
+    <liquid:tier19>,
 
-var gasRedMatter = GasFactory.createFromFluid(<liquid:liquidredmatter>);
-gasRedMatter.register();
+    <liquid:tier25blood>,
+    <liquid:tier30_dirty>,
+    <liquid:tier30_clean>
+] as ILiquidStack[];
 
-var gasBlueMatter = GasFactory.createFromFluid(<liquid:liquidbluematter>);
-gasBlueMatter.register();
-
-
-
-
-
-var lpGas = GasFactory.createFromFluid(<liquid:lifeessence>);
-lpGas.register();
-
-var refinedLPGas = GasFactory.createFromFluid(<liquid:refined_life_essence>);
-refinedLPGas.register();
-
-
-
-var gasTier14 = GasFactory.createFromFluid(<liquid:liquidtier14>);
-gasTier14.register();
-
-var gasTier18 = GasFactory.createFromFluid(<liquid:liquidtier18>);
-gasTier18.register();
-
-var gasTier19 = GasFactory.createFromFluid(<liquid:liquidtier19>);
-gasTier19.register();
-
-var gasTier25Blood = GasFactory.createFromFluid(<liquid:tier25blood>);
-gasTier25Blood.register();
-
-var gasTier30Dirty = GasFactory.createFromFluid(<liquid:tier30_dirty>);
-gasTier30Dirty.register();
-
-var gasTier30Clean = GasFactory.createFromFluid(<liquid:tier30_clean>);
-gasTier30Clean.register();
+for liquid in liquids {
+    GasFactory.createFromFluid(liquid).register();
+}

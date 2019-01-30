@@ -1,16 +1,20 @@
 gas.heavywater=Heavy Water Vapor
-gas.liquidaeternalis=Gaseous Aeternalis
-gas.liquiddarkmatter=Gaseous Dark Matter
-gas.liquidredmatter=Gaseous Red Matter
-gas.liquidbluematter=Gaseous Blue Matter
 
-gas.dirtydarkmatter=Dirty Gaseous Dark Matter
+gas.aeternalis=Gaseous Aeternalis
+gas.dark_matter=Gaseous Dark Matter
+gas.red_matter=Gaseous Red Matter
+gas.orange_matter=Gaseous Orange Matter
+gas.yellow_matter=Gaseous Yellow Matter
+gas.green_matter=Gaseous Green Matter
+gas.blue_matter=Gaseous Blue Matter
+
+gas.dirty_dark_matter=Dirty Gaseous Dark Matter
 
 gas.refined_life_essence=Refined Gaseous Life Essence
 gas.lifeessence=Gaseous Life Essence
-gas.liquidtier14=Gaseous Tier 14 EMC Essence
-gas.liquidtier18=Gaseous Tier 18 EMC Essence
-gas.liquidtier19=Gaseous Tier 19 EMC Essence
+gas.tier14=Gaseous Tier 14 EMC Essence
+gas.tier18=Gaseous Tier 18 EMC Essence
+gas.tier19=Gaseous Tier 19 EMC Essence
 gas.tier25blood=Gaseous Tier 25 Blood EMC Essence
 gas.tier30_dirty=Dirty Gaseous Tier 30 EMC Essence
 gas.tier30_clean=Clean Gaseous Tier 30 EMC Essence

@@ -48,6 +48,9 @@ static colorLookup as int[string] = {
 	aeternalis : 0x9D9D9D,
 	dark_matter : 0x37173E,
 	red_matter : 0x9A0707,
+	orange_matter : 0xF58400,
+	yellow_matter : 0xF3B200,
+	green_matter : 0x75F300,
 	blue_matter : 0x0574FF,
 	blood : 0x8A0000,
 	
