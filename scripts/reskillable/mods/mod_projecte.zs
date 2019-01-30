@@ -11,6 +11,7 @@ addRequirement(<projectex:personal_link>, "reskillable:magic|128", "compatskills
 addRequirement(<projecte:item.pe_mercurial_eye>, "reskillable:building|37", "reskillable:magic|27");
 
 addRequirement(<projecte:transmutation_table>, "none");
+addRequirement(<projecte:item.pe_philosophers_stone>, "none");
 
 addRequirement(<projecte:item.pe_tome>, "reskillable:agility|256", "reskillable:attack|256", "reskillable:building|256", "reskillable:defense|256", "reskillable:farming|256", "reskillable:gathering|256", "reskillable:magic|256", "reskillable:mining|256", "compatskills:smithing|256", "compatskills:technology|256", "compatskills:taming|256");
 
