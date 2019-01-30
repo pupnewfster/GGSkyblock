@@ -3371,7 +3371,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Wireless Energy",
-          "desc:8": ""
+          "desc:8": "You can use Flux points and plugs to wirelessly tranfer energy. Plugs accept energy and points output energy."
         }
       },
       "tasks:9": {
@@ -3434,7 +3434,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Wireless Charging",
-          "desc:8": ""
+          "desc:8": "You can control your network via a Flux Controller. You can also wirelessly charge your inventory via the settings in the Flux Controller."
         }
       },
       "tasks:9": {
@@ -3611,7 +3611,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Localized Fast Travel",
-          "desc:8": ""
+          "desc:8": "To quickly travel between two set points you can create Travel Anchors. Looking at another travel anchor and jumping/crouching while on one will teleport you to it."
         }
       },
       "tasks:9": {
@@ -3645,7 +3645,8 @@
     "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
-        57
+        57,
+        216
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3677,7 +3678,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Portable Localized Teleportation",
-          "desc:8": ""
+          "desc:8": "Using a Staff of Travelling will let you teleport to travel anchors from a longer distance (while also not requiring you to be standing on one). You can also sneak right click with a staff of travelling to teleport a brief distance in the direction you are looking."
         }
       },
       "tasks:9": {
@@ -3739,7 +3740,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Enhanced Machines",
-          "desc:8": ""
+          "desc:8": "Enhanced Ender IO Machines are even faster and more efficient than the normal versions."
         }
       },
       "tasks:9": {
@@ -3802,7 +3803,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Powered Spawning",
-          "desc:8": ""
+          "desc:8": "To improve your farm, and allow for mobs to spawn when there are no players nearby created a Powered Spawner. Powered Spawners can spawn mobs more frequently and their speed can be changed based on the capacitor used."
         }
       },
       "tasks:9": {
@@ -12036,7 +12037,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Loot Gathering",
-          "desc:8": ""
+          "desc:8": "To gather loot and xp from your mob farm, create a Vacuum chest and an XP Vacuum."
         }
       },
       "tasks:9": {
@@ -12099,7 +12100,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Experience Storage",
-          "desc:8": ""
+          "desc:8": "To store experience and not worry about it if you die, create an experience obelisk. This also lets you share xp with other players if you are on a server."
         }
       },
       "tasks:9": {
@@ -12156,7 +12157,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Autocrafting",
-          "desc:8": ""
+          "desc:8": "When you want to start autocrafting using your ME system, create a Molecular Assembler, and some interfaces. You will also need Crafting Storage."
         }
       },
       "tasks:9": {
@@ -12170,6 +12171,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:interface",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -12384,7 +12391,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crystalline Capacitors",
-          "desc:8": ""
+          "desc:8": "Upgraded version of Octadict Capacitors."
         }
       },
       "tasks:9": {
@@ -12441,7 +12448,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Melodic Capacitors",
-          "desc:8": ""
+          "desc:8": "Upgraded version of Crystalline Capacitors."
         }
       },
       "tasks:9": {
@@ -12498,7 +12505,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Stellar Capacitors",
-          "desc:8": ""
+          "desc:8": "Upgraded version of Melodic Capacitors. Stellar Capacitors are the best capacitors in this pack."
         }
       },
       "tasks:9": {
@@ -12555,7 +12562,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crystalline Energy Conduit",
-          "desc:8": ""
+          "desc:8": "Crystalline Energy Conduits allow you to transfer twice as much energy as Ender Energy Conduits."
         }
       },
       "tasks:9": {
@@ -12612,7 +12619,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crystalline Pink Slime Energy Conduit",
-          "desc:8": ""
+          "desc:8": "Crystalline Pink Slime Energy Conduits allow you to transfer twice as much energy as Crystalline Energy Conduits."
         }
       },
       "tasks:9": {
@@ -12669,7 +12676,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Melodic Energy Conduits",
-          "desc:8": ""
+          "desc:8": "Melodic Energy Conduits allow you to transfer four times as much energy as Crystalline Pink Slime Energy Conduits."
         }
       },
       "tasks:9": {
@@ -12726,7 +12733,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Stellar Energy Conduits",
-          "desc:8": ""
+          "desc:8": "Stellar Energy Conduits are the best energy conduits or cables for that matter that you can make."
         }
       },
       "tasks:9": {
@@ -12897,7 +12904,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Item Transfer",
-          "desc:8": ""
+          "desc:8": "For item transfer the first transfer method you will probably make is item conduits from Ender IO."
         }
       },
       "tasks:9": {
@@ -12954,7 +12961,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Ender Gas Conduits",
-          "desc:8": ""
+          "desc:8": "To transfer gas you have a couple options. You can use Mekanism\u0027s Pressurized Tubes, or you can use Gas Conduits. Gas Conduits are Ender IO styled conduits for gas so they work in the conduit bundles and you can make your structures more condensed.\n\nWith Ender Gas Conduits you can also use Gas Filters so that you can have gas travelling through the same pipe so long as it knows where it is going to be outputted."
         }
       },
       "tasks:9": {
@@ -13011,7 +13018,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Ender Fluid Conduits",
-          "desc:8": ""
+          "desc:8": "For fluid transfer you can use mechanical pipes from Mekanism, or use Ender IO\u0027s fluid conduits."
         }
       },
       "tasks:9": {
@@ -13131,7 +13138,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Inscribing Circuits",
-          "desc:8": ""
+          "desc:8": "Create an inscriber and start making circuits to make your own computer storage system."
         }
       },
       "tasks:9": {
@@ -13212,7 +13219,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Faster Processing",
-          "desc:8": ""
+          "desc:8": "You can upgrade your simple Ender IO machines to their normal variants. These variants require capacitors, but the better the capacitor the faster the machine is and the more energy it can store."
         }
       },
       "tasks:9": {
@@ -13275,7 +13282,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Automated Farming",
-          "desc:8": ""
+          "desc:8": "Creating a farming station will be very useful for purposes of automating farming EMC."
         }
       },
       "tasks:9": {
@@ -13332,7 +13339,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Slicing and Splicing",
-          "desc:8": ""
+          "desc:8": "Create a slice\u0027n\u0027splice to start making Z-Logic Controllers, which you will need for some of the higher end Ender IO Machines."
         }
       },
       "tasks:9": {
@@ -13349,6 +13356,12 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 41
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13389,7 +13402,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Binding Souls",
-          "desc:8": ""
+          "desc:8": "You will need to make a Soul Binder to get Ender Crystals, used in creating a Staff of Travelling."
         }
       },
       "tasks:9": {
@@ -13452,7 +13465,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Quantum Entangloptation",
-          "desc:8": ""
+          "desc:8": "To transfer items, fluids, gas over a distance you can use Quantum Entangloporters. (Think tesseracts)"
         }
       },
       "tasks:9": {
@@ -13632,7 +13645,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Advanced Reconstruction",
-          "desc:8": ""
+          "desc:8": "There are multiple uses for an Advanced Reconstructor. Firstly it has an inventory so you don\u0027t need to drop items on the ground, because you can use its internal buffer. And secondly it has a higher energy limit than a normal Atomic Reconstructor. This is needed for some of the later tiers of EMC seeds."
         }
       },
       "tasks:9": {
@@ -13692,7 +13705,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Basic Installation",
-          "desc:8": ""
+          "desc:8": "To start upgrading your Mekanism machines you can either craft them into basic factories, or you can use a basic tier installer.\n\nOne thing to note about the installers, is you still are required to meet the requirements of the next tier machine to be able to upgrade to that tier factory."
         }
       },
       "tasks:9": {
@@ -13752,7 +13765,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Advanced Installation",
-          "desc:8": ""
+          "desc:8": "To continue upgrading your Mekanism machines you can either craft them into advanced factories, or you can use an advanced tier installer.\n\nOne thing to note about the installers, is you still are required to meet the requirements of the next tier machine to be able to upgrade to that tier factory."
         }
       },
       "tasks:9": {
@@ -13812,7 +13825,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Elite Installation",
-          "desc:8": ""
+          "desc:8": "To finish upgrading your Mekanism machines you can either craft them into elite factories, or you can use an elite tier installer.\n\nOne thing to note about the installers, is you still are required to meet the requirements of the next tier machine to be able to upgrade to that tier factory."
         }
       },
       "tasks:9": {
@@ -14110,7 +14123,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Reinforced Alloy",
-          "desc:8": ""
+          "desc:8": "A more advanced alloy for Mekanism machines."
         }
       },
       "tasks:9": {
@@ -14168,7 +14181,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Atomic Alloy",
-          "desc:8": ""
+          "desc:8": "An even more advanced alloy for Mekanism machines."
         }
       },
       "tasks:9": {
@@ -14643,7 +14656,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Basic Flight",
-          "desc:8": ""
+          "desc:8": "One of the earliest versions of flight you can get is a Mekanism Jetpack."
         }
       },
       "tasks:9": {
@@ -15594,7 +15607,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Soul Chassis",
-          "desc:8": ""
+          "desc:8": "Upgrading your chassis to a soul chassis, will allow you to create some machines that are useful for mob and xp farming."
         }
       },
       "tasks:9": {
@@ -16278,6 +16291,627 @@
           "index:3": 0
         }
       }
+    },
+    "266:10": {
+      "questID:3": 266,
+      "preRequisites:11": [
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:crafting_accelerator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Faster Crafting",
+          "desc:8": "To make your ME crafting go faster add some Crafting Co-Processors to your Crafting Storage."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:crafting_accelerator",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 20,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "267:10": {
+      "questID:3": 267,
+      "preRequisites:11": [
+        223
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "mekanism:tierinstaller",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Ultimate Installation",
+          "desc:8": "To finish upgrading your Mekanism storage containers, you can either craft them into the ultimate versions, or you can use an ultimate tier installer.\n\nOne thing to note about the installers, is you still are required to meet the requirements of the next tier machine to be able to upgrade to that tier factory."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanism:tierinstaller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 30,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "268:10": {
+      "questID:3": 268,
+      "preRequisites:11": [
+        219,
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "actuallyadditions:item_more_damage_lens",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Automated Mob Killing",
+          "desc:8": "Attach a Lens of the Killer to an atomic reconstructor and activate it to damage mobs. Killed mobs drop XP and player only drops.\n\nNOTE: These mobs will not drop any of the ores from Murdering for Ores."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:item_more_damage_lens",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 15,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "269:10": {
+      "questID:3": 269,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "techreborn:fusion_control_computer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tech Reborn Fusion",
+          "desc:8": "Tech Reborn\u0027s Fusion reactor allows for a decent source of early midgame power generation. If you want you can use it for later game power generation as well, you just need to create a larger sized reactor."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:fusion_control_computer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "techreborn:fusion_coil",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 25,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "270:10": {
+      "questID:3": 270,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "solarflux:solar_panel_1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Solar Panels",
+          "desc:8": "Solar panels are a good form of renewable energy. They don\u0027t have an EMC value though so if you want the higher tier panels you should make sure to set up some automation."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "solarflux:solar_panel_1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "271:10": {
+      "questID:3": 271,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "projecte:item.pe_philosophers_stone",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The Philosopher\u0027s Stone",
+          "desc:8": "A Philosopher\u0027s Stone is very useful, you can use it to turn mobs from one kind to another, transform various blocks. (This lets you get rubber, silverwood, and greatwood saplings if you somehow lose yours.)\n\nAs you progress you will end up using the mob transmutation feature to create evokers to get blue hearts. Once your taming level is high enough you can also use this to transform passive mobs into pets and tame them."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_philosophers_stone",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "272:10": {
+      "questID:3": 272,
+      "preRequisites:11": [
+        269
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanismgenerators:reactor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mekanism Fusion",
+          "desc:8": "Gather the parts for a Mekanism fusion reactor. When supplied the proper fuel this is one of the best energy options for mid game."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mekanismgenerators:reactor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "mekanismgenerators:reactor",
+              "Count:3": 62,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "2:10": {
+              "id:8": "mekanismgenerators:reactor",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "3:10": {
+              "id:8": "mekanismgenerators:reactorglass",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 45,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "273:10": {
+      "questID:3": 273,
+      "preRequisites:11": [
+        237
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "projecte:item.pe_swrg",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Creative Flight",
+          "desc:8": "Using a Swiftwolf\u0027s Rending Gale you can have creative flight, as long as oyu have EMC in your inventory to fuel it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_swrg",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 30,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "274:10": {
+      "questID:3": 274,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "projecte:item.pe_transmutation_tablet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Portable Transmutation",
+          "desc:8": "Instead of having to carry around a transmutation table everywhere and remember to pick it back up after you are done using it; creating a Transmutation Tablet will make your life much easier."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_transmutation_tablet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 25,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "275:10": {
+      "questID:3": 275,
+      "preRequisites:11": [
+        273
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "projecte:item.pe_arcana_ring",
+            "Count:3": 1,
+            "tag:10": {
+              "Mode:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Free Flight",
+          "desc:8": "Using a Ring of Arcana, you get a lot of benefits. The main one being the creative flight from the Swiftwolf\u0027s Rending Gale, except without the EMC cost for flight."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_arcana_ring",
+              "Count:3": 1,
+              "tag:10": {
+                "Mode:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 50,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -16372,6 +17006,12 @@
           "x:3": -30,
           "y:3": -6,
           "id:3": 235
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": 126,
+          "id:3": 271
         }
       },
       "lineID:3": 0,
@@ -16419,13 +17059,13 @@
         },
         "5:10": {
           "size:3": 24,
-          "x:3": -126,
+          "x:3": -96,
           "y:3": -96,
           "id:3": 57
         },
         "6:10": {
           "size:3": 24,
-          "x:3": -96,
+          "x:3": -126,
           "y:3": -96,
           "id:3": 58
         },
@@ -16533,14 +17173,14 @@
         },
         "24:10": {
           "size:3": 24,
-          "x:3": -156,
-          "y:3": -66,
+          "x:3": -186,
+          "y:3": -36,
           "id:3": 215
         },
         "25:10": {
           "size:3": 24,
-          "x:3": -186,
-          "y:3": -36,
+          "x:3": -156,
+          "y:3": -66,
           "id:3": 216
         },
         "26:10": {
@@ -16602,6 +17242,54 @@
           "x:3": -258,
           "y:3": -186,
           "id:3": 265
+        },
+        "36:10": {
+          "size:3": 24,
+          "x:3": -258,
+          "y:3": -126,
+          "id:3": 266
+        },
+        "37:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": -156,
+          "id:3": 267
+        },
+        "38:10": {
+          "size:3": 24,
+          "x:3": -96,
+          "y:3": -36,
+          "id:3": 268
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": -96,
+          "id:3": 269
+        },
+        "40:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": -96,
+          "id:3": 272
+        },
+        "41:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": -66,
+          "id:3": 273
+        },
+        "42:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": -36,
+          "id:3": 274
+        },
+        "43:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": -66,
+          "id:3": 275
         }
       },
       "lineID:3": 1,
@@ -16754,6 +17442,12 @@
           "x:3": 30,
           "y:3": 6,
           "id:3": 232
+        },
+        "23:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": 36,
+          "id:3": 270
         }
       },
       "lineID:3": 3,
