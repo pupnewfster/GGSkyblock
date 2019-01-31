@@ -4,6 +4,7 @@
 - Added a reward for "Stay Grindin'" quest
 - Rearranged early technology quest line adding a quest describing how to get bronze.
 - Added `In Control` to allow blazes to spawn everywhere in the nether, and disabled obsidian to lava philo stone transmutation.
+- Buff bauxite drop rate from squids.
 - Removed some peaceful and hostile mobs from the philo stone entity randomizer projectile.
   - Shulker
   - Villager

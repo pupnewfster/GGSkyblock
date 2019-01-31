@@ -22,7 +22,7 @@ var drops = {
     } as string[][int],
     //bauxite ore
     <techreborn:ore:4> : {
-        1 : null
+        9 : null
     } as string[][int],
     //lead ore
     <techreborn:ore:12> : {
