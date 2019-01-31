@@ -1077,7 +1077,14 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 2,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     },
     "16:10": {
       "questID:3": 16,
@@ -2621,7 +2628,7 @@
     "40:10": {
       "questID:3": 40,
       "preRequisites:11": [
-        38
+        276
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14558,7 +14565,7 @@
     "232:10": {
       "questID:3": 232,
       "preRequisites:11": [
-        38
+        40
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17183,6 +17190,69 @@
           "index:3": 0
         }
       }
+    },
+    "276:10": {
+      "questID:3": 276,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "techreborn:iron_alloy_furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Alloying up",
+          "desc:8": "Create an Iron Alloy Furnace to make bronze."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:iron_alloy_furnace",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "mekanism:ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 2,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -17579,146 +17649,152 @@
         "0:10": {
           "size:3": 24,
           "x:3": 0,
-          "y:3": 6,
+          "y:3": 36,
           "id:3": 38
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": -24,
           "id:3": 40
         },
         "2:10": {
           "size:3": 24,
           "x:3": -30,
-          "y:3": -24,
+          "y:3": 6,
           "id:3": 41
         },
         "3:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": -54,
+          "x:3": -60,
+          "y:3": 36,
           "id:3": 42
         },
         "4:10": {
           "size:3": 24,
-          "x:3": -60,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": -60,
           "id:3": 44
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 30,
-          "y:3": -24,
+          "x:3": -30,
+          "y:3": 66,
           "id:3": 47
         },
         "6:10": {
           "size:3": 24,
-          "x:3": -90,
-          "y:3": 6,
+          "x:3": 0,
+          "y:3": -90,
           "id:3": 48
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 120,
-          "y:3": 36,
+          "x:3": 150,
+          "y:3": -24,
           "id:3": 196
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 120,
-          "y:3": 6,
+          "x:3": 150,
+          "y:3": -54,
           "id:3": 197
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 120,
-          "y:3": -24,
+          "x:3": 150,
+          "y:3": -84,
           "id:3": 198
         },
         "10:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": -24,
+          "x:3": -30,
+          "y:3": 36,
           "id:3": 207
         },
         "11:10": {
           "size:3": 24,
           "x:3": 60,
-          "y:3": -24,
+          "y:3": -54,
           "id:3": 208
         },
         "12:10": {
           "size:3": 24,
           "x:3": 60,
-          "y:3": 6,
+          "y:3": -24,
           "id:3": 211
         },
         "13:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 36,
+          "x:3": 120,
+          "y:3": -24,
           "id:3": 213
         },
         "14:10": {
           "size:3": 24,
-          "x:3": 0,
-          "y:3": 66,
+          "x:3": 60,
+          "y:3": 36,
           "id:3": 218
         },
         "15:10": {
           "size:3": 24,
-          "x:3": 0,
+          "x:3": 30,
           "y:3": 36,
           "id:3": 219
         },
         "16:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 66,
+          "x:3": 120,
+          "y:3": 36,
           "id:3": 224
         },
         "17:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 96,
+          "x:3": 90,
+          "y:3": 66,
           "id:3": 225
         },
         "18:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 96,
+          "x:3": 120,
+          "y:3": 66,
           "id:3": 226
         },
         "19:10": {
           "size:3": 24,
-          "x:3": 120,
-          "y:3": 66,
+          "x:3": 150,
+          "y:3": 36,
           "id:3": 227
         },
         "20:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 36,
+          "x:3": 90,
+          "y:3": -24,
           "id:3": 230
         },
         "21:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 66,
+          "x:3": 90,
+          "y:3": 36,
           "id:3": 231
         },
         "22:10": {
           "size:3": 24,
           "x:3": 30,
-          "y:3": 6,
+          "y:3": -24,
           "id:3": 232
         },
         "23:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 36,
+          "x:3": 0,
+          "y:3": 66,
           "id:3": 270
+        },
+        "24:10": {
+          "size:3": 24,
+          "x:3": 0,
+          "y:3": 6,
+          "id:3": 276
         }
       },
       "lineID:3": 3,
