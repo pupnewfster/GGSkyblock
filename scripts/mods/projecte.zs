@@ -1,6 +1,7 @@
 #priority 800
 
 import mods.projecte.WorldTransmutation;
+import mods.projecte.EntityRandomizer;
 
 //Remove all philo stone smelting recipes
 recipes.removeByRegex("(projecte:philstone_smelt_).*");
@@ -221,3 +222,7 @@ WorldTransmutation.add(<minecraft:sapling:0>, <thaumcraft:sapling_silverwood>, <
 
 
 WorldTransmutation.remove(<blockstate:minecraft:lava>, <blockstate:minecraft:obsidian>);
+
+EntityRandomizer.removePeaceful(<entity:minecraft:villager>);
+EntityRandomizer.removeMob(<entity:minecraft:vex>);
+EntityRandomizer.removeMob(<entity:minecraft:shulker>);
