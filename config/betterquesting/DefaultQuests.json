@@ -8425,8 +8425,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemconstellationpaper",
@@ -19080,7 +19083,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "galaxygaming:textures/gui/title_page.png",
       "party_enable:1": 1,

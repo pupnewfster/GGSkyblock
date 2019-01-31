@@ -8,7 +8,7 @@
   - Shulker
   - Villager
   - Vex
-- Temporarily overwrite the light theme from BQ standard expansion so that we can have latest bq version and a more or less working theme.
+- Temporarily overwrite the dark theme from BQ standard expansion so that we can have latest bq version and a more or less working theme.
 - Added
   - In Control
 - Updated
