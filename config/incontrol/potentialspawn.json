@@ -1,0 +1,15 @@
+[
+  {
+    "dimension": -1,
+    "maxlight": 11,
+    "maxcount": "12,Blaze",
+    "mobs": [
+      {
+        "mob": "Blaze",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

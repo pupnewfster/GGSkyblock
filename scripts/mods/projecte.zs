@@ -218,3 +218,6 @@ WorldTransmutation.add(<techreborn:rubber_sapling>, <minecraft:sapling:5>, <mine
 WorldTransmutation.add(<thaumcraft:sapling_greatwood>, <techreborn:rubber_sapling>, <minecraft:sapling:5>); //rubber -> greatwood, dark oak
 WorldTransmutation.add(<thaumcraft:sapling_silverwood>, <thaumcraft:sapling_greatwood>, <techreborn:rubber_sapling>); //greatwood -> silverwood, rubber
 WorldTransmutation.add(<minecraft:sapling:0>, <thaumcraft:sapling_silverwood>, <thaumcraft:sapling_greatwood>); //silverwood -> oak, greatwood
+
+
+WorldTransmutation.remove(<blockstate:minecraft:lava>, <blockstate:minecraft:obsidian>);
