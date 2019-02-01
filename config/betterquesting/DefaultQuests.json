@@ -13481,7 +13481,7 @@
     "214:10": {
       "questID:3": 214,
       "preRequisites:11": [
-        83
+        279
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17384,6 +17384,65 @@
           "index:3": 0
         }
       }
+    },
+    "279:10": {
+      "questID:3": 279,
+      "preRequisites:11": [
+        44,
+        83
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:block_farmer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Simple Farming",
+          "desc:8": "While the Farmer may not be quite as efficient as a Farming Station, it will get the job done for producing EMC early via EMC seeds."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_farmer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 3,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -17932,6 +17991,12 @@
           "x:3": 0,
           "y:3": 6,
           "id:3": 276
+        },
+        "25:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": -60,
+          "id:3": 279
         }
       },
       "lineID:3": 3,

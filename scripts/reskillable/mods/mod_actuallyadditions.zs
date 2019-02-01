@@ -33,6 +33,8 @@ addRequirement(<actuallyadditions:block_empowerer>, "compatskills:technology|25"
 
 addRequirement(<actuallyadditions:item_fertilizer>, "reskillable:farming|25");
 
+addRequirement(<actuallyadditions:block_farmer>, "reskillable:farming|25");
+
 addRequirement(<actuallyadditions:item_color_lens>, "reskillable:magic|67", "compatskills:technology|62");
 
 /*addRequirement(<actuallyadditions:item_coffee>, "none");

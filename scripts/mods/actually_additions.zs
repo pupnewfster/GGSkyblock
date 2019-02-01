@@ -29,6 +29,10 @@ recipes.addShaped("CTGrowthRing", <actuallyadditions:item_growth_ring>, [[<minec
 recipes.remove(<actuallyadditions:block_empowerer>);
 recipes.addShaped("CTEmpowerer", <actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_crystal:0>, null], [null, <actuallyadditions:item_battery_double>, null], [<enderio:item_material:1>, <actuallyadditions:block_display_stand>, <enderio:item_material:1>]]);
 
+//Farmer
+recipes.remove(<actuallyadditions:block_farmer>);
+recipes.addShaped("CTFarmer", <actuallyadditions:block_farmer>, [[<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>], [<minecraft:wheat_seeds>, <techreborn:machine_casing:1>, <minecraft:wheat_seeds>], [<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>]]);
+
 //Remove Drills
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:16>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill:*>);
@@ -59,7 +63,6 @@ mods.jei.JEI.hide(<actuallyadditions:block_tiny_torch>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_coal_generator>);
 
 //Disable some things
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_farmer>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_miner>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_giant_chest>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_giant_chest_medium>);

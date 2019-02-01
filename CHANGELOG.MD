@@ -8,6 +8,7 @@
 - Made villagers drop experience
 - Looting 3 now has guaranteed drop rate of resources.
 - Added a quest about curing and breeding villagers.
+- Re-enabled Actually Addition's farmer as an earlier game alternative to Ender IO's farming station.
 
 - Updated
   - Astral Sorcery (1.10.10 to 1.10.11)
