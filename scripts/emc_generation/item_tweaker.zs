@@ -11,78 +11,65 @@ import mods.contenttweaker.Color;
 import crafttweaker.item.IItemStack;
 
 
-var metallicTier22 = VanillaFactory.createItem("metallic_tier22_seeds");	
-metallicTier22.setTextureLocation(ResourceLocation.create("mysticalagriculture:items/manyullyn_seeds"));
-metallicTier22.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-	return Color.fromInt(colorLookup.tier1);
-});
-metallicTier22.register();
+static customItems as int[string] = {
+	reconstructed_tier24 : colorLookup.lime,
+	empowered_tier25 : colorLookup.lime,
+	reconstructed_tier27_seeds : colorLookup.lime,
+	empowered_tier27_seeds : colorLookup.lime,
+	tier28_alchemy : colorLookup.lime,
 
-var tier23Alloy = VanillaFactory.createItem("tier23alloy");	
-tier23Alloy.setTextureLocation(ResourceLocation.create("base:items/plate"));
-tier23Alloy.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-	return Color.fromInt(colorLookup.tier23);
-});
-tier23Alloy.register();
+	metallic_tier22_seeds : colorLookup.tier1,
+	composting_tier24_seeds : 0xCD853F,
+	tier28_elven : colorLookup.aqua,
+	blood_tier23_seeds : colorLookup.blood,
+	blood_tier25_seeds : colorLookup.blood,
+	bloody_tier27 : colorLookup.blood,
 
-var compostingTier24 = VanillaFactory.createItem("composting_tier24_seeds");	
-compostingTier24.setTextureLocation(ResourceLocation.create("mysticalagriculture:items/redstone_alloy_seeds"));
-compostingTier24.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-	return Color.fromInt(0xCD853F);
-});
-compostingTier24.register();
-
-var tier28Elven = VanillaFactory.createItem("tier28_elven");
-tier28Elven.setTextureLocation(ResourceLocation.create("mysticalagriculture:items/pulsating_iron_essence"));
-tier28Elven.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-	return Color.fromInt(colorLookup.aqua);
-});
-tier28Elven.setGlowing(true);
-tier28Elven.register();
+	tier23alloy : colorLookup.tier23
+} as int[string];
 
 
-createLimeItem("reconstructed_tier24", "redstone_alloy_essence", false);
-createLimeItem("empowered_tier25", "conductive_iron_essence", true);
-createLimeItem("reconstructed_tier27_seeds", "dark_steel_seeds", false);
-createLimeItem("empowered_tier27_seeds", "dark_steel_seeds", true);
-createLimeItem("tier28_alchemy", "pulsating_iron_essence", true);
+createMysticalItem("reconstructed_tier24", "redstone_alloy_essence", false);
+createMysticalItem("empowered_tier25", "conductive_iron_essence", true);
+createMysticalItem("reconstructed_tier27_seeds", "dark_steel_seeds", false);
+createMysticalItem("empowered_tier27_seeds", "dark_steel_seeds", true);
+createMysticalItem("tier28_alchemy", "pulsating_iron_essence", true);
+createMysticalItem("metallic_tier22_seeds", "manyullyn_seeds", false);
+createMysticalItem("composting_tier24_seeds", "redstone_alloy_seeds", false);
+createMysticalItem("tier28_elven", "pulsating_iron_essence", true);
+createMysticalItem("blood_tier23_seeds", "electrical_steel_seeds", false);
+createMysticalItem("blood_tier25_seeds", "conductive_iron_seeds", false);
+createMysticalItem("bloody_tier27", "dark_steel_essence", false);
+
+createItem("tier23alloy", "base:items/plate", false);
 
 
-function createLimeItem(name as string, item as string, glowing as bool) {
-    var limeItem = VanillaFactory.createItem(name);
-    limeItem.setTextureLocation(ResourceLocation.create("mysticalagriculture:items/" + item));
-    limeItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-    	return Color.fromInt(colorLookup.lime);
-    });
-    limeItem.setGlowing(glowing);
-    limeItem.register();
+createJaopcaItem("tier30", "crystal");
+createJaopcaItem("tier30", "shard");
+createJaopcaItem("tier30", "clump");
+createJaopcaItem("tier30", "dust");
+
+
+function createMysticalItem(name as string, item as string, glowing as bool) {
+    createItem(name, "mysticalagriculture:items/" + item, glowing);
 }
 
-
-createBloodItem("blood_tier23_seeds", "electrical_steel_seeds");
-createBloodItem("blood_tier25_seeds", "conductive_iron_seeds");
-createBloodItem("bloody_tier27", "dark_steel_essence");
-
-function createBloodItem(name as string, texture as string) {
-	var bloodItem = VanillaFactory.createItem(name);
-	bloodItem.setTextureLocation(ResourceLocation.create("mysticalagriculture:items/" + texture));
-	bloodItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-		return Color.fromInt(colorLookup.blood);
-	});
-	bloodItem.register();
+function createItem(name as string, texture as string, glowing as bool) {
+    var item = VanillaFactory.createItem(name);
+    item.setTextureLocation(ResourceLocation.create(texture));
+    item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+    	return Color.fromInt(scripts.emc_generation.item_tweaker.customItems[stack.definition.id.substring(15)]);
+    });
+    item.setGlowing(glowing);
+    item.register();
 }
 
-
-createTier30Item("crystal");
-createTier30Item("shard");
-createTier30Item("clump");
-createTier30Item("dust");
-
-function createTier30Item(type as string) {
-	var tier30Item = VanillaFactory.createItem("tier30_" + type);
-	tier30Item.setTextureLocation(ResourceLocation.create("jaopca:items/" + type));
-    tier30Item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-    	return Color.fromInt(colorLookup.tier30);
+function createJaopcaItem(tier as string, type as string) {
+	var item = VanillaFactory.createItem(tier + "_" + type);
+	item.setTextureLocation(ResourceLocation.create("jaopca:items/" + type));
+    item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+        val id = stack.definition.id.substring(15);
+    	return Color.fromInt(colorLookup[id.split("_")[0]]);
     });
-	tier30Item.register();
+	item.register();
 }
