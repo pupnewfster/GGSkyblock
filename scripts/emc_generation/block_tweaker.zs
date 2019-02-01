@@ -69,7 +69,7 @@ function createColoredBlockFull(name as string, texture as string, tool as strin
 }
 
 
-val storageBlocks = ["tier16", "tier17", "tier18", "tier22", "tier24"] as string[];
+val storageBlocks = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32"] as string[];
 
 for name in storageBlocks {
 	var block = VanillaFactory.createBlock(name + "_block", <blockmaterial:iron>);

@@ -11,6 +11,7 @@ val liquids = [
     <liquid:dirty_dark_matter>,
     <liquid:dark_matter>,
     <liquid:red_matter>,
+    <liquid:heavy_red_matter>,
     <liquid:orange_matter>,
     <liquid:yellow_matter>,
     <liquid:green_matter>,

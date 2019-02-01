@@ -7,6 +7,7 @@ fluid.green_matter=Liquid Green Matter
 fluid.blue_matter=Liquid Blue Matter
 
 fluid.dirty_dark_matter=Dirty Liquid Dark Matter
+fluid.heavy_red_matter=Liquid Heavy Red Matter
 
 fluid.tier14=Liquid Tier 14 EMC Essence
 fluid.tier18=Liquid Tier 18 EMC Essence
@@ -70,6 +71,7 @@ tile.contenttweaker.tier24_block.name=Tier 24 EMC Essence Block
 tile.contenttweaker.tier24_composting_block.name=Composting Tier 24 EMC Essence Block
 tile.contenttweaker.imbued_tier22.name=Imbued Tier 22 EMC Essence Block
 tile.contenttweaker.tier25_26_alloy_block.name=Tier 25 - 26 EMC Alloy Block
+tile.contenttweaker.tier32_block.name=Tier 32 EMC Essence Block
 
 
 tile.contenttweaker.black_sea_lantern.name=Black Sea Lantern

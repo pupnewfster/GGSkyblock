@@ -9,6 +9,7 @@ createFluidRarity("aeternalis", colorLookup.aeternalis, 1000, 1700, 4000, "UNCOM
 createFluidRarity("dirty_dark_matter", 0x37173E, 0, 2000, 8000, "RARE");
 createFluidRarity("dark_matter", colorLookup.dark_matter, 0, 2000, 8000, "RARE");
 createFluidRarity("red_matter", colorLookup.red_matter, 500, 2500, 16000, "RARE");
+createFluidRarity("heavy_red_matter", 0xE53D3D, 500, 2500, 16000, "RARE");
 createFluidRarity("orange_matter", colorLookup.orange_matter, 1000, 3000, 32000, "EPIC");
 createFluidRarity("yellow_matter", colorLookup.yellow_matter, 1500, 3500, 48000, "EPIC");
 createFluidRarity("green_matter", colorLookup.green_matter, 2000, 4000, 64000, "EPIC");

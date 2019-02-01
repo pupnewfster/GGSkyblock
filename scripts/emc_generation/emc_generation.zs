@@ -281,16 +281,30 @@ enrichment.addRecipe(<contenttweaker:tier30_dust>, <projecte:item.pe_matter>);
 
 
 //Tier 31
+SliceNSplice.addRecipe(<mysticalagriculture:end_steel_seeds>, [<contenttweaker:tier30_dust>, <mysticalagriculture:vibrant_alloy_seeds>, <mysticalagriculture:vibrant_alloy_essence>, <contenttweaker:tier30_clump>, <contenttweaker:tier30_crystal>, <contenttweaker:tier30_shard>], 450000, 0.5);
+
 //<mysticalagriculture:end_steel_seeds>
 //<avaritia:singularity:14> //748,077,120
 
 
 //Tier 32
+Vat.addRecipe(<liquid:red_matter>, <liquid:dark_matter>, [<mysticalagriculture:end_steel_essence>], [1], [<projecte:item.pe_matter:1>], [1], 500000);
+chemicalInfuser.addRecipe(<gas:red_matter>, <gas:hydrogen>, <gas:heavy_red_matter>);
+Casting.addTableRecipe(<mysticalagriculture:manasteel_seeds>, <mysticalagriculture:end_steel_seeds>, <liquid:heavy_red_matter>, 144, true, 600);
+
 //<mysticalagriculture:manasteel_seeds>
 //<projecte:matter_block> //1,720,221,696
 
 
+
 //Tier 33
+recipes.addShaped("CTT32Block", <contenttweaker:tier32_block>, [[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>], [<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>], [<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);
+
+//SliceNSplice.addRecipe(<contenttweaker:temp>, [<minecraft:nether_star>, <mysticalagriculture:manasteel_seeds>, <minecraft:nether_star>, <contenttweaker:tier32_block>, <enderio:item_alloy_endergy_ingot:3>, <contenttweaker:tier32_block>], 500000, 0.5);
+//LightTransmutation.addTransmutation(<contenttweaker:temp>, <contenttweaker:imbued_temp>, 100);
+//ManaInfusion.addAlchemy(<contenttweaker:temp2>, <contenttweaker:imbued_temp>, 750000);
+//ElvenTrade.addRecipe([<mysticalagriculture:elementium_seeds>], [<contenttweaker:temp2>]);
+
 //<mysticalagriculture:elementium_seeds>
 //<avaritia:resource:5> //3,746,018,080
 
