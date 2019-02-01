@@ -98,7 +98,7 @@ static conds as LootCondition[] = [
      }),
     Conditions.parse({
       "chance": 0.5,
-      "looting_multiplier": 0.08,
+      "looting_multiplier": 0.17,
       "condition": "minecraft:random_chance_with_looting"
     })
 ] as LootCondition[];
@@ -114,10 +114,7 @@ static looting as LootFunction[] = [
 ] as LootFunction[];
 
 function getConditions(conditions as string[]) as LootCondition {
-    if (isNull(conditions)) {
-        return null;
-    }
-    if (conditions.length == 0) {
+    if (isNull(conditions) || conditions.length == 0) {
         return null;
     }
 

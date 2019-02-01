@@ -5,6 +5,8 @@
 - Moved metallurgic infuser quest earlier, given it is needed to make an empowerer.
 - Made the drawer controller not require a diamond. (It now requires an iron ingot instead).
 - Added a quest for making a drawer controller.
+- Made villagers drop experience
+- Looting 3 now has guaranteed drop rate of resources.
 
 - Updated
   - Astral Sorcery (1.10.10 to 1.10.11)
