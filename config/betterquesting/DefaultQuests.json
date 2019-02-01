@@ -1037,7 +1037,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Stay Grindin\u0027",
-          "desc:8": "Build a mob farm!\n\nNot only are mob farms good for experience to level up, as you level up killing mobs will give you different resources."
+          "desc:8": "Build a mob farm!\n\nNot only are mob farms good for experience to level up, as you level up killing mobs will give you different resources. (Note: Looting increases the chance of mobs dropping resources.)\n\nI recommend making some sort of mob dropper that pushes them into a hole using water. This way you can quickly kill the mobs as they will be low on health."
         }
       },
       "tasks:9": {
@@ -13727,7 +13727,8 @@
     "218:10": {
       "questID:3": 218,
       "preRequisites:11": [
-        219
+        219,
+        224
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14090,7 +14091,7 @@
     "224:10": {
       "questID:3": 224,
       "preRequisites:11": [
-        231
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16897,7 +16898,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Philosopher\u0027s Stone",
-          "desc:8": "A Philosopher\u0027s Stone is very useful, you can use it to turn mobs from one kind to another, transform various blocks. (This lets you get rubber, silverwood, and greatwood saplings if you somehow lose yours.)\n\nAs you progress you will end up using the mob transmutation feature to create evokers to get blue hearts. Once your taming level is high enough you can also use this to transform passive mobs into pets and tame them."
+          "desc:8": "A Philosopher\u0027s Stone is very useful, you can use it to turn mobs from one kind to another, transform various blocks. (This lets you get rubber, silverwood, and greatwood saplings if you somehow lose yours.)\n\nAs you progress you will end up using the mob transmutation feature to create evokers to get blue hearts, and Vindicators for more reliable emerald drops. Once your taming level is high enough you can also use this to transform passive mobs into pets and tame them."
         }
       },
       "tasks:9": {
@@ -17736,37 +17737,37 @@
         "14:10": {
           "size:3": 24,
           "x:3": 60,
-          "y:3": 36,
+          "y:3": 6,
           "id:3": 218
         },
         "15:10": {
           "size:3": 24,
           "x:3": 30,
-          "y:3": 36,
+          "y:3": 6,
           "id:3": 219
         },
         "16:10": {
           "size:3": 24,
-          "x:3": 120,
+          "x:3": 60,
           "y:3": 36,
           "id:3": 224
         },
         "17:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 66,
+          "x:3": 120,
+          "y:3": 6,
           "id:3": 225
         },
         "18:10": {
           "size:3": 24,
           "x:3": 120,
-          "y:3": 66,
+          "y:3": 36,
           "id:3": 226
         },
         "19:10": {
           "size:3": 24,
-          "x:3": 150,
-          "y:3": 36,
+          "x:3": 60,
+          "y:3": 66,
           "id:3": 227
         },
         "20:10": {
@@ -17778,7 +17779,7 @@
         "21:10": {
           "size:3": 24,
           "x:3": 90,
-          "y:3": 36,
+          "y:3": 6,
           "id:3": 231
         },
         "22:10": {

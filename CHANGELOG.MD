@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.2 (BETA)
+- Added a little bit more information to some quests.
+- Moved metallurgic infuser quest earlier, given it is needed to make an empowerer.
+
+
 ### 1.1 (BETA)
 - Added a reward for "Stay Grindin'" quest
 - Rearranged early technology quest line adding a quest describing how to get bronze.
