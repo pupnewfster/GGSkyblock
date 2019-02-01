@@ -10,6 +10,7 @@
 - Added a quest about curing and breeding villagers.
 - Re-enabled Actually Addition's farmer as an earlier game alternative to Ender IO's farming station.
 - Locked some outputs of EMC farming behind the proper Thaumcraft research. (Can still be used for EMC, just can't be learned if not already known).
+- More refactoring of some of the emc generation scripts
 
 - Updated
   - Astral Sorcery (1.10.10 to 1.10.11)
