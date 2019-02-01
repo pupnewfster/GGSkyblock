@@ -7,6 +7,7 @@
 - Added a quest for making a drawer controller.
 - Made villagers drop experience
 - Looting 3 now has guaranteed drop rate of resources.
+- Added a quest about curing and breeding villagers.
 
 - Updated
   - Astral Sorcery (1.10.10 to 1.10.11)

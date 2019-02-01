@@ -17208,6 +17208,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "techreborn:iron_alloy_furnace",
@@ -17271,6 +17272,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "storagedrawers:controller",
@@ -17310,6 +17312,73 @@
       "rewards:9": {
         "0:10": {
           "amount:3": 3,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "278:10": {
+      "questID:3": 278,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:emerald",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Villager Curing and Breeding",
+          "desc:8": "Lots of high end resources come from killing villagers. This quest will explain some of the basics of curing villagers, and then breeding them. I also recommend getting looting 3 as that will ensure villagers drop some sort of resource.\n\nTo get a villager, start by isolating a Zombie Villager and applying a splash potion of weakness to it. Then feed it a regular golden apple. Within 2-5 minutes it will turn into a villager. (I recommend encasing it during this time as you will need at least two villagers to start breeding them.)\nNote: Using the philosopher\u0027s stone to turn passive mobs into villagers is disabled.\n\nThis is a rough overview of how villager breeding works. Villagers will only breed if they are \"willing\". Feed your villagers, bread, carrots, or potatoes. I recommend bread as it has the lowest EMC value and only requires 3 pieces per villager rather than 12. To breed they also require the population to be less than ~35% of the \"village\". The size of the \"village\" is based on how many doors there are making up a village. A valid door must be within the village radius where the number of blocks within 5 spaces \"outside\" is not the same as on the other side (\"inside\").\n\n(The minecraft wiki has a decent page on the subject of breeding called \"Villager Farming\". So I recommend reading that for a more detailed explanation and some example videos.)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:splash_potion",
+              "Count:3": 1,
+              "tag:10": {
+                "Potion:8": "minecraft:weakness"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
           "rewardID:8": "bq_standard:xp",
           "isLevels:1": 1,
           "index:3": 0
@@ -17415,6 +17484,12 @@
           "x:3": 30,
           "y:3": 126,
           "id:3": 271
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": 126,
+          "id:3": 278
         }
       },
       "lineID:3": 0,
