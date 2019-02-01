@@ -56,4 +56,5 @@ addKnowledgeLock("THAUMADDITIONS", "T", "compatskills:smithing|31");
 
 //Ensure they have research before they can learn it in transmutation
 addRequirement(<thaumadditions:mithrillium_ingot>, "research|TAR_MITHRILLIUM");
+addRequirement(<thaumadditions:adaminite_ingot>, "research|TAR_ADAMINITE");
 addRequirement(<thaumadditions:adaminite_smelter>, "research|TAR_ADAMINITE_SMELTER");
