@@ -3,6 +3,8 @@
 ### 1.2 (BETA)
 - Added a little bit more information to some quests.
 - Moved metallurgic infuser quest earlier, given it is needed to make an empowerer.
+- Made the drawer controller not require a diamond. (It now requires an iron ingot instead).
+- Added a quest for making a drawer controller.
 
 
 ### 1.1 (BETA)

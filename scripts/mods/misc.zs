@@ -15,3 +15,8 @@ recipes.addShapeless("CTPebbleToCobble", <minecraft:cobblestone>, [<contenttweak
 
 //Way to get clay that keeps emc value the same
 recipes.addShaped("CTClay", <minecraft:clay_ball>, [[<ore:dirt>, <ore:cobblestone>, <ore:dirt>], [<ore:cobblestone>, <ore:plankWood>, <ore:cobblestone>], [<ore:dirt>, <ore:cobblestone>, <ore:dirt>]]);
+
+
+//Drawer controller does not require diamond
+recipes.remove(<storagedrawers:controller>);
+recipes.addShaped("CTDrawerController", <storagedrawers:controller>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], [<ore:stone>, <minecraft:iron_ingot>, <ore:stone>]]);
