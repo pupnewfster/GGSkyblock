@@ -1503,7 +1503,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Iron Ore",
-          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Iron Ore from killing:\n\nCreepers\nEndermen\nSkeletons\nSpiders\nVillagers\nWitches\nZombie Villagers"
+          "desc:8": "Each drop has its own requirements and mobs that it can drop from once those requirements are met. After meeting the requirements on the right you can get Iron Ore from killing:\n\nCreepers\nEndermen\nSkeletons\nSpiders\nWitches\nZombie Villagers"
         }
       },
       "tasks:9": {

@@ -8,10 +8,6 @@ import loottweaker.vanilla.loot.LootTables;
 //iron, gold, diamond, emerald, certus quartz, iridium, ruby, sapphire, peridot
 
 var drops = {
-    //iron ore
-    <minecraft:iron_ore> : {
-        16 : null
-    } as string[][int],
     //gold ore
     <minecraft:gold_ore> : {
         12 : null
