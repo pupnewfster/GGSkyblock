@@ -31,7 +31,10 @@ static customBlocks as int[string] = {
     tier18_blood_block : colorLookup.blood,
     imbued_tier22 : colorLookup.tier22,
     tier24_composting_block : colorLookup.tier24,
-	tier25_26_alloy_block : colorLookup.tier25_26alloy
+	tier25_26_alloy_block : colorLookup.tier25_26alloy,
+
+    sliced_tier32_block : 0x518DE8,
+    imbued_tier32_block : 0x7A7AFF
 } as int[string];
 
 
@@ -39,6 +42,8 @@ createColoredBlockLight("tier18_blood_block", null, 10);
 createColoredBlockLight("imbued_tier22", "contenttweaker:blocks/imbued_tier16", 15);
 createColoredBlockFull("tier24_composting_block", "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>, 0);
 createColoredBlock("tier25_26_alloy_block", "contenttweaker:blocks/base_block");
+createColoredBlock("sliced_tier32_block", "contenttweaker:blocks/base_block");
+createColoredBlock("imbued_tier32_block", "contenttweaker:blocks/base_block");
 
 
 function createColoredBlock(name as string, texture as string) {

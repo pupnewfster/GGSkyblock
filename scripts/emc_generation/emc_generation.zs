@@ -300,10 +300,10 @@ Casting.addTableRecipe(<mysticalagriculture:manasteel_seeds>, <mysticalagricultu
 //Tier 33
 recipes.addShaped("CTT32Block", <contenttweaker:tier32_block>, [[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>], [<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>], [<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);
 
-//SliceNSplice.addRecipe(<contenttweaker:temp>, [<minecraft:nether_star>, <mysticalagriculture:manasteel_seeds>, <minecraft:nether_star>, <contenttweaker:tier32_block>, <enderio:item_alloy_endergy_ingot:3>, <contenttweaker:tier32_block>], 500000, 0.5);
-//LightTransmutation.addTransmutation(<contenttweaker:temp>, <contenttweaker:imbued_temp>, 100);
-//ManaInfusion.addAlchemy(<contenttweaker:temp2>, <contenttweaker:imbued_temp>, 750000);
-//ElvenTrade.addRecipe([<mysticalagriculture:elementium_seeds>], [<contenttweaker:temp2>]);
+SliceNSplice.addRecipe(<contenttweaker:sliced_tier32_block>, [<minecraft:nether_star>, <mysticalagriculture:manasteel_seeds>, <minecraft:nether_star>, <contenttweaker:tier32_block>, <enderio:item_alloy_endergy_ingot:3>, <contenttweaker:tier32_block>], 500000, 0.5);
+LightTransmutation.addTransmutation(<contenttweaker:sliced_tier32_block>, <contenttweaker:imbued_tier32_block>, 100);
+ManaInfusion.addAlchemy(<contenttweaker:mundane_tier33_seeds>, <contenttweaker:imbued_tier32_block>, 750000);
+ElvenTrade.addRecipe([<mysticalagriculture:elementium_seeds>], [<contenttweaker:mundane_tier33_seeds>]);
 
 //<mysticalagriculture:elementium_seeds>
 //<avaritia:resource:5> //3,746,018,080

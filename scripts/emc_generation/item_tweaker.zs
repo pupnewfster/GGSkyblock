@@ -25,7 +25,8 @@ static customItems as int[string] = {
 	blood_tier25_seeds : colorLookup.blood,
 	bloody_tier27 : colorLookup.blood,
 
-	tier23alloy : colorLookup.tier23
+	tier23alloy : colorLookup.tier23,
+	mundane_tier33_seeds : colorLookup.tier32
 } as int[string];
 
 
@@ -42,6 +43,8 @@ createMysticalItem("blood_tier25_seeds", "conductive_iron_seeds", false);
 createMysticalItem("bloody_tier27", "dark_steel_essence", false);
 
 createItem("tier23alloy", "base:items/plate", false);
+
+createMysticalItem("mundane_tier33_seeds", "elementium_seeds", false);
 
 
 createJaopcaItem("tier30", "crystal");

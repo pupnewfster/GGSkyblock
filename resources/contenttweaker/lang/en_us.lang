@@ -59,6 +59,9 @@ item.contenttweaker.tier30_clump.name=Tier 30 EMC Essence Clump
 item.contenttweaker.tier30_dust.name=Tier 30 EMC Essence Dust
 
 
+item.contenttweaker.mundane_tier33_seeds.name=Mundane Tier 33 EMC Seeds
+
+
 
 tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block
 tile.contenttweaker.imbued_tier16.name=Imbued Tier 16 EMC Essence Block
@@ -72,6 +75,9 @@ tile.contenttweaker.tier24_composting_block.name=Composting Tier 24 EMC Essence 
 tile.contenttweaker.imbued_tier22.name=Imbued Tier 22 EMC Essence Block
 tile.contenttweaker.tier25_26_alloy_block.name=Tier 25 - 26 EMC Alloy Block
 tile.contenttweaker.tier32_block.name=Tier 32 EMC Essence Block
+
+tile.contenttweaker.sliced_tier32_block.name=Sliced Tier 32 EMC Block
+tile.contenttweaker.imbued_tier32_block.name=Imbued Sliced Tier 32 EMC Block
 
 
 tile.contenttweaker.black_sea_lantern.name=Black Sea Lantern
