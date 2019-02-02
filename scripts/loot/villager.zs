@@ -14,11 +14,11 @@ var drops = {
     } as string[][int],
     //diamond
     <minecraft:diamond> : {
-        4 : null
+        5 : null
     } as string[][int],
     //emerald
     <minecraft:emerald> : {
-        4 : null
+        3 : null
     } as string[][int],
     //certus quartz
     <appliedenergistics2:material> : {
@@ -30,15 +30,15 @@ var drops = {
     } as string[][int],
     //ruby
     <techreborn:gem> : {
-        6 : null
+        7 : null
     } as string[][int],
     //sapphire
     <techreborn:gem:1> : {
-        6 : null
+        7 : null
     } as string[][int],
     //peridot
     <techreborn:gem:2> : {
-        6 : null
+        7 : null
     } as string[][int]
 } as string[][int][IItemStack];
 
