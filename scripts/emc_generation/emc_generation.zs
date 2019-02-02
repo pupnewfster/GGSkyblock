@@ -24,7 +24,6 @@ import mods.botania.RuneAltar;
 import mods.enderio.AlloySmelter;
 import mods.enderio.SagMill;
 import mods.enderio.SliceNSplice;
-import mods.enderio.SoulBinder;
 import mods.enderio.Vat;
 
 //Extended Crafting
@@ -69,7 +68,7 @@ recipes.addShaped("CTTier1", <minecraft:coal>, [[<mysticalagriculture:iron_essen
 
 //Tier 2
 addTypeObject(<mysticalagriculture:iron_essence>, "TIER1", 10);
-addTypeObject(<contenttweaker:compressed_tier1>, "TIER1", 90);
+addTypeObject(<contenttweaker:compressed_tier1>, "TIER1", 80);
 enrichment.addRecipe(<mysticalagriculture:iron_essence>, <contenttweaker:compressed_tier1>);
 infuser.addRecipe("TIER1", 500, <mysticalagriculture:iron_seeds>, <mysticalagriculture:gold_seeds>);
 purification.addRecipe(<mysticalagriculture:gold_essence>, <gas:oxygen>, <minecraft:iron_ingot>);
@@ -92,7 +91,7 @@ ManaInfusion.addInfusion(<techreborn:ingot:10>, <mysticalagriculture:bronze_esse
 
 //Tier 7
 addTypeObject(<minecraft:sugar>, "SUGAR", 10);
-addTypeObject(<contenttweaker:compressed_sugar>, "SUGAR", 90);
+addTypeObject(<contenttweaker:compressed_sugar>, "SUGAR", 80);
 enrichment.addRecipe(<minecraft:sugar>, <contenttweaker:compressed_sugar>);
 infuser.addRecipe("SUGAR", 1000, <mysticalagriculture:bronze_seeds>, <mysticalagriculture:zinc_seeds>);
 BloodAltar.addRecipe(<minecraft:diamond>, <mysticalagriculture:zinc_essence>, 3, 10000, 10, 10);
@@ -137,7 +136,7 @@ ElvenTrade.addRecipe([<thaumadditions:adaminite_ingot>], [<mysticalagriculture:t
 
 //Tier 16
 crystallizer.addRecipe(<gas:lifeessence>, <contenttweaker:compressed_lp>);
-addTypeObject(<contenttweaker:compressed_lp>, "LP", 90);
+addTypeObject(<contenttweaker:compressed_lp>, "LP", 80);
 infuser.addRecipe("LP", 1000, <mysticalagriculture:titanium_seeds>, <mysticalagriculture:chrome_seeds>);
 
 recipes.addShaped("CTT16Block", <contenttweaker:tier16_block>, [[<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>], [<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>], [<mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>]]);
@@ -367,7 +366,6 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //LightTransmutation.addTransmutation(IItemStack stackIn, IItemStack stackOut, double cost);
 
 
-
 //Blood magic
 
 //BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
@@ -382,6 +380,18 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //ManaInfusion.addConjuration(IItemStack output, IIngredient input, int mana);
 
 
+//EnderIO
+//AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+//SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//Vat.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
+
+
+//Extended crafting
+//TableCrafting.addShaped(<output>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
+//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>]]);
+//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>]]);
+//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
 
 
 //Mekanism - https://minecraft.curseforge.com/projects/gastweaker
@@ -404,15 +414,6 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //infuser.addRecipe(String infusionType, int infusionConsumed, IItemStack inputStack, IItemStack outputStack);
 
 
-
-//Extended crafting
-//TableCrafting.addShaped(<output>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
-//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>]]);
-//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>]]);
-//TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
-
-
-
 //Tech Reborn
 //blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int ticktime, int euTick, int neededHeat); //3730 given heating coils dont seem to work
 //centrifuge.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick);
@@ -424,10 +425,3 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 //Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
-
-//EnderIO
-//AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
-//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
-//SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
-//SoulBinder.addRecipe(IItemStack output, IIngredient input, String[] entities, int xp, @Optional int energyCost);
-//Vat.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
