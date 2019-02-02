@@ -24,6 +24,7 @@ fluid.moltentier20=Molten Tier 20 EMC Essence
 fluid.moltentier25=Molten Tier 25 EMC Essence
 fluid.moltentier26=Molten Tier 26 EMC Essence
 fluid.moltentier29=Molten Tier 29 EMC Essence
+fluid.moltentier33=Molten Tier 33 EMC Essence
 
 fluid.molten18_19=Molten Tier 18 - 19 EMC Alloy
 fluid.molten25_26=Molten Tier 25 - 26 EMC Alloy
@@ -61,6 +62,8 @@ item.contenttweaker.tier30_dust.name=Tier 30 EMC Essence Dust
 
 
 item.contenttweaker.mundane_tier33_seeds.name=Mundane Tier 33 EMC Seeds
+item.contenttweaker.plated_tier33_seeds.name=Plated Tier 33 EMC Seeds
+item.contenttweaker.empowered_plated_tier33_seeds.name=Empowered Plated Tier 33 EMC Seeds
 item.contenttweaker.tier34_seed_component.name=Tier 34 EMC Seed Component
 item.contenttweaker.reconstructed_tier34_component.name=Reconstructed Tier 34 EMC Seed Component
 item.contenttweaker.charred_tier34_part.name=Charred Tier 34 EMC Seed Component

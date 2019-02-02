@@ -27,6 +27,8 @@ static customItems as int[string] = {
 
 	tier23alloy : colorLookup.tier23,
 	mundane_tier33_seeds : colorLookup.tier32,
+	plated_tier33_seeds : 0xF200FF,
+    empowered_plated_tier33_seeds : colorLookup.tier33,
 
 	tier34_seed_component : colorLookup.tier34,
 	reconstructed_tier34_component : 0x6AFF26,
@@ -49,6 +51,8 @@ createMysticalItem("bloody_tier27", "dark_steel_essence", false);
 createItem("tier23alloy", "base:items/plate", false);
 
 createMysticalItem("mundane_tier33_seeds", "elementium_seeds", false);
+createItem("plated_tier33_seeds", "tconstruct:items/cast", false);
+createItem("empowered_plated_tier33_seeds", "tconstruct:items/cast", true);
 
 createItem("tier34_seed_component", "enderio:items/item_material_plantbrown", false);
 createItem("reconstructed_tier34_component", "enderio:items/item_material_plantbrown", false);

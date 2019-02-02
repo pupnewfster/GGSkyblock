@@ -309,6 +309,11 @@ ElvenTrade.addRecipe([<mysticalagriculture:elementium_seeds>], [<contenttweaker:
 
 
 //Tier 34
+Melting.addRecipe(<liquid:moltentier33> * 144, <mysticalagriculture:elementium_essence>, 2500);
+Casting.addTableRecipe(<contenttweaker:plated_tier33_seeds>, <mysticalagriculture:elementium_seeds>, <liquid:moltentier33>, 288, true, 600);
+Empowerer.addRecipe(<contenttweaker:empowered_plated_tier33_seeds>, <contenttweaker:plated_tier33_seeds>, <mysticalagriculture:zinc_seeds>, <mysticalagriculture:bronze_seeds>, <mysticalagriculture:tin_seeds>, <mysticalagriculture:copper_seeds>, 80000, 2000, [0.75, 0.25, 0.75]);
+Inscriber.addRecipe(<mysticalagriculture:terrasteel_seeds>, <contenttweaker:empowered_plated_tier33_seeds>, false, <mysticalagriculture:pulsating_iron_essence>, <mysticalagriculture:pulsating_iron_essence>);
+
 //<mysticalagriculture:terrasteel_seeds>
 //<projecte:item.pe_matter:1> //5,483,151,360
 

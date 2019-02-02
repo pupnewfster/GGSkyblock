@@ -13,6 +13,7 @@ val moltenFluids = {
 	tier25: colorLookup.tier25,
 	tier26 : colorLookup.tier26,
 	tier29 : colorLookup.tier29,
+	tier33 : colorLookup.tier33,
 
 	tier21_evaporated : 0x3678C9,
 	"18_19" : 0xDFA5B7,
