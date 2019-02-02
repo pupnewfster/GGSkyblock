@@ -12,6 +12,9 @@
 - Locked some outputs of EMC farming behind the proper Thaumcraft research. (Can still be used for EMC, just can't be learned if not already known).
 - More refactoring of some of the emc generation scripts
 - Removed iron ore from Villager drop table. This increases the chance of diamonds significantly.
+- Ignore lens NBT for mana lens quest. Should allow any mana lens to now count. (Also fixes it being unclaimable without emc'ing a mana lens)
+- Made Thaumonomicon quest clearer about the prereqs.
+
 
 - Updated
   - Animus (2.0.4 to 2.1.0)

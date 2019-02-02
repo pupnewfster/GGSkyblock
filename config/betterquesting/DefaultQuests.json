@@ -3367,7 +3367,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Thaumonomicon",
-          "desc:8": "Right click a bookshelf with a piece of salis mundo to create a thaumonomicon."
+          "desc:8": "Start by dropping a vis crystal onto the ground and then picking it up. Sleeping will give you \"Strange Dreams\", which will allow you to create a thaumonomicon.\n\nRight click a bookshelf with a piece of salis mundo to create a thaumonomicon."
         }
       },
       "tasks:9": {
@@ -15939,7 +15939,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
