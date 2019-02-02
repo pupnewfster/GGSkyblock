@@ -6,3 +6,4 @@ import mods.mekatweaker.InfuserType.addType;
 addType("TIER1");
 addType("SUGAR");
 addType("LP");
+addType("TIER22");

@@ -15,7 +15,8 @@ import crafttweaker.item.IItemDefinition;
 static compressedItemMap as int[string] = {
     compressed_tier1 : colorLookup.tier1,
     compressed_sugar : -1,
-	compressed_lp : colorLookup.blood
+	compressed_lp : colorLookup.blood,
+	compressed_tier22 : colorLookup.tier22
 } as int[string];
 
 for name in compressedItemMap {

@@ -35,6 +35,7 @@ item.contenttweaker.pebble.name=Pebble
 item.contenttweaker.compressed_tier1.name=Compressed Tier 1 EMC Essence
 item.contenttweaker.compressed_sugar.name=Compressed Sugar
 item.contenttweaker.compressed_lp.name=Compressed Solidified Life Essence
+item.contenttweaker.compressed_tier22.name=Compressed Tier 22 EMC Essence
 
 item.contenttweaker.metallic_tier22_seeds.name=Metallic Tier 22 EMC Seeds
 item.contenttweaker.blood_tier23_seeds.name=Blood Infused Tier 23 EMC Seeds
@@ -60,6 +61,9 @@ item.contenttweaker.tier30_dust.name=Tier 30 EMC Essence Dust
 
 
 item.contenttweaker.mundane_tier33_seeds.name=Mundane Tier 33 EMC Seeds
+item.contenttweaker.tier34_seed_component.name=Tier 34 EMC Seed Component
+item.contenttweaker.reconstructed_tier34_component.name=Reconstructed Tier 34 EMC Seed Component
+item.contenttweaker.charred_tier34_part.name=Charred Tier 34 EMC Seed Component
 
 
 

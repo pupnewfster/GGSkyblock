@@ -314,6 +314,15 @@ ElvenTrade.addRecipe([<mysticalagriculture:elementium_seeds>], [<contenttweaker:
 
 
 //Tier 35
+addTypeObject(<mysticalagriculture:manyullyn_essence>, "TIER22", 10);
+addTypeObject(<contenttweaker:compressed_tier22>, "TIER22", 80);
+enrichment.addRecipe(<mysticalagriculture:manyullyn_essence>, <contenttweaker:compressed_tier22>);
+
+centrifuge.addRecipe(<contenttweaker:tier34_seed_component>, <mysticalagriculture:pulsating_iron_essence>, null, null, <mysticalagriculture:terrasteel_seeds>, null, 6000, 50000);
+AtomicReconstructor.addRecipe(<contenttweaker:reconstructed_tier34_component>, <contenttweaker:tier34_seed_component>, 2500000);
+blastFurnace.addRecipe(<contenttweaker:charred_tier34_part>, null, <contenttweaker:reconstructed_tier34_component>, <projecte:item.pe_fuel:2>, 3000, 50000, 3730);
+infuser.addRecipe("TIER22", 2500, <contenttweaker:charred_tier34_part>, <mysticalagriculture:thaumium_seeds>);
+
 //<mysticalagriculture:thaumium_seeds>
 //<projecte:dm_furnace> //13,761,773,576
 

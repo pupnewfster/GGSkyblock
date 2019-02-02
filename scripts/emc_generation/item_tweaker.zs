@@ -26,7 +26,11 @@ static customItems as int[string] = {
 	bloody_tier27 : colorLookup.blood,
 
 	tier23alloy : colorLookup.tier23,
-	mundane_tier33_seeds : colorLookup.tier32
+	mundane_tier33_seeds : colorLookup.tier32,
+
+	tier34_seed_component : colorLookup.tier34,
+	reconstructed_tier34_component : 0x6AFF26,
+	charred_tier34_part : 0x252525
 } as int[string];
 
 
@@ -45,6 +49,10 @@ createMysticalItem("bloody_tier27", "dark_steel_essence", false);
 createItem("tier23alloy", "base:items/plate", false);
 
 createMysticalItem("mundane_tier33_seeds", "elementium_seeds", false);
+
+createItem("tier34_seed_component", "enderio:items/item_material_plantbrown", false);
+createItem("reconstructed_tier34_component", "enderio:items/item_material_plantbrown", false);
+createItem("charred_tier34_part", "enderio:items/item_material_plantbrown", false);
 
 
 createJaopcaItem("tier30", "crystal");
