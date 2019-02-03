@@ -8,14 +8,14 @@ import loottweaker.vanilla.loot.LootTables;
 //coal, black quartz
 
 var drops = {
-    //coal
-    <minecraft:coal> : {
-        4 : null
-    } as string[][int],
-    //black quartz ore
-    <actuallyadditions:block_misc:3> : {
-        1 : null
-    } as string[][int]
+	//coal
+	<minecraft:coal> : {
+		4 : null
+	} as string[][int],
+	//black quartz ore
+	<actuallyadditions:block_misc:3> : {
+		1 : null
+	} as string[][int]
 } as string[][int][IItemStack];
 
 val table = LootTables.getTable("minecraft:entities/bat");

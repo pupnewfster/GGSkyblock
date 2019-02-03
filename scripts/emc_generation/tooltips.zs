@@ -49,5 +49,5 @@ var info = {
 } as string[IItemStack];
 
 for key, value in info {
-    mods.jei.JEI.addDescription(key, "Produces: " + value + " EMC");
+	mods.jei.JEI.addDescription(key, "Produces: " + value + " EMC");
 }

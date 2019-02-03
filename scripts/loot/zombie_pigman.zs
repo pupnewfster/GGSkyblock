@@ -12,33 +12,33 @@ import loottweaker.vanilla.loot.LootTables;
 //Nether: quartz, pyrite, sphalerite
 
 var drops = {
-    //gold ore
-    <minecraft:gold_ore> : {
-        5 : null
-    } as string[][int],
-    //osmium ore
-    <mekanism:oreblock> : {
-        6 : null
-    } as string[][int],
-    //amber
-    <thaumcraft:amber> : {
-        2 : null
-    } as string[][int],
+	//gold ore
+	<minecraft:gold_ore> : {
+		5 : null
+	} as string[][int],
+	//osmium ore
+	<mekanism:oreblock> : {
+		6 : null
+	} as string[][int],
+	//amber
+	<thaumcraft:amber> : {
+		2 : null
+	} as string[][int],
 
-    //Nether
+	//Nether
 
-    //quartz
-    <minecraft:quartz> : {
-        3 : combine(baseValues[<minecraft:quartz>], ["dim|-1"])
-    } as string[][int],
-    //pyrite dust
-    <techreborn:dust:39> : {
-        1 : combine(baseValues[<techreborn:dust:39>], ["dim|-1"])
-    } as string[][int],
-    //sphalerite dust
-    <techreborn:dust:50> : {
-        1 : combine(baseValues[<techreborn:dust:50>], ["dim|-1"])
-    } as string[][int]
+	//quartz
+	<minecraft:quartz> : {
+		3 : combine(baseValues[<minecraft:quartz>], ["dim|-1"])
+	} as string[][int],
+	//pyrite dust
+	<techreborn:dust:39> : {
+		1 : combine(baseValues[<techreborn:dust:39>], ["dim|-1"])
+	} as string[][int],
+	//sphalerite dust
+	<techreborn:dust:50> : {
+		1 : combine(baseValues[<techreborn:dust:50>], ["dim|-1"])
+	} as string[][int]
 } as string[][int][IItemStack];
 
 val table = LootTables.getTable("minecraft:entities/zombie_pigman");

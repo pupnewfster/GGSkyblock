@@ -56,7 +56,7 @@ for i in 0 to values.length {
 		var levelDif = values[i + 1][1] - level;
 		var count = emcDif / gap;
 		if (count == 0) {
-		
+
 		} else if (count <= levelDif) {
 			var levelChange = levelDif / count;
 			for j in 0 to count {

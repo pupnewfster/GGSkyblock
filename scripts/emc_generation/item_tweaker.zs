@@ -28,7 +28,7 @@ static customItems as int[string] = {
 	tier23alloy : colorLookup.tier23,
 	mundane_tier33_seeds : colorLookup.tier32,
 	plated_tier33_seeds : 0xF200FF,
-    empowered_plated_tier33_seeds : colorLookup.tier33,
+	empowered_plated_tier33_seeds : colorLookup.tier33,
 
 	tier34_seed_component : colorLookup.tier34,
 	reconstructed_tier34_component : 0x6AFF26,
@@ -83,29 +83,29 @@ createBaseItem("enriched_crushed_tier35_gear", "dust", true);
 
 
 function createMysticalItem(name as string, item as string, glowing as bool) {
-    createItem(name, "mysticalagriculture:items/" + item, glowing);
+	createItem(name, "mysticalagriculture:items/" + item, glowing);
 }
 
 function createBaseItem(name as string, item as string, glowing as bool) {
-    createItem(name, "base:items/" + item, glowing);
+	createItem(name, "base:items/" + item, glowing);
 }
 
 function createItem(name as string, texture as string, glowing as bool) {
-    var item = VanillaFactory.createItem(name);
-    item.setTextureLocation(ResourceLocation.create(texture));
-    item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-    	return Color.fromInt(scripts.emc_generation.item_tweaker.customItems[stack.definition.id.substring(15)]);
-    });
-    item.setGlowing(glowing);
-    item.register();
+	var item = VanillaFactory.createItem(name);
+	item.setTextureLocation(ResourceLocation.create(texture));
+	item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+		return Color.fromInt(scripts.emc_generation.item_tweaker.customItems[stack.definition.id.substring(15)]);
+	});
+	item.setGlowing(glowing);
+	item.register();
 }
 
 function createJaopcaItem(tier as string, type as string) {
 	var item = VanillaFactory.createItem(tier + "_" + type);
 	item.setTextureLocation(ResourceLocation.create("jaopca:items/" + type));
-    item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        val id = stack.definition.id.substring(15);
-    	return Color.fromInt(colorLookup[id.split("_")[0]]);
-    });
+	item.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+		val id = stack.definition.id.substring(15);
+		return Color.fromInt(colorLookup[id.split("_")[0]]);
+	});
 	item.register();
 }

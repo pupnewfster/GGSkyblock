@@ -134,7 +134,7 @@ val tierTwoMetals = [
 	"osmium",
 	"blackquartz_plustic",
 	"certusquartz_plustic",
-    "vivid_alloy"
+	"vivid_alloy"
 ] as string[];
 
 val tierThreeMetals = [
@@ -176,21 +176,21 @@ val tierFiveMetals = [
 
 
 for metal in tierOneMetals {
-    addMaterialLock(metal, materials.metal1);
+	addMaterialLock(metal, materials.metal1);
 }
 
 for metal in tierTwoMetals {
-    addMaterialLock(metal, materials.metal2);
+	addMaterialLock(metal, materials.metal2);
 }
 
 for metal in tierThreeMetals {
-    addMaterialLock(metal, materials.metal3);
+	addMaterialLock(metal, materials.metal3);
 }
 
 for metal in tierFourMetals {
-    addMaterialLock(metal, materials.metal4);
+	addMaterialLock(metal, materials.metal4);
 }
 
 for metal in tierFiveMetals {
-    addMaterialLock(metal, materials.metal5);
+	addMaterialLock(metal, materials.metal5);
 }

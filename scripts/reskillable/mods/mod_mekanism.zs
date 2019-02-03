@@ -34,41 +34,41 @@ var locks = {
 	smelter1 : ["compatskills:smithing|36", "compatskills:technology|31"],
 	smelter2 : ["compatskills:smithing|42", "compatskills:technology|42"],
 	smelter3 : ["compatskills:smithing|57", "compatskills:technology|53"],
-	
+
 	enrichment : ["compatskills:technology|31"],
 	enrichment1 : ["compatskills:technology|41"],
 	enrichment2 : ["compatskills:technology|56"],
 	enrichment3 : ["compatskills:technology|71"],
-	
+
 	crusher : ["reskillable:building|6", "reskillable:mining|12"],
 	crusher1 : ["reskillable:building|8", "reskillable:mining|14", "compatskills:technology|31"],
 	crusher2 : ["reskillable:building|10", "reskillable:mining|16", "compatskills:technology|42"],
 	crusher3 : ["reskillable:building|12", "reskillable:mining|18", "compatskills:technology|53"],
-	
+
 	compressing1 : ["compatskills:technology|31"],
 	compressing2 : ["compatskills:technology|43"],
 	compressing3 : ["compatskills:technology|56"],
-	
+
 	combiner : ["reskillable:building|17"],
 	combiner1 : ["reskillable:building|21", "compatskills:technology|31"],
 	combiner2 : ["reskillable:building|26", "compatskills:technology|42"],
 	combiner3 : ["reskillable:building|32", "compatskills:technology|53"],
-	
+
 	purification : ["compatskills:smithing|32", "reskillable:building|10", "reskillable:agility|13"],
 	purification1 : ["compatskills:smithing|41", "reskillable:building|14", "reskillable:agility|15", "compatskills:technology|31"],
 	purification2 : ["compatskills:smithing|52", "reskillable:building|19", "reskillable:agility|17", "compatskills:technology|42"],
 	purification3 : ["compatskills:smithing|63", "reskillable:building|26", "reskillable:agility|19", "compatskills:technology|53"],
-	
+
 	injection : ["compatskills:technology|51"],
 	injection1 : ["compatskills:technology|63"],
 	injection2 : ["compatskills:technology|74"],
 	injection3 : ["compatskills:technology|82"],
-	
+
 	infuser : ["compatskills:smithing|29"],
 	infuser1 : ["compatskills:smithing|33", "compatskills:technology|41"],
 	infuser2 : ["compatskills:smithing|38", "compatskills:technology|56"],
 	infuser3 : ["compatskills:smithing|47", "compatskills:technology|71"],
-	
+
 	condensentrator : ["compatskills:technology|32"],
 	oxidizer : ["compatskills:technology|41"],
 	chemical_infuser : ["compatskills:technology|41"],
@@ -77,27 +77,27 @@ var locks = {
 	washer : ["compatskills:technology|67"],
 	crystallizer : ["compatskills:technology|64"],
 	reaction : ["compatskills:technology|34"],
-	
+
 	bin : ["reskillable:building|14"],
 	bin1 : ["reskillable:building|28"],
 	bin2 : ["reskillable:building|56", "compatskills:technology|24"],
 	bin3 : ["reskillable:building|112", "compatskills:technology|48"],
-	
+
 	fluid_tank : ["reskillable:building|14"],
 	fluid_tank1 : ["reskillable:building|28"],
 	fluid_tank2 : ["reskillable:building|56", "compatskills:technology|27"],
 	fluid_tank3 : ["reskillable:building|112", "compatskills:technology|53"],
-	
+
 	gas_tank : ["reskillable:building|14"],
 	gas_tank1 : ["reskillable:building|28"],
 	gas_tank2 : ["reskillable:building|56", "compatskills:technology|28"],
 	gas_tank3 : ["reskillable:building|112", "compatskills:technology|54"],
-	
+
 	power_cube : ["compatskills:technology|36"],
 	power_cube1 : ["compatskills:technology|52"],
 	power_cube2 : ["compatskills:technology|73"],
 	power_cube3 : ["compatskills:technology|99"],
-	
+
 	induction : ["compatskills:technology|47"],
 	induction1 : ["compatskills:technology|63"],
 	induction2 : ["compatskills:technology|84"],

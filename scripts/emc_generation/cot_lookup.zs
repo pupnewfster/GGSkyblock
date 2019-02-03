@@ -1,7 +1,6 @@
 #loader contenttweaker
 #priority 9999
 
-
 static colorLookup as int[string] = {
 	tier1 : 0xE1C17D,
 	tier2 : 0xFFFF8B,
@@ -20,8 +19,8 @@ static colorLookup as int[string] = {
 	tier15 : 0xFDFEFF,
 	tier16 : 0xEFE7E8,
 	tier17 : 0xEFEDF5,
-    tier18 : 0xF0D467,
-    tier19 : 0xDD88F1,
+	tier18 : 0xF0D467,
+	tier19 : 0xDD88F1,
 	tier20 : 0xDA5B17,
 	tier21 : 0x2376DD,
 	tier22 : 0xA97DE0,
@@ -44,7 +43,7 @@ static colorLookup as int[string] = {
 	tier39 : 0x69558A,
 	tier40 : 0xF9ECF7,
 	tier41 : 0x0052B9,
-	
+
 	aeternalis : 0x9D9D9D,
 	dark_matter : 0x37173E,
 	red_matter : 0x9A0707,
@@ -53,9 +52,9 @@ static colorLookup as int[string] = {
 	green_matter : 0x75F300,
 	blue_matter : 0x0574FF,
 	blood : 0x8A0000,
-	
+
 	tier25_26alloy : 0xDAB7B6,
-	
+
 	lime : 0x00FF00,
 	aqua : 0x33FFFF
 } as int[string];

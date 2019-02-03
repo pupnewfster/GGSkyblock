@@ -29,8 +29,8 @@ for i in 1 to defenseCap {
 //Harvest levels
 
 val toolTypes = {
-    "pickaxe" : "reskillable:mining",
-    "axe" : "reskillable:gathering",
+	"pickaxe" : "reskillable:mining",
+	"axe" : "reskillable:gathering",
 	"shovel" : "reskillable:gathering"
 } as string[string];
 
@@ -43,7 +43,7 @@ for key in toolTypes {
 	addToolLevelLock(key, 5, skill + "|50");
 
 	for i in 6 to 15 {
-		addToolLevelLock(key, i, skill + "|" + 10 * (i + 1));	
+		addToolLevelLock(key, i, skill + "|" + 10 * (i + 1));
 	}
 }
 

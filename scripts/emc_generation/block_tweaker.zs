@@ -20,21 +20,21 @@ createBlock("pure_tier16", 13);
 createBlock("imbued_tier16", 15);
 
 function createBlock(name as string, light as int) {
-    var block = VanillaFactory.createBlock(name, <blockmaterial:iron>);
-    block.setToolClass("pickaxe");
-    block.setToolLevel(5);
-    block.setLightValue(light);
-    block.register();
+	var block = VanillaFactory.createBlock(name, <blockmaterial:iron>);
+	block.setToolClass("pickaxe");
+	block.setToolLevel(5);
+	block.setLightValue(light);
+	block.register();
 }
 
 static customBlocks as int[string] = {
-    tier18_blood_block : colorLookup.blood,
-    imbued_tier22 : colorLookup.tier22,
-    tier24_composting_block : colorLookup.tier24,
+	tier18_blood_block : colorLookup.blood,
+	imbued_tier22 : colorLookup.tier22,
+	tier24_composting_block : colorLookup.tier24,
 	tier25_26_alloy_block : colorLookup.tier25_26alloy,
 
-    sliced_tier32_block : 0x518DE8,
-    imbued_tier32_block : 0x7A7AFF
+	sliced_tier32_block : 0x518DE8,
+	imbued_tier32_block : 0x7A7AFF
 } as int[string];
 
 
@@ -47,30 +47,30 @@ createColoredBlock("imbued_tier32_block", "contenttweaker:blocks/base_block");
 
 
 function createColoredBlock(name as string, texture as string) {
-    createColoredBlockLight(name, texture, 0);
+	createColoredBlockLight(name, texture, 0);
 }
 
 function createColoredBlockLight(name as string, texture as string, light as int) {
-    createColoredBlockFull(name, texture, "pickaxe", 5, <blockmaterial:iron>, light);
+	createColoredBlockFull(name, texture, "pickaxe", 5, <blockmaterial:iron>, light);
 }
 
 function createColoredBlockFull(name as string, texture as string, tool as string, harvestLevel as int, material as BlockMaterial, light as int) {
-    var block = VanillaFactory.createBlock(name, material);
-    block.setToolClass(tool);
-    block.setToolLevel(harvestLevel);
-    block.setLightValue(light);
+	var block = VanillaFactory.createBlock(name, material);
+	block.setToolClass(tool);
+	block.setToolLevel(harvestLevel);
+	block.setLightValue(light);
 
-    if (!isNull(texture)) {
-        block.setTextureLocation(ResourceLocation.create(texture));
-    }
-    block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[stack.definition.id.substring(15)]);
-    });
-    block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
-        return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[state.block.definition.id.substring(15)]);
-    });
+	if (!isNull(texture)) {
+		block.setTextureLocation(ResourceLocation.create(texture));
+	}
+	block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+		return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[stack.definition.id.substring(15)]);
+	});
+	block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
+		return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[state.block.definition.id.substring(15)]);
+	});
 
-    block.register();
+	block.register();
 }
 
 
@@ -78,18 +78,18 @@ val storageBlocks = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32"]
 
 for name in storageBlocks {
 	var block = VanillaFactory.createBlock(name + "_block", <blockmaterial:iron>);
-    block.setToolClass("pickaxe");
-    block.setToolLevel(5);
+	block.setToolClass("pickaxe");
+	block.setToolLevel(5);
 
-    block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/base_block"));
-    block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        val id = stack.definition.id.substring(15);
-        return Color.fromInt(colorLookup[id.split("_")[0]]);
-    });
-    block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
-        val id = state.block.definition.id.substring(15);
-        return Color.fromInt(colorLookup[id.split("_")[0]]);
-    });
+	block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/base_block"));
+	block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+		val id = stack.definition.id.substring(15);
+		return Color.fromInt(colorLookup[id.split("_")[0]]);
+	});
+	block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
+		val id = state.block.definition.id.substring(15);
+		return Color.fromInt(colorLookup[id.split("_")[0]]);
+	});
 
-    block.register();
+	block.register();
 }

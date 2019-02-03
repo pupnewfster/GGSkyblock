@@ -7,10 +7,10 @@ import mods.contenttweaker.Fluid;
 
 val moltenFluids = {
 	tier18 : colorLookup.tier18,
-	tier19: colorLookup.tier19,
+	tier19 : colorLookup.tier19,
 	tier20 : colorLookup.tier20,
 	tier21 : colorLookup.tier21,
-	tier25: colorLookup.tier25,
+	tier25 : colorLookup.tier25,
 	tier26 : colorLookup.tier26,
 	tier29 : colorLookup.tier29,
 	tier33 : colorLookup.tier33,

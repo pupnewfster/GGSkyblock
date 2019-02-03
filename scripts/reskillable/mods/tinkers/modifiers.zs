@@ -36,7 +36,7 @@ val modifiers = {
 	superheat : ["reskillable:attack|7"],
 	splinters : ["reskillable:attack|13"],
 	shocking : ["reskillable:agility|12", "reskillable:attack|6", "reskillable:mining|7"],
-    crude1 : ["reskillable:defense|7", "reskillable:attack|15"],
+	crude1 : ["reskillable:defense|7", "reskillable:attack|15"],
 	crude2 : ["reskillable:defense|9", "reskillable:attack|27"],
 	writable1 : ["compatskills:smithing|13", "reskillable:magic|17", "compatskills:technology|4"],
 	writable2 : ["compatskills:smithing|21", "reskillable:magic|37", "compatskills:technology|16"],
@@ -450,23 +450,23 @@ val tierFiveMetals = [
 
 
 for metal in tierOneMetals {
-    addModifierLock(metal, materials.metal1);
+	addModifierLock(metal, materials.metal1);
 }
 
 for metal in tierTwoMetals {
-    addModifierLock(metal, materials.metal2);
+	addModifierLock(metal, materials.metal2);
 }
 
 for metal in tierThreeMetals {
-    addModifierLock(metal, materials.metal3);
+	addModifierLock(metal, materials.metal3);
 }
 
 for metal in tierFourMetals {
-    addModifierLock(metal, materials.metal4);
+	addModifierLock(metal, materials.metal4);
 }
 
 for metal in tierFiveMetals {
-    addModifierLock(metal, materials.metal5);
+	addModifierLock(metal, materials.metal5);
 }
 
 addModifierLock("fortifywood", materials.wood);

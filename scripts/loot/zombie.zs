@@ -8,18 +8,18 @@ import loottweaker.vanilla.loot.LootTables;
 //coal, copper, tin
 
 var drops = {
-    //coal
-    <minecraft:coal> : {
-        1 : null
-    } as string[][int],
-    //copper ore
-    <mekanism:oreblock:1> : {
-        6 : null
-    } as string[][int],
-    //tin ore
-    <mekanism:oreblock:2> : {
-        4 : null
-    } as string[][int]
+	//coal
+	<minecraft:coal> : {
+		1 : null
+	} as string[][int],
+	//copper ore
+	<mekanism:oreblock:1> : {
+		6 : null
+	} as string[][int],
+	//tin ore
+	<mekanism:oreblock:2> : {
+		4 : null
+	} as string[][int]
 } as string[][int][IItemStack];
 
 val table = LootTables.getTable("minecraft:entities/zombie");

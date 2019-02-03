@@ -47,7 +47,7 @@ var toRename = {
 } as IItemStack[][string];
 
 for key, value in toRename {
-    value[0].displayName = "Tier " + key + " EMC Seeds";
+	value[0].displayName = "Tier " + key + " EMC Seeds";
 	value[1].displayName = "Tier " + key + " EMC Essence";
 	value[2].displayName = "Tier " + key + " EMC Crop";
 }
@@ -72,7 +72,7 @@ var toHide = [
 	<mysticalagriculture:chunk:11>,
 	<mysticalagriculture:chunk:12>,
 	<mysticalagriculture:chunk:13>,
-	<mysticalagriculture:chunk:14>,	
+	<mysticalagriculture:chunk:14>,
 	<mysticalagriculture:chunk:15>,
 	<mysticalagriculture:chunk:16>,
 	<mysticalagriculture:chunk:17>,
@@ -160,25 +160,25 @@ var toHide = [
 	<mysticalagriculture:soulstone:4>,
 	<mysticalagriculture:soulstone:5>,
 	<mysticalagriculture:soulstone:6>,
-	
+
 	<mysticalagriculture:tier1_inferium_seeds>,
 	<mysticalagriculture:tier2_inferium_seeds>,
 	<mysticalagriculture:tier3_inferium_seeds>,
 	<mysticalagriculture:tier4_inferium_seeds>,
 	<mysticalagriculture:tier5_inferium_seeds>,
-	
+
 	<mysticalagriculture:tier1_inferium_crop>,
 	<mysticalagriculture:tier2_inferium_crop>,
 	<mysticalagriculture:tier3_inferium_crop>,
 	<mysticalagriculture:tier4_inferium_crop>,
 	<mysticalagriculture:tier5_inferium_crop>,
-	
+
 	<mysticalagriculture:crafting>,
 	<mysticalagriculture:crafting:1>,
 	<mysticalagriculture:crafting:2>,
 	<mysticalagriculture:crafting:3>,
 	<mysticalagriculture:crafting:4>,
-	
+
 	<mysticalagriculture:iron_crop>,
 	<mysticalagriculture:gold_crop>,
 	<mysticalagriculture:aluminum_crop>,
@@ -220,7 +220,7 @@ var toHide = [
 	<mysticalagriculture:refined_obsidian_crop>,
 	<mysticalagriculture:alumite_crop>,
 	<mysticalagriculture:starmetal_crop>,
-	
+
 	<mysticalagriculture:experience_crop>,
 	<mysticalagriculture:experience_seeds>,
 	<mysticalagriculture:experience_essence>,

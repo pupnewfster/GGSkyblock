@@ -45,15 +45,7 @@ recipes.remove(<extendedcrafting:material:24>);
 
 TableCrafting.remove(<extendedcrafting:material:24>);
 
-TableCrafting.addShaped(<extendedcrafting:material:24>, [
-[<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], 
-[<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], 
-[<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], 
-[<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], 
-[null, null, null, null, null, null, null], 
-[null, null, null, null, null, null, null], 
-[null, null, null, null, null, null, null]
-]);
+TableCrafting.addShaped(<extendedcrafting:material:24>, [[<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], [null, null, null, null, null, null, null], [null, null, null, null, null, null, null], [null, null, null, null, null, null, null]]);
 
 
 var neutronium = <avaritia:resource:4> as IItemStack;
@@ -63,215 +55,41 @@ var catalyst = <avaritia:resource:5> as IItemStack;
 var crystal = <avaritia:resource:1> as IItemStack;
 var nugget = <avaritia:resource:3> as IItemStack;
 
-TableCrafting.addShaped(<avaritia:infinity_helmet>, [
-[null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null],
-[null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, neutronium, null, catalyst, infinity, catalyst, null, neutronium, null],
-[null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, null, infinity, null, infinity, neutronium, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_helmet>, [[null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null], [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null], [null, neutronium, null, catalyst, infinity, catalyst, null, neutronium, null], [null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null], [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null], [null, neutronium, infinity, null, infinity, null, infinity, neutronium, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_chestplate>, [
-[null, neutronium, neutronium, null, null, null, neutronium, neutronium, null],
-[neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
-[neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium],
-[null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, <extendedcrafting:singularity_custom:3>, infinity, infinity, neutronium, null],
-[null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null],
-[null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_chestplate>, [[null, neutronium, neutronium, null, null, null, neutronium, neutronium, null], [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium], [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium], [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null], [null, neutronium, infinity, infinity, singularity, infinity, infinity, neutronium, null], [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null], [null, neutronium, infinity, infinity, <extendedcrafting:singularity_custom:3>, infinity, infinity, neutronium, null], [null, neutronium, infinity, infinity, infinity, infinity, infinity, neutronium, null], [null, null, neutronium, neutronium, neutronium, neutronium, neutronium, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_pants>, [
-[neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium],
-[neutronium, infinity, infinity, infinity, singularity, infinity, infinity, infinity, neutronium],
-[neutronium, infinity, neutronium, neutronium, <extendedcrafting:singularity_custom:3>, neutronium, neutronium, infinity, neutronium],
-[neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
-[neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
-[neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
-[neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
-[neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium],
-[neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium]
-]);
+TableCrafting.addShaped(<avaritia:infinity_pants>, [[neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], [neutronium, infinity, infinity, infinity, singularity, infinity, infinity, infinity, neutronium], [neutronium, infinity, neutronium, neutronium, <extendedcrafting:singularity_custom:3>, neutronium, neutronium, infinity, neutronium], [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium], [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium], [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium], [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium], [neutronium, infinity, neutronium, null, null, null, neutronium, infinity, neutronium], [neutronium, neutronium, neutronium, null, null, null, neutronium, neutronium, neutronium]]);
 
-TableCrafting.addShaped(<avaritia:infinity_boots>, [
-[null, neutronium, neutronium, neutronium, singularity, neutronium, neutronium, neutronium, null],
-[null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
-[null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null],
-[neutronium, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, neutronium],
-[neutronium, infinity, infinity, neutronium, null, neutronium, infinity, infinity, neutronium],
-[neutronium, neutronium, neutronium, neutronium, null, neutronium, neutronium, neutronium, neutronium]
-]);
+TableCrafting.addShaped(<avaritia:infinity_boots>, [[null, neutronium, neutronium, neutronium, singularity, neutronium, neutronium, neutronium, null], [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null], [null, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, null], [neutronium, neutronium, infinity, neutronium, null, neutronium, infinity, neutronium, neutronium], [neutronium, infinity, infinity, neutronium, null, neutronium, infinity, infinity, neutronium], [neutronium, neutronium, neutronium, neutronium, null, neutronium, neutronium, neutronium, neutronium]]);
 
-TableCrafting.addShaped(<avaritia:infinity_shovel>, [
-[null, null, null, null, null, null, infinity, infinity, infinity],
-[null, null, null, null, null, infinity, infinity, singularity, infinity],
-[null, null, null, null, null, null, infinity, infinity, infinity],
-[null, null, null, null, null, neutronium, null, infinity, null],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, neutronium, null, null, null, null, null],
-[null, null, neutronium, null, null, null, null, null, null],
-[null, neutronium, null, null, null, null, null, null, null],
-[neutronium, null, null, null, null, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_shovel>, [[null, null, null, null, null, null, infinity, infinity, infinity], [null, null, null, null, null, infinity, infinity, singularity, infinity], [null, null, null, null, null, null, infinity, infinity, infinity], [null, null, null, null, null, neutronium, null, infinity, null], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, neutronium, null, null, null, null, null], [null, null, neutronium, null, null, null, null, null, null], [null, neutronium, null, null, null, null, null, null, null], [neutronium, null, null, null, null, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_axe>, [
-[null, null, null, infinity, null, null, null, null, null],
-[null, null, infinity, infinity, infinity, infinity, infinity, null, null],
-[null, null, null, infinity, infinity, infinity, infinity, null, null],
-[null, null, null, null, null, infinity, singularity, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-]);
+TableCrafting.addShaped(<avaritia:infinity_axe>, [[null, null, null, infinity, null, null, null, null, null], [null, null, infinity, infinity, infinity, infinity, infinity, null, null], [null, null, null, infinity, infinity, infinity, infinity, null, null], [null, null, null, null, null, infinity, singularity, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_pickaxe>, [
-[null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
-[infinity, infinity, infinity, infinity, singularity, infinity, infinity, infinity, infinity],
-[infinity, infinity, null, null, neutronium, null, null, infinity, infinity],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_pickaxe>, [[null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null], [infinity, infinity, infinity, infinity, singularity, infinity, infinity, infinity, infinity], [infinity, infinity, null, null, neutronium, null, null, infinity, infinity], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, null, neutronium, null, null, null, null], [null, null, null, null, neutronium, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_hoe>, [
-[null, null, null, null, null, null, singularity, null, null],
-[null, null, infinity, infinity, infinity, infinity, infinity, infinity, null],
-[null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null],
-[null, infinity, null, null, null, null, infinity, infinity, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null],
-[null, null, null, null, null, null, neutronium, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_hoe>, [[null, null, null, null, null, null, singularity, null, null], [null, null, infinity, infinity, infinity, infinity, infinity, infinity, null], [null, infinity, infinity, infinity, infinity, infinity, infinity, infinity, null], [null, infinity, null, null, null, null, infinity, infinity, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null], [null, null, null, null, null, null, neutronium, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_sword>, [
-[null, null, null, null, null, null, null, infinity, infinity],
-[null, null, null, null, null, null, infinity, infinity, infinity],
-[null, null, null, null, null, infinity, infinity, infinity, null],
-[null, null, null, null, infinity, infinity, infinity, null, null],
-[null, crystal, null, infinity, infinity, infinity, null, null, null],
-[null, null, crystal, infinity, infinity, null, null, null, null],
-[null, null, neutronium, crystal, null, null, null, null, null],
-[null, neutronium, null, null, crystal, null, null, null, null],
-[singularity, null, null, null, null, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_sword>, [[null, null, null, null, null, null, null, infinity, infinity], [null, null, null, null, null, null, infinity, infinity, infinity], [null, null, null, null, null, infinity, infinity, infinity, null], [null, null, null, null, infinity, infinity, infinity, null, null], [null, crystal, null, infinity, infinity, infinity, null, null, null], [null, null, crystal, infinity, infinity, null, null, null, null], [null, null, neutronium, crystal, null, null, null, null, null], [null, neutronium, null, null, crystal, null, null, null, null], [singularity, null, null, null, null, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritia:infinity_bow>, [
-[null, null, null, infinity, infinity, null, null, null, null],
-[null, null, infinity, null, <ore:blockWool>, null, null, null, null],
-[null, infinity, null, null, <ore:blockWool>, null, null, null, null],
-[infinity, null, null, null, <ore:blockWool>, null, null, null, null],
-[singularity, null, null, null, <ore:blockWool>, null, null, null, null],
-[infinity, null, null, null, <ore:blockWool>, null, null, null, null],
-[null, infinity, null, null, <ore:blockWool>, null, null, null, null],
-[null, null, infinity, null, <ore:blockWool>, null, null, null, null],
-[null, null, null, infinity, infinity, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:infinity_bow>, [[null, null, null, infinity, infinity, null, null, null, null], [null, null, infinity, null, <ore:blockWool>, null, null, null, null], [null, infinity, null, null, <ore:blockWool>, null, null, null, null], [infinity, null, null, null, <ore:blockWool>, null, null, null, null], [singularity, null, null, null, <ore:blockWool>, null, null, null, null], [infinity, null, null, null, <ore:blockWool>, null, null, null, null], [null, infinity, null, null, <ore:blockWool>, null, null, null, null], [null, null, infinity, null, <ore:blockWool>, null, null, null, null], [null, null, null, infinity, infinity, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritiatweaks:enhancement_crystal>, [
-[null, null, null, null, neutronium, null, null, null, null],
-[null, null, null, neutronium, crystal, neutronium, null, null, null],
-[null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
-[null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null],
-[null, null, neutronium, crystal, <extendedcrafting:singularity_custom:4>, crystal, neutronium, null, null],
-[null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null],
-[null, null, neutronium, crystal, crystal, crystal, neutronium, null, null],
-[null, null, null, neutronium, crystal, neutronium, null, null, null],
-[null, null, null, null, neutronium, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritiatweaks:enhancement_crystal>, [[null, null, null, null, neutronium, null, null, null, null], [null, null, null, neutronium, crystal, neutronium, null, null, null], [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null], [null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null], [null, null, neutronium, crystal, <extendedcrafting:singularity_custom:4>, crystal, neutronium, null, null], [null, null, neutronium, catalyst, crystal, catalyst, neutronium, null, null], [null, null, neutronium, crystal, crystal, crystal, neutronium, null, null], [null, null, null, neutronium, crystal, neutronium, null, null, null], [null, null, null, null, neutronium, null, null, null, null]]);
 
-TableCrafting.addShaped(<botania:specialflower>.withTag({type: "asgardandelion"}), [
-[null, null, null, infinity, infinity, infinity, null, null, null],
-[null, null, infinity, infinity, infinity, infinity, infinity, null, null],
-[null, null, infinity, infinity, singularity, infinity, infinity, null, null],
-[null, null, infinity, infinity, infinity, infinity, infinity, null, null],
-[null, null, null, infinity, infinity, infinity, null, null, null],
-[null, nugget, nugget, null, neutronium, null, nugget, nugget, null],
-[nugget, nugget, nugget, nugget, neutronium, nugget, nugget, nugget, nugget],
-[null, nugget, nugget, null, neutronium, null, nugget, nugget, null],
-[null, null, null, null, neutronium, null, null, null, null]
-]);
+TableCrafting.addShaped(<botania:specialflower>.withTag({type: "asgardandelion"}), [[null, null, null, infinity, infinity, infinity, null, null, null], [null, null, infinity, infinity, infinity, infinity, infinity, null, null], [null, null, infinity, infinity, singularity, infinity, infinity, null, null], [null, null, infinity, infinity, infinity, infinity, infinity, null, null], [null, null, null, infinity, infinity, infinity, null, null, null], [null, nugget, nugget, null, neutronium, null, nugget, nugget, null], [nugget, nugget, nugget, nugget, neutronium, nugget, nugget, nugget, nugget], [null, nugget, nugget, null, neutronium, null, nugget, nugget, null], [null, null, null, null, neutronium, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritiatweaks:infinitato>, [
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, catalyst, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], 
-[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>]
-]);
+TableCrafting.addShaped(<avaritiatweaks:infinitato>, [[<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, catalyst, <botania:tinypotato>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>], [<botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>, <botania:tinypotato>]]);
 
-TableCrafting.addShaped(<avaritia:neutron_collector>, [
-[<ore:blockIron>, <ore:blockIron>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockIron>, <ore:blockIron>], 
-[<ore:blockIron>, null, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, null, <ore:blockIron>], 
-[<ore:blockIron>, null, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, null, <ore:blockIron>], 
-[crystal, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, crystal], 
-[<ore:blockIron>, null, <ore:blockRedstone>, <ore:blockRedstone>, crystal, <ore:blockRedstone>, <ore:blockRedstone>, null, <ore:blockIron>], 
-[crystal, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, crystal], 
-[<ore:blockIron>, null, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, null, <ore:blockIron>], 
-[<ore:blockIron>, null, null, null, null, null, null, null, <ore:blockIron>], 
-[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
-]);
+TableCrafting.addShaped(<avaritia:neutron_collector>, [[<ore:blockIron>, <ore:blockIron>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockIron>, <ore:blockIron>], [<ore:blockIron>, null, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>, null, <ore:blockIron>], [<ore:blockIron>, null, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, null, <ore:blockIron>], [crystal, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, crystal], [<ore:blockIron>, null, <ore:blockRedstone>, <ore:blockRedstone>, crystal, <ore:blockRedstone>, <ore:blockRedstone>, null, <ore:blockIron>], [crystal, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, crystal], [<ore:blockIron>, null, null, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, null, null, <ore:blockIron>], [<ore:blockIron>, null, null, null, null, null, null, null, <ore:blockIron>], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
 
-TableCrafting.addShaped(<avaritia:neutronium_compressor>, [
-[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>], 
-[crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
-[<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], 
-[crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
-[<ore:blockRedstone>, neutronium, neutronium, null, <avaritia:block_resource>, null, neutronium, neutronium, <ore:blockRedstone>], 
-[crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
-[<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], 
-[crystal, null, neutronium, null, null, null, neutronium, null, crystal], 
-[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
-]);
+TableCrafting.addShaped(<avaritia:neutronium_compressor>, [[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockHopper>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>], [crystal, null, neutronium, null, null, null, neutronium, null, crystal], [<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], [crystal, null, neutronium, null, null, null, neutronium, null, crystal], [<ore:blockRedstone>, neutronium, neutronium, null, <avaritia:block_resource>, null, neutronium, neutronium, <ore:blockRedstone>], [crystal, null, neutronium, null, null, null, neutronium, null, crystal], [<ore:blockIron>, null, neutronium, null, null, null, neutronium, null, <ore:blockIron>], [crystal, null, neutronium, null, null, null, neutronium, null, crystal], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, crystal, <ore:blockIron>, crystal, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
 
-TableCrafting.addShaped(<avaritia:endest_pearl>, [
-[null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null], 
-[null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], 
-[null, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, null], 
-[<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], 
-[<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:netherStar>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], 
-[<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], 
-[null, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, null], 
-[null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], 
-[null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:endest_pearl>, [[null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null], [null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], [null, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, null], [<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], [<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:netherStar>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], [<ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, neutronium, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>], [null, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, null], [null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], [null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null]]);
 
-TableCrafting.addShaped(<avaritia:resource:6>, [
-[null, null, null, null, null, null, null, null, null], 
-[null, null, null, null, null, null, null, null, null], 
-[neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], 
-[neutronium, crystal, catalyst, catalyst, crystal, catalyst, catalyst, crystal, neutronium], 
-[neutronium, catalyst, crystal, crystal, catalyst, crystal, crystal, catalyst, neutronium], 
-[neutronium, crystal, catalyst, catalyst, crystal, catalyst, catalyst, crystal, neutronium], 
-[neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], 
-[null, null, null, null, null, null, null, null, null], 
-[null, null, null, null, null, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:resource:6>, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], [neutronium, crystal, catalyst, catalyst, crystal, catalyst, catalyst, crystal, neutronium], [neutronium, catalyst, crystal, crystal, catalyst, crystal, crystal, catalyst, neutronium], [neutronium, crystal, catalyst, catalyst, crystal, catalyst, catalyst, crystal, neutronium], [neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium, neutronium], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null]]);
 
-TableCrafting.addShaped(<avaritia:skullfire_sword>, [
-[null, null, null, null, null, null, null, crystal, <ore:powderBlaze>], 
-[null, null, null, null, null, null, crystal, <ore:powderBlaze>, crystal], 
-[null, null, null, null, null, crystal, <ore:powderBlaze>, crystal, null], 
-[null, null, null, null, crystal, <ore:powderBlaze>, crystal, null, null], 
-[null, <ore:bone>, null, crystal, <ore:powderBlaze>, crystal, null, null, null], 
-[null, null, <ore:bone>, <ore:powderBlaze>, crystal, null, null, null, null], 
-[null, null, <ore:logWood>, <ore:bone>, null, null, null, null, null], 
-[null, <ore:logWood>, null, null, <ore:bone>, null, null, null, null], 
-[<ore:netherStar>, null, null, null, null, null, null, null, null]
-]);
+TableCrafting.addShaped(<avaritia:skullfire_sword>, [[null, null, null, null, null, null, null, crystal, <ore:powderBlaze>], [null, null, null, null, null, null, crystal, <ore:powderBlaze>, crystal], [null, null, null, null, null, crystal, <ore:powderBlaze>, crystal, null], [null, null, null, null, crystal, <ore:powderBlaze>, crystal, null, null], [null, <ore:bone>, null, crystal, <ore:powderBlaze>, crystal, null, null, null], [null, null, <ore:bone>, <ore:powderBlaze>, crystal, null, null, null, null], [null, null, <ore:logWood>, <ore:bone>, null, null, null, null, null], [null, <ore:logWood>, null, null, <ore:bone>, null, null, null, null], [<ore:netherStar>, null, null, null, null, null, null, null, null]]);
 
 TableCrafting.addShapeless(<avaritia:ultimate_stew>, [<avaritia:resource:2>, <ore:cropWheat>, <ore:cropCarrot>, <ore:cropPotato>, <ore:blockCactus>, <ore:cropMushroomRed>, <ore:cropMushroomBrown>, <ore:cropNetherWart>, <ore:cropRice>, <ore:cropCanola>, <ore:cropFlax>, <ore:cropCoffee>]);
 

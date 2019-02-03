@@ -51,7 +51,7 @@ val disabled = [
 	<enderio:item_end_steel_pickaxe:*>,
 	<enderio:item_end_steel_axe:*>,
 	<enderio:item_end_steel_bow:*>,
-	
+
 	<enderio:item_stellar_alloy_sword:*>,
 	<enderio:item_stellar_alloy_pickaxe:*>,
 	<enderio:item_stellar_alloy_axe:*>,
@@ -59,12 +59,11 @@ val disabled = [
 	<enderio:item_stellar_alloy_boots:*>,
 	<enderio:item_stellar_alloy_chestplate:*>,
 	<enderio:item_stellar_alloy_leggings:*>,
-	
-	
+
 	<actuallyadditions:block_giant_chest>,
 	<actuallyadditions:block_giant_chest_medium>,
 	<actuallyadditions:block_giant_chest_large>,
-	
+
 	<minecraft:diamond_boots:*>,
 	<minecraft:diamond_helmet:*>,
 	<minecraft:diamond_leggings:*>,
@@ -89,7 +88,7 @@ val disabled = [
 	<minecraft:golden_helmet:*>,
 	<minecraft:golden_leggings:*>,
 	<minecraft:golden_hoe:*>,
-	
+
 	<minecraft:diamond_boots:*>,
 	<minecraft:diamond_helmet:*>,
 	<minecraft:diamond_leggings:*>,
@@ -114,7 +113,7 @@ val disabled = [
 	<minecraft:golden_helmet:*>,
 	<minecraft:golden_leggings:*>,
 	<minecraft:golden_hoe:*>,
-	
+
 	<thaumic_arcana:livium_pickaxe:*>,
 	<thaumic_arcana:livium_axe:*>,
 	<thaumic_arcana:livium_shovel:*>,
@@ -132,7 +131,7 @@ val disabled = [
 	<thaumic_arcana:slimy_sword:*>,
 	<thaumic_arcana:slimy_hoe:*>,
 	<thaumic_arcana:slimy_shovel:*>,
-	
+
 	<botania:flighttiara>
 ] as IItemStack[];
 
