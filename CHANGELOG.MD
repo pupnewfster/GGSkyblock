@@ -16,6 +16,7 @@
 - Ignore lens NBT for mana lens quest. Should allow any mana lens to now count. (Also fixes it being unclaimable without emc'ing a mana lens)
 - Made Thaumonomicon quest clearer about the prereqs.
 - Custom enriched compressed items now follow the default efficiency boost of 8 times instead of being 9 times
+- Re-enabled `/island home` because apparently you can use `/island spawn` and then be stuck there.
 
 
 - Updated
