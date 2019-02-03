@@ -32,7 +32,15 @@ static customItems as int[string] = {
 
 	tier34_seed_component : colorLookup.tier34,
 	reconstructed_tier34_component : 0x6AFF26,
-	charred_tier34_part : 0x252525
+	charred_tier34_part : 0x252525,
+
+	tier35_beam : colorLookup.tier35,
+	elvish_tier35_beam : colorLookup.tier35,
+	tier35_bolt : colorLookup.tier35,
+	reconstructed_tier35_bolt : colorLookup.tier35,
+	tier35_gear : colorLookup.tier35,
+	crushed_tier35_gear : colorLookup.tier35,
+	enriched_crushed_tier35_gear : colorLookup.tier35
 } as int[string];
 
 
@@ -48,7 +56,7 @@ createMysticalItem("blood_tier23_seeds", "electrical_steel_seeds", false);
 createMysticalItem("blood_tier25_seeds", "conductive_iron_seeds", false);
 createMysticalItem("bloody_tier27", "dark_steel_essence", false);
 
-createItem("tier23alloy", "base:items/plate", false);
+createBaseItem("tier23alloy", "plate", false);
 
 createMysticalItem("mundane_tier33_seeds", "elementium_seeds", false);
 createItem("plated_tier33_seeds", "tconstruct:items/cast", false);
@@ -58,15 +66,28 @@ createItem("tier34_seed_component", "enderio:items/item_material_plantbrown", fa
 createItem("reconstructed_tier34_component", "enderio:items/item_material_plantbrown", false);
 createItem("charred_tier34_part", "enderio:items/item_material_plantbrown", false);
 
-
 createJaopcaItem("tier30", "crystal");
 createJaopcaItem("tier30", "shard");
 createJaopcaItem("tier30", "clump");
 createJaopcaItem("tier30", "dust");
 
+createBaseItem("tier35_beam", "beam", false);
+createBaseItem("elvish_tier35_beam", "beam", true);
+
+createBaseItem("tier35_bolt", "bolt", false);
+createBaseItem("reconstructed_tier35_bolt", "bolt", true);
+
+createBaseItem("tier35_gear", "gear", false);
+createBaseItem("crushed_tier35_gear", "dust", false);
+createBaseItem("enriched_crushed_tier35_gear", "dust", true);
+
 
 function createMysticalItem(name as string, item as string, glowing as bool) {
     createItem(name, "mysticalagriculture:items/" + item, glowing);
+}
+
+function createBaseItem(name as string, item as string, glowing as bool) {
+    createItem(name, "base:items/" + item, glowing);
 }
 
 function createItem(name as string, texture as string, glowing as bool) {

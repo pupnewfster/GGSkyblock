@@ -68,6 +68,13 @@ item.contenttweaker.tier34_seed_component.name=Tier 34 EMC Seed Component
 item.contenttweaker.reconstructed_tier34_component.name=Reconstructed Tier 34 EMC Seed Component
 item.contenttweaker.charred_tier34_part.name=Charred Tier 34 EMC Seed Component
 
+item.contenttweaker.tier35_beam.name=Tier 35 EMC Essence Beam
+item.contenttweaker.elvish_tier35_beam.name=Elvish Tier 35 EMC Essence Beam
+item.contenttweaker.tier35_bolt.name=Tier 35 EMC Essence Bolt
+item.contenttweaker.reconstructed_tier35_bolt.name=Reconstructed Tier 35 EMC Essence Bolt
+item.contenttweaker.tier35_gear.name=Tier 35 EMC Essence Gear
+item.contenttweaker.crushed_tier35_gear.name=Crushed Tier 35 EMC Essence Gear
+item.contenttweaker.enriched_crushed_tier35_gear.name=Enriched Crushed Tier 35 EMC Essence Gear
 
 
 tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block

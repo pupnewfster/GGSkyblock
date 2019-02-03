@@ -285,6 +285,9 @@ SliceNSplice.addRecipe(<mysticalagriculture:end_steel_seeds>, [<contenttweaker:t
 //<mysticalagriculture:end_steel_seeds>
 //<avaritia:singularity:14> //748,077,120
 
+//BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
+//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+
 
 //Tier 32
 Vat.addRecipe(<liquid:red_matter>, <liquid:dark_matter>, [<mysticalagriculture:end_steel_essence>], [1], [<projecte:item.pe_matter:1>], [1], 500000);
@@ -328,8 +331,12 @@ AtomicReconstructor.addRecipe(<contenttweaker:reconstructed_tier34_component>, <
 blastFurnace.addRecipe(<contenttweaker:charred_tier34_part>, null, <contenttweaker:reconstructed_tier34_component>, <projecte:item.pe_fuel:2>, 3000, 50000, 3730);
 infuser.addRecipe("TIER22", 2500, <contenttweaker:charred_tier34_part>, <mysticalagriculture:thaumium_seeds>);
 
-//<mysticalagriculture:thaumium_seeds>
-//<projecte:dm_furnace> //13,761,773,576
+SagMill.addRecipe([<contenttweaker:tier35_beam>, <contenttweaker:tier35_bolt>, <contenttweaker:tier35_gear>], [1.0, 1.0, 1.0], <mysticalagriculture:thaumium_essence>, "NONE", 1500000);
+ElvenTrade.addRecipe([<contenttweaker:elvish_tier35_beam>], [<contenttweaker:tier35_beam>]);
+AtomicReconstructor.addRecipe(<contenttweaker:reconstructed_tier35_bolt>, <contenttweaker:tier35_bolt>, 2500000);
+crusher.addRecipe(<contenttweaker:tier35_gear>, <contenttweaker:crushed_tier35_gear>);
+enrichment.addRecipe(<contenttweaker:crushed_tier35_gear>, <contenttweaker:enriched_crushed_tier35_gear>);
+AlloySmelter.addRecipe(<projecte:dm_furnace>, [<contenttweaker:elvish_tier35_beam>, <contenttweaker:reconstructed_tier35_bolt>, <contenttweaker:enriched_crushed_tier35_gear>], 1500000, 1.0);
 
 
 //Tier 36
