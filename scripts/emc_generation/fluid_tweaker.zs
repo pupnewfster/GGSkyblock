@@ -21,6 +21,9 @@ createFluid("tier19", colorLookup.tier19);
 createFluid("tier25blood", 0x760000);
 createFluid("tier30_dirty", 0xC49147);
 
+createFluid("bloody_tier31_essence", 0xC47F66);
+createFluid("evaporated_bloody_tier31", 0xE1BF99);
+
 createFluidLight("tier30_clean", colorLookup.tier30, 1000);
 
 
