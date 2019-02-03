@@ -17,14 +17,17 @@
 - Made Thaumonomicon quest clearer about the prereqs.
 - Custom enriched compressed items now follow the default efficiency boost of 8 times instead of being 9 times
 - Re-enabled `/island home` because apparently you can use `/island spawn` and then be stuck there.
+- This update will say there is a missing registry entry from InWorldCrafting. That is due to an internal change in their code making it no longer needed. The registry entry removal should be able to be safely confirmed as removed.
 
 
 - Updated
   - Animus (2.0.4 to 2.1.0)
   - Astral Sorcery (1.10.10 to 1.10.11)
   - Blood Magic (2.3.3-101 to 2.4.0-102)
+  - Botania (1.10-358 to 1.10-359)
   - CreativeCore (v1.9.38 to v1.9.39)
   - Ender Tweaker (1.0.0 to 1.1.0)
+  - InWorldCrafting (0.13.0 to 1.0.0)
   - PlusTiC (7.0.2.0 to 7.0.2.1)
   - Project EX (1.0.0.6 to 1.0.0.9)
   - Random Patches (1.12.1.0 to 1.13.0.0)
