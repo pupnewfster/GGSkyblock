@@ -21,6 +21,7 @@
 - Temporarily disable the ability to use the personal link from Project EX until it can no longer be used as a way to bypass creation locks.
 - Removed EMC value from spawn egg. It had one due to a thaumcraft recipe but it uses NBT so EMC wouldn't work with it anyways.
 - Make Ceramics Empty Clay Bucket max stack size 1, as a countermeasure to dupe bugs
+- Remove Diamond Nuggets as they allow EMC'ing diamonds a lot earlier than you are meant to be able to.
 
 
 - Updated

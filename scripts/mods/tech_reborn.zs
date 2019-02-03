@@ -35,6 +35,8 @@ mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
 mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
 mods.jei.JEI.hide(<techreborn:omnitool>);
 
+mods.jei.JEI.removeAndHide(<techreborn:nuggets:24>);
+recipes.removeByRecipeName("techreborn:diamond");
 
 
 //Disable tools/armor
