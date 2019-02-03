@@ -16,6 +16,10 @@
       "item": "minecraft:experience_bottle|0",
       "emc": 0
     },
+    {
+      "item": "minecraft:spawn_egg|0",
+      "emc": 0
+    },
 	{
       "item": "minecraft:chainmail_helmet|*",
       "emc": 1
