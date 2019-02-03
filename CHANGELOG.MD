@@ -20,6 +20,7 @@
 - This update will say there is a missing registry entry from InWorldCrafting. That is due to an internal change in their code making it no longer needed. The registry entry removal should be able to be safely confirmed as removed.
 - Temporarily disable the ability to use the personal link from Project EX until it can no longer be used as a way to bypass creation locks.
 - Removed EMC value from spawn egg. It had one due to a thaumcraft recipe but it uses NBT so EMC wouldn't work with it anyways.
+- Make Ceramics Empty Clay Bucket max stack size 1, as a countermeasure to dupe bugs
 
 
 - Updated

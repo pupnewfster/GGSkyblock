@@ -130,13 +130,4 @@ var power7 = 128;
 <minecraft:egg>.maxStackSize = 64;//power9;
 
 
-
-
-
-
-
-
-
-
-
-
+<ceramics:clay_bucket>.maxStackSize = 1;
