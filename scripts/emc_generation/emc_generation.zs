@@ -282,9 +282,6 @@ enrichment.addRecipe(<contenttweaker:tier30_dust>, <projecte:item.pe_matter>);
 //Tier 31
 SliceNSplice.addRecipe(<mysticalagriculture:end_steel_seeds>, [<contenttweaker:tier30_dust>, <mysticalagriculture:vibrant_alloy_seeds>, <mysticalagriculture:vibrant_alloy_essence>, <contenttweaker:tier30_clump>, <contenttweaker:tier30_crystal>, <contenttweaker:tier30_shard>], 450000, 0.5);
 
-//<mysticalagriculture:end_steel_seeds>
-//<avaritia:singularity:14> //748,077,120
-
 Vat.addRecipe(<liquid:bloody_tier31_essence>, <liquid:refined_life_essence>, [<mysticalagriculture:end_steel_essence>], [1], [<mysticalagriculture:end_steel_essence>], [1], 750000);
 thermalevaporation.addRecipe(<liquid:bloody_tier31_essence>, <liquid:evaporated_bloody_tier31>);
 crystallizer.addRecipe(<gas:evaporated_bloody_tier31> * 500, <avaritia:singularity:14>);
@@ -295,9 +292,10 @@ Vat.addRecipe(<liquid:red_matter>, <liquid:dark_matter>, [<mysticalagriculture:e
 chemicalInfuser.addRecipe(<gas:red_matter>, <gas:hydrogen>, <gas:heavy_red_matter>);
 Casting.addTableRecipe(<mysticalagriculture:manasteel_seeds>, <mysticalagriculture:end_steel_seeds>, <liquid:heavy_red_matter>, 144, true, 600);
 
-//<mysticalagriculture:manasteel_seeds>
-//<projecte:matter_block> //1,720,221,696
-
+reaction.addRecipe(<auxiliumequivalence:matter>, <liquid:sulfuricacid> * 1000, <gas:heavy_red_matter> * 1000, <mekanism:otherdust:3>, <gas:orange_matter> * 500, 1000, 3000);
+Melting.addRecipe(<liquid:moltentier32> * 144, <mysticalagriculture:manasteel_essence>, 2500);
+Alloy.addRecipe(<liquid:moltenorange_32> * 145, [<liquid:orange_matter>, <liquid:moltentier32> * 144]);
+Casting.addBasinRecipe(<projecte:matter_block>, null, <liquid:moltenorange_32>, 145, false, 600);
 
 
 //Tier 33
