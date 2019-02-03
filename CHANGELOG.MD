@@ -27,10 +27,11 @@
 - Updated
   - Animus (2.0.4 to 2.1.0)
   - Astral Sorcery (1.10.10 to 1.10.11)
+  - Better Builder's Wands (0.12.1 to 0.13.0)
   - Blood Magic (2.3.3-101 to 2.4.0-102)
   - Botania (1.10-358 to 1.10-359)
   - CreativeCore (v1.9.38 to v1.9.39)
-  - Ender Tweaker (1.0.0 to 1.1.0)
+  - Ender Tweaker (1.0.0 to 1.1.1)
   - InWorldCrafting (0.13.0 to 1.0.0)
   - PlusTiC (7.0.2.0 to 7.0.2.1)
   - Project EX (1.0.0.6 to 1.0.0.9)

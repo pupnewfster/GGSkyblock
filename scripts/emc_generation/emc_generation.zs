@@ -282,13 +282,13 @@ enrichment.addRecipe(<contenttweaker:tier30_dust>, <projecte:item.pe_matter>);
 //Tier 31
 SliceNSplice.addRecipe(<mysticalagriculture:end_steel_seeds>, [<contenttweaker:tier30_dust>, <mysticalagriculture:vibrant_alloy_seeds>, <mysticalagriculture:vibrant_alloy_essence>, <contenttweaker:tier30_clump>, <contenttweaker:tier30_crystal>, <contenttweaker:tier30_shard>], 450000, 0.5);
 
-Vat.addRecipe(<liquid:bloody_tier31_essence>, <liquid:refined_life_essence>, [<mysticalagriculture:end_steel_essence>], [1], [<mysticalagriculture:end_steel_essence>], [1], 750000);
+Vat.addRecipe(<liquid:bloody_tier31_essence>, 1, <liquid:refined_life_essence>, [<mysticalagriculture:end_steel_essence>], [1], [<mysticalagriculture:end_steel_essence>], [1], 750000);
 thermalevaporation.addRecipe(<liquid:bloody_tier31_essence>, <liquid:evaporated_bloody_tier31>);
 crystallizer.addRecipe(<gas:evaporated_bloody_tier31> * 500, <avaritia:singularity:14>);
 
 
 //Tier 32
-Vat.addRecipe(<liquid:red_matter>, <liquid:dark_matter>, [<mysticalagriculture:end_steel_essence>], [1], [<projecte:item.pe_matter:1>], [1], 500000);
+Vat.addRecipe(<liquid:red_matter>, 1, <liquid:dark_matter>, [<mysticalagriculture:end_steel_essence>], [1], [<projecte:item.pe_matter:1>], [1], 500000);
 chemicalInfuser.addRecipe(<gas:red_matter>, <gas:hydrogen>, <gas:heavy_red_matter>);
 Casting.addTableRecipe(<mysticalagriculture:manasteel_seeds>, <mysticalagriculture:end_steel_seeds>, <liquid:heavy_red_matter>, 144, true, 600);
 
@@ -404,7 +404,7 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
 //SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
 //SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
-//Vat.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
+//Vat.addRecipe(ILiquidStack output, float inMult, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
 
 
 //Extended crafting
