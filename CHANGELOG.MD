@@ -3,6 +3,7 @@
 ### 1.3
 - Changed max stack size of clay bucket back to 16 as collecting rain update fixed the bug.
 - Removed EMC values from Tech Reborn's Small Pile of Dust items. For the same reason as diamond nuggets were removed last update.
+- Added a few more tips
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)
