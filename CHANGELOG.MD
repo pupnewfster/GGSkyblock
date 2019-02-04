@@ -5,6 +5,7 @@
 - Removed EMC values from Tech Reborn's Small Pile of Dust items. For the same reason as diamond nuggets were removed last update.
 - Added a few more tips
 - Added a chance of the orechid turning stone into sand. This was done to lower the rate at which aquamarine is made.
+- Changed the recipe of the Orechid to make diamonds not a prerequisite of Astral Sorcery
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)

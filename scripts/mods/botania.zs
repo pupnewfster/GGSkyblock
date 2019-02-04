@@ -5,6 +5,7 @@ import mods.botania.Orechid;
 import mods.botania.OrechidIgnem;
 import mods.botania.ElvenTrade;
 import mods.botania.ManaInfusion;
+import mods.botania.Apothecary;
 
 mods.jei.JEI.removeAndHide(<botania:manasteelpick>);
 mods.jei.JEI.removeAndHide(<botania:manasteelshovel>);
@@ -122,3 +123,7 @@ ManaInfusion.addAlchemy(<minecraft:dye:3>, <actuallyadditions:item_coffee_seed>,
 ManaInfusion.addAlchemy(<minecraft:slime_ball>, <minecraft:reeds>, 20000);
 ManaInfusion.addAlchemy(<minecraft:reeds>, <minecraft:cactus>, 20000);
 ManaInfusion.addAlchemy(<minecraft:cactus>, <minecraft:slime_ball>, 20000);
+
+
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<botania:manaresource:6>, <botania:manaresource:8>, <ore:petalGray>, <ore:petalGray>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <botania:rune:4>, <botania:rune:5>, <botania:rune:6>, <botania:rune:7>]);
