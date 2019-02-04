@@ -24,11 +24,15 @@ static customItems as int[string] = {
 	blood_tier23_seeds : colorLookup.blood,
 	blood_tier25_seeds : colorLookup.blood,
 	bloody_tier27 : colorLookup.blood,
+	bloody_tier33 : colorLookup.blood,
 
 	tier23alloy : colorLookup.tier23,
 	mundane_tier33_seeds : colorLookup.tier32,
 	plated_tier33_seeds : 0xF200FF,
 	empowered_plated_tier33_seeds : colorLookup.tier33,
+
+	composted_tier33 : 0x894430,
+	bloody_composted_tier33 : 0xAD4B2E,
 
 	tier34_seed_component : colorLookup.tier34,
 	reconstructed_tier34_component : 0x6AFF26,
@@ -55,6 +59,7 @@ createMysticalItem("tier28_elven", "pulsating_iron_essence", true);
 createMysticalItem("blood_tier23_seeds", "electrical_steel_seeds", false);
 createMysticalItem("blood_tier25_seeds", "conductive_iron_seeds", false);
 createMysticalItem("bloody_tier27", "dark_steel_essence", false);
+createMysticalItem("bloody_tier33", "elementium_essence", false);
 
 createBaseItem("tier23alloy", "plate", false);
 
@@ -70,6 +75,9 @@ createJaopcaItem("tier30", "crystal");
 createJaopcaItem("tier30", "shard");
 createJaopcaItem("tier30", "clump");
 createJaopcaItem("tier30", "dust");
+
+createBaseItem("composted_tier33", "cluster", false);
+createBaseItem("bloody_composted_tier33", "cluster", true);
 
 createBaseItem("tier35_beam", "beam", false);
 createBaseItem("elvish_tier35_beam", "beam", true);

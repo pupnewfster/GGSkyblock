@@ -54,6 +54,7 @@ item.contenttweaker.tier23alloy.name=Tier 23 EMC Essence Alloy
 item.contenttweaker.reconstructed_tier24.name=Reconstructed Tier 24 EMC Essence
 item.contenttweaker.empowered_tier25.name=Empowerered Tier 25 EMC Essence
 item.contenttweaker.bloody_tier27.name=Bloody Tier 27 EMC Essence
+item.contenttweaker.bloody_tier33.name=Bloody Tier 33 EMC Essence
 
 item.contenttweaker.tier28_alchemy.name=Alchemified Tier 28 EMC Essence
 item.contenttweaker.tier28_elven.name=Elven Alchemified Tier 28 EMC Essence
@@ -64,6 +65,8 @@ item.contenttweaker.tier30_shard.name=Tier 30 EMC Essence Shard
 item.contenttweaker.tier30_clump.name=Tier 30 EMC Essence Clump
 item.contenttweaker.tier30_dust.name=Tier 30 EMC Essence Dust
 
+item.contenttweaker.composted_tier33.name=Composted Tier 33 EMC Essence
+item.contenttweaker.bloody_composted_tier33.name=Bloody Composted Tier 33 EMC Essence
 
 item.contenttweaker.mundane_tier33_seeds.name=Mundane Tier 33 EMC Seeds
 item.contenttweaker.plated_tier33_seeds.name=Plated Tier 33 EMC Seeds
@@ -97,6 +100,8 @@ tile.contenttweaker.tier32_block.name=Tier 32 EMC Essence Block
 tile.contenttweaker.sliced_tier32_block.name=Sliced Tier 32 EMC Block
 tile.contenttweaker.imbued_tier32_block.name=Imbued Sliced Tier 32 EMC Block
 
+tile.contenttweaker.bloody_tier33_block.name=Bloody Tier 33 EMC Essence Block
+tile.contenttweaker.tier33_composting_block.name=Composting Tier 33 EMC Essence Block
 
 tile.contenttweaker.black_sea_lantern.name=Black Sea Lantern
 tile.contenttweaker.gray_sea_lantern.name=Gray Sea Lantern

@@ -52,6 +52,7 @@ static colorLookup as int[string] = {
 	green_matter : 0x75F300,
 	blue_matter : 0x0574FF,
 	blood : 0x8A0000,
+	bloody_tier33 : 0xC2657E,
 
 	tier25_26alloy : 0xDAB7B6,
 
