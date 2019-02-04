@@ -37,7 +37,9 @@ static customBlocks as int[string] = {
 	imbued_tier32_block : 0x7A7AFF,
 
 	bloody_tier33_block : colorLookup.bloody_tier33,
-	tier33_composting_block : colorLookup.bloody_tier33
+	tier33_composting_block : colorLookup.bloody_tier33,
+
+	compressed_elvish_tier34 : 0x33E896
 } as int[string];
 
 
@@ -49,6 +51,7 @@ createColoredBlock("sliced_tier32_block", "contenttweaker:blocks/base_block");
 createColoredBlock("imbued_tier32_block", "contenttweaker:blocks/base_block");
 createColoredBlock("bloody_tier33_block", "contenttweaker:blocks/base_block");
 createColoredBlockFull("tier33_composting_block", "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>, 0);
+createColoredBlock("compressed_elvish_tier34", "contenttweaker:blocks/base_block");
 
 
 function createColoredBlock(name as string, texture as string) {

@@ -75,6 +75,9 @@ item.contenttweaker.tier34_seed_component.name=Tier 34 EMC Seed Component
 item.contenttweaker.reconstructed_tier34_component.name=Reconstructed Tier 34 EMC Seed Component
 item.contenttweaker.charred_tier34_part.name=Charred Tier 34 EMC Seed Component
 
+item.contenttweaker.mana_infused_tier34.name=Mana Infused Tier 34 EMC Essence
+item.contenttweaker.elvish_tier34.name=Elvish Tier 34 EMC Essence
+
 item.contenttweaker.tier35_beam.name=Tier 35 EMC Essence Beam
 item.contenttweaker.elvish_tier35_beam.name=Elvish Tier 35 EMC Essence Beam
 item.contenttweaker.tier35_bolt.name=Tier 35 EMC Essence Bolt
@@ -102,6 +105,8 @@ tile.contenttweaker.imbued_tier32_block.name=Imbued Sliced Tier 32 EMC Block
 
 tile.contenttweaker.bloody_tier33_block.name=Bloody Tier 33 EMC Essence Block
 tile.contenttweaker.tier33_composting_block.name=Composting Tier 33 EMC Essence Block
+
+tile.contenttweaker.compressed_elvish_tier34.name=Compressed Elvish Tier 34 EMC Essence Block
 
 tile.contenttweaker.black_sea_lantern.name=Black Sea Lantern
 tile.contenttweaker.gray_sea_lantern.name=Gray Sea Lantern

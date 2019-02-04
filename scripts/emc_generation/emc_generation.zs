@@ -318,8 +318,10 @@ Casting.addTableRecipe(<contenttweaker:plated_tier33_seeds>, <mysticalagricultur
 Empowerer.addRecipe(<contenttweaker:empowered_plated_tier33_seeds>, <contenttweaker:plated_tier33_seeds>, <mysticalagriculture:zinc_seeds>, <mysticalagriculture:bronze_seeds>, <mysticalagriculture:tin_seeds>, <mysticalagriculture:copper_seeds>, 80000, 2000, [0.75, 0.25, 0.75]);
 Inscriber.addRecipe(<mysticalagriculture:terrasteel_seeds>, <contenttweaker:empowered_plated_tier33_seeds>, false, <mysticalagriculture:pulsating_iron_essence>, <mysticalagriculture:pulsating_iron_essence>);
 
-//<mysticalagriculture:terrasteel_seeds>
-//<projecte:item.pe_matter:1> //5,483,151,360
+ManaInfusion.addInfusion(<contenttweaker:mana_infused_tier34>, <mysticalagriculture:terrasteel_essence>, 750000);
+ElvenTrade.addRecipe([<contenttweaker:elvish_tier34> * 3], [<contenttweaker:mana_infused_tier34>, <contenttweaker:mana_infused_tier34>, <contenttweaker:mana_infused_tier34>, <botania:manaresource:4>]);
+TableCrafting.addShaped(<contenttweaker:compressed_elvish_tier34>, [[<contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>], [<contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>], [<contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>, <contenttweaker:elvish_tier34>]]);
+SliceNSplice.addRecipe(<projecte:item.pe_matter:1> * 9, [<mysticalagriculture:iron_essence>, <contenttweaker:compressed_elvish_tier34>, <mysticalagriculture:iron_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:gold_essence>], 2500000, 1);
 
 
 //Tier 35

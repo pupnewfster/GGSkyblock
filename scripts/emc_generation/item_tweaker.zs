@@ -37,6 +37,8 @@ static customItems as int[string] = {
 	tier34_seed_component : colorLookup.tier34,
 	reconstructed_tier34_component : 0x6AFF26,
 	charred_tier34_part : 0x252525,
+	mana_infused_tier34 : colorLookup.aqua,
+	elvish_tier34 : colorLookup.aqua,
 
 	tier35_beam : colorLookup.tier35,
 	elvish_tier35_beam : colorLookup.tier35,
@@ -78,6 +80,9 @@ createJaopcaItem("tier30", "dust");
 
 createBaseItem("composted_tier33", "cluster", false);
 createBaseItem("bloody_composted_tier33", "cluster", true);
+
+createMysticalItem("mana_infused_tier34", "terrasteel_essence", false);
+createMysticalItem("elvish_tier34", "terrasteel_essence", true);
 
 createBaseItem("tier35_beam", "beam", false);
 createBaseItem("elvish_tier35_beam", "beam", true);
