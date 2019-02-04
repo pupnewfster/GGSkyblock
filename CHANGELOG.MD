@@ -7,6 +7,7 @@
 - Added a chance of the orechid turning stone into sand. This was done to lower the rate at which aquamarine is made.
 - Changed the recipe of the Orechid to make diamonds not a prerequisite of Astral Sorcery
 - Fixed all conflicting recipes. The majority of them were for items that were already unified by unidict anyways.
+- Fixed some recipes in Mekanism machines not working (such as copper ore to copper dust in enrichment chamber.) Some extra recipes may show in JEI now, but everything should work properly now.
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)
