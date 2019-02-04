@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 recipes.addShaped("CTCreativeModifier", <tconstruct:materials:50>, [[<extendedcrafting:singularity_custom>, <minecraft:skull:1>, <extendedcrafting:singularity_custom>], [<minecraft:skull:1>, <extendedcrafting:singularity_custom:1>, <minecraft:skull:1>], [<extendedcrafting:singularity_custom>, <minecraft:skull:1>, <extendedcrafting:singularity_custom>]]);
 
@@ -36,12 +37,12 @@ recipes.addShapeless("CTInfiniteManaTablet", <botania:manatablet>.withTag({mana:
 
 
 //Hide creative items that don't have a recipe
-mods.jei.JEI.hide(<theoneprobe:creativeprobe>);
-mods.jei.JEI.hide(<techreborn:creative_solar_panel>);
-mods.jei.JEI.hide(<techreborn:creative_quantum_tank>);
-mods.jei.JEI.hide(<techreborn:creative_quantum_chest>);
-mods.jei.JEI.hide(<enderio:block_buffer:3>);
-mods.jei.JEI.hide(<thaumcraft:creative_flux_sponge>);
-mods.jei.JEI.hide(<bloodmagic:activation_crystal:2>);
-mods.jei.JEI.hide(<bloodmagic:sacrificial_dagger:1>);
-mods.jei.JEI.hide(<wct:wct_creative>);
+JEI.hide(<theoneprobe:creativeprobe>);
+JEI.hide(<techreborn:creative_solar_panel>);
+JEI.hide(<techreborn:creative_quantum_tank>);
+JEI.hide(<techreborn:creative_quantum_chest>);
+JEI.hide(<enderio:block_buffer:3>);
+JEI.hide(<thaumcraft:creative_flux_sponge>);
+JEI.hide(<bloodmagic:activation_crystal:2>);
+JEI.hide(<bloodmagic:sacrificial_dagger:1>);
+JEI.hide(<wct:wct_creative>);

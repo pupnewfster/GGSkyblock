@@ -1,7 +1,9 @@
+import mods.jei.JEI;
+
 //Circuit (add a recipe to mekanism)
-mods.jei.JEI.removeAndHide(<techreborn:part:29>);
-mods.jei.JEI.removeAndHide(<techreborn:part:30>);
-mods.jei.JEI.removeAndHide(<techreborn:part:1>);
+JEI.removeAndHide(<techreborn:part:29>);
+JEI.removeAndHide(<techreborn:part:30>);
+JEI.removeAndHide(<techreborn:part:1>);
 
 //Reinforced Machine Casing
 recipes.remove(<techreborn:machine_casing:1>);
@@ -24,72 +26,72 @@ recipes.addShaped("CTNuke", <techreborn:nuke>, [[<projecte:nova_cataclysm>, <ava
 
 
 //Disable Soalr Panels
-mods.jei.JEI.removeAndHide(<techreborn:solar_panel:*>);
+JEI.removeAndHide(<techreborn:solar_panel:*>);
 
 //Disable Chunk Loader
-mods.jei.JEI.removeAndHide(<techreborn:chunk_loader>);
+JEI.removeAndHide(<techreborn:chunk_loader>);
 
-mods.jei.JEI.removeAndHide(<techreborn:quantum_tank>);
-mods.jei.JEI.removeAndHide(<techreborn:quantum_chest>);
-mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
-mods.jei.JEI.hide(<techreborn:magic_energy_absorber>);
-mods.jei.JEI.hide(<techreborn:omnitool>);
+JEI.removeAndHide(<techreborn:quantum_tank>);
+JEI.removeAndHide(<techreborn:quantum_chest>);
+JEI.hide(<techreborn:magic_energy_converter>);
+JEI.hide(<techreborn:magic_energy_absorber>);
+JEI.hide(<techreborn:omnitool>);
 
-mods.jei.JEI.removeAndHide(<techreborn:nuggets:24>);
+JEI.removeAndHide(<techreborn:nuggets:24>);
 recipes.removeByRecipeName("techreborn:diamond");
 
 
 //Disable tools/armor
-mods.jei.JEI.removeAndHide(<techreborn:bronzeboots>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzechestplate>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzehelmet>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzeleggings>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzeaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzehoe>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzepickaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzespade>);
-mods.jei.JEI.removeAndHide(<techreborn:bronzesword>);
+JEI.removeAndHide(<techreborn:bronzeboots>);
+JEI.removeAndHide(<techreborn:bronzechestplate>);
+JEI.removeAndHide(<techreborn:bronzehelmet>);
+JEI.removeAndHide(<techreborn:bronzeleggings>);
+JEI.removeAndHide(<techreborn:bronzeaxe>);
+JEI.removeAndHide(<techreborn:bronzehoe>);
+JEI.removeAndHide(<techreborn:bronzepickaxe>);
+JEI.removeAndHide(<techreborn:bronzespade>);
+JEI.removeAndHide(<techreborn:bronzesword>);
 
-mods.jei.JEI.removeAndHide(<techreborn:rubyboots>);
-mods.jei.JEI.removeAndHide(<techreborn:rubychestplate>);
-mods.jei.JEI.removeAndHide(<techreborn:rubyhelmet>);
-mods.jei.JEI.removeAndHide(<techreborn:rubyleggings>);
-mods.jei.JEI.removeAndHide(<techreborn:rubyaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:rubyhoe>);
-mods.jei.JEI.removeAndHide(<techreborn:rubypickaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:rubyspade>);
-mods.jei.JEI.removeAndHide(<techreborn:rubysword>);
+JEI.removeAndHide(<techreborn:rubyboots>);
+JEI.removeAndHide(<techreborn:rubychestplate>);
+JEI.removeAndHide(<techreborn:rubyhelmet>);
+JEI.removeAndHide(<techreborn:rubyleggings>);
+JEI.removeAndHide(<techreborn:rubyaxe>);
+JEI.removeAndHide(<techreborn:rubyhoe>);
+JEI.removeAndHide(<techreborn:rubypickaxe>);
+JEI.removeAndHide(<techreborn:rubyspade>);
+JEI.removeAndHide(<techreborn:rubysword>);
 
-mods.jei.JEI.removeAndHide(<techreborn:sapphireboots>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphirechestplate>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphirehelmet>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphireleggings>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphireaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphirehoe>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphirepickaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphirespade>);
-mods.jei.JEI.removeAndHide(<techreborn:sapphiresword>);
+JEI.removeAndHide(<techreborn:sapphireboots>);
+JEI.removeAndHide(<techreborn:sapphirechestplate>);
+JEI.removeAndHide(<techreborn:sapphirehelmet>);
+JEI.removeAndHide(<techreborn:sapphireleggings>);
+JEI.removeAndHide(<techreborn:sapphireaxe>);
+JEI.removeAndHide(<techreborn:sapphirehoe>);
+JEI.removeAndHide(<techreborn:sapphirepickaxe>);
+JEI.removeAndHide(<techreborn:sapphirespade>);
+JEI.removeAndHide(<techreborn:sapphiresword>);
 
-mods.jei.JEI.removeAndHide(<techreborn:peridotboots>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotchestplate>);
-mods.jei.JEI.removeAndHide(<techreborn:peridothelmet>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotleggings>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:peridothoe>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotpickaxe>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotspade>);
-mods.jei.JEI.removeAndHide(<techreborn:peridotsword>);
+JEI.removeAndHide(<techreborn:peridotboots>);
+JEI.removeAndHide(<techreborn:peridotchestplate>);
+JEI.removeAndHide(<techreborn:peridothelmet>);
+JEI.removeAndHide(<techreborn:peridotleggings>);
+JEI.removeAndHide(<techreborn:peridotaxe>);
+JEI.removeAndHide(<techreborn:peridothoe>);
+JEI.removeAndHide(<techreborn:peridotpickaxe>);
+JEI.removeAndHide(<techreborn:peridotspade>);
+JEI.removeAndHide(<techreborn:peridotsword>);
 
 
-mods.jei.JEI.removeAndHide(<techreborn:irondrill>);
-mods.jei.JEI.removeAndHide(<techreborn:diamonddrill>);
-mods.jei.JEI.removeAndHide(<techreborn:advanceddrill>);
+JEI.removeAndHide(<techreborn:irondrill>);
+JEI.removeAndHide(<techreborn:diamonddrill>);
+JEI.removeAndHide(<techreborn:advanceddrill>);
 
-mods.jei.JEI.removeAndHide(<techreborn:ironchainsaw>);
-mods.jei.JEI.removeAndHide(<techreborn:diamondchainsaw>);
-mods.jei.JEI.removeAndHide(<techreborn:advancedchainsaw>);
-mods.jei.JEI.removeAndHide(<techreborn:steeljackhammer>);
-mods.jei.JEI.removeAndHide(<techreborn:diamondjackhammer>);
-mods.jei.JEI.removeAndHide(<techreborn:ironjackhammer>);
-mods.jei.JEI.removeAndHide(<techreborn:nanosaber>);
-mods.jei.JEI.removeAndHide(<techreborn:rockcutter>);
+JEI.removeAndHide(<techreborn:ironchainsaw>);
+JEI.removeAndHide(<techreborn:diamondchainsaw>);
+JEI.removeAndHide(<techreborn:advancedchainsaw>);
+JEI.removeAndHide(<techreborn:steeljackhammer>);
+JEI.removeAndHide(<techreborn:diamondjackhammer>);
+JEI.removeAndHide(<techreborn:ironjackhammer>);
+JEI.removeAndHide(<techreborn:nanosaber>);
+JEI.removeAndHide(<techreborn:rockcutter>);

@@ -1,2 +1,4 @@
-mods.jei.JEI.removeAndHide(<chisel:chisel_iron>);
-mods.jei.JEI.removeAndHide(<chisel:chisel_diamond>);
+import mods.jei.JEI;
+
+JEI.removeAndHide(<chisel:chisel_iron>);
+JEI.removeAndHide(<chisel:chisel_diamond>);

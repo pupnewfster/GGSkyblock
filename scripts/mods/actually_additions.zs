@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 //Iron Casing needs Tech reborn standard casing
 recipes.remove(<actuallyadditions:block_misc:9>);
@@ -17,9 +18,9 @@ recipes.remove(<actuallyadditions:item_misc:8>);
 recipes.addShaped("CTAdvancedCoil", <actuallyadditions:item_misc:8>, [[<mekanism:enrichedalloy>, <mekanism:enrichedalloy>, <mekanism:enrichedalloy>], [<mekanism:enrichedalloy>, <actuallyadditions:item_misc:7>, <mekanism:enrichedalloy>], [<mekanism:enrichedalloy>, <mekanism:enrichedalloy>, <mekanism:enrichedalloy>]]);
 
 //XP solidifier
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_xp_solidifier>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_smiley_cloud>);
-mods.jei.JEI.hide(<actuallyadditions:item_solidified_experience>);
+JEI.removeAndHide(<actuallyadditions:block_xp_solidifier>);
+JEI.removeAndHide(<actuallyadditions:block_smiley_cloud>);
+JEI.hide(<actuallyadditions:item_solidified_experience>);
 
 //Ring of Growth
 recipes.remove(<actuallyadditions:item_growth_ring>);
@@ -34,74 +35,74 @@ recipes.remove(<actuallyadditions:block_farmer>);
 recipes.addShaped("CTFarmer", <actuallyadditions:block_farmer>, [[<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>], [<minecraft:wheat_seeds>, <techreborn:machine_casing:1>, <minecraft:wheat_seeds>], [<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>]]);
 
 //Remove Drills
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:16>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill:*>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed_ii>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed_iii>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_silk_touch>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_fortune>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_fortune_ii>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_three_by_three>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_five_by_five>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_block_placing>);
+JEI.removeAndHide(<actuallyadditions:item_misc:16>);
+JEI.removeAndHide(<actuallyadditions:item_drill:*>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed_ii>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_speed_iii>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_silk_touch>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_fortune>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_fortune_ii>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_three_by_three>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_five_by_five>);
+JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_block_placing>);
 
 //Disable Solar panel
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_solar>);
+JEI.removeAndHide(<actuallyadditions:block_furnace_solar>);
 
 //Get rid of greenhouse glass
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_greenhouse_glass>);
+JEI.removeAndHide(<actuallyadditions:block_greenhouse_glass>);
 
 //Disable Magnet Rings
-mods.jei.JEI.removeAndHide(<actuallyadditions:magnet_ring_bauble>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_suction_ring>);
+JEI.removeAndHide(<actuallyadditions:magnet_ring_bauble>);
+JEI.removeAndHide(<actuallyadditions:item_suction_ring>);
 
 //Hide disabled torch
-mods.jei.JEI.hide(<actuallyadditions:block_tiny_torch>);
+JEI.hide(<actuallyadditions:block_tiny_torch>);
 
 //Disable coal generator in favor of tech reborn generator
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_coal_generator>);
+JEI.removeAndHide(<actuallyadditions:block_coal_generator>);
 
 //Disable some things
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_miner>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_giant_chest>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_giant_chest_medium>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_giant_chest_large>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_chest_to_crate_upgrade>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_small_to_medium_crate_upgrade>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_medium_to_large_crate_upgrade>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crate_keeper>);
+JEI.removeAndHide(<actuallyadditions:block_miner>);
+JEI.removeAndHide(<actuallyadditions:block_giant_chest>);
+JEI.removeAndHide(<actuallyadditions:block_giant_chest_medium>);
+JEI.removeAndHide(<actuallyadditions:block_giant_chest_large>);
+JEI.removeAndHide(<actuallyadditions:item_chest_to_crate_upgrade>);
+JEI.removeAndHide(<actuallyadditions:item_small_to_medium_crate_upgrade>);
+JEI.removeAndHide(<actuallyadditions:item_medium_to_large_crate_upgrade>);
+JEI.removeAndHide(<actuallyadditions:item_crate_keeper>);
 
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_breaker>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_directional_breaker>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_phantom_breaker>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_fluid_collector>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_placer>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_phantom_placer>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_fluid_placer>);
-
-
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
-
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_wings_of_the_bats>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crafter_on_a_stick>);
-mods.jei.JEI.hide(<actuallyadditions:item_worm>);
-mods.jei.JEI.hide(<actuallyadditions:item_misc:15>);
-mods.jei.JEI.hide(<actuallyadditions:block_black_lotus>);
+JEI.removeAndHide(<actuallyadditions:block_breaker>);
+JEI.removeAndHide(<actuallyadditions:block_directional_breaker>);
+JEI.removeAndHide(<actuallyadditions:block_phantom_breaker>);
+JEI.removeAndHide(<actuallyadditions:block_fluid_collector>);
+JEI.removeAndHide(<actuallyadditions:block_placer>);
+JEI.removeAndHide(<actuallyadditions:block_phantom_placer>);
+JEI.removeAndHide(<actuallyadditions:block_fluid_placer>);
 
 
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_redstone>);
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_lapis>);
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_diamond>);
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_coal>);
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_emerald>);
-mods.jei.JEI.hide(<actuallyadditions:block_crystal_cluster_iron>);
+JEI.removeAndHide(<actuallyadditions:block_grinder>);
+JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
+JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
 
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard:1>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard:2>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard:3>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard:4>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:item_crystal_shard:5>);
+JEI.removeAndHide(<actuallyadditions:item_wings_of_the_bats>);
+JEI.removeAndHide(<actuallyadditions:item_crafter_on_a_stick>);
+JEI.hide(<actuallyadditions:item_worm>);
+JEI.hide(<actuallyadditions:item_misc:15>);
+JEI.hide(<actuallyadditions:block_black_lotus>);
+
+
+JEI.hide(<actuallyadditions:block_crystal_cluster_redstone>);
+JEI.hide(<actuallyadditions:block_crystal_cluster_lapis>);
+JEI.hide(<actuallyadditions:block_crystal_cluster_diamond>);
+JEI.hide(<actuallyadditions:block_crystal_cluster_coal>);
+JEI.hide(<actuallyadditions:block_crystal_cluster_emerald>);
+JEI.hide(<actuallyadditions:block_crystal_cluster_iron>);
+
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard>);
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard:1>);
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard:2>);
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard:3>);
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard:4>);
+JEI.removeAndHide(<actuallyadditions:item_crystal_shard:5>);

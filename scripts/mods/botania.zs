@@ -1,5 +1,6 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 import mods.botania.Orechid;
 import mods.botania.OrechidIgnem;
@@ -7,33 +8,33 @@ import mods.botania.ElvenTrade;
 import mods.botania.ManaInfusion;
 import mods.botania.Apothecary;
 
-mods.jei.JEI.removeAndHide(<botania:manasteelpick>);
-mods.jei.JEI.removeAndHide(<botania:manasteelshovel>);
-mods.jei.JEI.removeAndHide(<botania:manasteelaxe>);
-mods.jei.JEI.removeAndHide(<botania:manasteelsword>);
-mods.jei.JEI.removeAndHide(<botania:manasteelshears>);
+JEI.removeAndHide(<botania:manasteelpick>);
+JEI.removeAndHide(<botania:manasteelshovel>);
+JEI.removeAndHide(<botania:manasteelaxe>);
+JEI.removeAndHide(<botania:manasteelsword>);
+JEI.removeAndHide(<botania:manasteelshears>);
 
-mods.jei.JEI.removeAndHide(<botania:elementiumpick>);
-mods.jei.JEI.removeAndHide(<botania:elementiumshovel>);
-mods.jei.JEI.removeAndHide(<botania:elementiumaxe>);
-mods.jei.JEI.removeAndHide(<botania:elementiumsword>);
-mods.jei.JEI.removeAndHide(<botania:elementiumshears>);
+JEI.removeAndHide(<botania:elementiumpick>);
+JEI.removeAndHide(<botania:elementiumshovel>);
+JEI.removeAndHide(<botania:elementiumaxe>);
+JEI.removeAndHide(<botania:elementiumsword>);
+JEI.removeAndHide(<botania:elementiumshears>);
 
-mods.jei.JEI.removeAndHide(<botania:glasspick>);
-mods.jei.JEI.removeAndHide(<botania:livingwoodbow>);
-mods.jei.JEI.removeAndHide(<botania:crystalbow>);
+JEI.removeAndHide(<botania:glasspick>);
+JEI.removeAndHide(<botania:livingwoodbow>);
+JEI.removeAndHide(<botania:crystalbow>);
 
 //Disable Botania Magnet rings
-mods.jei.JEI.removeAndHide(<botania:magnetring>);
-mods.jei.JEI.removeAndHide(<botania:magnetringgreater>);
+JEI.removeAndHide(<botania:magnetring>);
+JEI.removeAndHide(<botania:magnetringgreater>);
 
 
-mods.jei.JEI.removeAndHide(<botania:flighttiara>);
+JEI.removeAndHide(<botania:flighttiara>);
 
-mods.jei.JEI.removeAndHide(<extrabotany:cosmeticmaidhelm>);
-mods.jei.JEI.removeAndHide(<extrabotany:cosmeticmaidchest>);
-mods.jei.JEI.removeAndHide(<extrabotany:cosmeticmaidlegs>);
-mods.jei.JEI.removeAndHide(<extrabotany:cosmeticmaidboots>);
+JEI.removeAndHide(<extrabotany:cosmeticmaidhelm>);
+JEI.removeAndHide(<extrabotany:cosmeticmaidchest>);
+JEI.removeAndHide(<extrabotany:cosmeticmaidlegs>);
+JEI.removeAndHide(<extrabotany:cosmeticmaidboots>);
 
 
 var crates = [
@@ -46,7 +47,7 @@ var crates = [
 
 for crate in crates {
 	ElvenTrade.removeRecipe(crate);
-	mods.jei.JEI.hide(crate);
+	JEI.hide(crate);
 }
 
 

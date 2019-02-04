@@ -1,4 +1,5 @@
 import mods.tconstruct.Fuel;
+import mods.jei.JEI;
 
 recipes.addShapeless("CTBlueVine", <tconstruct:slime_vine_blue>, [<minecraft:vine>, <tconstruct:edible:1>]);
 recipes.addShapeless("CTPurpleVine", <tconstruct:slime_vine_purple>, [<minecraft:vine>, <tconstruct:edible:2>]);
@@ -12,13 +13,13 @@ recipes.addShapeless("CTBlueLeaves", <tconstruct:slime_leaves:0>, [<ore:treeLeav
 recipes.addShapeless("CTPurpleLeaves", <tconstruct:slime_leaves:1>, [<ore:treeLeaves>, <tconstruct:edible:2>]);
 recipes.addShapeless("CTOrangeLeaves", <tconstruct:slime_leaves:2>, [<ore:treeLeaves>, <tconstruct:edible:4>]);
 
-mods.jei.JEI.removeAndHide(<tinker_io:stirling_engine>);
-mods.jei.JEI.removeAndHide(<tinker_io:ore_crusher>);
-mods.jei.JEI.removeAndHide(<tinker_io:what_a_beautiful_block>);
-mods.jei.JEI.removeAndHide(<tinker_io:crushed_ore>);
+JEI.removeAndHide(<tinker_io:stirling_engine>);
+JEI.removeAndHide(<tinker_io:ore_crusher>);
+JEI.removeAndHide(<tinker_io:what_a_beautiful_block>);
+JEI.removeAndHide(<tinker_io:crushed_ore>);
 
-mods.jei.JEI.removeAndHide(<tcomplement:melter>);
-mods.jei.JEI.removeAndHide(<tcomplement:melter:8>);
+JEI.removeAndHide(<tcomplement:melter>);
+JEI.removeAndHide(<tcomplement:melter:8>);
 
 
 Fuel.registerFuel(<liquid:aeternalis>, 160);
