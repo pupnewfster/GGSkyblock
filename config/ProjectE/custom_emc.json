@@ -67,6 +67,11 @@
       "item": "betterbuilderswands:wandunbreakable|0",
       "emc": 139272
     },
+
+    {
+      "item": "techreborn:smalldust|*",
+      "emc": 0
+    },
 	
 	{
       "item": "appliedenergistics2:part|120",

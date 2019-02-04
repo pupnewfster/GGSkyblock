@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.3
+- Changed max stack size of clay bucket back to 16 as collecting rain update fixed the bug.
+- Removed EMC values from Tech Reborn's Small Pile of Dust items. For the same reason as diamond nuggets were removed last update.
+
+Updated
+  - CollectingRain (1.0.4 to 1.0.5)
+
+
+
 ### 1.2 (BETA)
 - Added a little bit more information to some quests.
 - Moved metallurgic infuser quest earlier, given it is needed to make an empowerer.

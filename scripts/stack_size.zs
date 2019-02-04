@@ -91,43 +91,8 @@ var horseMaxSize = 64;
 <minecraft:minecart>.maxStackSize = 16;
 
 
-//Things past 64 because of StackUp
-/*var power20 = 1048576;
-var power10 = 1024;
-var power9 = 512;
-var power8 = 256;
-var power7 = 128;
-
-<minecraft:cobblestone>.maxStackSize = power20;
-<minecraft:stone>.maxStackSize = power20;
-<minecraft:stone:1>.maxStackSize = power20;
-<minecraft:stone:3>.maxStackSize = power20;
-<minecraft:stone:5>.maxStackSize = power20;
-<minecraft:netherrack>.maxStackSize = power20;
-<minecraft:dirt>.maxStackSize = power20;
-
-<minecraft:sand>.maxStackSize = power10;
-<minecraft:sand:1>.maxStackSize = power10;
-<minecraft:gravel>.maxStackSize = power10;
-
-<minecraft:end_stone>.maxStackSize = power9;
-
-<minecraft:coal>.maxStackSize = power8;
-<minecraft:redstone>.maxStackSize = power8;
-<minecraft:dye:4>.maxStackSize = power8;
-<minecraft:glowstone_dust>.maxStackSize = power8;
-<minecraft:quartz>.maxStackSize = power8;
-<minecraft:rotten_flesh>.maxStackSize = power8;
-
-<minecraft:diamond>.maxStackSize = power7;
-<minecraft:emerald>.maxStackSize = power7;*/
-
-
 //Snowballs
-<minecraft:snowball>.maxStackSize = 64;//power9;
+<minecraft:snowball>.maxStackSize = 64;
 
 //Eggs
-<minecraft:egg>.maxStackSize = 64;//power9;
-
-
-<ceramics:clay_bucket>.maxStackSize = 1;
+<minecraft:egg>.maxStackSize = 64;

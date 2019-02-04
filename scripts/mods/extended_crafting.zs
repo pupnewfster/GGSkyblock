@@ -47,6 +47,7 @@ TableCrafting.remove(<extendedcrafting:material:24>);
 
 TableCrafting.addShaped(<extendedcrafting:material:24>, [[<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, null, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>], [null, null, null, null, null, null, null], [null, null, null, null, null, null, null], [null, null, null, null, null, null, null]]);
 
+recipes.removeByRecipeName("extendedcrafting:emerald_nugget_to");
 
 var neutronium = <avaritia:resource:4> as IItemStack;
 var infinity = <avaritia:resource:6> as IItemStack;
