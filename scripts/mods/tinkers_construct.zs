@@ -29,3 +29,12 @@ Fuel.registerFuel(<liquid:orange_matter>, 1280);
 Fuel.registerFuel(<liquid:yellow_matter>, 2560);
 Fuel.registerFuel(<liquid:green_matter>, 5120);
 Fuel.registerFuel(<liquid:blue_matter>, 10240);
+
+
+
+
+//Disable conflicting recipes of disabled/hidden items anyways
+recipes.removeByRecipeName("plustic:metals/invar_nugget");
+recipes.removeByRecipeName("plustic:metals/invar_block");
+recipes.removeByRecipeName("plustic:metals/invar_ingot_nugget");
+recipes.removeByRecipeName("plustic:metals/invar_nugget");

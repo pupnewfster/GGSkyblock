@@ -27,6 +27,8 @@ recipes.addShaped("CTSilicon", <appliedenergistics2:material:19>, [[<ore:ingotIr
 
 recipes.addShapeless("CTSkyStone", <appliedenergistics2:sky_stone_block>, [<minecraft:stone>, <minecraft:feather>]);
 
+//Remove conflicting recipes for disabled/hidden stuff
+JEI.removeAndHide(<appliedenergistics2:material:40>);
 
 
 //Remove extracells items that ae2 now has

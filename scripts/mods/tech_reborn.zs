@@ -25,6 +25,28 @@ recipes.addShaped("CTRollingMachine", <techreborn:rolling_machine>, [[<minecraft
 recipes.addShaped("CTNuke", <techreborn:nuke>, [[<projecte:nova_cataclysm>, <avaritia:endest_pearl>, <projecte:nova_cataclysm>], [<avaritia:endest_pearl>, <projecte:nova_cataclysm>, <avaritia:endest_pearl>], [<projecte:nova_cataclysm>, <avaritia:endest_pearl>, <projecte:nova_cataclysm>]]);
 
 
+//Disable conflicting recipes of disabled/hidden items anyways
+recipes.removeByRecipeName("techreborn:nuggets_1");
+recipes.removeByRecipeName("techreborn:nuggets_2");
+recipes.removeByRecipeName("techreborn:nuggets_4");
+recipes.removeByRecipeName("techreborn:nuggets_8");
+recipes.removeByRecipeName("techreborn:nuggets_11");
+recipes.removeByRecipeName("techreborn:nuggets_12");
+recipes.removeByRecipeName("techreborn:nuggets_13");
+
+recipes.removeByRecipeName("techreborn:ingot_20");
+recipes.removeByRecipeName("techreborn:ingot_21");
+recipes.removeByRecipeName("techreborn:ingot_23");
+recipes.removeByRecipeName("techreborn:ingot_31");
+recipes.removeByRecipeName("techreborn:ingot_32");
+
+recipes.removeByRecipeName("techreborn:storage_4");
+recipes.removeByRecipeName("techreborn:storage_5");
+recipes.removeByRecipeName("techreborn:storage2_6");
+recipes.removeByRecipeName("techreborn:storage2_7");
+recipes.removeByRecipeName("techreborn:storage_14");
+
+
 //Disable Soalr Panels
 JEI.removeAndHide(<techreborn:solar_panel:*>);
 

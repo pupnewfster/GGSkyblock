@@ -34,6 +34,9 @@ recipes.addShaped("CTEmpowerer", <actuallyadditions:block_empowerer>, [[null, <a
 recipes.remove(<actuallyadditions:block_farmer>);
 recipes.addShaped("CTFarmer", <actuallyadditions:block_farmer>, [[<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>], [<minecraft:wheat_seeds>, <techreborn:machine_casing:1>, <minecraft:wheat_seeds>], [<actuallyadditions:block_crystal:5>, <minecraft:wheat_seeds>, <actuallyadditions:block_crystal:5>]]);
 
+//Hide duplicate charcoal block
+JEI.removeAndHide(<actuallyadditions:block_misc:5>);
+
 //Remove Drills
 JEI.removeAndHide(<actuallyadditions:item_misc:16>);
 JEI.removeAndHide(<actuallyadditions:item_drill:*>);

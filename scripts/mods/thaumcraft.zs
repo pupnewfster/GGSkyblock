@@ -15,3 +15,10 @@ Pedestal.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "p
 //Disable the liquids from being op in smeltery
 <liquid:molten_alkimium>.definition.temperature = 300;
 <liquid:molten_bismuth>.definition.temperature = 300;
+
+
+//Disable conflicting recipes of disabled/hidden items anyways
+recipes.removeByRecipeName("thaumcraft:tintonuggets");
+recipes.removeByRecipeName("thaumcraft:coppertonuggets");
+recipes.removeByRecipeName("thaumcraft:tinnuggetstoingot");
+recipes.removeByRecipeName("thaumcraft:coppernuggetstoingot");
