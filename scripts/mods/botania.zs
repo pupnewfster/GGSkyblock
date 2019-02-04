@@ -88,7 +88,8 @@ for ore in netherOres {
 
 
 var newOres = {
-	<ore:oreAquamarine> : 2970
+	<ore:oreAquamarine> : 50,
+	<ore:sand> : 3000
 } as int[IOreDictEntry];
 
 for ore, value in newOres {
