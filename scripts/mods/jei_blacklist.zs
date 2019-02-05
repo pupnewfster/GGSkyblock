@@ -24,8 +24,6 @@ JEI.hide(<ceramics:clay_bucket:1>);
 //TODO: There are still some missing buckets
 
 
-
-
 //Tech Reborn cells
 hideFilledContainers(<techreborn:dynamiccell>);
 //TODO: There are still some missing cells
@@ -53,6 +51,10 @@ for tank in <mekanism:gastank>.definition.subItems {
         val tag = tank.tag as IData;
         if ((tag.tier as IData).asInt() == 4 && !isNull(tag.mekData as IData)) {
             JEI.hide(tank);
+            val gas = tag.mekData.stored.gasName;
+            JEI.hide(<ceramics:clay_bucket>.withTag({"fluids": {"FluidName": ("ec.internal." + gas), "Amount": 1000}}));
+            JEI.hide(<techreborn:dynamiccell>.withTag({"Fluid": {"FluidName": ("ec.internal." + gas), "Amount": 1000}}));
+            JEI.hide(<extracells:pattern.fluid>.withTag({"Fluid": {"FluidName": ("ec.internal." + gas), "Amount": 1000}}));
         }
     }
 }
