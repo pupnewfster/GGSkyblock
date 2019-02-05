@@ -12,6 +12,7 @@
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)
+  - Project EX (1.0.0.9 to 1.0.0.10)
   - Tech Reborn (2.20.7.915 to 2.20.9.924)
 
 
