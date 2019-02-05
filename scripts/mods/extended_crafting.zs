@@ -3,7 +3,6 @@ import crafttweaker.item.IItemStack;
 import mods.extendedcrafting.TableCrafting;
 import mods.jei.JEI;
 
-JEI.hide(<extendedcrafting:crafting_table>);
 JEI.removeAndHide(<extendedcrafting:lamp>);
 JEI.removeAndHide(<extendedcrafting:lamp:1>);
 JEI.removeAndHide(<extendedcrafting:trimmed>);

@@ -172,8 +172,6 @@ recipes.removeByRecipeName("projecte:conversions/iron_to_gold");
 recipes.removeByRecipeName("projecte:conversions/gold_to_iron");
 recipes.removeByRecipeName("projecte:conversions/diamond_to_iron");
 
-mods.jei.JEI.hide(<projecte:item.pe_manual>);
-
 
 
 //Orange Matter

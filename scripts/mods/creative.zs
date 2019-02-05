@@ -1,5 +1,4 @@
 import crafttweaker.item.IItemStack;
-import mods.jei.JEI;
 
 recipes.addShaped("CTCreativeModifier", <tconstruct:materials:50>, [[<extendedcrafting:singularity_custom>, <minecraft:skull:1>, <extendedcrafting:singularity_custom>], [<minecraft:skull:1>, <extendedcrafting:singularity_custom:1>, <minecraft:skull:1>], [<extendedcrafting:singularity_custom>, <minecraft:skull:1>, <extendedcrafting:singularity_custom>]]);
 
@@ -32,17 +31,3 @@ recipes.addShaped("CTCreativeGas", creativeGas, [[creativeFluid, <mekanism:basic
 recipes.addShaped("CTCreativeMana", <botania:pool:1>, [[creativeFluid, <extrabotany:quantummanabuffer>, creativeFluid], [creativeGas, <extendedcrafting:singularity_ultimate>, creativeGas], [creativeFluid, <botania:pylon>, creativeFluid]]);
 
 recipes.addShapeless("CTInfiniteManaTablet", <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}), [<botania:pool:1>, <extrabotany:mastermanaring>]);
-
-
-
-
-//Hide creative items that don't have a recipe
-JEI.hide(<theoneprobe:creativeprobe>);
-JEI.hide(<techreborn:creative_solar_panel>);
-JEI.hide(<techreborn:creative_quantum_tank>);
-JEI.hide(<techreborn:creative_quantum_chest>);
-JEI.hide(<enderio:block_buffer:3>);
-JEI.hide(<thaumcraft:creative_flux_sponge>);
-JEI.hide(<bloodmagic:activation_crystal:2>);
-JEI.hide(<bloodmagic:sacrificial_dagger:1>);
-JEI.hide(<wct:wct_creative>);

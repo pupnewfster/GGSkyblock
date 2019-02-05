@@ -20,7 +20,7 @@ recipes.addShaped("CTAdvancedCoil", <actuallyadditions:item_misc:8>, [[<mekanism
 //XP solidifier
 JEI.removeAndHide(<actuallyadditions:block_xp_solidifier>);
 JEI.removeAndHide(<actuallyadditions:block_smiley_cloud>);
-JEI.hide(<actuallyadditions:item_solidified_experience>);
+
 
 //Ring of Growth
 recipes.remove(<actuallyadditions:item_growth_ring>);
@@ -60,9 +60,6 @@ JEI.removeAndHide(<actuallyadditions:block_greenhouse_glass>);
 JEI.removeAndHide(<actuallyadditions:magnet_ring_bauble>);
 JEI.removeAndHide(<actuallyadditions:item_suction_ring>);
 
-//Hide disabled torch
-JEI.hide(<actuallyadditions:block_tiny_torch>);
-
 //Disable coal generator in favor of tech reborn generator
 JEI.removeAndHide(<actuallyadditions:block_coal_generator>);
 
@@ -91,17 +88,6 @@ JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
 
 JEI.removeAndHide(<actuallyadditions:item_wings_of_the_bats>);
 JEI.removeAndHide(<actuallyadditions:item_crafter_on_a_stick>);
-JEI.hide(<actuallyadditions:item_worm>);
-JEI.hide(<actuallyadditions:item_misc:15>);
-JEI.hide(<actuallyadditions:block_black_lotus>);
-
-
-JEI.hide(<actuallyadditions:block_crystal_cluster_redstone>);
-JEI.hide(<actuallyadditions:block_crystal_cluster_lapis>);
-JEI.hide(<actuallyadditions:block_crystal_cluster_diamond>);
-JEI.hide(<actuallyadditions:block_crystal_cluster_coal>);
-JEI.hide(<actuallyadditions:block_crystal_cluster_emerald>);
-JEI.hide(<actuallyadditions:block_crystal_cluster_iron>);
 
 JEI.removeAndHide(<actuallyadditions:item_crystal_shard>);
 JEI.removeAndHide(<actuallyadditions:item_crystal_shard:1>);

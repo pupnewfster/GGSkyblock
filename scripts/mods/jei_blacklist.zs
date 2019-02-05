@@ -5,10 +5,6 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 
 
-//Actually baubles
-hide(itemUtils.getItemsByRegexRegistryName("actuallyadditions:.*bauble"));
-JEI.hide(<actuallyadditions:potion_ring_advanced_bauble:*>);
-
 //AE2 Facades
 val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 for facade in <appliedenergistics2:facade>.definition.subItems {
@@ -54,7 +50,6 @@ for tank in <mekanism:gastank>.definition.subItems {
 
 //Ceramics clay buckets
 hideFilledContainers(<ceramics:clay_bucket>);
-JEI.hide(<ceramics:clay_bucket:1>);
 
 //Tech Reborn cells
 hideFilledContainers(<techreborn:dynamiccell>);
@@ -95,10 +90,82 @@ for slurry in lateJaopcaSlurry {
 }
 
 
+var toHide as IItemStack[] = [
+	//Actually Additions
+	<actuallyadditions:item_solidified_experience>,
+	<actuallyadditions:block_tiny_torch>,
+	<actuallyadditions:item_worm>,
+	<actuallyadditions:item_misc:15>,
+	<actuallyadditions:block_black_lotus>,
+
+	//Ceramics
+	<ceramics:clay_bucket:1>,
+
+	//Creative Items
+	<theoneprobe:creativeprobe>,
+	<techreborn:creative_solar_panel>,
+	<techreborn:creative_quantum_tank>,
+	<techreborn:creative_quantum_chest>,
+	<enderio:block_buffer:3>,
+	<thaumcraft:creative_flux_sponge>,
+	<bloodmagic:activation_crystal:2>,
+	<bloodmagic:sacrificial_dagger:1>,
+	<wct:wct_creative>,
+
+	//Extended Crafting
+	<extendedcrafting:crafting_table>,
+
+	//Mystical Agriculture
+	<mysticalagriculture:fertilized_essence>,
+	<mysticalagriculture:experience_seeds>,
+	<mysticalagriculture:experience_essence>,
+
+	//ProjectE
+	<projecte:item.pe_manual>,
+
+	//Tech Reborn
+	<techreborn:magic_energy_converter>,
+	<techreborn:magic_energy_absorber>,
+	<techreborn:omnitool>
+];
+
+hide(toHide);
+
+
+var regexHide as string[] = [
+	//Actually Additions
+	"actuallyadditions:block_crystal_cluster_.*",
+	"actuallyadditions:.*bauble",
+
+	//Mystical Agriculture
+	"mysticalagriculture:.*_inferium_seeds",
+	"mysticalagriculture:((?!(essence|seeds)).)*$"
+];
+
+for regex in regexHide {
+	hideAllByRegex(regex);
+}
+
+
+
 function hideFilledContainers(container as IItemStack) {
 	for c in container.definition.subItems {
 		if (c.hasTag) {
 			JEI.hide(c);
+		}
+	}
+}
+
+function hideByRegex(regex as string) {
+	hide(itemUtils.getItemsByRegexRegistryName(regex));
+}
+
+function hideAllByRegex(regex as string) {
+	val items as IItemStack[] = itemUtils.getItemsByRegexRegistryName(regex);
+	for item in items {
+		JEI.hide(item);
+		for subItem in item.definition.subItems {
+			JEI.hide(subItem);
 		}
 	}
 }

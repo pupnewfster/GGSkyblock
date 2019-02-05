@@ -55,9 +55,6 @@ JEI.removeAndHide(<techreborn:chunk_loader>);
 
 JEI.removeAndHide(<techreborn:quantum_tank>);
 JEI.removeAndHide(<techreborn:quantum_chest>);
-JEI.hide(<techreborn:magic_energy_converter>);
-JEI.hide(<techreborn:magic_energy_absorber>);
-JEI.hide(<techreborn:omnitool>);
 
 JEI.removeAndHide(<techreborn:nuggets:24>);
 recipes.removeByRecipeName("techreborn:diamond");
