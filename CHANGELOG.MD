@@ -9,6 +9,7 @@
 - Fixed all conflicting recipes. The majority of them were for items that were already unified by unidict anyways.
 - Fixed some recipes in Mekanism machines not working (such as copper ore to copper dust in enrichment chamber.) Some extra recipes may show in JEI now, but everything should work properly now.
 - Cleaned up JEI hiding. All of it is done through CraftTweaker now instead of some of it being done through JEI's blacklist. If you are updating this means you can delete the `itemBlacklist.cfg` file in `config/jei/`
+- Changed the way netherrack is acquired, now you burn stone instead of cooling neather brick. (Makes nether fortresses not as needed early.)
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)
