@@ -27,6 +27,7 @@ Updated
   - CollectingRain (1.0.4 to 1.0.5)
   - Forge (14.23.5.2808 to 14.23.5.2811)
   - Project EX (1.0.0.9 to 1.0.0.12)
+  - Reskillable (1.11.0 to 1.12.0)
   - Tech Reborn (2.20.7.915 to 2.20.9.924)
   - Thaumic Energistics (2.1.0 to 2.1.1)
 
