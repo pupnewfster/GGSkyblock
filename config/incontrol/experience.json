@@ -3,5 +3,9 @@
     "mob": "Villager",
     "player": true,
     "setxp": 2
+  },
+  {
+    "realplayer": true,
+    "multxp": 2
   }
 ]
