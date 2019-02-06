@@ -1,7 +1,6 @@
 #priority 9999
 
 import mods.compatskills.TraitCreator.createTrait;
-import mods.compatskills.Skill;
 
 //Magic
 

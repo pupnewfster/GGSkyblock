@@ -11,6 +11,8 @@
 - Cleaned up JEI hiding. All of it is done through CraftTweaker now instead of some of it being done through JEI's blacklist. If you are updating this means you can delete the `itemBlacklist.cfg` file in `config/jei/`
 - Changed the way netherrack is acquired, now you burn stone instead of cooling neather brick. (Makes nether fortresses not as needed early.)
 - Upped bonus chance of xp from 75% to 100%.
+- Disabled HillWalker due to there being alternatives in other mods, and it sometimes doesn't let higher block count autosteppers work.
+
 
 Updated
   - CollectingRain (1.0.4 to 1.0.5)
