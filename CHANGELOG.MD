@@ -13,11 +13,17 @@
 - Upped bonus chance of xp from 75% to 100%.
 - Disabled HillWalker due to there being alternatives in other mods, and it sometimes doesn't let higher block count autosteppers work.
 - Double how much xp mobs drop (When killed by a real player this will not affect how much xp you get from automated killing setups)
+- Lowered Actually Addition's Farmer range to 5x5 instead of 9x9 to be more balanced and give more of a reason to make Ender IO's farmer.
 
 Updated
+  - Actually Additions (v144 to v145)
+  - Better Questing (3.5.290 to 3.5.291)
+  - Better Questing Standard Expansion (3.4.150 to 3.4.151)
   - CollectingRain (1.0.4 to 1.0.5)
-  - Project EX (1.0.0.9 to 1.0.0.10)
+  - Forge (14.23.5.2808 to 14.23.5.2811)
+  - Project EX (1.0.0.9 to 1.0.0.12)
   - Tech Reborn (2.20.7.915 to 2.20.9.924)
+  - Thaumic Energistics (2.1.0 to 2.1.1)
 
 
 
