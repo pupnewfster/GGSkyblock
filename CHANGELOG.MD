@@ -14,6 +14,11 @@
 - Disabled HillWalker due to there being alternatives in other mods, and it sometimes doesn't let higher block count autosteppers work.
 - Double how much xp mobs drop (When killed by a real player this will not affect how much xp you get from automated killing setups)
 - Lowered Actually Addition's Farmer range to 5x5 instead of 9x9 to be more balanced and give more of a reason to make Ender IO's farmer.
+- Made the wording on a few of the quests clearer.
+- Added a few helper quests.
+- Added a prereqs to some quests so that people don't start trying to do something before they are able to
+- Changed machine casing upgrade quests to only require making one of that machine casing.
+- Adjusted the Thaumcraft Curio drop chance to only require 10 warp after testing how much 1 warp seems to be equivalent to.
 
 Updated
   - Actually Additions (v144 to v145)

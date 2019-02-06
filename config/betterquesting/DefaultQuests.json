@@ -2899,7 +2899,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Machine Casing Upgrade Pt. 1",
-          "desc:8": "Better machine casing means your blast furnace can reach higher heat levels."
+          "desc:8": "Better machine casing means your blast furnace can reach higher heat levels. Each new casing in the multiblock increases the max temperature."
         }
       },
       "tasks:9": {
@@ -2913,7 +2913,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:machine_casing",
-              "Count:3": 34,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 1
             }
@@ -3131,7 +3131,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Machine Casing Upgrade Pt. 2",
-          "desc:8": "Even better machine casing means your blast furnace can reach even higher heat levels."
+          "desc:8": "Even better machine casing means your blast furnace can reach even higher heat levels. Each new casing in the multiblock increases the max temperature."
         }
       },
       "tasks:9": {
@@ -3145,7 +3145,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:machine_casing",
-              "Count:3": 34,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 2
             }
@@ -5418,7 +5418,7 @@
     "83:10": {
       "questID:3": 83,
       "preRequisites:11": [
-        0
+        280
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9544,7 +9544,7 @@
     "150:10": {
       "questID:3": 150,
       "preRequisites:11": [
-        15
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14718,7 +14718,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Curios Curiosities",
-          "desc:8": "Right clicking curiosities gives random research and knowledge for Thaumcraft. Once you reach 100 warp killing any mob that drops amber also has a chance of dropping preserved curiosities."
+          "desc:8": "Right clicking curiosities gives random research and knowledge for Thaumcraft. Once you reach 10 warp killing any mob that drops amber also has a chance of dropping preserved curiosities."
         }
       },
       "tasks:9": {
@@ -16899,7 +16899,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The Philosopher\u0027s Stone",
-          "desc:8": "A Philosopher\u0027s Stone is very useful, you can use it to turn mobs from one kind to another, transform various blocks. (This lets you get rubber, silverwood, and greatwood saplings if you somehow lose yours.)\n\nAs you progress you will end up using the mob transmutation feature to create evokers to get blue hearts, and Vindicators for more reliable emerald drops. Once your taming level is high enough you can also use this to transform passive mobs into pets and tame them."
+          "desc:8": "A Philosopher\u0027s Stone is very useful, you can use it to turn mobs from one kind to another, transform various blocks. (This lets you get rubber, silverwood, and greatwood saplings if you somehow lose yours.)\n\nAs you progress you will end up using the mob transmutation feature to create evokers to get blue hearts, and Vindicators for more reliable emerald drops. Once your taming level is high enough you can also use this to transform passive mobs into pets and tame them.\n\nTo transform mobs you need some sort of usable EMC in your inventory, either a klein star, or something like coal. Then face the mob you want to transform and press \u0027r\u0027. (Note: \u0027r\u0027 is just the default key binding for mob transmutation). This will allow you to turn passive mobs into other passive mobs, and to turn hostile mobs into other hostile mobs. (This is useful for getting those zombie villagers you will need.)"
         }
       },
       "tasks:9": {
@@ -17321,7 +17321,7 @@
     "278:10": {
       "questID:3": 278,
       "preRequisites:11": [
-        15
+        141
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17443,6 +17443,142 @@
           "index:3": 0
         }
       }
+    },
+    "280:10": {
+      "questID:3": 280,
+      "preRequisites:11": [
+        63,
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:alchemycatalyst",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Alchemy Catalyst",
+          "desc:8": "An Alchemy Catalyst will help you turns items of one type into another. This is how you get various types of seeds, and glowstone.\n\nPlace the Alchemy Catalyst below your mana pool, put some mana in it and throw in a piece of redstone dust. You should recieve a piece of glowstone dust in return."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:alchemycatalyst",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:glowstone_dust",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "281:10": {
+      "questID:3": 281,
+      "preRequisites:11": [
+        224,
+        271
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:mycelium",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mushrooms",
+          "desc:8": "To get mushrooms start by transforming a passive mob into a Mooshroom (more information can be found in the philosopher\u0027s stone quest). Shear the Mooshroom to get red mushrooms. You can then use a Metallurgic infuser to infuse dirt with the mushrooms and get Mycelium.\n\nAn industrial centrifuge will let you turn the mycelium into brown mushrooms."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:mycelium",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:brown_mushroom",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:red_mushroom",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -17540,13 +17676,13 @@
         },
         "15:10": {
           "size:3": 24,
-          "x:3": 30,
+          "x:3": -30,
           "y:3": 126,
           "id:3": 271
         },
         "16:10": {
           "size:3": 24,
-          "x:3": -30,
+          "x:3": 30,
           "y:3": 126,
           "id:3": 278
         }
@@ -17958,7 +18094,7 @@
         },
         "19:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 42,
           "y:3": 66,
           "id:3": 227
         },
@@ -17997,6 +18133,12 @@
           "x:3": -30,
           "y:3": -60,
           "id:3": 279
+        },
+        "26:10": {
+          "size:3": 24,
+          "x:3": 78,
+          "y:3": 66,
+          "id:3": 281
         }
       },
       "lineID:3": 3,
@@ -18268,8 +18410,8 @@
         },
         "10:10": {
           "size:3": 24,
-          "x:3": -6,
-          "y:3": 48,
+          "x:3": -60,
+          "y:3": 108,
           "id:3": 256
         },
         "11:10": {
@@ -18286,8 +18428,8 @@
         },
         "13:10": {
           "size:3": 24,
-          "x:3": 24,
-          "y:3": 60,
+          "x:3": -6,
+          "y:3": 42,
           "id:3": 259
         },
         "14:10": {
@@ -18299,7 +18441,7 @@
         "15:10": {
           "size:3": 24,
           "x:3": -60,
-          "y:3": 114,
+          "y:3": 180,
           "id:3": 261
         },
         "16:10": {
@@ -18319,6 +18461,12 @@
           "x:3": -12,
           "y:3": 132,
           "id:3": 264
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 12,
+          "y:3": 72,
+          "id:3": 280
         }
       },
       "lineID:3": 5,
