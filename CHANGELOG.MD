@@ -23,6 +23,7 @@
 - Re-enabled the Personal Link.
 - Added EMC values for some of the items in Tech Reborn missing them.
 - Tech Reborn update fixes the rolling machine from causing crashes when trying to make a nichrome heating coil.
+- Ignore NBT for a bunch of quests that were having issues detecting.
 
 Updated
   - Actually Additions (v144 to v145)
