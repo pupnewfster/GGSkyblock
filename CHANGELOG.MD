@@ -20,6 +20,7 @@
 - Changed machine casing upgrade quests to only require making one of that machine casing.
 - Adjusted the Thaumcraft Curio drop chance to only require 10 warp after testing how much 1 warp seems to be equivalent to.
 - Only require getting one of each resource to complete the murdering for ores quests, also doesn't require consuming the resources.
+- Re-enabled the Personal Link
 
 Updated
   - Actually Additions (v144 to v145)
@@ -27,8 +28,10 @@ Updated
   - Better Questing Standard Expansion (3.4.150 to 3.4.151)
   - CollectingRain (1.0.4 to 1.0.5)
   - Forge (14.23.5.2808 to 14.23.5.2811)
-  - Project EX (1.0.0.9 to 1.0.0.12)
+  - Project EX (1.0.0.9 to 1.0.0.13)
+  - RandomPatches (1.13.0.0 to 1.13.0.1)
   - Reskillable (1.11.0 to 1.12.0)
+  - Smooth Font (2.0-alpha-5 to 2.0-alpha-6)
   - Tech Reborn (2.20.7.915 to 2.20.9.924)
   - Thaumic Energistics (2.1.0 to 2.1.1)
 
