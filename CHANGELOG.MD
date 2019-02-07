@@ -20,7 +20,8 @@
 - Changed machine casing upgrade quests to only require making one of that machine casing.
 - Adjusted the Thaumcraft Curio drop chance to only require 10 warp after testing how much 1 warp seems to be equivalent to.
 - Only require getting one of each resource to complete the murdering for ores quests, also doesn't require consuming the resources.
-- Re-enabled the Personal Link
+- Re-enabled the Personal Link.
+- Added EMC values for some of the items in Tech Reborn missing them.
 
 Updated
   - Actually Additions (v144 to v145)

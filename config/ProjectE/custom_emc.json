@@ -72,6 +72,14 @@
       "item": "techreborn:smalldust|*",
       "emc": 0
     },
+    {
+      "item": "techreborn:dust|30",
+      "emc": 4
+    },
+    {
+      "item": "techreborn:dust|15",
+      "emc": 1
+    },
 	
 	{
       "item": "appliedenergistics2:part|120",

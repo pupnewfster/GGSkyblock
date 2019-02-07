@@ -1,0 +1,70 @@
+{
+  "comment": "Tech Reborn",
+  "groups": {
+    "electrolyzer": {
+      "comment": "Industrial electrolyzer",
+      "conversions": [
+        {
+          "count": 1,
+          "output": "techreborn:dust|54",
+          "ingredients": {
+            "techreborn:dust|5": 24,
+            "techreborn:dust|1": -16
+          }
+        }
+      ]
+    },
+    "implosion": {
+      "comment": "Implosion Compressor",
+      "conversions": [
+		{
+          "count": 1,
+          "output": "techreborn:plates|37",
+          "ingredients": {
+            "techreborn:ingot|22": 1,
+            "minecraft:tnt|0": 16,
+            "techreborn:dust|15": -4
+          }
+        }
+      ]
+    },
+    "rolling": {
+      "comment": "Rolling Machine",
+      "conversions": [
+        {
+          "count": 3,
+          "output": "techreborn:plates|36",
+          "ingredients": {
+            "techreborn:ingot|0": 6,
+            "techreborn:dust|30": 3
+          }
+        },
+        {
+          "count": 3,
+          "output": "techreborn:part|15",
+          "ingredients": {
+            "techreborn:ingot|0": 3,
+            "techreborn:ingot|3": 3,
+            "techreborn:ingot|19": 3
+          }
+        },
+        {
+          "count": 3,
+          "output": "techreborn:part|13",
+          "ingredients": {
+            "OD|ingotCopper": 4,
+            "techreborn:ingot|9": 4
+          }
+        },
+        {
+          "count": 2,
+          "output": "techreborn:part|14",
+          "ingredients": {
+            "techreborn:ingot|3": 1,
+            "techreborn:ingot|9": 4
+          }
+        }
+      ]
+    }
+  }
+}
