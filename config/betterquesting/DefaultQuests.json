@@ -353,11 +353,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:gold_ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -484,11 +484,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:coal",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -781,11 +781,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:dye",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 4
             }
@@ -852,11 +852,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:diamond",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -921,11 +921,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:emerald",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -989,11 +989,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:redstone",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1254,11 +1254,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:quartz",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1320,11 +1320,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "actuallyadditions:block_misc",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 3
             }
@@ -1388,11 +1388,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:material",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1455,11 +1455,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "mekanism:oreblock",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1521,11 +1521,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2072,11 +2072,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "mekanism:oreblock",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 1
             }
@@ -2139,11 +2139,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "mekanism:oreblock",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 2
             }
@@ -2204,11 +2204,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2271,11 +2271,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 1
             }
@@ -2340,11 +2340,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:gem",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2409,11 +2409,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:gem",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 1
             }
@@ -4586,11 +4586,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 4
             }
@@ -4653,11 +4653,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:dust",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 39
             }
@@ -4720,11 +4720,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:dust",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 50
             }
@@ -4787,11 +4787,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 8
             }
@@ -4856,11 +4856,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:gem",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 2
             }
@@ -4924,11 +4924,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 12
             }
@@ -4992,11 +4992,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thaumcraft:amber",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -5059,11 +5059,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 1
             }
@@ -5125,11 +5125,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 9
             }
@@ -5193,11 +5193,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:dust",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 48
             }
@@ -5260,11 +5260,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "techreborn:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 13
             }
@@ -5327,11 +5327,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thaumcraft:ore_cinnabar",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -5394,11 +5394,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:ore",
-              "Count:3": 16,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }

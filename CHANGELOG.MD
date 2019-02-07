@@ -19,6 +19,7 @@
 - Added a prereqs to some quests so that people don't start trying to do something before they are able to
 - Changed machine casing upgrade quests to only require making one of that machine casing.
 - Adjusted the Thaumcraft Curio drop chance to only require 10 warp after testing how much 1 warp seems to be equivalent to.
+- Only require getting one of each resource to complete the murdering for ores quests, also doesn't require consuming the resources.
 
 Updated
   - Actually Additions (v144 to v145)
