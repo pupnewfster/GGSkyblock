@@ -22,18 +22,20 @@
 - Only require getting one of each resource to complete the murdering for ores quests, also doesn't require consuming the resources.
 - Re-enabled the Personal Link.
 - Added EMC values for some of the items in Tech Reborn missing them.
+- Tech Reborn update fixes the rolling machine from causing crashes when trying to make a nichrome heating coil.
 
 Updated
   - Actually Additions (v144 to v145)
   - Better Questing (3.5.290 to 3.5.291)
   - Better Questing Standard Expansion (3.4.150 to 3.4.151)
   - CollectingRain (1.0.4 to 1.0.5)
+  - CompatSkills (1.13.2 to 1.13.3)
   - Forge (14.23.5.2808 to 14.23.5.2811)
   - Project EX (1.0.0.9 to 1.0.0.13)
   - RandomPatches (1.13.0.0 to 1.13.0.1)
   - Reskillable (1.11.0 to 1.12.0)
   - Smooth Font (2.0-alpha-5 to 2.0-alpha-6)
-  - Tech Reborn (2.20.7.915 to 2.20.9.924)
+  - Tech Reborn (2.20.7.915 to 2.20.10.926)
   - Thaumic Energistics (2.1.0 to 2.1.1)
 
 
