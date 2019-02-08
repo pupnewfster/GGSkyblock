@@ -4,7 +4,7 @@ recipes.addShaped("CTCreativeModifier", <tconstruct:materials:50>, [[<extendedcr
 
 
 //Storage
-var creativeBin = <mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}) as IItemStack;
+val creativeBin = <mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}) as IItemStack;
 recipes.addShaped("CTCreativeBin", creativeBin, [[<metalchests:metal_chest:5>, <extendedcrafting:singularity_custom>, <metalchests:metal_chest:5>], [<metalchests:metal_chest:5>, <extendedcrafting:singularity_custom:1>, <metalchests:metal_chest:5>], [<metalchests:metal_chest:5>, <extracells:storage.component:3>, <metalchests:metal_chest:5>]]);
 recipes.addShaped("CTCreativeStorage", <appliedenergistics2:creative_storage_cell>, [[creativeBin, <extendedcrafting:singularity_custom:1>, creativeBin], [creativeBin, <extendedcrafting:singularity_ultimate>, creativeBin], [creativeBin, <extendedcrafting:singularity_custom:1>, creativeBin]]);
 
@@ -31,3 +31,7 @@ recipes.addShaped("CTCreativeGas", creativeGas, [[creativeFluid, <mekanism:basic
 recipes.addShaped("CTCreativeMana", <botania:pool:1>, [[creativeFluid, <extrabotany:quantummanabuffer>, creativeFluid], [creativeGas, <extendedcrafting:singularity_ultimate>, creativeGas], [creativeFluid, <botania:pylon>, creativeFluid]]);
 
 recipes.addShapeless("CTInfiniteManaTablet", <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}), [<botania:pool:1>, <extrabotany:mastermanaring>]);
+
+//Essentia
+val essentia = <thaumicenergistics:essentia_component_64k>;
+recipes.addShaped("CTCreativeEssentia", <thaumicenergistics:essentia_cell_creative>, [[essentia, <extendedcrafting:singularity_custom:2>, essentia], [essentia, <appliedenergistics2:creative_storage_cell>, essentia], [essentia, <extendedcrafting:singularity_custom:2>, essentia]]);

@@ -17586,6 +17586,65 @@
           "index:3": 0
         }
       }
+    },
+    "282:10": {
+      "questID:3": 282,
+      "preRequisites:11": [
+        149,
+        192
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thaumicenergistics:essentia_cell_creative",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Creative Essentia",
+          "desc:8": "When you decide you want to store all your essentia in a single ME cell, create a Creative ME Essentia Storage Cell."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumicenergistics:essentia_cell_creative",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 150,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -19422,6 +19481,12 @@
           "x:3": -78,
           "y:3": 120,
           "id:3": 153
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 6,
+          "y:3": 114,
+          "id:3": 282
         }
       },
       "lineID:3": 11,

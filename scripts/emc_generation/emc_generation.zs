@@ -347,7 +347,8 @@ AlloySmelter.addRecipe(<projecte:dm_furnace>, [<contenttweaker:elvish_tier35_bea
 //<projecte:matter_block:1> //21,932,605,440
 
 //Use Yellow matter
-
+//TODO: Remove this line when working on the 1.4 release update because this is only temporary way to get it
+solarneutronactivator.addRecipe(<gas:lifeessence>, <gas:refined_life_essence>);
 
 //Tier 37
 //<mysticalagriculture:osmium_seeds>

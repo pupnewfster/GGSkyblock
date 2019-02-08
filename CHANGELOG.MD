@@ -1,6 +1,6 @@
 # Changelog
 
-### 1.3
+### 1.3 (BETA)
 - Changed max stack size of clay bucket back to 16 as collecting rain update fixed the bug.
 - Removed EMC values from Tech Reborn's Small Pile of Dust items. For the same reason as diamond nuggets were removed last update.
 - Added a few more tips
@@ -27,6 +27,8 @@
 - EnderTweaker update fixes custom sag mill recipes not working.
 - Ignore NBT for a bunch of quests that were having issues detecting.
 - Hided a few other unused creative items from JEI.
+- Added a temporary way to get refined life essence until an update to Blood Arsenal is out. (Hopefully will be sometime soon)
+- Added a recipe and quest for Creative ME Essentia Storage Cell
 
 Updated
   - Actually Additions (v144 to v145)
