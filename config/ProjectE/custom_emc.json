@@ -49,7 +49,27 @@
       "emc": 1
     },
 	{
+      "item": "minecraft:skull|0",
+      "emc": 1024
+    },
+    {
       "item": "minecraft:skull|1",
+      "emc": 46388
+    },
+    {
+      "item": "minecraft:skull|2",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|3",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|4",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:skull|5",
       "emc": 46388
     },
 
@@ -61,6 +81,10 @@
 	{
       "item": "enderio:item_material|46",
       "emc": 1
+    },
+    {
+      "item": "enderio:block_enderman_skull|2",
+      "emc": 70292
     },
 	
 	{
