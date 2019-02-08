@@ -98,6 +98,7 @@ val modifiers = {
 	fire_resistant : ["reskillable:defense|16", "reskillable:magic|21"],
 	illuminati : ["reskillable:magic|21"],
 	heavy : ["reskillable:defense|21"],
+	invariant_armor : ["reskillable:magic|14", "reskillable:defense|21"],
 	splitting : ["reskillable:agility|7"],
 	explosive : ["reskillable:attack|7", "compatskills:technology|32"],
 	unnatural : ["reskillable:magic|31", "reskillable:mining|42"],
@@ -348,6 +349,7 @@ addModifierLock("soul1", modifiers.soul);
 addModifierLock("camdaibay_armor", modifiers.camdaibay);
 addModifierLock("dunanstransport_armor", modifiers.dunanstransport);
 addModifierLock("tr_entropic", modifiers.tr_entropic);
+addModifierLock("invariant_armor", modifiers.invariant_armor);
 
 val materials = scripts.reskillable.mods.tinkers.materials.materials;
 

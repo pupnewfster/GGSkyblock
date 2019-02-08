@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.3.1 (BETA)
+- Reskillable update fixes crashing after dying.
+
+Updated
+  - EnderTweaker (1.1.2 to 1.1.3)
+  - Hammer Core (2.0.4.1 to 2.0.4.2)
+  - PlusTiC (7.0.2.1 to 7.0.3.0)
+  - Reskillable (1.12.0 to 1.12.1)
+
+
 ### 1.3 (BETA)
 - Changed max stack size of clay bucket back to 16 as collecting rain update fixed the bug.
 - Removed EMC values from Tech Reborn's Small Pile of Dust items. For the same reason as diamond nuggets were removed last update.
