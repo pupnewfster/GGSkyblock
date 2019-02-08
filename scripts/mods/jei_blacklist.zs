@@ -102,14 +102,19 @@ var toHide as IItemStack[] = [
 	<ceramics:clay_bucket:1>,
 
 	//Creative Items
+	<bloodmagic:activation_crystal:2>,
+	<bloodmagic:sacrificial_dagger:1>,
+	<enderio:block_buffer:3>,
+	<enderio:block_creative_spawner>,
+	<littletiles:screwdriver>,
+	<mekanism:energycube>.withTag({tier: 4, mekData: {}}),
+	<storagedrawers:upgrade_creative>,
+	<storagedrawers:upgrade_creative:1>,
 	<theoneprobe:creativeprobe>,
 	<techreborn:creative_solar_panel>,
 	<techreborn:creative_quantum_tank>,
 	<techreborn:creative_quantum_chest>,
-	<enderio:block_buffer:3>,
 	<thaumcraft:creative_flux_sponge>,
-	<bloodmagic:activation_crystal:2>,
-	<bloodmagic:sacrificial_dagger:1>,
 	<wct:wct_creative>,
 
 	//Extended Crafting

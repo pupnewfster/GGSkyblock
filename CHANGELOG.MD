@@ -25,6 +25,7 @@
 - Added EMC values for skulls.
 - Tech Reborn update fixes the rolling machine from causing crashes when trying to make a nichrome heating coil.
 - Ignore NBT for a bunch of quests that were having issues detecting.
+- Hided a few other unused creative items from JEI.
 
 Updated
   - Actually Additions (v144 to v145)
