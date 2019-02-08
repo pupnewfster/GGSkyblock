@@ -24,6 +24,7 @@
 - Added EMC values for some of the items in Tech Reborn missing them.
 - Added EMC values for skulls.
 - Tech Reborn update fixes the rolling machine from causing crashes when trying to make a nichrome heating coil.
+- EnderTweaker update fixes custom sag mill recipes not working.
 - Ignore NBT for a bunch of quests that were having issues detecting.
 - Hided a few other unused creative items from JEI.
 
@@ -33,7 +34,9 @@ Updated
   - Better Questing Standard Expansion (3.4.150 to 3.4.151)
   - CollectingRain (1.0.4 to 1.0.5)
   - CompatSkills (1.13.2 to 1.13.3)
+  - EnderTweaker (1.1.1 to 1.1.2)
   - Forge (14.23.5.2808 to 14.23.5.2811)
+  - Inventory Tweaks (1.64+dev.145 to 1.64+dev146)
   - Project EX (1.0.0.9 to 1.0.0.13)
   - RandomPatches (1.13.0.0 to 1.13.0.1)
   - Reskillable (1.11.0 to 1.12.0)
