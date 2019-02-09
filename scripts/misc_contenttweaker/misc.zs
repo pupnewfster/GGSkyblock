@@ -19,9 +19,9 @@ var customLanterns = ["white", "orange", "magenta", "light_blue", "yellow", "lim
 
 
 for name in customLanterns {
-	var block = VanillaFactory.createBlock(name + "_sea_lantern", <blockmaterial:glass>);
-	block.setBlockHardness(0.3);
-	block.setLightValue(1);
-	block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/sea_lanterns/" + name));
-	block.register();
+    var block = VanillaFactory.createBlock(name + "_sea_lantern", <blockmaterial:glass>);
+    block.setBlockHardness(0.3);
+    block.setLightValue(1);
+    block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/sea_lanterns/" + name));
+    block.register();
 }

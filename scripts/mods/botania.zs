@@ -38,64 +38,64 @@ JEI.removeAndHide(<extrabotany:cosmeticmaidboots>);
 
 
 var crates = [
-	<botania_tweaks:dire_crafty_crate>,
-	<botania_tweaks:basic_extended_crafty_crate>,
-	<botania_tweaks:advanced_extended_crafty_crate>,
-	<botania_tweaks:elite_extended_crafty_crate>,
-	<botania_tweaks:ultimate_extended_crafty_crate>
+    <botania_tweaks:dire_crafty_crate>,
+    <botania_tweaks:basic_extended_crafty_crate>,
+    <botania_tweaks:advanced_extended_crafty_crate>,
+    <botania_tweaks:elite_extended_crafty_crate>,
+    <botania_tweaks:ultimate_extended_crafty_crate>
 ] as IItemStack[];
 
 for crate in crates {
-	ElvenTrade.removeRecipe(crate);
-	JEI.hide(crate);
+    ElvenTrade.removeRecipe(crate);
+    JEI.hide(crate);
 }
 
 
 var ores = [
-	<ore:oreIron>,
-	<ore:oreLead>,
-	<ore:oreRedstone>,
-	<ore:oreSilver>,
-	<ore:oreTungsten>,
-	<ore:oreGold>,
-	<ore:oreRuby>,
-	<ore:oreSapphire>,
-	<ore:oreGalena>,
-	<ore:oreDiamond>,
-	<ore:oreAmber>,
-	<ore:oreLapis>,
-	<ore:oreCoal>,
-	<ore:oreTin>,
-	<ore:oreCopper>,
-	<ore:oreOsmium>,
-	<ore:oreQuartzBlack>,
-	<ore:oreCertusQuartz>,
-	<ore:oreCinnabar>,
-	<ore:oreEmerald>
+    <ore:oreIron>,
+    <ore:oreLead>,
+    <ore:oreRedstone>,
+    <ore:oreSilver>,
+    <ore:oreTungsten>,
+    <ore:oreGold>,
+    <ore:oreRuby>,
+    <ore:oreSapphire>,
+    <ore:oreGalena>,
+    <ore:oreDiamond>,
+    <ore:oreAmber>,
+    <ore:oreLapis>,
+    <ore:oreCoal>,
+    <ore:oreTin>,
+    <ore:oreCopper>,
+    <ore:oreOsmium>,
+    <ore:oreQuartzBlack>,
+    <ore:oreCertusQuartz>,
+    <ore:oreCinnabar>,
+    <ore:oreEmerald>
 ] as IOreDictEntry[];
 
 for ore in ores {
-	Orechid.removeOre(ore);
+    Orechid.removeOre(ore);
 }
 
 var netherOres = [
-	<ore:oreQuartz>,
-	<ore:oreCobalt>,
-	<ore:oreArdite>
+    <ore:oreQuartz>,
+    <ore:oreCobalt>,
+    <ore:oreArdite>
 ] as IOreDictEntry[];
 
 for ore in netherOres {
-	OrechidIgnem.removeOre(ore);
+    OrechidIgnem.removeOre(ore);
 }
 
 
 var newOres = {
-	<ore:oreAquamarine> : 50,
-	<ore:sand> : 3000
+    <ore:oreAquamarine> : 50,
+    <ore:sand> : 3000
 } as int[IOreDictEntry];
 
 for ore, value in newOres {
-	Orechid.addOre(ore, value);
+    Orechid.addOre(ore, value);
 }
 
 

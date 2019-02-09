@@ -13,17 +13,17 @@ import crafttweaker.item.IItemDefinition;
 
 
 static compressedItemMap as int[string] = {
-	compressed_tier1 : colorLookup.tier1,
-	compressed_sugar : -1,
-	compressed_lp : colorLookup.blood,
-	compressed_tier22 : colorLookup.tier22
+    compressed_tier1 : colorLookup.tier1,
+    compressed_sugar : -1,
+    compressed_lp : colorLookup.blood,
+    compressed_tier22 : colorLookup.tier22
 } as int[string];
 
 for name in compressedItemMap {
-	var compressedItem = VanillaFactory.createItem(name);
-	compressedItem.setTextureLocation(ResourceLocation.create("contenttweaker:items/infuser_compressed"));
-	compressedItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-		return Color.fromInt(scripts.emc_generation.compressed_items.compressedItemMap[stack.definition.id.substring(15)]);
-	});
-	compressedItem.register();
+    var compressedItem = VanillaFactory.createItem(name);
+    compressedItem.setTextureLocation(ResourceLocation.create("contenttweaker:items/infuser_compressed"));
+    compressedItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
+        return Color.fromInt(scripts.emc_generation.compressed_items.compressedItemMap[stack.definition.id.substring(15)]);
+    });
+    compressedItem.register();
 }

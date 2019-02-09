@@ -28,31 +28,31 @@ createFluidLight("tier30_clean", colorLookup.tier30, 1000);
 
 
 function createFluid(name as string, color as int) {
-	createFluidLight(name, color, 0);
+    createFluidLight(name, color, 0);
 }
 
 function createFluidLight(name as string, color as int, luminosity as int) {
-	createFluidTemp(name, color, luminosity, 300);
+    createFluidTemp(name, color, luminosity, 300);
 }
 
 function createFluidTemp(name as string, color as int, luminosity as int, temperature as int) {
-	createFluidDensity(name, color, luminosity, temperature, 1000);
+    createFluidDensity(name, color, luminosity, temperature, 1000);
 }
 
 function createFluidDensity(name as string, color as int, luminosity as int, temperature as int, density as int) {
-	createFluidRarity(name, color, luminosity, temperature, density, "COMMON");
+    createFluidRarity(name, color, luminosity, temperature, density, "COMMON");
 }
 
 function createFluidRarity(name as string, color as int, luminosity as int, temperature as int, density as int, rarity as string) {
-	var fluid = VanillaFactory.createFluid(name, color);
-	fluid.material = <blockmaterial:lava>;
-	fluid.colorize = false;
-	fluid.setStillLocation("contenttweaker:fluids/" + name);
-	fluid.setFlowingLocation("contenttweaker:fluids/" + name + "_flow");
+    var fluid = VanillaFactory.createFluid(name, color);
+    fluid.material = <blockmaterial:lava>;
+    fluid.colorize = false;
+    fluid.setStillLocation("contenttweaker:fluids/" + name);
+    fluid.setFlowingLocation("contenttweaker:fluids/" + name + "_flow");
 
-	fluid.luminosity = luminosity;
-	fluid.temperature = temperature;
-	fluid.density = density;
-	fluid.rarity = rarity;
-	fluid.register();
+    fluid.luminosity = luminosity;
+    fluid.temperature = temperature;
+    fluid.density = density;
+    fluid.rarity = rarity;
+    fluid.register();
 }
