@@ -1,4 +1,15 @@
 import mods.compatskills.Requirement.addRequirement;
+/*import crafttweaker.item.IItemStack;
+
+val blacklist as IItemStack[] = [
+    <actuallyadditions:item_coffee>,
+    <actuallyadditions:item_food:*>,
+    <actuallyadditions:item_rice_seed>,
+    <actuallyadditions:block_rice>,
+    <actuallyadditions:item_jam:*>
+];
+
+scripts.reskillable.util.lockItems("actuallyadditions", blacklist, ["compatskills:technology|17"]);*/
 
 addRequirement(<actuallyadditions:block_laser_relay>, "trait|compatskills:wireless");
 addRequirement(<actuallyadditions:block_laser_relay_advanced>, "trait|compatskills:wireless");
@@ -36,28 +47,3 @@ addRequirement(<actuallyadditions:item_fertilizer>, "reskillable:farming|25");
 addRequirement(<actuallyadditions:block_farmer>, "reskillable:farming|25");
 
 addRequirement(<actuallyadditions:item_color_lens>, "reskillable:magic|67", "compatskills:technology|62");
-
-/*addRequirement(<actuallyadditions:item_coffee>, "none");
-addRequirement(<actuallyadditions:item_food>, "none");
-addRequirement(<actuallyadditions:item_food:1>, "none");
-addRequirement(<actuallyadditions:item_food:2>, "none");
-addRequirement(<actuallyadditions:item_food:3>, "none");
-addRequirement(<actuallyadditions:item_food:4>, "none");
-addRequirement(<actuallyadditions:item_food:5>, "none");
-addRequirement(<actuallyadditions:item_food:6>, "none");
-addRequirement(<actuallyadditions:item_food:7>, "none");
-addRequirement(<actuallyadditions:item_food:8>, "none");
-addRequirement(<actuallyadditions:item_food:9>, "none");
-addRequirement(<actuallyadditions:item_food:10>, "none");
-addRequirement(<actuallyadditions:item_food:11>, "none");
-addRequirement(<actuallyadditions:item_food:12>, "none");
-addRequirement(<actuallyadditions:item_food:13>, "none");
-addRequirement(<actuallyadditions:item_food:14>, "none");
-addRequirement(<actuallyadditions:item_food:15>, "none");
-addRequirement(<actuallyadditions:item_food:16>, "none");
-addRequirement(<actuallyadditions:item_food:17>, "none");
-addRequirement(<actuallyadditions:item_food:18>, "none");
-addRequirement(<actuallyadditions:item_food:19>, "none");
-addRequirement(<actuallyadditions:item_food:20>, "none");
-addRequirement(<actuallyadditions:item_rice_seed>, "none");
-addRequirement(<actuallyadditions:block_rice>, "none");*/

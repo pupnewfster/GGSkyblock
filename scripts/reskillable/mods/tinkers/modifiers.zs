@@ -349,7 +349,7 @@ addModifierLock("soul1", modifiers.soul);
 addModifierLock("camdaibay_armor", modifiers.camdaibay);
 addModifierLock("dunanstransport_armor", modifiers.dunanstransport);
 addModifierLock("tr_entropic", modifiers.tr_entropic);
-addModifierLock("invariant_armor", modifiers.invariant_armor);
+//addModifierLock("invariant_armor", modifiers.invariant_armor);
 
 val materials = scripts.reskillable.mods.tinkers.materials.materials;
 

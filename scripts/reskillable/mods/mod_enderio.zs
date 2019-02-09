@@ -1,4 +1,16 @@
 import mods.compatskills.Requirement.addRequirement;
+/*import crafttweaker.item.IItemStack;
+
+val blacklist as IItemStack[] = [
+    <enderio:item_endergy_conduit>,
+    <enderio:item_endergy_conduit:1>,
+    <enderio:item_endergy_conduit:2>,
+    <enderio:item_endergy_conduit:3>,
+    <enderio:item_endergy_conduit:4>,
+    <enderio:block_cap_bank>
+];
+
+scripts.reskillable.util.lockItems("enderio", blacklist, ["compatskills:technology|13"]);*/
 
 addRequirement(<enderio:block_cap_bank>, "none");
 
@@ -58,6 +70,11 @@ addRequirement(<enderio:block_powered_spawner>, "compatskills:technology|71", "r
 addRequirement(<enderio:block_weather_obelisk>, "compatskills:technology|121", "reskillable:farming|37");
 
 
+/*addRequirement(<enderio:item_endergy_conduit>, "compatskills:technology|3");
+addRequirement(<enderio:item_endergy_conduit:1>, "compatskills:technology|5");
+addRequirement(<enderio:item_endergy_conduit:2>, "compatskills:technology|7");
+addRequirement(<enderio:item_endergy_conduit:3>, "compatskills:technology|9");
+addRequirement(<enderio:item_endergy_conduit:4>, "compatskills:technology|13");*/
 addRequirement(<enderio:item_endergy_conduit>, "none");
 addRequirement(<enderio:item_endergy_conduit:1>, "none");
 addRequirement(<enderio:item_endergy_conduit:2>, "none");

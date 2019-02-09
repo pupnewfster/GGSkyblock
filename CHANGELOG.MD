@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.3.2 (BETA)
+- Downgraded PlusTiC back to version 7.0.2.1 due to crashes it caused on servers.
+
+
+
 ### 1.3.1 (BETA)
 - Reskillable update fixes crashing after dying.
 
@@ -55,7 +60,6 @@ Updated
   - Smooth Font (2.0-alpha-5 to 2.0-alpha-6)
   - Tech Reborn (2.20.7.915 to 2.20.10.926)
   - Thaumic Energistics (2.1.0 to 2.1.1)
-
 
 
 ### 1.2 (BETA)
