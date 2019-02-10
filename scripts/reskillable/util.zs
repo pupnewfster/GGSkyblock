@@ -43,7 +43,7 @@ function getModItems(modid as string) as IItemStack[] {
             if (cleanItem.hasTag) {
                 cleanItem = cleanItem.withEmptyTag();
             }
-            if (!(items has cleanItem)) {
+            if (!contains(items, cleanItem)) {
                 items += cleanItem;
             }
         }
@@ -54,7 +54,7 @@ function getModItems(modid as string) as IItemStack[] {
 function normalizeBlacklist(blacklist as IItemStack[]) as IItemStack[] {
     var filteredBlacklist as IItemStack[] = [];
     for item in blacklist {
-        if (!(filteredBlacklist has item)) {
+        if (!contains(filteredBlacklist, item)) {
             filteredBlacklist += (item.hasTag ? item.withEmptyTag() : item);
         }
     }
