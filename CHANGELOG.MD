@@ -1,8 +1,20 @@
 # Changelog
 
+### 1.4
+This time the Reskillable update fixes requirements not actually being properly synced when you first connect.
+
+Added
+- Technical Lights
+Updated
+  - Auxillium Equivalence (1.2.1 to 1.3.0)
+  - CompatSkills (1.13.3 to 1.13.4)
+  - In Control (3.8.3 to 3.9.0)
+  - PlusTiC (7.0.2.1 to 7.0.4.0)
+  - Reskillable (1.12.1 to 1.12.2)
+
+
 ### 1.3.2 (BETA)
 - Downgraded PlusTiC back to version 7.0.2.1 due to crashes it caused on servers.
-
 
 
 ### 1.3.1 (BETA)
