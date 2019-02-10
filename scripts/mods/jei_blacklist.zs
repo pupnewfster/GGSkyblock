@@ -117,6 +117,9 @@ var toHide as IItemStack[] = [
     <thaumcraft:creative_flux_sponge>,
     <wct:wct_creative>,
 
+    //Ender IO
+    <enderio:item_material:3>,
+
     //Extended Crafting
     <extendedcrafting:crafting_table>,
 

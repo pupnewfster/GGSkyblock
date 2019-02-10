@@ -1,7 +1,9 @@
 # Changelog
 
 ### 1.4
-This time the Reskillable update fixes requirements not actually being properly synced when you first connect.
+- This time the Reskillable update fixes requirements not actually being properly synced when you first connect.
+- Changed recipe for Ender IO rod of return.
+- Hide some items in Ender IO that got unhidden at some point
 
 Added
 - Technical Lights

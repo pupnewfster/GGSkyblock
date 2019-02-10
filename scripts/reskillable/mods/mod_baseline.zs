@@ -72,6 +72,4 @@ addModLock("mekanismgenerators", "compatskills:technology|23");
 
 addModLock("techreborn", "compatskills:technology|15");
 
-addModLock("enderio", "compatskills:technology|13");
-
 addModLock("storagedrawers", "reskillable:building|7", "compatskills:technology|3");
