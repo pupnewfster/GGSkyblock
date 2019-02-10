@@ -18,6 +18,9 @@ recipes.addShaped("CTTravelAnchor", <enderio:block_travel_anchor>, [[<ore:ingotS
 recipes.remove(<enderio:item_travel_staff>);
 recipes.addShapedMirrored("CTTravelStaff", <enderio:item_travel_staff>, [[null, null, <enderio:item_material:16>], [null, <enderio:item_material:71>, null], [<enderio:block_travel_anchor>, null, null]]);
 
+recipes.remove(<enderio:item_rod_of_return>);
+recipes.addShapedMirrored("CTRodOfReturn", <enderio:item_rod_of_return>, [[null, <enderio:item_material:14>, <enderio:item_material:16>], [null, <enderio:item_material:71>, <enderio:item_material:14>], [<enderio:block_tele_pad>, null, null]]);
+
 //Fix Missing pink slime
 mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>, [<enderio:item_alloy_ingot:5>, <tconstruct:edible:2>], 25000, 0.5);
 
@@ -42,6 +45,9 @@ JEI.removeAndHide(<enderio:item_end_steel_sword>);
 JEI.removeAndHide(<enderio:item_end_steel_pickaxe>);
 JEI.removeAndHide(<enderio:item_end_steel_axe>);
 JEI.removeAndHide(<enderio:item_end_steel_bow>);
+
+JEI.removeAndHide(<enderio:item_material:6>);
+JEI.removeAndHide(<enderio:item_material:7>);
 
 JEI.removeAndHide(<enderio:item_stellar_alloy_sword>);
 JEI.removeAndHide(<enderio:item_stellar_alloy_pickaxe>);
