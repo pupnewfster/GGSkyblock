@@ -6,13 +6,17 @@
 - Hide some items in Ender IO that got unhidden at some point
 
 Added
-- Technical Lights
+  - Armor Toughness Bar
+  - Technical Lights
 Updated
   - Auxillium Equivalence (1.2.1 to 1.3.0)
   - CompatSkills (1.13.3 to 1.13.4)
   - In Control (3.8.3 to 3.9.0)
+  - Mantle (1.3.3.39 to 1.3.3.42)
   - PlusTiC (7.0.2.1 to 7.0.4.0)
+  - RandomTweaks (2.4.3.0 to 2.4.3.1)
   - Reskillable (1.12.1 to 1.12.2)
+  - Thaumic Additions: Reconstructed (11r to 12r)
 
 
 ### 1.3.2 (BETA)
