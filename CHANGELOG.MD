@@ -9,14 +9,21 @@ Added
   - Armor Toughness Bar
   - Technical Lights
 Updated
+  - Aroma1997Core (2.0.0.0.b162 to 2.0.0.1.b163)
+  - AromaBackup (3.0.0.0.b116 to 3.0.0.0.b117)
   - Auxillium Equivalence (1.2.1 to 1.3.0)
+  - Botania Tweaks (1.8.3 to 1.8.4)
   - CompatSkills (1.13.3 to 1.13.4)
-  - In Control (3.8.3 to 3.9.0)
+  - In Control (3.8.3 to 3.9.1)
   - Mantle (1.3.3.39 to 1.3.3.42)
   - PlusTiC (7.0.2.1 to 7.0.4.0)
   - RandomTweaks (2.4.3.0 to 2.4.3.1)
+  - Reborn Core (3.13.3.416 to 3.13.4.419)
   - Reskillable (1.12.1 to 1.12.2)
+  - Tech Reborn (2.20.10.926 to 2.20.11.929)
   - Thaumic Additions: Reconstructed (11r to 12r)
+Replaced
+  - Overpowered Armor Bar with Overloaded Armor Bar (it is a fork that fixes a couple bugs)
 
 
 ### 1.3.2 (BETA)
