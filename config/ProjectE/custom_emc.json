@@ -83,6 +83,10 @@
       "emc": 1
     },
     {
+      "item": "enderio:item_material|9",
+      "emc": 16
+    },
+    {
       "item": "enderio:block_enderman_skull|2",
       "emc": 70292
     },
