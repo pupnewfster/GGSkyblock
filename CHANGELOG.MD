@@ -1,7 +1,7 @@
 # Changelog
 
 ### 1.4
-- This time the Reskillable update fixes requirements not actually being properly synced when you first connect.
+- Requirements now properly sync when you first rejoin a world.
 - Changed recipe for Ender IO rod of return.
 - Hide some items in Ender IO that got unhidden at some point
 
@@ -14,12 +14,12 @@ Updated
   - Auxillium Equivalence (1.2.1 to 1.3.0)
   - Botania Tweaks (1.8.3 to 1.8.4)
   - CompatSkills (1.13.3 to 1.13.4)
-  - In Control (3.8.3 to 3.9.1)
+  - In Control (3.8.3 to 3.9.2)
   - Mantle (1.3.3.39 to 1.3.3.42)
   - PlusTiC (7.0.2.1 to 7.0.4.0)
   - RandomTweaks (2.4.3.0 to 2.4.3.1)
   - Reborn Core (3.13.3.416 to 3.13.4.419)
-  - Reskillable (1.12.1 to 1.12.2)
+  - Reskillable (1.12.1 to 1.12.3)
   - Tech Reborn (2.20.10.926 to 2.20.11.929)
   - Thaumic Additions: Reconstructed (11r to 12r)
 Replaced
