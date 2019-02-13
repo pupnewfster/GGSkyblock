@@ -50,8 +50,13 @@ JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_three_by_three>);
 JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_five_by_five>);
 JEI.removeAndHide(<actuallyadditions:item_drill_upgrade_block_placing>);
 
+JEI.removeAndHide(<actuallyadditions:item_leaf_blower>);
+JEI.removeAndHide(<actuallyadditions:item_leaf_blower_advanced>);
+
 //Disable Solar panel
 JEI.removeAndHide(<actuallyadditions:block_furnace_solar>);
+
+JEI.removeAndHide(<actuallyadditions:block_tiny_torch>);
 
 //Get rid of greenhouse glass
 JEI.removeAndHide(<actuallyadditions:block_greenhouse_glass>);

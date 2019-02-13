@@ -6,6 +6,9 @@
 - Hide some items in Ender IO that got unhidden at some point
 - Removed temporary Refined Life Essence recipe as Blood Arsenal has now been updated.
 - Added a quest about the glass sacrificial dagger that now works properly.
+- Disabled Actually Additions leaf blower.
+- Changed how locks are set for Ender IO and Actually Additions to have some newer examples for CompatSkills.
+  - The only true difference is that Actually Additions food is not locked behind tech, and some Ender IO stuff got locked and some unlocked.
 
 Added
   - Armor Toughness Bar

@@ -93,8 +93,10 @@ for slurry in lateJaopcaSlurry {
 var toHide as IItemStack[] = [
     //Actually Additions
     <actuallyadditions:item_solidified_experience>,
-    <actuallyadditions:block_tiny_torch>,
     <actuallyadditions:item_worm>,
+    <actuallyadditions:item_hairy_ball>,
+    <actuallyadditions:item_misc:10>,
+    <actuallyadditions:item_misc:11>,
     <actuallyadditions:item_misc:15>,
     <actuallyadditions:block_black_lotus>,
 

@@ -35,6 +35,7 @@ val addedRequirements as string[][IItemStack] = {
     <enderio:block_tele_pad> : ["trait|compatskills:advwireless"],
     <enderio:item_travel_staff>.withEmptyTag() : ["trait|compatskills:advwireless"],
     <enderio:item_rod_of_return> : ["trait|compatskills:advwireless"],
+    <enderio:item_staff_of_levity> : ["compatskills:technology|43"],
     <enderio:block_vacuum_chest> : ["trait|compatskills:wireless"],
     <enderio:block_travel_anchor> : ["trait|compatskills:advwireless"],
     <enderio:block_xp_vacuum> : ["trait|compatskills:wireless"],

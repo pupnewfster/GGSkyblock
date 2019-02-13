@@ -28,7 +28,7 @@ function lockItems(modid as string, blacklist as IItemStack[], requirements as s
         }
         for item, reqs in addedRequirements {
             if (!contains(itemHits, item)) {
-                addRequirement(item, reqs);
+                addRequirement(item, combine(requirements, reqs));
             }
         }
     }
