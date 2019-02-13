@@ -9,6 +9,7 @@
 - Disabled Actually Additions leaf blower.
 - Changed how locks are set for Ender IO and Actually Additions to have some newer examples for CompatSkills.
   - The only true difference is that Actually Additions food is not locked behind tech, and some Ender IO stuff got locked and some unlocked.
+- Unify flour via unidict so only one entry shows.
 
 Added
   - Armor Toughness Bar

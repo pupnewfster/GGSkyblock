@@ -65,8 +65,6 @@ addModLock("elevatorid", "compatskills:technology|7", "reskillable:magic|13");
 
 addModLock("tinker_io", "compatskills:technology|13");
 
-//addModLock("actuallyadditions", "compatskills:technology|17");
-
 addModLock("mekanism", "compatskills:technology|23");
 addModLock("mekanismgenerators", "compatskills:technology|23");
 
