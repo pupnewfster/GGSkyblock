@@ -17702,10 +17702,16 @@
       },
       "rewards:9": {
         "0:10": {
-          "amount:3": 5,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "guideapi:bloodarsenal-guide",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
         }
       }
     }
