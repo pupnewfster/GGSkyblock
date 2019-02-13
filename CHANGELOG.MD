@@ -26,7 +26,7 @@ Updated
   - In Control (3.8.3 to 3.9.2)
   - Mantle (1.3.3.39 to 1.3.3.42)
   - Ore Excavation (1.4.133 to 1.4.137)
-  - PlusTiC (7.0.2.1 to 7.0.4.0)
+  - PlusTiC (7.0.2.1 to 7.0.5.0)
   - RandomTweaks (2.4.3.0 to 2.4.3.1)
   - Reborn Core (3.13.3.416 to 3.13.4.419)
   - Reskillable (1.12.1 to 1.12.3)

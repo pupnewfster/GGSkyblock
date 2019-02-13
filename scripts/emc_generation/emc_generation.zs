@@ -343,10 +343,17 @@ AlloySmelter.addRecipe(<projecte:dm_furnace>, [<contenttweaker:elvish_tier35_bea
 
 
 //Tier 36
+thermalevaporation.addRecipe(<liquid:aeternalis>, <liquid:evaporated_aeternalis>);
+solarneutronactivator.addRecipe(<gas:orange_matter>, <gas:activated_orange_matter>);
+chemicalInfuser.addRecipe(<gas:activated_orange_matter>, <gas:evaporated_aeternalis> * 2, <gas:impure_yellow_matter>);
+washer.addRecipe(<gas:impure_yellow_matter>, <gas:clean_yellow_matter>);
+Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliumequivalence:matter>], [1], [<auxiliumequivalence:matter:1>], [1], 2500000);
+
+
 //<mysticalagriculture:void_metal_seeds>
 //<projecte:matter_block:1> //21,932,605,440
 
-//Use Yellow matter
+//Use Yellow matter to make seeds
 
 
 //Tier 37

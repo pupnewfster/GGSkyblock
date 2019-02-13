@@ -8,12 +8,16 @@ import crafttweaker.liquid.ILiquidStack;
 val liquids = [
     <liquid:heavywater>,
     <liquid:aeternalis>,
+    <liquid:evaporated_aeternalis>,
     <liquid:dirty_dark_matter>,
     <liquid:dark_matter>,
     <liquid:red_matter>,
     <liquid:heavy_red_matter>,
     <liquid:orange_matter>,
+    <liquid:activated_orange_matter>,
     <liquid:yellow_matter>,
+    <liquid:impure_yellow_matter>,
+    <liquid:clean_yellow_matter>,
     <liquid:green_matter>,
     <liquid:blue_matter>,
 

@@ -6,11 +6,15 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 
 createFluidRarity("aeternalis", colorLookup.aeternalis, 1000, 1700, 4000, "UNCOMMON");
+createFluidRarity("evaporated_aeternalis", 0xB5B5B5, 1000, 1700, 4000, "UNCOMMON");
 createFluidRarity("dirty_dark_matter", 0x37173E, 0, 2000, 8000, "RARE");
 createFluidRarity("dark_matter", colorLookup.dark_matter, 0, 2000, 8000, "RARE");
 createFluidRarity("red_matter", colorLookup.red_matter, 500, 2500, 16000, "RARE");
 createFluidRarity("heavy_red_matter", 0xE53D3D, 500, 2500, 16000, "RARE");
 createFluidRarity("orange_matter", colorLookup.orange_matter, 1000, 3000, 32000, "EPIC");
+createFluidRarity("activated_orange_matter", 0xFF8900, 1000, 3000, 32000, "EPIC");
+createFluidRarity("impure_yellow_matter", 0xCE9704, 1500, 3500, 48000, "EPIC");
+createFluidRarity("clean_yellow_matter", 0xFFBA00, 1500, 3500, 48000, "EPIC");
 createFluidRarity("yellow_matter", colorLookup.yellow_matter, 1500, 3500, 48000, "EPIC");
 createFluidRarity("green_matter", colorLookup.green_matter, 2000, 4000, 64000, "EPIC");
 createFluidRarity("blue_matter", colorLookup.blue_matter, 2500, 4500, 88000, "EPIC");

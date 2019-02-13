@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "activated_orange_matter"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}
