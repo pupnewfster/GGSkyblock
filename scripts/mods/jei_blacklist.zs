@@ -100,6 +100,9 @@ var toHide as IItemStack[] = [
     <actuallyadditions:item_misc:15>,
     <actuallyadditions:block_black_lotus>,
 
+    //Better questing
+    <bq_standard:loot_chest:*>,
+
     //Ceramics
     <ceramics:clay_bucket:1>,
 
