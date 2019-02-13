@@ -5,6 +5,7 @@
 - Changed recipe for Ender IO rod of return.
 - Hide some items in Ender IO that got unhidden at some point
 - Removed temporary Refined Life Essence recipe as Blood Arsenal has now been updated.
+- Added a quest about the glass sacrificial dagger that now works properly.
 
 Added
   - Armor Toughness Bar
@@ -13,11 +14,12 @@ Updated
   - Aroma1997Core (2.0.0.0.b162 to 2.0.0.1.b163)
   - AromaBackup (3.0.0.0.b116 to 3.0.0.0.b117)
   - Auxillium Equivalence (1.2.1 to 1.3.0)
-  - Blood Arsenal ( to 2.2.0-27)
+  - Blood Arsenal (2.1.0-26 to 2.2.0-27)
   - Botania Tweaks (1.8.3 to 1.8.4)
   - CompatSkills (1.13.3 to 1.13.4)
   - In Control (3.8.3 to 3.9.2)
   - Mantle (1.3.3.39 to 1.3.3.42)
+  - Ore Excavation (1.4.133 to 1.4.137)
   - PlusTiC (7.0.2.1 to 7.0.4.0)
   - RandomTweaks (2.4.3.0 to 2.4.3.1)
   - Reborn Core (3.13.3.416 to 3.13.4.419)
