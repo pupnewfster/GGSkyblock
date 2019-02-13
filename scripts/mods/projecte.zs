@@ -16,6 +16,9 @@ recipes.addShaped("CTPhiloStone2", <projecte:item.pe_philosophers_stone>, [[<pro
 recipes.remove(<projecte:item.pe_repair_talisman>);
 recipes.addShapedMirrored("CTRepairTalisman", <projecte:item.pe_repair_talisman>, [[<projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_matter>, <actuallyadditions:block_item_repairer>, <projecte:item.pe_matter>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>]]);
 
+recipes.remove(<auxiliumequivalence:item.repair_talisman>);
+recipes.addShapedMirrored("CTRepairTalismanMk2", <auxiliumequivalence:item.repair_talisman>, [[<projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>], [<projecte:item.pe_matter:1>, <projecte:item.pe_repair_talisman>, <projecte:item.pe_matter:1>], [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>]]);
+
 //Harvest Goddess Band
 recipes.remove(<projecte:item.pe_harvest_god>);
 recipes.addShaped("CTHarvestBand", <projecte:item.pe_harvest_god>, [[<ore:treeSapling>, <minecraft:red_flower>, <ore:treeSapling>], [<projecte:item.pe_matter>, <actuallyadditions:item_growth_ring>, <projecte:item.pe_matter>], [<ore:treeSapling>, <minecraft:red_flower>, <ore:treeSapling>]]);
