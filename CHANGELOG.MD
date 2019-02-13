@@ -1,9 +1,10 @@
 # Changelog
 
-### 1.4
+### 1.4 (BETA)
 - Requirements now properly sync when you first rejoin a world.
 - Changed recipe for Ender IO rod of return.
 - Hide some items in Ender IO that got unhidden at some point
+- Removed temporary Refined Life Essence recipe as Blood Arsenal has now been updated.
 
 Added
   - Armor Toughness Bar
@@ -12,6 +13,7 @@ Updated
   - Aroma1997Core (2.0.0.0.b162 to 2.0.0.1.b163)
   - AromaBackup (3.0.0.0.b116 to 3.0.0.0.b117)
   - Auxillium Equivalence (1.2.1 to 1.3.0)
+  - Blood Arsenal ( to 2.2.0-27)
   - Botania Tweaks (1.8.3 to 1.8.4)
   - CompatSkills (1.13.3 to 1.13.4)
   - In Control (3.8.3 to 3.9.2)
