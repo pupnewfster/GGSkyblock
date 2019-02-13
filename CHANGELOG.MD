@@ -10,6 +10,8 @@
 - Changed how locks are set for Ender IO and Actually Additions to have some newer examples for CompatSkills.
   - The only true difference is that Actually Additions food is not locked behind tech, and some Ender IO stuff got locked and some unlocked.
 - Unify flour via unidict so only one entry shows.
+- Blood Arsenal, blood infused wooden double slab registry entry was removed. This is fine given there wasn't a legit way to get that block anyways.
+- Added locks for Blood Arsenal's Tinkers Compat.
 
 Added
   - Armor Toughness Bar

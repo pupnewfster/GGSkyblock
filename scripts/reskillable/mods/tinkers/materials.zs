@@ -47,6 +47,8 @@ static materials as string[][string] = {
     shadowium : ["trait|compatskills:master", "trait|compatskills:unlock_botania"],
     orichalcos : ["trait|compatskills:master", "trait|compatskills:unlock_botania"],
     bloodbronze : ["trait|compatskills:novice", "trait|compatskills:unlock_bloodmagic"],
+    blood_infused_wood : ["trait|compatskills:unlock_bloodmagic"],
+    blood_infused_iron : ["trait|compatskills:novice", "trait|compatskills:unlock_bloodmagic"],
     aer_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:agility|21"],
     ignis_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:attack|13"],
     aqua_thaumium : ["trait|compatskills:novice", "trait|compatskills:unlock_thaumcraft", "reskillable:farming|8"],
@@ -110,6 +112,8 @@ addMaterialLock("aqua_thaumium", materials.aqua_thaumium);
 addMaterialLock("terra_thaumium", materials.terra_thaumium);
 addMaterialLock("ordo_thaumium", materials.ordo_thaumium);
 addMaterialLock("perditio_thaumium", materials.perditio_thaumium);
+addMaterialLock("blood_infused_wood", materials.blood_infused_wood);
+addMaterialLock("blood_infused_iron", materials.blood_infused_iron);
 
 
 val tierOneMetals = [

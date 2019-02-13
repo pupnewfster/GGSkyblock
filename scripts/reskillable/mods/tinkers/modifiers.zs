@@ -163,6 +163,8 @@ val modifiers = {
     soul : ["compatskills:smithing|64", "reskillable:magic|87", "compatskills:technology|36"],
     soulstealer : ["reskillable:magic|31", "reskillable:gathering|16", "reskillable:attack|21"],
     bloodstained_armor : ["reskillable:magic|31", "reskillable:gathering|12"],
+    living1 : ["reskillable:magic|17", "reskillable:defense|14", "compatskills:smithing|15"],
+    living2 : ["reskillable:magic|31", "reskillable:defense|21", "compatskills:smithing|32"],
     concealed_armor : ["reskillable:magic|16", "reskillable:agility|21"],
     shadow : ["reskillable:magic|39", "reskillable:defense|11", "reskillable:attack|11"],
     transmutative : ["reskillable:magic|43", "compatskills:smithing|31", "reskillable:gathering|18", "reskillable:mining|18"],
@@ -351,6 +353,9 @@ addModifierLock("dunanstransport_armor", modifiers.dunanstransport);
 addModifierLock("tr_entropic", modifiers.tr_entropic);
 addModifierLock("invariant_armor", modifiers.invariant_armor);
 
+addModifierLock("living1", modifiers.living1);
+addModifierLock("living2", modifiers.living2);
+
 val materials = scripts.reskillable.mods.tinkers.materials.materials;
 
 //Fortification / Polishing
@@ -531,21 +536,20 @@ addModifierLock("fortifyextrabotany:ingotorichalcos", materials.orichalcos);
 addModifierLock("polished_armorextrabotany:ingotorichalcos", materials.orichalcos);
 addModifierLock("fortifybloodbronze", materials.bloodbronze);
 addModifierLock("polished_armorbloodbronze", materials.bloodbronze);
+addModifierLock("fortifyblood_infused_wood", materials.blood_infused_wood);
+addModifierLock("polished_armorblood_infused_wood", materials.blood_infused_wood);
+addModifierLock("fortifyblood_infused_iron", materials.blood_infused_iron);
+addModifierLock("polished_armorblood_infused_iron", materials.blood_infused_iron);
 
 addModifierLock("fortifyaer_thaumium", materials.aer_thaumium);
 addModifierLock("polished_armoraer_thaumium", materials.aer_thaumium);
-
 addModifierLock("fortifyignis_thaumium", materials.ignis_thaumium);
 addModifierLock("polished_armorignis_thaumium", materials.ignis_thaumium);
-
 addModifierLock("fortifyaqua_thaumium", materials.aqua_thaumium);
 addModifierLock("polished_armoraqua_thaumium", materials.aqua_thaumium);
-
 addModifierLock("fortifyterra_thaumium", materials.terra_thaumium);
 addModifierLock("polished_armorterra_thaumium", materials.terra_thaumium);
-
 addModifierLock("fortifyordo_thaumium", materials.ordo_thaumium);
 addModifierLock("polished_armorordo_thaumium", materials.ordo_thaumium);
-
 addModifierLock("fortifyperditio_thaumium", materials.perditio_thaumium);
 addModifierLock("polished_armorperditio_thaumium", materials.perditio_thaumium);
