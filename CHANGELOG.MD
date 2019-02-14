@@ -12,6 +12,7 @@
 - Unify flour via unidict so only one entry shows.
 - Blood Arsenal, blood infused wooden double slab registry entry was removed. This is fine given there wasn't a legit way to get that block anyways.
 - Added locks for Blood Arsenal's Tinkers Compat.
+- Added recipe for liquid/gaseous yellow matter.
 
 Added
   - Armor Toughness Bar
@@ -23,6 +24,7 @@ Updated
   - Blood Arsenal (2.1.0-26 to 2.2.0-27)
   - Botania Tweaks (1.8.3 to 1.8.4)
   - CompatSkills (1.13.3 to 1.13.4)
+  - Forge (14.23.5.2811 to 14.23.5.2814)
   - In Control (3.8.3 to 3.9.2)
   - Mantle (1.3.3.39 to 1.3.3.42)
   - Ore Excavation (1.4.133 to 1.4.137)
