@@ -1,5 +1,19 @@
 # Changelog
 
+### 1.5
+
+Updated
+  - Ender Tweaker (1.1.3 to 1.1.4)
+  - Forge (14.23.5.2814 to 14.23.5.2815)
+  - Garbage Bins (1.1.0 to 1.1.1)
+  - In Control (3.9.2 to 3.9.3)
+  - InWorldCrafting (1.0.0 to 1.1.0)
+  - OldJavaWarning (1.0.9 to 1.0.10)
+  - PlusTiC (7.0.5.0 to 7.0.5.1)
+  - RandomTweaks (2.4.3.1 to 2.4.3.2)
+  - Smooth Font (2.0-alpha-6 to 2.0-alpha-7)
+
+
 ### 1.4 (BETA)
 - Requirements now properly sync when you first rejoin a world.
 - Changed recipe for Ender IO rod of return.
