@@ -1,42 +1,28 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //coal, quartz, certus quartz, pyrite, sphalerite, cobalt, ardte
 
-var drops = {
+var drops as loot_info[] = [
     //coal
-    <minecraft:coal> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 3),
     //quartz
-    <minecraft:quartz> : {
-        5 : null
-    } as string[][int],
+    loot_info(<minecraft:quartz>, 5),
     //certus quartz
-    <appliedenergistics2:material> : {
-        7 : null
-    } as string[][int],
+    loot_info(<appliedenergistics2:material>, 7),
     //pyrite dust
-    <techreborn:dust:39> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:dust:39>, 1),
     //sphalerite dust
-    <techreborn:dust:50> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:dust:50>, 1),
     //cobalt ore
-    <tconstruct:ore> : {
-        1 : null
-    } as string[][int],
+    loot_info(<tconstruct:ore>, 1),
     //ardite ore
-    <tconstruct:ore:1> : {
-        1 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<tconstruct:ore:1>, 1)
+];
 
 val table = LootTables.getTable("minecraft:entities/ghast");
 

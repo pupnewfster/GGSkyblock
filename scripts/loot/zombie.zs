@@ -1,26 +1,20 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //coal, copper, tin
 
-var drops = {
+var drops as loot_info[] = [
     //coal
-    <minecraft:coal> : {
-        1 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 1),
     //copper ore
-    <mekanism:oreblock:1> : {
-        6 : null
-    } as string[][int],
+    loot_info(<mekanism:oreblock:1>, 6),
     //tin ore
-    <mekanism:oreblock:2> : {
-        4 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<mekanism:oreblock:2>, 4)
+];
 
 val table = LootTables.getTable("minecraft:entities/zombie");
 

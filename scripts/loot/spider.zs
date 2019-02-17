@@ -1,34 +1,24 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //iron, coal, lapis, redstone, cinnabar
 
-var drops = {
+var drops as loot_info[] = [
     //iron ore
-    <minecraft:iron_ore> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:iron_ore>, 3),
     //coal
-    <minecraft:coal> : {
-        1 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 1),
     //lapis lazuli
-    <minecraft:dye:4> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:dye:4>, 3),
     //redstone dust
-    <minecraft:redstone> : {
-        4 : null
-    } as string[][int],
+    loot_info(<minecraft:redstone>, 4),
     //cinnabar
-    <thaumcraft:ore_cinnabar> : {
-        2 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<thaumcraft:ore_cinnabar>, 2)
+];
 
 val table = LootTables.getTable("minecraft:entities/spider");
 

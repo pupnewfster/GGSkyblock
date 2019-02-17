@@ -1,38 +1,26 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //iron, coal, redstone, black quartz, copper, silver
 
-var drops = {
+var drops as loot_info[] = [
     //iron ore
-    <minecraft:iron_ore> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:iron_ore>, 3),
     //coal
-    <minecraft:coal> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 3),
     //redstone dust
-    <minecraft:redstone> : {
-        4 : null
-    } as string[][int],
+    loot_info(<minecraft:redstone>, 4),
     //black quartz ore
-    <actuallyadditions:block_misc:3> : {
-        1 : null
-    } as string[][int],
+    loot_info(<actuallyadditions:block_misc:3>, 1),
     //copper ore
-    <mekanism:oreblock:1> : {
-        2 : null
-    } as string[][int],
+    loot_info(<mekanism:oreblock:1>, 2),
     //silver ore
-    <techreborn:ore:13> : {
-        2 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<techreborn:ore:13>, 2)
+];
 
 val table = LootTables.getTable("minecraft:entities/creeper");
 

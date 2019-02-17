@@ -1,34 +1,24 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //iron, gold, emerald, certus quartz, tin
 
-var drops = {
+var drops as loot_info[] = [
     //iron ore
-    <minecraft:iron_ore> : {
-        2 : null
-    } as string[][int],
+    loot_info(<minecraft:iron_ore>, 2),
     //gold ore
-    <minecraft:gold_ore> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:gold_ore>, 3),
     //emerald
-    <minecraft:emerald> : {
-        1 : null
-    } as string[][int],
+    loot_info(<minecraft:emerald>, 1),
     //certus quartz
-    <appliedenergistics2:material> : {
-        3 : null
-    } as string[][int],
+    loot_info(<appliedenergistics2:material>, 3),
     //tin ore
-    <mekanism:oreblock:2> : {
-        3 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<mekanism:oreblock:2>, 3)
+];
 
 val table = LootTables.getTable("minecraft:entities/zombie_villager");
 

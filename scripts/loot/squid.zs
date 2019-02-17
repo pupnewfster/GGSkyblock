@@ -1,34 +1,24 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //coal, black quartz, galena, bauxite, lead
 
-var drops = {
+var drops as loot_info[] = [
     //coal
-    <minecraft:coal> : {
-        7 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 7),
     //black quartz ore
-    <actuallyadditions:block_misc:3> : {
-        3 : null
-    } as string[][int],
+    loot_info(<actuallyadditions:block_misc:3>, 3),
     //galena ore
-    <techreborn:ore> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:ore>, 1),
     //bauxite ore
-    <techreborn:ore:4> : {
-        9 : null
-    } as string[][int],
+    loot_info(<techreborn:ore:4>, 9),
     //lead ore
-    <techreborn:ore:12> : {
-        3 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<techreborn:ore:12>, 3)
+];
 
 val table = LootTables.getTable("minecraft:entities/squid");
 

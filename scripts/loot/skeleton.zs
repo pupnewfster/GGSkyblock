@@ -3,54 +3,36 @@
 import scripts.loot.loot_tweaker.addDrops;
 import scripts.loot.loot_tweaker.combine;
 import scripts.loot.loot_tweaker.baseValues;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //iron, osmium, copper, tin
 //nether: quartz, pyrite, sphalerite, ardite, cobalt
 
-var drops = {
+var drops as loot_info[] = [
     //iron ore
-    <minecraft:iron_ore> : {
-        9 : null
-    } as string[][int],
+    loot_info(<minecraft:iron_ore>, 9),
     //osmium ore
-    <mekanism:oreblock> : {
-        6 : null
-    } as string[][int],
+    loot_info(<mekanism:oreblock>, 6),
     //copper ore
-    <mekanism:oreblock:1> : {
-        6 : null
-    } as string[][int],
+    loot_info(<mekanism:oreblock:1>, 6),
     //tin ore
-    <mekanism:oreblock:2> : {
-        6 : null
-    } as string[][int],
+    loot_info(<mekanism:oreblock:2>, 6),
 
     //Nether only
 
     //quartz
-    <minecraft:quartz> : {
-        6 : combine(baseValues[<minecraft:quartz>], ["dim|-1"])
-    } as string[][int],
+    loot_info(<minecraft:quartz>, 6, combine(baseValues[<minecraft:quartz>], ["dim|-1"])),
     //pyrite dust
-    <techreborn:dust:39> : {
-        1 : combine(baseValues[<techreborn:dust:39>], ["dim|-1"])
-    } as string[][int],
+    loot_info(<techreborn:dust:39>, 1, combine(baseValues[<techreborn:dust:39>], ["dim|-1"])),
     //sphalerite dust
-    <techreborn:dust:50> : {
-        1 : combine(baseValues[<techreborn:dust:50>], ["dim|-1"])
-    } as string[][int],
+    loot_info(<techreborn:dust:50>, 1, combine(baseValues[<techreborn:dust:50>], ["dim|-1"])),
     //cobalt ore
-    <tconstruct:ore> : {
-        2 : combine(baseValues[<tconstruct:ore>], ["dim|-1"])
-    } as string[][int],
+    loot_info(<tconstruct:ore>, 2, combine(baseValues[<tconstruct:ore>], ["dim|-1"])),
     //ardite ore
-    <tconstruct:ore:1> : {
-        2 : combine(baseValues[<tconstruct:ore:1>], ["dim|-1"])
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<tconstruct:ore:1>, 2, combine(baseValues[<tconstruct:ore:1>], ["dim|-1"]))
+];
 
 val table = LootTables.getTable("minecraft:entities/skeleton");
 

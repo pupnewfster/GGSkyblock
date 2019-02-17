@@ -1,22 +1,18 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //coal, black quartz
 
-var drops = {
+var drops as loot_info[] = [
     //coal
-    <minecraft:coal> : {
-        4 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 4),
     //black quartz ore
-    <actuallyadditions:block_misc:3> : {
-        1 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<actuallyadditions:block_misc:3>, 1)
+];
 
 val table = LootTables.getTable("minecraft:entities/bat");
 

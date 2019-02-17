@@ -1,5 +1,7 @@
 #priority 1300
 
+import scripts.loot.loot_rates.loot_info;
+
 import loottweaker.vanilla.loot.LootTable;
 
 import loottweaker.vanilla.loot.Conditions;
@@ -129,19 +131,17 @@ function getConditions(conditions as string[]) as LootCondition {
     });
 }
 
-function addDrops(table as LootTable, drops as string[][int][IItemStack], minRequirements as string[]) {
+function addDrops(table as LootTable, drops as loot_info[], minRequirements as string[]) {
     val pool = table.addPool("resources", 1, 1, 0, 0);
     val minReqs = getConditions(minRequirements);
     pool.addConditionsHelper(isNull(minReqs) ? scripts.loot.loot_tweaker.conds : scripts.loot.loot_tweaker.conds + minReqs);
 
-    for item, value in drops {
-        for weight, requirements in value {//Only ever should be one iteration of this loop
-            var c = getConditions(requirements);
-            if (isNull(c)) {
-                c = getConditions(scripts.loot.loot_tweaker.baseValues[item]);
-            }
-            pool.addItemEntryHelper(item, weight, 0, scripts.loot.loot_tweaker.looting, isNull(c) ? [] : [c]);
+    for info in drops {
+        var c = getConditions(info.requirements);
+        if (isNull(c)) {
+            c = getConditions(scripts.loot.loot_tweaker.baseValues[info.item]);
         }
+        pool.addItemEntryHelper(info.item, info.weight, 0, scripts.loot.loot_tweaker.looting, isNull(c) ? [] : [c]);
     }
 }
 

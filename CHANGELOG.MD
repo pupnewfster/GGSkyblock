@@ -1,6 +1,7 @@
 # Changelog
 
 ### 1.5
+- Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
 
 Updated
   - Ender Tweaker (1.1.3 to 1.1.4)

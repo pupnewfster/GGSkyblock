@@ -1,46 +1,30 @@
 #priority 1000
 
 import scripts.loot.loot_tweaker.addDrops;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //iron, gold, diamond, emerald, certus quartz, iridium, ruby, sapphire, peridot
 
-var drops = {
+var drops as loot_info[] = [
     //gold ore
-    <minecraft:gold_ore> : {
-        12 : null
-    } as string[][int],
+    loot_info(<minecraft:gold_ore>, 12),
     //diamond
-    <minecraft:diamond> : {
-        5 : null
-    } as string[][int],
+    loot_info(<minecraft:diamond>, 5),
     //emerald
-    <minecraft:emerald> : {
-        3 : null
-    } as string[][int],
+    loot_info(<minecraft:emerald>, 3),
     //certus quartz
-    <appliedenergistics2:material> : {
-        8 : null
-    } as string[][int],
+    loot_info(<appliedenergistics2:material>, 8),
     //iridium ore
-    <techreborn:ore:1> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:ore:1>, 1),
     //ruby
-    <techreborn:gem> : {
-        7 : null
-    } as string[][int],
+    loot_info(<techreborn:gem>, 7),
     //sapphire
-    <techreborn:gem:1> : {
-        7 : null
-    } as string[][int],
+    loot_info(<techreborn:gem:1>, 7),
     //peridot
-    <techreborn:gem:2> : {
-        7 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<techreborn:gem:2>, 7)
+];
 
 val table = LootTables.getTable("minecraft:entities/villager");
 

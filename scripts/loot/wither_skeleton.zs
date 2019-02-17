@@ -2,66 +2,40 @@
 
 import scripts.loot.loot_tweaker.addDrops;
 import scripts.loot.loot_tweaker.addTCCurio;
+import scripts.loot.loot_rates.loot_info;
 
-import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 
 //coal, quartz, black quartz, certus quartz, ruby, sapphire, pyrite, sphalerite, peridot, lead, amber, ardite, cobalt
 
-var drops = {
+var drops as loot_info[] = [
     //coal
-    <minecraft:coal> : {
-        6 : null
-    } as string[][int],
+    loot_info(<minecraft:coal>, 6),
     //quartz
-    <minecraft:quartz> : {
-        7 : null
-    } as string[][int],
+    loot_info(<minecraft:quartz>, 7),
     //black quartz ore
-    <actuallyadditions:block_misc:3> : {
-        7 : null
-    } as string[][int],
+    loot_info(<actuallyadditions:block_misc:3>, 7),
     //certus quartz
-    <appliedenergistics2:material> : {
-        1 : null
-    } as string[][int],
+    loot_info(<appliedenergistics2:material>, 1),
     //ruby
-    <techreborn:gem> : {
-        2 : null
-    } as string[][int],
+    loot_info(<techreborn:gem>, 2),
     //sapphire
-    <techreborn:gem:1> : {
-        2 : null
-    } as string[][int],
+    loot_info(<techreborn:gem:1>, 2),
     //pyrite dust
-    <techreborn:dust:39> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:dust:39>, 1),
     //sphalerite dust
-    <techreborn:dust:50> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:dust:50>, 1),
     //peridot
-    <techreborn:gem:2> : {
-        2 : null
-    } as string[][int],
+    loot_info(<techreborn:gem:2>, 2),
     //lead ore
-    <techreborn:ore:12> : {
-        1 : null
-    } as string[][int],
+    loot_info(<techreborn:ore:12>, 1),
     //amber
-    <thaumcraft:amber> : {
-        3 : null
-    } as string[][int],
+    loot_info(<thaumcraft:amber>, 3),
     //cobalt ore
-    <tconstruct:ore> : {
-        6 : null
-    } as string[][int],
+    loot_info(<tconstruct:ore>, 6),
     //ardite ore
-    <tconstruct:ore:1> : {
-        6 : null
-    } as string[][int]
-} as string[][int][IItemStack];
+    loot_info(<tconstruct:ore:1>, 6)
+];
 
 val table = LootTables.getTable("minecraft:entities/wither_skeleton");
 
