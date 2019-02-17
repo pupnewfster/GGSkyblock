@@ -1,103 +1,31 @@
 #loader contenttweaker
 
 import scripts.emc_generation.cot_lookup.colorLookup;
+import scripts.emc_generation.cot_classes.block_info;
 
-import mods.contenttweaker.IBlockColorSupplier;
-import mods.contenttweaker.IItemColorSupplier;
-import mods.contenttweaker.ResourceLocation;
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Color;
-import mods.contenttweaker.Block;
-import mods.contenttweaker.BlockState;
 import mods.contenttweaker.BlockMaterial;
-import mods.contenttweaker.BlockPos;
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IItemDefinition;
-import crafttweaker.world.IBlockAccess;
+val customBlocks as block_info[] = [
+    block_info("pure_tier16", -1 as int, null, 13),
+    block_info("imbued_tier16", -1 as int, null, 15),
 
-createBlock("pure_tier16", 13);
-createBlock("imbued_tier16", 15);
+    block_info("tier18_blood_block", colorLookup.blood as int, null, 10),
+    block_info("imbued_tier22", colorLookup.tier22 as int, "contenttweaker:blocks/imbued_tier16", 15),
+    block_info("tier24_composting_block", colorLookup.tier24 as int, "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>),
+    block_info("tier25_26_alloy_block", colorLookup.tier25_26alloy as int, "contenttweaker:blocks/base_block"),
+    block_info("sliced_tier32_block", 0x518DE8 as int, "contenttweaker:blocks/base_block"),
+    block_info("imbued_tier32_block", 0x7A7AFF as int, "contenttweaker:blocks/base_block"),
+    block_info("bloody_tier33_block", colorLookup.bloody_tier33 as int, "contenttweaker:blocks/base_block"),
+    block_info("tier33_composting_block", colorLookup.bloody_tier33 as int, "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>),
+    block_info("compressed_elvish_tier34", 0x33E896 as int, "contenttweaker:blocks/base_block")
+];
 
-function createBlock(name as string, light as int) {
-    var block = VanillaFactory.createBlock(name, <blockmaterial:iron>);
-    block.setToolClass("pickaxe");
-    block.setToolLevel(5);
-    block.setLightValue(light);
-    block.register();
+for block in customBlocks {
+    block.createBlock();
 }
 
-static customBlocks as int[string] = {
-    tier18_blood_block : colorLookup.blood,
-    imbued_tier22 : colorLookup.tier22,
-    tier24_composting_block : colorLookup.tier24,
-    tier25_26_alloy_block : colorLookup.tier25_26alloy,
-
-    sliced_tier32_block : 0x518DE8,
-    imbued_tier32_block : 0x7A7AFF,
-
-    bloody_tier33_block : colorLookup.bloody_tier33,
-    tier33_composting_block : colorLookup.bloody_tier33,
-
-    compressed_elvish_tier34 : 0x33E896
-} as int[string];
-
-
-createColoredBlockLight("tier18_blood_block", null, 10);
-createColoredBlockLight("imbued_tier22", "contenttweaker:blocks/imbued_tier16", 15);
-createColoredBlockFull("tier24_composting_block", "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>, 0);
-createColoredBlock("tier25_26_alloy_block", "contenttweaker:blocks/base_block");
-createColoredBlock("sliced_tier32_block", "contenttweaker:blocks/base_block");
-createColoredBlock("imbued_tier32_block", "contenttweaker:blocks/base_block");
-createColoredBlock("bloody_tier33_block", "contenttweaker:blocks/base_block");
-createColoredBlockFull("tier33_composting_block", "minecraft:blocks/dirt", "shovel", 3, <blockmaterial:ground>, 0);
-createColoredBlock("compressed_elvish_tier34", "contenttweaker:blocks/base_block");
-
-
-function createColoredBlock(name as string, texture as string) {
-    createColoredBlockLight(name, texture, 0);
-}
-
-function createColoredBlockLight(name as string, texture as string, light as int) {
-    createColoredBlockFull(name, texture, "pickaxe", 5, <blockmaterial:iron>, light);
-}
-
-function createColoredBlockFull(name as string, texture as string, tool as string, harvestLevel as int, material as BlockMaterial, light as int) {
-    var block = VanillaFactory.createBlock(name, material);
-    block.setToolClass(tool);
-    block.setToolLevel(harvestLevel);
-    block.setLightValue(light);
-
-    if (!isNull(texture)) {
-        block.setTextureLocation(ResourceLocation.create(texture));
-    }
-    block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[stack.definition.id.substring(15)]);
-    });
-    block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
-        return Color.fromInt(scripts.emc_generation.block_tweaker.customBlocks[state.block.definition.id.substring(15)]);
-    });
-
-    block.register();
-}
-
-
-val storageBlocks = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32"] as string[];
+val storageBlocks as string[] = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32"];
 
 for name in storageBlocks {
-    var block = VanillaFactory.createBlock(name + "_block", <blockmaterial:iron>);
-    block.setToolClass("pickaxe");
-    block.setToolLevel(5);
-
-    block.setTextureLocation(ResourceLocation.create("contenttweaker:blocks/base_block"));
-    block.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        val id = stack.definition.id.substring(15);
-        return Color.fromInt(colorLookup[id.split("_")[0]]);
-    });
-    block.setBlockColorSupplier(function(state as BlockState, access as IBlockAccess, pos as BlockPos, tint as int) {
-        val id = state.block.definition.id.substring(15);
-        return Color.fromInt(colorLookup[id.split("_")[0]]);
-    });
-
-    block.register();
+    block_info(name + "_block", colorLookup[name] as int, "contenttweaker:blocks/base_block").createBlock();
 }

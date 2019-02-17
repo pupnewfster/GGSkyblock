@@ -1,29 +1,15 @@
 #loader contenttweaker
 
 import scripts.emc_generation.cot_lookup.colorLookup;
+import scripts.emc_generation.cot_classes.item_info;
 
-import mods.contenttweaker.IItemColorSupplier;
-import mods.contenttweaker.ResourceLocation;
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Item;
-import mods.contenttweaker.Color;
-
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IItemDefinition;
-
-
-static compressedItemMap as int[string] = {
-    compressed_tier1 : colorLookup.tier1,
-    compressed_sugar : -1,
-    compressed_lp : colorLookup.blood,
-    compressed_tier22 : colorLookup.tier22
+val compressedItemMap as int[string] = {
+    tier1 : colorLookup.tier1,
+    sugar : -1,
+    lp : colorLookup.blood,
+    tier22 : colorLookup.tier22
 } as int[string];
 
-for name in compressedItemMap {
-    var compressedItem = VanillaFactory.createItem(name);
-    compressedItem.setTextureLocation(ResourceLocation.create("contenttweaker:items/infuser_compressed"));
-    compressedItem.setItemColorSupplier(function(stack as IItemStack, tint as int) {
-        return Color.fromInt(scripts.emc_generation.compressed_items.compressedItemMap[stack.definition.id.substring(15)]);
-    });
-    compressedItem.register();
+for name, color in compressedItemMap {
+    item_info("compressed_" + name, color as int, "contenttweaker:items/infuser_compressed").createItem();
 }
