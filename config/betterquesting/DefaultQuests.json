@@ -3306,7 +3306,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Salis Mundo",
-          "desc:8": "Using your livingrock pedestal and hammer smash various items into the base Thaumcraft Crystals:\n\nAer : Sky Stone\nTerra : Grass\nIgnis : Magma Block\nAqua : Waterstone\nOrdo : Packed Ice\nPerditio : Obsidian\n\nCombine three different crystal types with redstone dust, flint, and a bowl to create salis mundo."
+          "desc:8": "Using your livingrock pedestal and hammer smash various items into the base Thaumcraft Crystals:\n\nAer : Sky Stone\nTerra : Grass\nIgnis : Magma Block\nAqua : Waterstone\nOrdo : Packed Ice\nPerditio : Obsidian\n\nCombine three different crystal types with redstone dust, flint, and a bowl to create salis mundo.\n\nOne thing to note about vis crystals as you get later on into infusion, is that to place them in the pedestals you need to use hoppers or pipes and cannot just right click on the pedestals."
         }
       },
       "tasks:9": {

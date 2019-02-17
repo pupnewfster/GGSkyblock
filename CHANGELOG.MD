@@ -1,8 +1,10 @@
 # Changelog
 
-### 1.5
+### 1.5 (IN DEVELOPMENT)
 - Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
 - Further cleaned up the block and item creation scripts for emc generations by using custom zenClasses as a wrapper.
+- Added attack lock to lens of the killer.
+- Added more information to a quest about only being able to use automation to insert vis crystals into the infusion pedestals.
 
 Updated
   - Ender Tweaker (1.1.3 to 1.1.4)

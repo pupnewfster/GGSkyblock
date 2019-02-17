@@ -48,6 +48,8 @@ val addedRequirements as string[][IItemStack] = {
 
     <actuallyadditions:block_farmer> : ["reskillable:farming|25"],
 
+    <actuallyadditions:item_more_damage_lens> : ["reskillable:attack|16"],
+
     <actuallyadditions:item_color_lens> : ["reskillable:magic|67", "compatskills:technology|62"]
 };
 
