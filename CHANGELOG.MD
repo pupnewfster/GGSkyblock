@@ -5,8 +5,11 @@
 - Further cleaned up the block and item creation scripts for emc generations by using custom zenClasses as a wrapper.
 - Added attack lock to lens of the killer.
 - Added more information to a quest about only being able to use automation to insert vis crystals into the infusion pedestals.
+- Added a quest teaching about hammocks for skipping the day.
+- Fixed "The Final Blood Orb" quest being completed by any blood orb.
 
 Updated
+  - Botania Needs These Things! (1.1.1 to 1.1.2)
   - Ender Tweaker (1.1.3 to 1.1.4)
   - Forge (14.23.5.2814 to 14.23.5.2815)
   - Garbage Bins (1.1.0 to 1.1.1)
@@ -16,6 +19,7 @@ Updated
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-7)
+  - Tech Reborn (2.20.11.929 to 2.20.12.937)
 
 
 ### 1.4 (BETA)
