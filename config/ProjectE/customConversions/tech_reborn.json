@@ -14,6 +14,52 @@
         }
       ]
     },
+    "blast_furnace": {
+      "comment": "Blast Furnace",
+      "conversions": [
+        {
+          "count": 1,
+          "output": "techreborn:ingot|16",
+          "ingredients": {
+            "techreborn:ingot|15": 1,
+            "OD|ingotSteel": 1,
+            "techreborn:dust|15": -4
+          }
+        }
+      ]
+    },
+    "missed_crafting": {
+      "comment": "Missed crafting, player detectors",
+      "conversions": [
+        {
+          "count": 1,
+          "output": "techreborn:player_detector|0",
+          "ingredients": {
+            "techreborn:computer_cube|0": 1,
+            "OD|circuitAdvanced": 2,
+            "techreborn:part|2": 2
+          }
+        },
+        {
+          "count": 1,
+          "output": "techreborn:player_detector|1",
+          "ingredients": {
+            "techreborn:computer_cube|0": 1,
+            "OD|circuitAdvanced": 2,
+            "techreborn:part|2": 2
+          }
+        },
+        {
+          "count": 1,
+          "output": "techreborn:player_detector|2",
+          "ingredients": {
+            "techreborn:computer_cube|0": 1,
+            "OD|circuitAdvanced": 2,
+            "techreborn:part|2": 2
+          }
+        }
+      ]
+    },
     "implosion": {
       "comment": "Implosion Compressor",
       "conversions": [

@@ -7,6 +7,7 @@
 - Added more information to a quest about only being able to use automation to insert vis crystals into the infusion pedestals.
 - Added a quest teaching about hammocks for skipping the day.
 - Fixed "The Final Blood Orb" quest being completed by any blood orb.
+- Fix a couple other missing tech reborn EMC values.
 
 Updated
   - Botania Needs These Things! (1.1.1 to 1.1.2)
