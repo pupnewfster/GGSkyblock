@@ -10,12 +10,15 @@
 - Fix a couple other missing tech reborn EMC values.
 - Made player interface require advanced wireless instead of just normal wireless.
 - Added a quest for maxed out celestial crystals.
-- Use new features in Compat skills, to allow use of the alchemy array, but not allow use of the crafting only tools otherwise.
-  - Removed work around recipes for bound tools, and creating living armor works now. 
+- Use new features in CompatSkills, to allow use of the alchemy array, but not allow use of the crafting only tools otherwise.
+  - Removed work around recipes for bound tools, and creating living armor works now.
+- Fixed some unintended EMC exploits. 
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
+  - Botania (1.10-359 to 1.10-360)
   - Botania Needs These Things! (1.1.1 to 1.1.2)
+  - CompatSkills (1.13.4 to 1.14.0)
   - Ender Tweaker (1.1.3 to 1.1.4)
   - FastWorkbench (1.6.0 to 1.6.1)
   - Forge (14.23.5.2814 to 14.23.5.2815)
@@ -25,7 +28,7 @@ Updated
   - OldJavaWarning (1.0.9 to 1.0.10)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
-  - Reskillable (1.12.3 to 1.12.4)
+  - Reskillable (1.12.3 to 1.12.5)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-7)
   - Tech Reborn (2.20.11.929 to 2.20.12.937)
 
