@@ -25,7 +25,7 @@ val addedRequirements as string[][IItemStack] = {
     <actuallyadditions:block_phantom_energyface> : ["trait|compatskills:wireless"],
     <actuallyadditions:block_phantom_redstoneface> : ["trait|compatskills:wireless"],
     <actuallyadditions:block_phantom_booster> : ["trait|compatskills:wireless"],
-    <actuallyadditions:block_player_interface> : ["trait|compatskills:wireless"],
+    <actuallyadditions:block_player_interface> : ["trait|compatskills:advwireless"],
 
     <actuallyadditions:item_spawner_changer> : ["reskillable:magic|39", "reskillable:building|16", "compatskills:taming|47"],
 

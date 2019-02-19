@@ -8,10 +8,13 @@
 - Added a quest teaching about hammocks for skipping the day.
 - Fixed "The Final Blood Orb" quest being completed by any blood orb.
 - Fix a couple other missing tech reborn EMC values.
+- Made player interface require advanced wireless instead of just normal wireless.
 
 Updated
+  - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
   - Botania Needs These Things! (1.1.1 to 1.1.2)
   - Ender Tweaker (1.1.3 to 1.1.4)
+  - FastWorkbench (1.6.0 to 1.6.1)
   - Forge (14.23.5.2814 to 14.23.5.2815)
   - Garbage Bins (1.1.0 to 1.1.1)
   - In Control (3.9.2 to 3.9.3)
@@ -19,6 +22,7 @@ Updated
   - OldJavaWarning (1.0.9 to 1.0.10)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
+  - Reskillable (1.12.3 to 1.12.4)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-7)
   - Tech Reborn (2.20.11.929 to 2.20.12.937)
 
