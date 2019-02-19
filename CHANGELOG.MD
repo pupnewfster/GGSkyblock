@@ -10,6 +10,8 @@
 - Fix a couple other missing tech reborn EMC values.
 - Made player interface require advanced wireless instead of just normal wireless.
 - Added a quest for maxed out celestial crystals.
+- Use new features in Compat skills, to allow use of the alchemy array, but not allow use of the crafting only tools otherwise.
+  - Removed work around recipes for bound tools, and creating living armor works now. 
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)

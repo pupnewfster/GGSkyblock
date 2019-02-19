@@ -5,15 +5,6 @@ val recipe_only = [
     <minecraft:stone_pickaxe:*>,
     <minecraft:stone_sword:*>,
     <minecraft:leather_chestplate:*>,
-    <minecraft:iron_boots:*>,
-    <minecraft:iron_chestplate:*>,
-    <minecraft:iron_helmet:*>,
-    <minecraft:iron_leggings:*>,
-    <minecraft:diamond_axe:*>,
-    <minecraft:diamond_hoe:*>,
-    <minecraft:diamond_pickaxe:*>,
-    <minecraft:diamond_shovel:*>,
-    <minecraft:diamond_sword:*>,
     <minecraft:diamond_chestplate:*>,
     <minecraft:golden_axe:*>,
     <minecraft:golden_pickaxe:*>,
@@ -28,8 +19,7 @@ val recipe_only = [
     <botania:manasteelhelmreveal:*>,
     <botania:manasteelchest:*>,
     <botania:manasteellegs:*>,
-    <botania:manasteelboots:*>,
-    <animus:kama_diamond:*>
+    <botania:manasteelboots:*>
 ] as IItemStack[];
 
 val disabled = [
@@ -135,11 +125,29 @@ val disabled = [
     <botania:flighttiara>
 ] as IItemStack[];
 
+val recipe_or_arcane = [
+    <minecraft:diamond_sword:*>,
+    <minecraft:diamond_axe:*>,
+    <minecraft:diamond_pickaxe:*>,
+    <minecraft:diamond_shovel:*>,
+    <minecraft:iron_helmet:*>,
+    <minecraft:iron_chestplate:*>,
+    <minecraft:iron_leggings:*>,
+    <minecraft:iron_boots:*>,
+    <minecraft:diamond_hoe:*>,
+    <animus:kama_diamond:*>
+] as IItemStack[];
+
 for item in disabled {
     addRequirement(item, "unobtainable");
 }
 
 for item in recipe_only {
     addRequirement(item, "unobtainable");
+    item.addTooltip(format.darkRed("Crafting Only"));
+}
+
+for item in recipe_or_arcane {
+    addRequirement(item, "or|[looking_at|bloodmagic:alchemy_array]~[unobtainable]");
     item.addTooltip(format.darkRed("Crafting Only"));
 }
