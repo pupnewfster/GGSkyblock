@@ -9,6 +9,7 @@
 - Fixed "The Final Blood Orb" quest being completed by any blood orb.
 - Fix a couple other missing tech reborn EMC values.
 - Made player interface require advanced wireless instead of just normal wireless.
+- Added a quest for maxed out celestial crystals.
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
