@@ -13,6 +13,7 @@
 - Use new features in CompatSkills, to allow use of the alchemy array, but not allow use of the crafting only tools otherwise.
   - Removed work around recipes for bound tools, and creating living armor works now.
 - Fixed some unintended EMC exploits. 
+- Added a recipe to be able to get chorus flowers.
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)

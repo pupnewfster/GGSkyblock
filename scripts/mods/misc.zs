@@ -20,3 +20,6 @@ recipes.addShaped("CTClay", <minecraft:clay_ball>, [[<ore:dirt>, <ore:cobbleston
 //Drawer controller does not require diamond
 recipes.remove(<storagedrawers:controller>);
 recipes.addShaped("CTDrawerController", <storagedrawers:controller>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], [<ore:stone>, <minecraft:iron_ingot>, <ore:stone>]]);
+
+//Add a way to get chorus flowers
+recipes.addShaped("CTChorusFlower", <minecraft:chorus_flower>, [[<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>], [<minecraft:wheat_seeds>, <minecraft:dragon_breath>, <minecraft:wheat_seeds>], [<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>]]);
