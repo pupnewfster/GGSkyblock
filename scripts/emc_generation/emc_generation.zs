@@ -12,13 +12,17 @@ import mods.appliedenergistics2.Inscriber;
 import mods.astralsorcery.LightTransmutation;
 
 //Blood Magic
+import mods.bloodmagic.AlchemyTable;
 import mods.bloodmagic.BloodAltar;
+import mods.bloodmagic.TartaricForge;
 
 //Botania
 import mods.botania.ElvenTrade;
 import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
+
+import mods.botaniatweaks.Agglomeration;
 
 //Ender IO
 import mods.enderio.AlloySmelter;
@@ -51,6 +55,12 @@ import mods.mekanism.thermalevaporation;
 import mods.techreborn.blastFurnace;
 import mods.techreborn.centrifuge;
 import mods.techreborn.fusionReactor;
+import mods.techreborn.chemicalReactorRecipe;
+import mods.techreborn.extractor;
+import mods.techreborn.implosionCompressor;
+import mods.techreborn.rollingMachine;
+import mods.techreborn.industrialElectrolyzer;
+import mods.techreborn.industrialGrinder;
 
 //Tinkers
 import mods.tconstruct.Alloy;
@@ -357,6 +367,15 @@ Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliu
 
 
 //Tier 37
+recipes.addShaped("CTT35Block", <contenttweaker:tier35_block>, [[<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>], [<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>], [<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>]]);
+recipes.addShaped("CTT36Block", <contenttweaker:tier36_block>, [[<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>], [<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>], [<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>]]);
+
+industrialGrinder.addRecipe(<contenttweaker:tier36_beam>, <contenttweaker:tier36_bolt>, <contenttweaker:tier36_gear>, <contenttweaker:tier36_rod>, <mysticalagriculture:void_metal_seeds>, null, <liquid:yellow_matter> * 250, 3000, 50000);
+chemicalReactorRecipe.addRecipe(<contenttweaker:tier36_casing>, <contenttweaker:tier36_beam>, <contenttweaker:tier36_bolt>, 1200, 10000);
+implosionCompressor.addRecipe(<contenttweaker:tier36_cluster>, <contenttweaker:tier36_powder>, <contenttweaker:tier36_rod>, <techreborn:nuke> * 16, 1200, 10000);
+AlloySmelter.addRecipe(<contenttweaker:tier36_plate>, [<contenttweaker:tier36_gear>, <contenttweaker:tier36_powder>], 1500000, 1);
+Agglomeration.addRecipe(<mysticalagriculture:osmium_seeds>, [<contenttweaker:tier36_casing>, <contenttweaker:tier36_cluster>, <contenttweaker:tier36_plate>], 750000, 0x1D0C30, 0xB2BED3, <auxiliumequivalence:matter_block:4>, <contenttweaker:tier36_block>, <contenttweaker:tier35_block>);
+
 //<mysticalagriculture:osmium_seeds>
 //<avaritia:resource:6> //41,211,617,888
 
@@ -366,12 +385,13 @@ Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliu
 //<auxiliumequivalence:matter> //66,120,302,592
 
 
+//Use green matter
+
+
 //Tier 39
 //<mysticalagriculture:refined_obsidian_seeds>
 //<avaritia:block_resource:1> //370,595,077,488
 
-
-//Use green matter
 
 
 
@@ -406,7 +426,9 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 
 //Blood magic
 
+//AlchemyTable.addRecipe(IItemStack output, IItemStack[] inputs, int syphon, int ticks, int minTier);
 //BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
+//TartaricForge.addRecipe(IItemStack output, IItemStack[] inputs, double minSouls, double soulDrain);
 
 
 //Botania
@@ -416,6 +438,8 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //ManaInfusion.addInfusion(IItemStack output, IIngredient input, int mana);
 //ManaInfusion.addAlchemy(IItemStack output, IIngredient input, int mana);
 //ManaInfusion.addConjuration(IItemStack output, IIngredient input, int mana);
+
+//Agglomeration.addRecipe(IItemStack output, IIngredient[] inputs, int manaCost, int color1, int color2, IIngredient center, IIngredient edge, IIngredient corner);
 
 
 //EnderIO
@@ -453,10 +477,17 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 
 
 //Tech Reborn
-//blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int ticktime, int euTick, int neededHeat); //3730 given heating coils dont seem to work
+//blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int tickTime, int euTick, int neededHeat); //3730 given heating coils dont seem to work
 //centrifuge.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick);
 //fusionReactor.addRecipe(IIngredient topInput, IIngredient bottomInput, IItemStack output, int startEU, int euTick, int tickTime);
-
+//chemicalReactorRecipe.addRecipe(IItemStack output1, IIngredient input1, IIngredient input2, int tickTime, int euTick);
+//extractor.addRecipe(IItemStack output, IIngredient input1, int tickTime, int euTick);
+//implosionCompressor.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int tickTime, int euTick);
+//rollingMachine.addShaped(IItemStack output, IIngredient[][] ingredients);
+//rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);
+//industrialElectrolyzer.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient cells, IIngredient input2, int tickTime, int euTick);
+//industrialGrinder.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int tickTime, int euTick);
+//industrialGrinder.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, ILiquidStack fluid, int tickTime, int euTick);
 
 //Tinkers
 //Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);

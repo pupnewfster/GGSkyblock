@@ -89,6 +89,14 @@ item.contenttweaker.reconstructed_tier35_bolt.name=Reconstructed Tier 35 EMC Ess
 item.contenttweaker.tier35_gear.name=Tier 35 EMC Essence Gear
 item.contenttweaker.crushed_tier35_gear.name=Crushed Tier 35 EMC Essence Gear
 item.contenttweaker.enriched_crushed_tier35_gear.name=Enriched Crushed Tier 35 EMC Essence Gear
+item.contenttweaker.tier36_beam.name=Tier 36 EMC Seed Beam
+item.contenttweaker.tier36_bolt.name=Tier 36 EMC Seed Bolt
+item.contenttweaker.tier36_gear.name=Tier 36 EMC Seed Gear
+item.contenttweaker.tier36_rod.name=Tier 36 EMC Seed Rod
+item.contenttweaker.tier36_casing.name=Tier 36 EMC Seed Chemical Casing
+item.contenttweaker.tier36_powder.name=Tier 36 EMC Seed Powdered Rod
+item.contenttweaker.tier36_plate.name=Tier 36 EMC Seed Plate
+item.contenttweaker.tier36_cluster.name=Tier 36 EMC Seed Rod Cluster
 
 
 tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block
@@ -103,6 +111,8 @@ tile.contenttweaker.tier24_composting_block.name=Composting Tier 24 EMC Essence 
 tile.contenttweaker.imbued_tier22.name=Imbued Tier 22 EMC Essence Block
 tile.contenttweaker.tier25_26_alloy_block.name=Tier 25 - 26 EMC Alloy Block
 tile.contenttweaker.tier32_block.name=Tier 32 EMC Essence Block
+tile.contenttweaker.tier35_block.name=Tier 35 EMC Essence Block
+tile.contenttweaker.tier36_block.name=Tier 36 EMC Essence Block
 
 tile.contenttweaker.sliced_tier32_block.name=Sliced Tier 32 EMC Block
 tile.contenttweaker.imbued_tier32_block.name=Imbued Sliced Tier 32 EMC Block

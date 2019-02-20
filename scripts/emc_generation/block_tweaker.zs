@@ -24,7 +24,7 @@ for block in customBlocks {
     block.createBlock();
 }
 
-val storageBlocks as string[] = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32"];
+val storageBlocks as string[] = ["tier16", "tier17", "tier18", "tier22", "tier24", "tier32", "tier35", "tier36"];
 
 for name in storageBlocks {
     block_info(name + "_block", colorLookup[name] as int, "contenttweaker:blocks/base_block").createBlock();

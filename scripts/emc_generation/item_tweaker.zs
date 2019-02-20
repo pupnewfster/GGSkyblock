@@ -30,6 +30,14 @@ val customItems as item_info[] = [
     item_info("tier35_gear", colorLookup.tier35 as int, baseItem("gear")),
     item_info("crushed_tier35_gear", colorLookup.tier35 as int, baseItem("dust")),
     item_info("enriched_crushed_tier35_gear", colorLookup.tier35 as int, baseItem("dust"), true),
+    item_info("tier36_beam", colorLookup.tier36 as int, baseItem("beam")),
+    item_info("tier36_bolt", colorLookup.tier36 as int, baseItem("bolt")),
+    item_info("tier36_gear", colorLookup.tier36 as int, baseItem("gear")),
+    item_info("tier36_rod", colorLookup.tier36 as int, baseItem("rod")),
+    item_info("tier36_casing", colorLookup.tier36_37between as int, baseItem("casing")),
+    item_info("tier36_powder", colorLookup.tier36_37between as int, baseItem("dirty_dust")),
+    item_info("tier36_plate", colorLookup.tier36_37between as int, baseItem("plate")),
+    item_info("tier36_cluster", colorLookup.tier36_37between as int, baseItem("cluster")),
 
     //Items with a texture from Mystical Agriculture
     item_info("reconstructed_tier24", colorLookup.lime as int, mysticalItem("redstone_alloy_essence")),
