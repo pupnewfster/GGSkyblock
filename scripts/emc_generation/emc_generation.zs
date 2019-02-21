@@ -392,7 +392,7 @@ Agglomeration.addRecipe(<mysticalagriculture:osmium_seeds>, [<contenttweaker:tie
 //<mysticalagriculture:refined_obsidian_seeds>
 //<avaritia:block_resource:1> //370,595,077,488
 
-
+//Use Blue Matter
 
 
 //Tier 40
@@ -405,7 +405,7 @@ TableCrafting.addShaped(<mysticalagriculture:alumite_seeds>, [[<mysticalagricult
 TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:tin_essence>], [<mysticalagriculture:tin_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>], [<mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>, <mysticalagriculture:steel_essence>, <mysticalagriculture:steel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:electrum_essence>, <mysticalagriculture:electrum_essence>, <mysticalagriculture:tungsten_essence>], [<mysticalagriculture:tungsten_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:chrome_essence>, <mysticalagriculture:iridium_essence>, <mysticalagriculture:iridium_essence>, <mysticalagriculture:aluminum_brass_essence>, <mysticalagriculture:aluminum_brass_essence>], [<mysticalagriculture:knightslime_essence>, <mysticalagriculture:knightslime_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:alumite_seeds>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:manyullyn_essence>, <mysticalagriculture:manyullyn_essence>], [<mysticalagriculture:electrical_steel_essence>, <mysticalagriculture:electrical_steel_essence>, <mysticalagriculture:redstone_alloy_essence>, <mysticalagriculture:redstone_alloy_essence>, <mysticalagriculture:conductive_iron_essence>, <mysticalagriculture:conductive_iron_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:dark_steel_essence>], [<mysticalagriculture:dark_steel_essence>, <mysticalagriculture:pulsating_iron_essence>, <mysticalagriculture:pulsating_iron_essence>, <mysticalagriculture:energetic_alloy_essence>, <mysticalagriculture:energetic_alloy_essence>, <mysticalagriculture:vibrant_alloy_essence>, <mysticalagriculture:vibrant_alloy_essence>, <mysticalagriculture:end_steel_essence>, <mysticalagriculture:end_steel_essence>], [<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:elementium_essence>, <mysticalagriculture:elementium_essence>, <mysticalagriculture:terrasteel_essence>, <mysticalagriculture:terrasteel_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:void_metal_essence>], [<mysticalagriculture:void_metal_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:glowstone_ingot_essence>, <mysticalagriculture:glowstone_ingot_essence>, <mysticalagriculture:refined_obsidian_essence>, <mysticalagriculture:refined_obsidian_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>]]);
 //<extendedcrafting:singularity_custom:1> //863,596,339,200,000
 
-//Use Blue Matter
+
 
 
 
@@ -456,7 +456,7 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //TableCrafting.addShaped(<output>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
 
 
-//Mekanism - https://minecraft.curseforge.com/projects/gastweaker
+//Mekanism
 
 //crystallizer.addRecipe(IGasStack inputGas, IItemStack outputStack);
 //dissolution.addRecipe(IItemStack inputStack, IGasStack outputGas);
@@ -486,7 +486,6 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //rollingMachine.addShaped(IItemStack output, IIngredient[][] ingredients);
 //rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);
 //industrialElectrolyzer.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient cells, IIngredient input2, int tickTime, int euTick);
-//industrialGrinder.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int tickTime, int euTick);
 //industrialGrinder.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, ILiquidStack fluid, int tickTime, int euTick);
 
 //Tinkers
