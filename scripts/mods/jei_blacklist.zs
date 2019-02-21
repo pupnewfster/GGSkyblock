@@ -133,6 +133,11 @@ var toHide as IItemStack[] = [
     <mysticalagriculture:experience_seeds>,
     <mysticalagriculture:experience_essence>,
 
+    //PlusTiC
+    <plustic:pipe_piece>.withTag({Material: "stone"}),
+    <plustic:laser_medium>.withTag({Material: "stone"}),
+    <plustic:battery_cell>.withTag({Material: "stone"}),
+
     //ProjectE
     <projecte:item.pe_manual>,
 

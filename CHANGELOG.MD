@@ -16,6 +16,7 @@
   - Removed work around recipes for bound tools, and creating living armor works now.
 - Fixed some unintended EMC exploits. 
 - Added a recipe to be able to get chorus flowers.
+- Hide the disabled PlusTiC stone types.
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
