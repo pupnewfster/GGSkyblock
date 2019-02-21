@@ -376,8 +376,16 @@ implosionCompressor.addRecipe(<contenttweaker:tier36_cluster>, <contenttweaker:t
 AlloySmelter.addRecipe(<contenttweaker:tier36_plate>, [<contenttweaker:tier36_gear>, <contenttweaker:tier36_powder>], 1500000, 1);
 Agglomeration.addRecipe(<mysticalagriculture:osmium_seeds>, [<contenttweaker:tier36_casing>, <contenttweaker:tier36_cluster>, <contenttweaker:tier36_plate>], 750000, 0x1D0C30, 0xB2BED3, <auxiliumequivalence:matter_block:4>, <contenttweaker:tier36_block>, <contenttweaker:tier35_block>);
 
-//<mysticalagriculture:osmium_seeds>
-//<avaritia:resource:6> //41,211,617,888
+
+addTypeObject(<mysticalagriculture:vibrant_alloy_essence>, "TIER30", 10);
+addTypeObject(<contenttweaker:compressed_tier30>, "TIER30", 80);
+enrichment.addRecipe(<mysticalagriculture:vibrant_alloy_essence>, <contenttweaker:compressed_tier30>);
+
+extractor.addRecipe(<contenttweaker:extracted_tier37_essence>, <mysticalagriculture:osmium_essence>, 1200, 10000);
+infuser.addRecipe("TIER30", 400, <contenttweaker:extracted_tier37_essence>, <contenttweaker:infused_tier37_essence>);
+dissolution.addRecipe(<contenttweaker:infused_tier37_essence>, <gas:tier37_dirty> * 1000);
+washer.addRecipe(<gas:tier37_dirty>, <gas:tier37_clean>);
+reaction.addRecipe(<avaritia:resource:5>, <liquid:tier37_clean> * 500, <gas:tier37_clean> * 500, <avaritia:resource:6>, <gas:water> * 100, 1000, 3000);
 
 
 //Tier 38

@@ -19,6 +19,8 @@ fluid.tier19=Liquid Tier 19 EMC Essence
 fluid.tier25blood=Bloody Tier 25 EMC Essence
 fluid.tier30_dirty=Dirty Tier 30 EMC Essence
 fluid.tier30_clean=Clean Tier 30 EMC Essence
+fluid.tier37_dirty=Dirty Tier 37 EMC Essence
+fluid.tier37_clean=Clean Tier 37 EMC Essence
 
 fluid.bloody_tier31_essence=Bloody Tier 31 EMC Essence
 fluid.evaporated_bloody_tier31=Evaporated Bloody Tier 31 EMC Essence
@@ -45,6 +47,7 @@ item.contenttweaker.compressed_tier1.name=Compressed Tier 1 EMC Essence
 item.contenttweaker.compressed_sugar.name=Compressed Sugar
 item.contenttweaker.compressed_lp.name=Compressed Solidified Life Essence
 item.contenttweaker.compressed_tier22.name=Compressed Tier 22 EMC Essence
+item.contenttweaker.compressed_tier30.name=Compressed Tier 30 EMC Essence
 
 item.contenttweaker.metallic_tier22_seeds.name=Metallic Tier 22 EMC Seeds
 item.contenttweaker.blood_tier23_seeds.name=Blood Infused Tier 23 EMC Seeds
@@ -97,6 +100,13 @@ item.contenttweaker.tier36_casing.name=Tier 36 EMC Seed Chemical Casing
 item.contenttweaker.tier36_powder.name=Tier 36 EMC Seed Powdered Rod
 item.contenttweaker.tier36_plate.name=Tier 36 EMC Seed Plate
 item.contenttweaker.tier36_cluster.name=Tier 36 EMC Seed Rod Cluster
+
+item.contenttweaker.extracted_tier37_essence.name=Extracted Tier 37 EMC Essence
+item.contenttweaker.infused_tier37_essence.name=Infused Tier 37 EMC Essence
+
+
+
+
 
 
 tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block

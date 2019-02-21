@@ -54,7 +54,9 @@ val customItems as item_info[] = [
     item_info("bloody_tier33", colorLookup.blood as int, mysticalItem("elementium_essence")),
     item_info("mundane_tier33_seeds", colorLookup.tier32 as int, mysticalItem("elementium_seeds")),
     item_info("mana_infused_tier34", colorLookup.aqua as int, mysticalItem("terrasteel_essence")),
-    item_info("elvish_tier34", colorLookup.aqua as int, mysticalItem("terrasteel_essence"), true)
+    item_info("elvish_tier34", colorLookup.aqua as int, mysticalItem("terrasteel_essence"), true),
+    item_info("extracted_tier37_essence", colorLookup.tier37 as int, mysticalItem("osmium_essence")),
+    item_info("infused_tier37_essence", colorLookup.tier37 as int, mysticalItem("osmium_essence"), true)
 ];
 
 for item in customItems {

@@ -7,7 +7,8 @@ val compressedItemMap as int[string] = {
     tier1 : colorLookup.tier1,
     sugar : -1,
     lp : colorLookup.blood,
-    tier22 : colorLookup.tier22
+    tier22 : colorLookup.tier22,
+    tier30 : colorLookup.tier30
 } as int[string];
 
 for name, color in compressedItemMap {

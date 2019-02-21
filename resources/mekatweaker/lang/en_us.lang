@@ -23,6 +23,8 @@ gas.tier19=Gaseous Tier 19 EMC Essence
 gas.tier25blood=Gaseous Tier 25 Blood EMC Essence
 gas.tier30_dirty=Dirty Gaseous Tier 30 EMC Essence
 gas.tier30_clean=Clean Gaseous Tier 30 EMC Essence
+gas.tier37_dirty=Dirty Gaseous Tier 37 EMC Essence
+gas.tier37_clean=Clean Gaseous Tier 37 EMC Essence
 
 gas.bloody_tier31_essence=Bloody Gaseous Tier 31 EMC Essence
 gas.evaporated_bloody_tier31=Evaporated Bloody Gaseous Tier 31 EMC Essence
@@ -31,3 +33,4 @@ infuse.tier1=Tier 1 EMC Essence
 infuse.sugar=Sugar
 infuse.lp=Life Essence
 infuse.tier22=Tier 22 EMC Essence
+infuse.tier30=Tier 30 EMC Essence

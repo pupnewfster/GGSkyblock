@@ -7,3 +7,4 @@ addType("TIER1");
 addType("SUGAR");
 addType("LP");
 addType("TIER22");
+addType("TIER30");

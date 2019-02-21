@@ -33,7 +33,10 @@ val liquids = [
     <liquid:tier30_clean>,
 
     <liquid:bloody_tier31_essence>,
-    <liquid:evaporated_bloody_tier31>
+    <liquid:evaporated_bloody_tier31>,
+
+    <liquid:tier37_dirty>,
+    <liquid:tier37_clean>
 ] as ILiquidStack[];
 
 for liquid in liquids {
