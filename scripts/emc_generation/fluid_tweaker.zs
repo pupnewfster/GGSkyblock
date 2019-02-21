@@ -1,64 +1,44 @@
 #loader contenttweaker
 
 import scripts.emc_generation.cot_lookup.colorLookup;
+import scripts.emc_generation.cot_classes.fluid_info;
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 
-createFluidRarity("aeternalis", colorLookup.aeternalis, 1000, 1700, 4000, "UNCOMMON");
-createFluidRarity("evaporated_aeternalis", 0xB5B5B5, 1000, 1700, 4000, "UNCOMMON");
-createFluidRarity("dirty_dark_matter", 0x37173E, 0, 2000, 8000, "RARE");
-createFluidRarity("dark_matter", colorLookup.dark_matter, 0, 2000, 8000, "RARE");
-createFluidRarity("red_matter", colorLookup.red_matter, 500, 2500, 16000, "RARE");
-createFluidRarity("heavy_red_matter", 0xE53D3D, 500, 2500, 16000, "RARE");
-createFluidRarity("orange_matter", colorLookup.orange_matter, 1000, 3000, 32000, "EPIC");
-createFluidRarity("activated_orange_matter", 0xFF8900, 1000, 3000, 32000, "EPIC");
-createFluidRarity("impure_yellow_matter", 0xCE9704, 1500, 3500, 48000, "EPIC");
-createFluidRarity("clean_yellow_matter", 0xFFBA00, 1500, 3500, 48000, "EPIC");
-createFluidRarity("yellow_matter", colorLookup.yellow_matter, 1500, 3500, 48000, "EPIC");
-createFluidRarity("green_matter", colorLookup.green_matter, 2000, 4000, 64000, "EPIC");
-createFluidRarity("blue_matter", colorLookup.blue_matter, 2500, 4500, 88000, "EPIC");
+val customFluids as fluid_info[] = [
+    fluid_info("aeternalis", colorLookup.aeternalis as int, 1000, 1700, 4000, "UNCOMMON"),
+    fluid_info("evaporated_aeternalis", 0xB5B5B5 as int, 1000, 1700, 4000, "UNCOMMON"),
 
-createFluid("tier14", colorLookup.tier14);
-createFluid("tier18", colorLookup.tier18);
-createFluid("tier19", colorLookup.tier19);
-createFluid("tier25blood", 0x760000);
-createFluid("tier30_dirty", 0xC49147);
-createFluid("tier37_dirty", 0xA0AABC);
+    fluid_info("dark_matter", colorLookup.dark_matter as int, 0, 2000, 8000, "RARE"),
+    fluid_info("dirty_dark_matter", 0x37173E as int, 0, 2000, 8000, "RARE"),
 
-createFluid("bloody_tier31_essence", 0xC47F66);
-createFluid("evaporated_bloody_tier31", 0xE1BF99);
+    fluid_info("red_matter", colorLookup.red_matter as int, 500, 2500, 16000, "RARE"),
+    fluid_info("heavy_red_matter", 0xE53D3D as int, 500, 2500, 16000, "RARE"),
 
-createFluidLight("tier30_clean", colorLookup.tier30, 1000);
-createFluidLight("tier37_clean", colorLookup.tier37, 1000);
+    fluid_info("orange_matter", colorLookup.orange_matter as int, 1000, 3000, 32000, "EPIC"),
+    fluid_info("activated_orange_matter", 0xFF8900 as int, 1000, 3000, 32000, "EPIC"),
 
+    fluid_info("yellow_matter", colorLookup.yellow_matter as int, 1500, 3500, 48000, "EPIC"),
+    fluid_info("impure_yellow_matter", 0xCE9704 as int, 1500, 3500, 48000, "EPIC"),
+    fluid_info("clean_yellow_matter", 0xFFBA00 as int, 1500, 3500, 48000, "EPIC"),
 
-function createFluid(name as string, color as int) {
-    createFluidLight(name, color, 0);
-}
+    fluid_info("green_matter", colorLookup.green_matter as int, 2000, 4000, 64000, "EPIC"),
 
-function createFluidLight(name as string, color as int, luminosity as int) {
-    createFluidTemp(name, color, luminosity, 300);
-}
+    fluid_info("blue_matter", colorLookup.blue_matter as int, 2500, 4500, 88000, "EPIC"),
 
-function createFluidTemp(name as string, color as int, luminosity as int, temperature as int) {
-    createFluidDensity(name, color, luminosity, temperature, 1000);
-}
+    fluid_info("tier14", colorLookup.tier14 as int),
+    fluid_info("tier18", colorLookup.tier18 as int),
+    fluid_info("tier19", colorLookup.tier19 as int),
+    fluid_info("tier25blood", 0x760000 as int),
+    fluid_info("tier30_dirty", 0xC49147 as int),
+    fluid_info("tier30_clean", colorLookup.tier30 as int, 1000),
+    fluid_info("bloody_tier31_essence", 0xC47F66 as int),
+    fluid_info("evaporated_bloody_tier31", 0xE1BF99 as int),
+    fluid_info("tier37_dirty", 0xA0AABC as int),
+    fluid_info("tier37_clean", colorLookup.tier37 as int, 1000)
+];
 
-function createFluidDensity(name as string, color as int, luminosity as int, temperature as int, density as int) {
-    createFluidRarity(name, color, luminosity, temperature, density, "COMMON");
-}
-
-function createFluidRarity(name as string, color as int, luminosity as int, temperature as int, density as int, rarity as string) {
-    var fluid = VanillaFactory.createFluid(name, color);
-    fluid.material = <blockmaterial:lava>;
-    fluid.colorize = false;
-    fluid.setStillLocation("contenttweaker:fluids/" + name);
-    fluid.setFlowingLocation("contenttweaker:fluids/" + name + "_flow");
-
-    fluid.luminosity = luminosity;
-    fluid.temperature = temperature;
-    fluid.density = density;
-    fluid.rarity = rarity;
-    fluid.register();
+for fluid in customFluids {
+    fluid.createFluid();
 }

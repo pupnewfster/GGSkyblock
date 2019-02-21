@@ -4,7 +4,7 @@
 - WARNING: An update to Botania Needs These Things, change the registry name of the mana charger. So before updating I recommend removing any items from it and breaking the mana chargers. It also removed the mana capacitors so if you are using any of those I recommend removing them before hand as well.
   - Quest for mana charger updated to have the proper item again. Recommended as with whenever quests change to use `/bq_admin default load` to load any changes I have made to the quest book.
 - Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
-- Further cleaned up the block and item creation scripts for emc generations by using custom zenClasses as a wrapper.
+- Further cleaned up the block, item, and fluid creation scripts for emc generations by using custom zenClasses as a wrapper.
 - Added attack lock to lens of the killer.
 - Added more information to a quest about only being able to use automation to insert vis crystals into the infusion pedestals.
 - Added a quest teaching about hammocks for skipping the day.

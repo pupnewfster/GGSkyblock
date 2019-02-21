@@ -1,10 +1,16 @@
 #loader mekatweaker
 #priority 600
 
-import mods.mekatweaker.InfuserType.addType;
+import mods.mekatweaker.InfuserType;
 
-addType("TIER1");
-addType("SUGAR");
-addType("LP");
-addType("TIER22");
-addType("TIER30");
+val types as string[] = [
+    "TIER1",
+    "SUGAR",
+    "LP",
+    "TIER22",
+    "TIER30"
+];
+
+for type in types {
+    InfuserType.addType(type);
+}

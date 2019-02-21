@@ -11,6 +11,7 @@ import mods.contenttweaker.BlockState;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.BlockPos;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Fluid;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
@@ -118,5 +119,64 @@ zenClass item_info {
         }
         item.setGlowing(glowing);
         item.register();
+    }
+}
+
+zenClass fluid_info {
+    val name as string;
+    val color as int;
+    var luminosity as int = 0;
+    var temperature as int = 300;
+    var density as int = 1000;
+    var rarity as string = "COMMON";
+
+    zenConstructor(name as string, color as int) {
+        this.name = name;
+        this.color = color;
+    }
+
+    zenConstructor(name as string, color as int, luminosity as int) {
+        this.name = name;
+        this.color = color;
+        this.luminosity = luminosity;
+    }
+
+    zenConstructor(name as string, color as int, luminosity as int, temperature as int) {
+        this.name = name;
+        this.color = color;
+        this.luminosity = luminosity;
+        this.temperature = temperature;
+    }
+
+    zenConstructor(name as string, color as int, luminosity as int, temperature as int, density as int) {
+        this.name = name;
+        this.color = color;
+        this.luminosity = luminosity;
+        this.temperature = temperature;
+        this.density = density;
+    }
+
+    zenConstructor(name as string, color as int, luminosity as int, temperature as int, density as int, rarity as string) {
+        this.name = name;
+        this.color = color;
+        this.luminosity = luminosity;
+        this.temperature = temperature;
+        this.density = density;
+        this.rarity = rarity;
+    }
+
+    function createFluid() {
+        var fluid = VanillaFactory.createFluid(name, color);
+        fluid.luminosity = luminosity;
+        fluid.temperature = temperature;
+        fluid.density = density;
+        fluid.rarity = rarity;
+        //TODO: Make this changeable if I ever need a different value
+        fluid.material = <blockmaterial:lava>;
+        //TODO: Make this changeable if I merge the molten fluid creator to use this, or just remove if Mekanism ever accepts the pull to fix JEI gas rendering
+        fluid.colorize = false;
+        fluid.setStillLocation("contenttweaker:fluids/" + name);
+        fluid.setFlowingLocation("contenttweaker:fluids/" + name + "_flow");
+        fluid.register();
     }
 }
