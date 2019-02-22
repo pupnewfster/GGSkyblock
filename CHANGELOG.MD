@@ -8,6 +8,7 @@
 - Added attack lock to lens of the killer.
 - Added more information to a quest about only being able to use automation to insert vis crystals into the infusion pedestals.
 - Added a quest teaching about hammocks for skipping the day.
+- Added a quest explaining that XNet is useful.
 - Fixed "The Final Blood Orb" quest being completed by any blood orb.
 - Fix a couple other missing tech reborn EMC values.
 - Made player interface require advanced wireless instead of just normal wireless.
@@ -20,6 +21,7 @@
 
 Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
+  - B.A.S.E (3.11.0 to 3.11.1)
   - Botania (1.10-359 to 1.10-360)
   - Botania Needs These Things! (1.1.1 to 2)
   - CompatSkills (1.13.4 to 1.14.1)
@@ -30,6 +32,7 @@ Updated
   - In Control (3.9.2 to 3.9.3)
   - InWorldCrafting (1.0.0 to 1.1.0)
   - OldJavaWarning (1.0.9 to 1.0.10)
+  - OpenBlocks Elevator (1.3.6 to 1.3.8)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomPatches (1.13.0.1 to 1.14.0.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
