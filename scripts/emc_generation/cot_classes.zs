@@ -129,6 +129,8 @@ zenClass fluid_info {
     var temperature as int = 300;
     var density as int = 1000;
     var rarity as string = "COMMON";
+    var texture as string;
+    var material as BlockMaterial = <blockmaterial:lava>;
 
     zenConstructor(name as string, color as int) {
         this.name = name;
@@ -165,18 +167,25 @@ zenClass fluid_info {
         this.rarity = rarity;
     }
 
+    function setTexture(texture as string) {
+        this.texture = texture;
+    }
+
+    function setMaterial(material as BlockMaterial) {
+        this.material = material;
+    }
+
     function createFluid() {
         var fluid = VanillaFactory.createFluid(name, color);
-        fluid.luminosity = luminosity;
-        fluid.temperature = temperature;
-        fluid.density = density;
-        fluid.rarity = rarity;
-        //TODO: Make this changeable if I ever need a different value
-        fluid.material = <blockmaterial:lava>;
-        //TODO: Make this changeable if I merge the molten fluid creator to use this, or just remove if Mekanism ever accepts the pull to fix JEI gas rendering
-        fluid.colorize = false;
-        fluid.setStillLocation("contenttweaker:fluids/" + name);
-        fluid.setFlowingLocation("contenttweaker:fluids/" + name + "_flow");
+        fluid.setLuminosity(luminosity);
+        fluid.setTemperature(temperature);
+        fluid.setDensity(density);
+        fluid.setRarity(rarity);
+        fluid.setMaterial(material);
+        if (!isNull(texture)) {
+            fluid.setStillLocation(texture);
+            fluid.setFlowingLocation(texture + "_flow");
+        }
         fluid.register();
     }
 }

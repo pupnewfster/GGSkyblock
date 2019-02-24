@@ -18,7 +18,11 @@
 - Fixed some unintended EMC exploits. 
 - Added a recipe to be able to get chorus flowers.
 - Hide the disabled PlusTiC stone types.
+- Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that I can just use the tint because of Mekanism JEI Fix. (It is basically a small core mod I made that fixes the rendering of gasses in JEI.)
+- Adjusted some of the fluid/gasses colors slightly so that they render nicely with the new changes.
 
+Added
+  - Mekanism JEI Fix
 Updated
   - AppleCore (3.1.4 to 3.2.0)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
