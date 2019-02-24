@@ -365,6 +365,19 @@ Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliu
 
 //Use Yellow matter to make seeds
 
+//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+//2 from sag mill to the alchemy table
+//2 + t35 essence in alloy smelter
+//AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//output of alloy into fluid tank
+//TODO: Get the script line for the enderio fluid tank
+//TODO Cont: Use the fluid tank to fill the item with some liquid yellow matter
+//output into alchemy table with 2 t35 essence and the other things we have before
+//AlchemyTable.addRecipe(IItemStack output, IItemStack[] inputs, int syphon, int ticks, int minTier);
+
+
+
+
 
 //Tier 37
 recipes.addShaped("CTT35Block", <contenttweaker:tier35_block>, [[<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>], [<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>], [<mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>, <mysticalagriculture:thaumium_essence>]]);
@@ -396,11 +409,32 @@ reaction.addRecipe(<avaritia:resource:5>, <liquid:tier37_clean> * 500, <gas:tier
 //Use green matter
 
 
+//Empowerer.addRecipe(IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, @Optional float[] particleColourArray);
+
+
+
 //Tier 39
 //<mysticalagriculture:refined_obsidian_seeds>
 //<avaritia:block_resource:1> //370,595,077,488
 
 //Use Blue Matter
+
+//ElvenTrade.addRecipe(IIngredient[] outputs, IIngredient[] input);
+//get multiple outputs from the trade
+//output 1
+//AtomicReconstructor.addRecipe(IItemStack output, IItemStack input, int energyUsed);
+//output 2
+//BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
+//output 3
+//rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);
+//output 4 just gets used in the forge as is
+//use them in the forge to make an item
+//TartaricForge.addRecipe(IItemStack output, IItemStack[] inputs, double minSouls, double soulDrain);
+//use that item and another item and some t35 essence to convert blue matter fluid into some new fluid
+//Vat.addRecipe(ILiquidStack output, float inMult, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
+//crystalize new fluid
+//crystallizer.addRecipe(IGasStack inputGas, IItemStack outputStack);
+
 
 
 //Tier 40
