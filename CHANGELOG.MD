@@ -1,7 +1,7 @@
 # Changelog
 
 ### 1.5 (IN DEVELOPMENT)
-- WARNING: An update to Botania Needs These Things, change the registry name of the mana charger. So before updating I recommend removing any items from it and breaking the mana chargers. It also removed the mana capacitors so if you are using any of those I recommend removing them before hand as well.
+- WARNING: An update to Botania Needs These Things, change the registry name of the mana charger. So before updating I recommend removing any items from it and breaking the mana chargers.
   - Quest for mana charger updated to have the proper item again. Recommended as with whenever quests change to use `/bq_admin default load` to load any changes I have made to the quest book.
 - Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
 - Further cleaned up the block, item, and fluid creation scripts for emc generations by using custom zenClasses as a wrapper.
@@ -20,24 +20,26 @@
 - Hide the disabled PlusTiC stone types.
 
 Updated
+  - AppleCore (3.1.4 to 3.2.0)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
   - B.A.S.E (3.11.0 to 3.11.1)
   - Botania (1.10-359 to 1.10-360)
-  - Botania Needs These Things! (1.1.1 to 2)
+  - Botania Needs These Things! (1.1.1 to 2.1)
   - CompatSkills (1.13.4 to 1.14.1)
   - Ender Tweaker (1.1.3 to 1.1.4)
+  - Extra Botany (1.1-51 to 1.1-52)
   - FastWorkbench (1.6.0 to 1.6.1)
   - Forge (14.23.5.2814 to 14.23.5.2815)
   - Garbage Bins (1.1.0 to 1.1.1)
-  - In Control (3.9.2 to 3.9.3)
-  - InWorldCrafting (1.0.0 to 1.1.0)
+  - In Control (3.9.2 to 3.9.4)
+  - InWorldCrafting (1.0.0 to 1.1.1)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomPatches (1.13.0.1 to 1.14.0.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
   - Reskillable (1.12.3 to 1.12.5)
-  - Smooth Font (2.0-alpha-6 to 2.0-alpha-7)
+  - Smooth Font (2.0-alpha-6 to 2.0-alpha-8)
   - Tech Reborn (2.20.11.929 to 2.20.12.937)
 
 
