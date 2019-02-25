@@ -24,9 +24,10 @@
 Added
   - Mekanism JEI Fix
 Updated
+  - Animus (2.1.0 to 2.1.1)
   - AppleCore (3.1.4 to 3.2.0)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
-  - B.A.S.E (3.11.0 to 3.11.1)
+  - B.A.S.E (3.11.0 to 3.12.0)
   - Botania (1.10-359 to 1.10-360)
   - Botania Needs These Things! (1.1.1 to 2.1)
   - CompatSkills (1.13.4 to 1.14.1)
@@ -37,14 +38,16 @@ Updated
   - Garbage Bins (1.1.0 to 1.1.1)
   - In Control (3.9.2 to 3.9.4)
   - InWorldCrafting (1.0.0 to 1.1.1)
+  - JEI (4.14.4.264 to 4.14.4.267)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomPatches (1.13.0.1 to 1.14.0.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
+  - Reborn Core (3.13.4.419 to 3.13.5.421)
   - Reskillable (1.12.3 to 1.12.5)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-8)
-  - Tech Reborn (2.20.11.929 to 2.20.12.937)
+  - Tech Reborn (2.20.11.929 to 2.20.13.940)
 
 
 ### 1.4 (BETA)
