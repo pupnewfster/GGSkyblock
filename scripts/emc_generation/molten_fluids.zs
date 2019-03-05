@@ -21,7 +21,7 @@ val moltenFluids = {
 } as int[string];
 
 for name, color in moltenFluids {
-    val moltenCustom as fluid_info = fluid_info("molten" + name, (color == -1 ? colorLookup[name] : color) as int, 15, 1700);
+    val moltenCustom as fluid_info = fluid_info("molten" + name, (color == -1 ? colorLookup[name] : color), 15, 1700);
     moltenCustom.setTexture("tconstruct:blocks/fluids/molten_metal");
     moltenCustom.createFluid();
 }

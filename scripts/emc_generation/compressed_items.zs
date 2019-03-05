@@ -12,5 +12,5 @@ val compressedItemMap as int[string] = {
 } as int[string];
 
 for name, color in compressedItemMap {
-    item_info("compressed_" + name, color as int, "contenttweaker:items/infuser_compressed").createItem();
+    item_info("compressed_" + name, color, "contenttweaker:items/infuser_compressed").createItem();
 }
