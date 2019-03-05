@@ -65,6 +65,8 @@ Updated
   - Thaumic Bases Unofficial (3.3.310.5r to 3.3.256.6r)
   - Thaumic Energistics (2.1.1 to 2.2.0)
   - Thaumic Restoration (1.2.1a to 1.2.1b)
+Removed
+  - JourneyMapFixer (As it is no longer needed with the journeymap update)
 
 
 ### 1.4 (BETA)
