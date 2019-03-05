@@ -3,6 +3,7 @@
 ### 1.5 (IN DEVELOPMENT)
 - WARNING: An update to Botania Needs These Things, change the registry name of the mana charger. So before updating I recommend removing any items from it and breaking the mana chargers.
   - Quest for mana charger updated to have the proper item again. Recommended as with whenever quests change to use `/bq_admin default load` to load any changes I have made to the quest book.
+- Warning: Black Quartz block id has changed, if you used any or have any blocks of it I recommend converting them to EMC and then making them again after the update.
 - Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
 - Further cleaned up the block, item, and fluid creation scripts for emc generations by using custom zenClasses as a wrapper.
 - Added attack lock to lens of the killer.
@@ -23,38 +24,46 @@
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
 
 Added
+  - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
   - Mekanism JEI Fix
 Updated
+  - Actually Additions (r145 to r146)
   - Animus (2.1.0 to 2.1.1)
   - AppleCore (3.1.4 to 3.2.0)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
   - B.A.S.E (3.11.0 to 3.12.0)
   - Baubley Heart Canisters (1.2.1 to 1.2.3)
-  - Better Questing (3.5.291 to 3.5.292)
+  - Better Advancements (0.0.17.74 to 0.0.17.75)
+  - Better Questing (3.5.291 to 3.5.293)
   - Better Questing - Standard Expansion (3.4.151 to 3.4.152)
   - Botania (1.10-359 to 1.10-360)
   - Botania Needs These Things! (1.1.1 to 2.1)
   - CompatSkills (1.13.4 to 1.15.0)
+  - CraftTweaker (4.1.14 to 4.1.15)
   - Ender Tweaker (1.1.3 to 1.1.4)
   - Extra Botany (1.1-51 to 1.1-52)
   - FastWorkbench (1.6.0 to 1.6.1)
+  - FindMe (1.0.2-6 to 1.1.0-8)
   - Forge (14.23.5.2814 to 14.23.5.2815)
   - Garbage Bins (1.1.0 to 1.1.1)
   - In Control (3.9.2 to 3.9.4)
   - Incorporeal (1.0.3 to 1.0.4)
-  - InWorldCrafting (1.0.0 to 1.1.2)
-  - JEI (4.14.4.264 to 4.14.4.267)
+  - InWorldCrafting (1.0.0 to 1.2.0)
+  - JEI (4.14.4.264 to 4.15.0.268)
+  - JourneyMap (5.5.3 to 5.5.4)
   - LittleTiles (1.5.0-pre125 to 1.5.0-pre126)
   - Mystical Agriculture (1.7.1 to 1.7.3)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
-  - RandomPatches (1.13.0.1 to 1.14.0.0)
+  - RandomPatches (1.13.0.1 to 1.14.1.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
   - Reborn Core (3.13.4.419 to 3.13.5.421)
   - Reskillable (1.12.3 to 1.12.5)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-9)
   - Tech Reborn (2.20.11.929 to 2.20.13.940)
+  - Thaumic Bases Unofficial (3.3.310.5r to 3.3.256.6r)
+  - Thaumic Energistics (2.1.1 to 2.2.0)
   - Thaumic Restoration (1.2.1a to 1.2.1b)
 
 
