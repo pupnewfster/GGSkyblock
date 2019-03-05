@@ -50,4 +50,5 @@ var info = {
 
 for key, value in info {
     mods.jei.JEI.addDescription(key, "Produces: " + value + " EMC");
+    key.addTooltip(format.yellow("EMC Produced: ") + format.white(value));
 }

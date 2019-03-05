@@ -22,6 +22,7 @@
 - Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that I can just use the tint because of Mekanism JEI Fix. (It is basically a small core mod I made that fixes the rendering of gasses in JEI.)
 - Adjusted some of the fluid/gasses colors slightly so that they render nicely with the new changes.
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
+- Display EMC produced from EMC essence as a tooltip.
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
