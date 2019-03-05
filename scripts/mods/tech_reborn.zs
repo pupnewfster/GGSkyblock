@@ -33,6 +33,7 @@ recipes.removeByRecipeName("techreborn:nuggets_8");
 recipes.removeByRecipeName("techreborn:nuggets_11");
 recipes.removeByRecipeName("techreborn:nuggets_12");
 recipes.removeByRecipeName("techreborn:nuggets_13");
+recipes.removeByRecipeName("techreborn:nuggets_20");
 
 recipes.removeByRecipeName("techreborn:ingot_20");
 recipes.removeByRecipeName("techreborn:ingot_21");
