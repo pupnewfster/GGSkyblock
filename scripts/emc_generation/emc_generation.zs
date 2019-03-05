@@ -28,6 +28,7 @@ import mods.botaniatweaks.Agglomeration;
 import mods.enderio.AlloySmelter;
 import mods.enderio.SagMill;
 import mods.enderio.SliceNSplice;
+import mods.enderio.Tank;
 import mods.enderio.Vat;
 
 //Extended Crafting
@@ -54,13 +55,14 @@ import mods.mekanism.thermalevaporation;
 //Tech Reborn
 import mods.techreborn.blastFurnace;
 import mods.techreborn.centrifuge;
-import mods.techreborn.fusionReactor;
 import mods.techreborn.chemicalReactorRecipe;
 import mods.techreborn.extractor;
+import mods.techreborn.fusionReactor;
 import mods.techreborn.implosionCompressor;
-import mods.techreborn.rollingMachine;
 import mods.techreborn.industrialElectrolyzer;
 import mods.techreborn.industrialGrinder;
+import mods.techreborn.rollingMachine;
+import mods.techreborn.vacuumFreezer;
 
 //Tinkers
 import mods.tconstruct.Alloy;
@@ -359,21 +361,15 @@ chemicalInfuser.addRecipe(<gas:activated_orange_matter>, <gas:evaporated_aeterna
 washer.addRecipe(<gas:impure_yellow_matter>, <gas:clean_yellow_matter>);
 Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliumequivalence:matter>], [1], [<auxiliumequivalence:matter:1>], [1], 2500000);
 
+SagMill.addRecipe([<contenttweaker:tier35_plate>, <contenttweaker:tier35_shard>, <contenttweaker:tier35_casing>, <contenttweaker:tier35_crystal>], [1, 1, 1, 1], <mysticalagriculture:thaumium_seeds>, "NONE", 5000000, [1, 1, 1, 1]);
+AlloySmelter.addRecipe(<contenttweaker:tier35_washer>, [<contenttweaker:tier35_plate>, <contenttweaker:tier35_shard>, <avaritia:resource:7>], 2500000, 1);
+Tank.addRecipe(true, <contenttweaker:tier35_washer>, <liquid:yellow_matter> * 500, <contenttweaker:infused_tier35_washer>);
+AtomicReconstructor.addRecipe(<contenttweaker:reconstructed_tier35_crystal>, <contenttweaker:tier35_crystal>, 2500000);
+vacuumFreezer.addRecipe(<contenttweaker:frozen_tier35_casing>, <contenttweaker:tier35_casing>, 1200, 10000);
+AlchemyTable.addRecipe(<mysticalagriculture:void_metal_seeds>, [<contenttweaker:frozen_tier35_casing>, <contenttweaker:reconstructed_tier35_crystal>, <contenttweaker:infused_tier35_washer>, <contenttweaker:elvish_tier35_beam>, <contenttweaker:reconstructed_tier35_bolt>, <contenttweaker:enriched_crushed_tier35_gear>], 100, 600, 4);
 
 //<mysticalagriculture:void_metal_seeds>
 //<projecte:matter_block:1> //21,932,605,440
-
-//Use Yellow matter to make seeds
-
-//SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
-//2 from sag mill to the alchemy table
-//2 + t35 essence in alloy smelter
-//AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
-//output of alloy into fluid tank
-//TODO: Get the script line for the enderio fluid tank
-//TODO Cont: Use the fluid tank to fill the item with some liquid yellow matter
-//output into alchemy table with 2 t35 essence and the other things we have before
-//AlchemyTable.addRecipe(IItemStack output, IItemStack[] inputs, int syphon, int ticks, int minTier);
 
 
 
@@ -488,6 +484,7 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
 //SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
 //SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+//Tank.addRecipe(boolean fill, IIngredient input, ILiquidStack fluid, IItemStack output);
 //Vat.addRecipe(ILiquidStack output, float inMult, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
 
 
@@ -529,6 +526,7 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);
 //industrialElectrolyzer.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient cells, IIngredient input2, int tickTime, int euTick);
 //industrialGrinder.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, ILiquidStack fluid, int tickTime, int euTick);
+//vacuumFreezer.addRecipe(IItemStack output, IIngredient input, int ticktime, int euTick);
 
 //Tinkers
 //Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
