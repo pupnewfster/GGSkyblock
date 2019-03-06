@@ -47,7 +47,7 @@ Updated
   - FindMe (1.0.2-6 to 1.1.0-8)
   - Forge (14.23.5.2814 to 14.23.5.2815)
   - Garbage Bins (1.1.0 to 1.1.1)
-  - In Control (3.9.2 to 3.9.4)
+  - In Control (3.9.2 to 3.9.5)
   - Incorporeal (1.0.3 to 1.0.4)
   - InWorldCrafting (1.0.0 to 1.2.0)
   - JEI (4.14.4.264 to 4.15.0.268)
@@ -56,6 +56,7 @@ Updated
   - Mystical Agriculture (1.7.1 to 1.7.3)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
+  - Overloaded Armor Bar (1.0.2 to 1.0.3)
   - PlusTiC (7.0.5.0 to 7.0.5.1)
   - RandomPatches (1.13.0.1 to 1.14.1.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
@@ -66,6 +67,7 @@ Updated
   - Thaumic Bases Unofficial (3.3.310.5r to 3.3.256.6r)
   - Thaumic Energistics (2.1.1 to 2.2.0)
   - Thaumic Restoration (1.2.1a to 1.2.1b)
+  - Visuals (3r to 6r)
 Removed
   - JourneyMapFixer (As it is no longer needed with the journeymap update)
 
