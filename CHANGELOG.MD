@@ -23,6 +23,7 @@
 - Adjusted some of the fluid/gasses colors slightly so that they render nicely with the new changes.
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
 - Display EMC produced from EMC essence as a tooltip.
+- Disable syncing of advancements via Together Forever, as Botania uses them for determining dice rewards.
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
@@ -64,7 +65,7 @@ Updated
   - Reborn Core (3.13.4.419 to 3.13.6.424)
   - Reskillable (1.12.3 to 1.12.5)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-9)
-  - Tech Reborn (2.20.11.929 to 2.21.0.951)
+  - Tech Reborn (2.20.11.929 to 2.21.1.954)
   - Thaumic Bases Unofficial (3.3.310.5r to 3.3.256.6r)
   - Thaumic Energistics (2.1.1 to 2.2.0)
   - Thaumic Restoration (1.2.1a to 1.2.1b)
