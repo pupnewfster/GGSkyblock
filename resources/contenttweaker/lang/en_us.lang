@@ -25,6 +25,7 @@ fluid.tier37_clean=Clean Tier 37 EMC Essence
 fluid.bloody_tier31_essence=Bloody Tier 31 EMC Essence
 fluid.evaporated_bloody_tier31=Evaporated Bloody Tier 31 EMC Essence
 
+fluid.blue_tier38=Blue Matter Tier 38 Seed Mixture
 
 fluid.moltentier18=Molten Tier 18 EMC Essence
 fluid.moltentier19=Molten Tier 19 EMC Essence
@@ -112,9 +113,14 @@ item.contenttweaker.tier36_cluster.name=Tier 36 EMC Seed Rod Cluster
 item.contenttweaker.extracted_tier37_essence.name=Extracted Tier 37 EMC Essence
 item.contenttweaker.infused_tier37_essence.name=Infused Tier 37 EMC Essence
 
-
-
-
+item.contenttweaker.tier38_drop.name=Tier 38 EMC Seed Drop
+item.contenttweaker.reconstructed_tier38_drop.name=Reconstructed Tier 38 EMC Seed Drop
+item.contenttweaker.tier38_leaf.name=Tier 38 EMC Seed Leaf
+item.contenttweaker.bloody_tier38_leaf.name=Bloody Tier 38 EMC Seed Leaf
+item.contenttweaker.tier38_fern.name=Tier 38 EMC Seed Fern
+item.contenttweaker.tier38_clump.name=Tier 38 EMC Seed Clump
+item.contenttweaker.tier38_plate.name=Tier 38 EMC Seed Plate
+item.contenttweaker.tier38_tangle.name=Tier 38 EMC Seed Tangle
 
 
 tile.contenttweaker.tier16_block.name=Tier 16 EMC Essence Block

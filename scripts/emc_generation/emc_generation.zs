@@ -359,7 +359,7 @@ thermalevaporation.addRecipe(<liquid:aeternalis>, <liquid:evaporated_aeternalis>
 solarneutronactivator.addRecipe(<gas:orange_matter>, <gas:activated_orange_matter>);
 chemicalInfuser.addRecipe(<gas:activated_orange_matter>, <gas:evaporated_aeternalis> * 2, <gas:impure_yellow_matter>);
 washer.addRecipe(<gas:impure_yellow_matter>, <gas:clean_yellow_matter>);
-Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliumequivalence:matter>], [1], [<auxiliumequivalence:matter:1>], [1], 2500000);
+Vat.addRecipe(<liquid:yellow_matter>, 1, <liquid:clean_yellow_matter>, [<auxiliumequivalence:matter>], [1], [<auxiliumequivalence:matter:1>], [1], 1000000);
 
 SagMill.addRecipe([<contenttweaker:tier35_plate>, <contenttweaker:tier35_shard>, <contenttweaker:tier35_casing>, <contenttweaker:tier35_crystal>], [1, 1, 1, 1], <mysticalagriculture:thaumium_seeds>, "NONE", 5000000, [1, 1, 1, 1]);
 AlloySmelter.addRecipe(<contenttweaker:tier35_washer>, [<contenttweaker:tier35_plate>, <contenttweaker:tier35_shard>, <avaritia:resource:7>], 2500000, 1);
@@ -371,8 +371,13 @@ AlchemyTable.addRecipe(<mysticalagriculture:void_metal_seeds>, [<contenttweaker:
 //<mysticalagriculture:void_metal_seeds>
 //<projecte:matter_block:1> //21,932,605,440
 
-
-
+//essence into 2 outputs
+//those 2 outputs into 2 and 3 things
+//1 of 2 modified
+//2 of 3 modified
+//use all in empowerer
+//5 inputs from the essence
+//Empowerer.addRecipe(<projecte:matter_block:1>, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, @Optional float[] particleColourArray);
 
 
 //Tier 37
@@ -410,27 +415,20 @@ reaction.addRecipe(<avaritia:resource:5>, <liquid:tier37_clean> * 500, <gas:tier
 
 
 //Tier 39
+//TODO: Liquid Blue Matter Recipe
+
+
+ElvenTrade.addRecipe([<contenttweaker:tier38_drop>, <contenttweaker:tier38_leaf>, <contenttweaker:tier38_clump>, <contenttweaker:tier38_fern>], [<mysticalagriculture:glowstone_ingot_seeds>]);
+AtomicReconstructor.addRecipe(<contenttweaker:reconstructed_tier38_drop>, <contenttweaker:tier38_drop>, 5000000);
+BloodAltar.addRecipe(<contenttweaker:bloody_tier38_leaf>, <contenttweaker:tier38_leaf>, 5, 500000, 500, 250);
+rollingMachine.addShapeless(<contenttweaker:tier38_plate>, [<contenttweaker:tier38_clump>, <mysticalagriculture:refined_obsidian_essence>, <mysticalagriculture:refined_obsidian_essence>, <mysticalagriculture:refined_obsidian_essence>]);
+TartaricForge.addRecipe(<contenttweaker:tier38_tangle>, [<contenttweaker:reconstructed_tier38_drop>, <contenttweaker:bloody_tier38_leaf>, <contenttweaker:tier38_plate>, <contenttweaker:tier38_fern>], 1024, 256);
+Vat.addRecipe(<liquid:blue_tier38>, 1, <liquid:blue_matter>, [<contenttweaker:tier38_tangle>], [1], [<avaritia:resource:6>], [1], 1250000);
+crystallizer.addRecipe(<gas:blue_tier38>, <mysticalagriculture:refined_obsidian_seeds>);
+
+
 //<mysticalagriculture:refined_obsidian_seeds>
 //<avaritia:block_resource:1> //370,595,077,488
-
-//Use Blue Matter
-
-//ElvenTrade.addRecipe(IIngredient[] outputs, IIngredient[] input);
-//get multiple outputs from the trade
-//output 1
-//AtomicReconstructor.addRecipe(IItemStack output, IItemStack input, int energyUsed);
-//output 2
-//BloodAltar.addRecipe(IItemStack output, IItemStack input, int minimumTier, int syphon, int consumeRate, int drainRate);
-//output 3
-//rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);
-//output 4 just gets used in the forge as is
-//use them in the forge to make an item
-//TartaricForge.addRecipe(IItemStack output, IItemStack[] inputs, double minSouls, double soulDrain);
-//use that item and another item and some t35 essence to convert blue matter fluid into some new fluid
-//Vat.addRecipe(ILiquidStack output, float inMult, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
-//crystalize new fluid
-//crystallizer.addRecipe(IGasStack inputGas, IItemStack outputStack);
-
 
 
 //Tier 40

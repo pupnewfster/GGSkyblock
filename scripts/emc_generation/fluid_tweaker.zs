@@ -36,7 +36,9 @@ val customFluids as fluid_info[] = [
     fluid_info("bloody_tier31_essence", 0xC47F66),
     fluid_info("evaporated_bloody_tier31", 0xE1BF99),
     fluid_info("tier37_dirty", 0x939CAD),
-    fluid_info("tier37_clean", colorLookup.tier37, 1000)
+    fluid_info("tier37_clean", colorLookup.tier37, 1000),
+
+    fluid_info("blue_tier38", 0x4B85BC, 2500, 4500, 88000, "EPIC")
 ];
 
 for fluid in customFluids {

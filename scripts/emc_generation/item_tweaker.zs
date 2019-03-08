@@ -19,6 +19,13 @@ val customItems as item_info[] = [
     item_info("reconstructed_tier34_component", 0x6AFF26, "enderio:items/item_material_plantbrown"),
     item_info("charred_tier34_part", 0x252525, "enderio:items/item_material_plantbrown"),
 
+    item_info("tier38_drop", colorLookup.tier38, "minecraft:items/ghast_tear"),
+    item_info("reconstructed_tier38_drop", colorLookup.tier38, "minecraft:items/ghast_tear", true),
+    item_info("tier38_leaf", colorLookup.tier38, "tconstruct:items/parts/fletching"),
+    item_info("bloody_tier38_leaf", 0x5E2755, "tconstruct:items/parts/fletching"),
+    item_info("tier38_fern", colorLookup.tier38, "minecraft:blocks/fern"),
+    item_info("tier38_tangle", colorLookup.tier38, "minecraft:items/string"),
+
     //Items with a texture from Base
     item_info("tier23alloy", colorLookup.tier23, baseItem("plate")),
     item_info("composted_tier33", 0x894430, baseItem("cluster")),
@@ -47,6 +54,8 @@ val customItems as item_info[] = [
     item_info("tier36_powder", colorLookup.tier36_37between, baseItem("dirty_dust")),
     item_info("tier36_plate", colorLookup.tier36_37between, baseItem("plate")),
     item_info("tier36_cluster", colorLookup.tier36_37between, baseItem("cluster")),
+    item_info("tier38_clump", colorLookup.tier38, baseItem("clump")),
+    item_info("tier38_plate", colorLookup.tier38, baseItem("plate")),
 
     //Items with a texture from Mystical Agriculture
     item_info("reconstructed_tier24", colorLookup.lime, mysticalItem("redstone_alloy_essence")),
