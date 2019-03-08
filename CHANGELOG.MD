@@ -19,18 +19,18 @@
 - Fixed some unintended EMC exploits. 
 - Added a recipe to be able to get chorus flowers.
 - Hide the disabled PlusTiC stone types.
-- Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that I can just use the tint because of Mekanism JEI Fix. (It is basically a small core mod I made that fixes the rendering of gasses in JEI.)
+- Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that I can just use the tint because of Mekanism DZ: Edition.
 - Adjusted some of the fluid/gasses colors slightly so that they render nicely with the new changes.
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
 - Display EMC produced from EMC essence as a tooltip.
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
-  - Mekanism JEI Fix
 Updated
   - Actually Additions (r145 to r146)
   - Animus (2.1.0 to 2.1.1)
   - AppleCore (3.1.4 to 3.2.0)
+  - Armor Toughness Bar (2.0 to 2.1)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
   - B.A.S.E (3.11.0 to 3.12.0)
   - Baubley Heart Canisters (1.2.1 to 1.2.3)
@@ -50,9 +50,10 @@ Updated
   - In Control (3.9.2 to 3.9.5)
   - Incorporeal (1.0.3 to 1.0.4)
   - InWorldCrafting (1.0.0 to 1.2.0)
-  - JEI (4.14.4.264 to 4.15.0.268)
+  - JEI (4.14.4.264 to 4.15.0.269)
   - JourneyMap (5.5.3 to 5.5.4)
   - LittleTiles (1.5.0-pre125 to 1.5.0-pre126)
+  - MTLib (3.0.5 to 3.0.6)
   - Mystical Agriculture (1.7.1 to 1.7.3)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
@@ -70,6 +71,9 @@ Updated
   - Visuals (3r to 6r)
 Removed
   - JourneyMapFixer (As it is no longer needed with the journeymap update)
+Replaced
+  - Mekanism with Mekanism: DZ Edition
+  - Mekanism Generators with Mekanism Generators: DZ Edition
 
 
 ### 1.4 (BETA)
