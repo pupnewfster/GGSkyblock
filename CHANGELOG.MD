@@ -19,7 +19,7 @@
 - Fixed some unintended EMC exploits. 
 - Added a recipe to be able to get chorus flowers.
 - Hide the disabled PlusTiC stone types.
-- Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that I can just use the tint because of Mekanism DZ: Edition.
+- Cleaned up the fluid and molten fluid creation scripts, removing the old textures now that gases fully support coloring by tint.
 - Adjusted some of the fluid/gasses colors slightly so that they render nicely with the new changes.
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
 - Display EMC produced from EMC essence as a tooltip.
@@ -35,7 +35,7 @@ Updated
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
   - B.A.S.E (3.11.0 to 3.12.0)
   - Baubley Heart Canisters (1.2.1 to 1.2.3)
-  - Better Advancements (0.0.17.74 to 0.0.17.75)
+  - Better Advancements (0.0.17.74 to 0.1.0.77)
   - Better Builder's Wands (0.13.0.267 to 0.13.1.269)
   - Better Questing (3.5.291 to 3.5.294)
   - Better Questing - Standard Expansion (3.4.151 to 3.4.153)
@@ -43,40 +43,41 @@ Updated
   - Botania Needs These Things! (1.1.1 to 2.1)
   - CompatSkills (1.13.4 to 1.15.0)
   - CraftTweaker (4.1.14 to 4.1.15)
+  - CreativeCore (1.9.39 to 1.9.40)
   - Ender Tweaker (1.1.3 to 1.1.4)
   - Extra Botany (1.1-51 to 1.1-52)
   - FastWorkbench (1.6.0 to 1.6.1)
   - FindMe (1.0.2-6 to 1.1.0-8)
-  - Forge (14.23.5.2814 to 14.23.5.2815)
+  - Forge (14.23.5.2814 to 14.23.5.2820)
   - Garbage Bins (1.1.0 to 1.1.1)
   - In Control (3.9.2 to 3.9.6)
   - Incorporeal (1.0.3 to 1.0.4)
   - InWorldCrafting (1.0.0 to 1.2.0)
   - JEI (4.14.4.264 to 4.15.0.269)
   - JourneyMap (5.5.3 to 5.5.4)
-  - LittleTiles (1.5.0-pre125 to 1.5.0-pre126)
+  - LittleTiles (1.5.0-pre125 to 1.5.0-pre127)
   - MTLib (3.0.5 to 3.0.6)
   - Mystical Agriculture (1.7.1 to 1.7.3)
   - OldJavaWarning (1.0.9 to 1.0.10)
   - OpenBlocks Elevator (1.3.6 to 1.3.8)
   - Overloaded Armor Bar (1.0.2 to 1.0.3)
   - PlusTiC (7.0.5.0 to 7.0.5.2)
-  - RandomPatches (1.13.0.1 to 1.15.0.0)
+  - RandomPatches (1.13.0.1 to 1.15.0.1)
   - RandomPatches Integration (1.3.0.0 to 1.4.0.0)
   - RandomTweaks (2.4.3.1 to 2.4.3.2)
   - Reborn Core (3.13.4.419 to 3.13.6.424)
   - Reskillable (1.12.3 to 1.12.5)
   - Smooth Font (2.0-alpha-6 to 2.0-alpha-9)
   - Tech Reborn (2.20.11.929 to 2.21.1.954)
-  - Thaumic Bases Unofficial (3.3.310.5r to 3.3.256.6r)
-  - Thaumic Energistics (2.1.1 to 2.2.0)
+  - Thaumic Bases Unofficial (3.3.310.5r to 3.3.345.6r)
+  - Thaumic Energistics (2.1.1 to 2.2.1)
   - Thaumic Restoration (1.2.1a to 1.2.1b)
   - Visuals (3r to 6r)
 Removed
   - JourneyMapFixer (As it is no longer needed with the journeymap update)
 Replaced
-  - Mekanism with Mekanism: DZ Edition
-  - Mekanism Generators with Mekanism Generators: DZ Edition
+  - Mekanism with Mekanica
+  - Mekanism Generators with Mekanica: Generators
 
 
 ### 1.4 (BETA)

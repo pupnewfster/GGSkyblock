@@ -150,5 +150,3 @@ enrichment.removeRecipe(<actuallyadditions:item_dust:2>);
 enrichment.removeRecipe(<techreborn:dust:16>);
 
 enrichment.removeRecipe(<actuallyadditions:item_dust:3>);
-
-enrichment.removeRecipe(<bloodmagic:component:24>);
