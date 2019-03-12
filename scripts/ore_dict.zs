@@ -15,3 +15,6 @@
 
 <ore:dustEnder>.remove(<appliedenergistics2:material:46>);
 <ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
+
+<ore:oreCobalt>.remove(<tconstruct:metal>);
+<ore:oreArdite>.remove(<tconstruct:metal>);

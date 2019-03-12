@@ -24,6 +24,9 @@
 - Use Better Questing's new theme system to properly recreate the custom theme, and have it have the correct color text.
 - Display EMC produced from EMC essence as a tooltip.
 - Disable syncing of advancements via Together Forever, as Botania uses them for determining dice rewards.
+- Removed duplicated recipes (only really showed in JEI they were not accessible by themselves) for various mekanism machines.
+- Also unifies some of the recipes in general.
+- Fixed Cobalt Block for some reason having the oredict entries oreCobalt and oreArdite
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
@@ -71,7 +74,7 @@ Updated
   - Tech Reborn (2.20.11.929 to 2.21.1.954)
   - Thaumic Bases Unofficial (3.3.310.5r to 3.3.345.6r)
   - Thaumic Energistics (2.1.1 to 2.2.1)
-  - Thaumic Restoration (1.2.1a to 1.2.1b)
+  - Thaumic Restoration (1.2.1a to 1.3.0)
   - Visuals (3r to 6r)
 Removed
   - JourneyMapFixer (As it is no longer needed with the journeymap update)

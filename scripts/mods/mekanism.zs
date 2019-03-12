@@ -3,6 +3,10 @@
 import mods.mekanism.enrichment;
 import mods.mekanism.combiner;
 import mods.mekanism.infuser;
+import mods.mekanism.purification;
+import mods.mekanism.chemical.injection;
+import crafttweaker.item.IItemStack;
+import mods.mekanism.chemical.dissolution;
 import mods.jei.JEI;
 
 //Infuser
@@ -104,49 +108,86 @@ JEI.removeAndHide(<mekanismgenerators:solarpanel>);
 infuser.removeRecipe(<mekanism:otherdust:5>, <techreborn:dust:35>, "DIAMOND");
 infuser.removeRecipe(<mekanism:otherdust:5>, <enderio:item_material:29>, "DIAMOND");
 
+infuser.removeRecipe(<mekanismgenerators:hohlraum>, <techreborn:dust:24>, "CARBON");
+infuser.removeRecipe(<mekanismgenerators:hohlraum>, <enderio:item_material:25>, "CARBON");
+infuser.removeRecipe(<mekanismgenerators:hohlraum>, <appliedenergistics2:material:51>, "CARBON");
+infuser.removeRecipe(<mekanismgenerators:hohlraum>, <actuallyadditions:item_dust:1>, "CARBON");
+infuser.removeRecipe(<mekanismgenerators:hohlraum>, <bloodmagic:component:20>, "CARBON");
+
 combiner.removeRecipe(<minecraft:diamond_ore>, <techreborn:dust:16> * 3);
 combiner.removeRecipe(<minecraft:diamond_ore>, <actuallyadditions:item_dust:2> * 3);
 
 combiner.removeRecipe(<minecraft:gold_ore>, <techreborn:dust:24> * 8);
 combiner.removeRecipe(<minecraft:gold_ore>, <bloodmagic:component:20> * 8);
 combiner.removeRecipe(<minecraft:gold_ore>, <actuallyadditions:item_dust:1> * 8);
+combiner.removeRecipe(<minecraft:gold_ore>, <appliedenergistics2:material:51> * 8);
 combiner.removeRecipe(<minecraft:gold_ore>, <enderio:item_material:25> * 8);
 
 combiner.removeRecipe(<minecraft:iron_ore>, <bloodmagic:component:19> * 8);
 combiner.removeRecipe(<minecraft:iron_ore>, <techreborn:dust:27> * 8);
 combiner.removeRecipe(<minecraft:iron_ore>, <actuallyadditions:item_dust> * 8);
+combiner.removeRecipe(<minecraft:iron_ore>, <appliedenergistics2:material:49> * 8);
 combiner.removeRecipe(<minecraft:iron_ore>, <enderio:item_material:24> * 8);
 
 combiner.removeRecipe(<minecraft:obsidian>, <techreborn:dust:35> * 4);
 combiner.removeRecipe(<minecraft:obsidian>, <enderio:item_material:29> * 4);
+
+combiner.removeRecipe(<tconstruct:ore>, <jaopca:item_dustcobalt> * 8);
+combiner.removeRecipe(<tconstruct:ore:1>, <jaopca:item_dustardite> * 8);
+
+combiner.removeRecipe(<techreborn:ore:12>, <techreborn:dust:29> * 8);
+combiner.removeRecipe(<techreborn:ore2:1>, <techreborn:dust:53> * 8);
+
+//Fix which copper and tin get output
+combiner.removeRecipe(<techreborn:ore2>, <mekanism:dust:3> * 8);
+combiner.removeRecipe(<techreborn:ore2:1>, <mekanism:dust:4> * 8);
+combiner.addRecipe(<mekanism:dust:3> * 8, <mekanism:oreblock:1>);
+combiner.addRecipe(<mekanism:dust:4> * 8, <mekanism:oreblock:2>);
 
 //silver
 combiner.removeRecipe(<techreborn:ore:13>, <techreborn:dust:47> * 8);
 
 
 //Cleanup enrichment chamber to only have main ores
-enrichment.removeRecipe(<mekanism:plasticblock>);
-enrichment.removeRecipe(<mekanism:plasticblock:1>);
-enrichment.removeRecipe(<mekanism:plasticblock:2>);
-enrichment.removeRecipe(<mekanism:plasticblock:3>);
-enrichment.removeRecipe(<mekanism:plasticblock:4>);
-enrichment.removeRecipe(<mekanism:plasticblock:5>);
-enrichment.removeRecipe(<mekanism:plasticblock:6>);
-enrichment.removeRecipe(<mekanism:plasticblock:7>);
-enrichment.removeRecipe(<mekanism:plasticblock:8>);
-enrichment.removeRecipe(<mekanism:plasticblock:9>);
-enrichment.removeRecipe(<mekanism:plasticblock:10>);
-enrichment.removeRecipe(<mekanism:plasticblock:11>);
-enrichment.removeRecipe(<mekanism:plasticblock:12>);
-enrichment.removeRecipe(<mekanism:plasticblock:13>);
-enrichment.removeRecipe(<mekanism:plasticblock:14>);
-enrichment.removeRecipe(<mekanism:plasticblock:15>);
+val badEnrichmentInputs as IItemStack[] = [
+    <mekanism:plasticblock>,
+    <mekanism:plasticblock:1>,
+    <mekanism:plasticblock:2>,
+    <mekanism:plasticblock:3>,
+    <mekanism:plasticblock:4>,
+    <mekanism:plasticblock:5>,
+    <mekanism:plasticblock:6>,
+    <mekanism:plasticblock:7>,
+    <mekanism:plasticblock:8>,
+    <mekanism:plasticblock:9>,
+    <mekanism:plasticblock:10>,
+    <mekanism:plasticblock:11>,
+    <mekanism:plasticblock:12>,
+    <mekanism:plasticblock:13>,
+    <mekanism:plasticblock:14>,
+    <mekanism:plasticblock:15>,
 
-enrichment.removeRecipe(<thaumcraft:ore_quartz>);
-enrichment.removeRecipe(<actuallyadditions:item_dust:5>);
+    <thaumcraft:ore_quartz>,
+    <actuallyadditions:item_dust:5>,
+    <actuallyadditions:item_dust:2>,
+    <techreborn:dust:16>,
+    <actuallyadditions:item_dust:3>,
+    <techreborn:ore2>,
+    <techreborn:ore2:1>,
+    <appliedenergistics2:material:3>
+];
 
+for input in badEnrichmentInputs {
+    enrichment.removeRecipe(input);
+}
 
-enrichment.removeRecipe(<actuallyadditions:item_dust:2>);
-enrichment.removeRecipe(<techreborn:dust:16>);
+purification.removeRecipe(<mekanism:clump:3>, <techreborn:ore2>);
+purification.removeRecipe(<mekanism:clump:4>, <techreborn:ore2:1>);
 
-enrichment.removeRecipe(<actuallyadditions:item_dust:3>);
+mods.mekanism.chemical.oxidizer.removeRecipe(<gas:sulfurdioxide>, <techreborn:dust:52>);
+
+injection.removeRecipe(<mekanism:shard:3>, <techreborn:ore2>);
+injection.removeRecipe(<mekanism:shard:4>, <techreborn:ore2:1>);
+
+dissolution.removeRecipe(<gas:copper>, <techreborn:ore2>);
+dissolution.removeRecipe(<gas:tin>, <techreborn:ore2:1>);
