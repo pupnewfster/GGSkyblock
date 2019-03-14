@@ -27,6 +27,7 @@
 - Removed duplicated recipes (only really showed in JEI they were not accessible by themselves) for various mekanism machines.
 - Also unifies some of the recipes in general.
 - Fixed Cobalt Block for some reason having the oredict entries oreCobalt and oreArdite
+- Increase chance of broken spawner dropping to 1.0 from 0.5
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
