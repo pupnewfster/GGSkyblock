@@ -4,6 +4,7 @@ import mods.compatskills.Thaumcraft.addKnowledgeLock;
 
 //Remove uneeded lock from a simple block
 addRequirement(<thaumadditions:crafting_furnace>, "none");
+addRequirement(<thaumicwonders:creative_essentia_jar>, "none");
 
 
 addRequirement(<thaumcraft:crystal_essence>, "unobtainable");

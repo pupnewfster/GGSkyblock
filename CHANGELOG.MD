@@ -28,40 +28,47 @@
 - Also unifies some of the recipes in general.
 - Fixed Cobalt Block for some reason having the oredict entries oreCobalt and oreArdite
 - Increase chance of broken spawner dropping to 1.0 from 0.5
+- Changes `allowEmissiveItems` to true as Mekanica does not have issues rendering some items.
+- Enabled `EnableAmbientLighting` for Mekanica as it does not have the performance issues Mekanism had with this option enabled.
+- Disable Mekanica multiblock's from spawning particles on forming (they will however display a message on the action bar when the multiblock was completed.) This should improve FPS especially on loading up very progressed worlds in single player.
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
+  - Thaumic Wonders
 Updated
   - Actually Additions (r145 to r146)
   - Anger Management (1.0.0 to 1.0.2)
   - Animus (2.1.0 to 2.1.1)
   - AppleCore (3.1.4 to 3.2.0)
   - Armor Toughness Bar (2.0 to 2.1)
-  - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b164)
+  - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b165)
   - Auxillium Equivalence (1.3.0 to 1.3.2)
   - B.A.S.E (3.11.0 to 3.12.0)
   - Baubley Heart Canisters (1.2.1 to 1.2.3)
   - Better Advancements (0.0.17.74 to 0.1.0.77)
-  - Better Builder's Wands (0.13.0.267 to 0.13.1.269)
-  - Better Questing (3.5.291 to 3.5.294)
+  - Better Builder's Wands (0.13.0.267 to 0.13.2.271)
+  - Better Questing (3.5.291 to 3.5.295)
   - Better Questing - Standard Expansion (3.4.151 to 3.4.153)
   - Botania (1.10-359 to 1.10-360)
   - Botania Needs These Things! (1.1.1 to 2.1)
   - CompatSkills (1.13.4 to 1.15.0)
-  - CraftTweaker (4.1.14 to 4.1.15)
-  - CreativeCore (1.9.39 to 1.9.40)
+  - CraftTweaker (4.1.14 to 4.1.16)
+  - CreativeCore (1.9.39 to 1.9.41)
   - Ender Tweaker (1.1.3 to 1.1.5)
   - Extra Botany (1.1-51 to 1.1-52)
+  - FastFurnace (1.2.1 to 1.2.2)
   - FastWorkbench (1.6.0 to 1.6.1)
   - FindMe (1.0.2-6 to 1.1.0-8)
-  - Forge (14.23.5.2814 to 14.23.5.2821)
+  - Forge (14.23.5.2814 to 14.23.5.2823)
   - Garbage Bins (1.1.0 to 1.1.1)
+  - Hammer (Lib) Core (2.0.4.2 to 2.0.4.3)
   - In Control (3.9.2 to 3.9.6)
   - Incorporeal (1.0.3 to 1.0.4)
   - InWorldCrafting (1.0.0 to 1.2.0)
   - JEI (4.14.4.264 to 4.15.0.269)
   - JourneyMap (5.5.3 to 5.5.4)
-  - LittleTiles (1.5.0-pre125 to 1.5.0-pre127)
+  - Just Enough Throwing In Fluids (1.3.0 to 1.3.1)
+  - LittleTiles (1.5.0-pre125 to 1.5.0-pre130)
   - LootTweaker (0.0.8 to 0.0.9)
   - MTLib (3.0.5 to 3.0.6)
   - Mystical Agriculture (1.7.1 to 1.7.3)
@@ -79,8 +86,9 @@ Updated
   - Thaumic Bases Unofficial (3.3.310.5r to 3.3.345.6r)
   - Thaumic Energistics (2.1.1 to 2.2.1)
   - Thaumic Restoration (1.2.1a to 1.3.1)
-  - Tinkers' Construct (2.12.0.115 to 2.12.0.120)
+  - Tinkers' Construct (2.12.0.115 to 2.12.0.123)
   - Tinkers' Complement (0.3.0 to 0.3.1)
+  - TipTheScales (1.0.3 to 1.0.4)
   - Visuals (3r to 6r)
 Removed
   - JourneyMapFixer (As it is no longer needed with the journeymap update)

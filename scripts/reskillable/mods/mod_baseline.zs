@@ -13,6 +13,7 @@ addModLock("thaumictinkerer", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicrestoration", "trait|compatskills:unlock_thaumcraft");
 addModLock("tg", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicenergistics", "compatskills:technology|33", "trait|compatskills:unlock_thaumcraft");
+addModLock("thaumicwonders", "trait|compatskills:unlock_thaumcraft");
 
 //Botania
 addModLock("botania", "trait|compatskills:unlock_botania");
