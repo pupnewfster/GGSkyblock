@@ -210,7 +210,8 @@ recipes.addShapeless("CTRainbowMatter3", <auxiliumequivalence:matter:4> * 4, [<a
 
 //Tome of knowledge
 recipes.remove(<projecte:item.pe_tome>);
-recipes.addShaped("CTKnowledgeTome", <projecte:item.pe_tome>, [[<projectex:final_star>, <projectex:final_star>, <projectex:final_star>], [<projectex:final_star>, <projectex:knowledge_sharing_book>, <projectex:final_star>], [<projectex:final_star>, <projectex:final_star>, <projectex:final_star>]]);
+//TODO
+//recipes.addShaped("CTKnowledgeTome", <projecte:item.pe_tome>, [[<projectex:final_star>, <projectex:final_star>, <projectex:final_star>], [<projectex:final_star>, <projectex:knowledge_sharing_book>, <projectex:final_star>], [<projectex:final_star>, <projectex:final_star>, <projectex:final_star>]]);
 
 
 //Make other saplings accessible

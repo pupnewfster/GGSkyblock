@@ -169,7 +169,6 @@ val badEnrichmentInputs as IItemStack[] = [
 
     <thaumcraft:ore_quartz>,
     <actuallyadditions:item_dust:5>,
-    <actuallyadditions:item_dust:2>,
     <techreborn:dust:16>,
     <actuallyadditions:item_dust:3>,
     <techreborn:ore2>,
