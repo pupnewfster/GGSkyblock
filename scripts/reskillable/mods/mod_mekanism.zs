@@ -69,10 +69,14 @@ var locks = {
     infuser2 : ["compatskills:smithing|38", "compatskills:technology|56"],
     infuser3 : ["compatskills:smithing|47", "compatskills:technology|71"],
 
+    sawmill : ["reskillable:building|12"],
+    sawmill1 : ["reskillable:building|19", "compatskills:technology|26"],
+    sawmill2 : ["reskillable:building|27", "compatskills:technology|35"],
+    sawmill3 : ["reskillable:building|39", "compatskills:technology|42"],
+
     condensentrator : ["compatskills:technology|32"],
     oxidizer : ["compatskills:technology|41"],
     chemical_infuser : ["compatskills:technology|41"],
-    sawmill : ["reskillable:building|12"],
     dissolution : ["compatskills:technology|73"],
     washer : ["compatskills:technology|67"],
     crystallizer : ["compatskills:technology|64"],
@@ -177,10 +181,10 @@ addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 4}), combine(locks
 addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 4}), locks.combiner3);
 
 
-addRequirement(<mekanism:machineblock:8>, combine(locks.infuser, installerLock(basic_installer, locks.infuser1)));
-addRequirement(<mekanism:machineblock:5>.withTag({recipeType: 7}), combine(locks.infuser1, installerLock(advanced_installer, locks.infuser2)));
-addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 7}), combine(locks.infuser2, installerLock(elite_installer, locks.infuser3)));
-addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 7}), locks.infuser3);
+addRequirement(<mekanism:machineblock:9>, combine(locks.purification, installerLock(basic_installer, locks.purification1)));
+addRequirement(<mekanism:machineblock:5>.withTag({recipeType: 5}), combine(locks.purification1, installerLock(advanced_installer, locks.purification2)));
+addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 5}), combine(locks.purification2, installerLock(elite_installer, locks.purification3)));
+addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 5}), locks.purification3);
 
 
 addRequirement(<mekanism:machineblock2:3>, combine(locks.injection, installerLock(basic_installer, locks.injection1)));
@@ -189,16 +193,21 @@ addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 6}), combine(locks
 addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 6}), locks.injection3);
 
 
-addRequirement(<mekanism:machineblock:9>, combine(locks.purification, installerLock(basic_installer, locks.purification1)));
-addRequirement(<mekanism:machineblock:5>.withTag({recipeType: 5}), combine(locks.purification1, installerLock(advanced_installer, locks.purification2)));
-addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 5}), combine(locks.purification2, installerLock(elite_installer, locks.purification3)));
-addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 5}), locks.purification3);
+addRequirement(<mekanism:machineblock:8>, combine(locks.infuser, installerLock(basic_installer, locks.infuser1)));
+addRequirement(<mekanism:machineblock:5>.withTag({recipeType: 7}), combine(locks.infuser1, installerLock(advanced_installer, locks.infuser2)));
+addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 7}), combine(locks.infuser2, installerLock(elite_installer, locks.infuser3)));
+addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 7}), locks.infuser3);
+
+
+addRequirement(<mekanism:machineblock2:5>, combine(locks.sawmill, installerLock(basic_installer, locks.sawmill1)));
+addRequirement(<mekanism:machineblock:5>.withTag({recipeType: 8}), combine(locks.sawmill1, installerLock(advanced_installer, locks.sawmill2)));
+addRequirement(<mekanism:machineblock:6>.withTag({recipeType: 8}), combine(locks.sawmill2, installerLock(elite_installer, locks.sawmill3)));
+addRequirement(<mekanism:machineblock:7>.withTag({recipeType: 8}), locks.sawmill3);
 
 
 addRequirement(<mekanism:machineblock2>, locks.condensentrator);
 addRequirement(<mekanism:machineblock2:1>, locks.oxidizer);
 addRequirement(<mekanism:machineblock2:2>, locks.chemical_infuser);
-addRequirement(<mekanism:machineblock2:5>, locks.sawmill);
 addRequirement(<mekanism:machineblock2:6>, locks.dissolution);
 addRequirement(<mekanism:machineblock2:7>, locks.washer);
 addRequirement(<mekanism:machineblock2:8>, locks.crystallizer);
