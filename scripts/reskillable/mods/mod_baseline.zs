@@ -8,6 +8,7 @@ addModLock("planarartifice", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumadditions", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicbases", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumic_arcana", "trait|compatskills:unlock_thaumcraft");
+addModLock("thaumicaugmentation", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicperiphery", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumictinkerer", "trait|compatskills:unlock_thaumcraft");
 addModLock("thaumicrestoration", "trait|compatskills:unlock_thaumcraft");

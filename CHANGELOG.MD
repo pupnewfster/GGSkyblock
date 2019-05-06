@@ -37,6 +37,7 @@
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
+  - Thaumic Augmentation
   - Thaumic Wonders
 Updated
   - Actually Additions (r145 to r147)
