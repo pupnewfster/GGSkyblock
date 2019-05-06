@@ -32,6 +32,7 @@
 - Enabled `EnableAmbientLighting` as of Mekanism 9.7.x this does not cause a bunch of lag.
 - Update to Gas Conduits allows Gas Filters to accept gas dragged from JEI to their inputs.
 - Update to Ender IO fixes energy conduits not being able to give power to factories upgraded with installers.
+- Made the End generate as normal instead of as void.
 
 Added
   - JourneyMap Defaults (Journey map update makes this not stop connection to servers anymore)
