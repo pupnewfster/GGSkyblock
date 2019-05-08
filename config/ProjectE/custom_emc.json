@@ -12,10 +12,6 @@
       "item": "minecraft:enchanted_book|0",
       "emc": 0
     },
-	{
-      "item": "minecraft:experience_bottle|0",
-      "emc": 0
-    },
     {
       "item": "minecraft:spawn_egg|0",
       "emc": 0
@@ -94,6 +90,10 @@
       "item": "enderio:block_enderman_skull|2",
       "emc": 70292
     },
+    {
+      "item": "enderio:block_enderman_skull|0",
+      "emc": 65536
+    },
 	
 	{
       "item": "betterbuilderswands:wandunbreakable|0",
@@ -116,6 +116,14 @@
 	{
       "item": "appliedenergistics2:part|120",
       "emc": 42
+    },
+    {
+      "item": "appliedenergistics2:material|6",
+      "emc": 256
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 256000
     },
 	
 	{
@@ -217,13 +225,18 @@
       "item": "mekanism:machineblock2|11",
       "emc": 0
     },
+
+    {
+      "item": "charset:logic_gate|0",
+      "emc": 0
+    },
 	
 	{
       "item": "bhc:red_heart|0",
       "emc": 2
     },
 	{
-      "item": "bhc:orange_heart|0",
+      "item": "bhc:yellow_heart|0",
       "emc": 139264
     },
 	{
@@ -238,11 +251,7 @@
       "item": "OD|boneWithered",
       "emc": 3865
     },
-	
-    {
-      "item": "actuallyadditions:item_solidified_experience|0",
-      "emc": 0
-    },
+
 	{
       "item": "actuallyadditions:block_misc|3",
       "emc": 0
@@ -279,6 +288,14 @@
 	{
       "item": "astralsorcery:itemenchantmentamulet|0",
       "emc": 0
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|0",
+      "emc": 256
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|1",
+      "emc": 512
     },
 	
 	{
