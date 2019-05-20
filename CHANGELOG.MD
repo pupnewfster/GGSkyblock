@@ -1,9 +1,7 @@
 # Changelog
 
 ### 2.0 (IN DEVELOPMENT)
-- WARNING: An update to Botania Needs These Things, change the registry name of the mana charger. So before updating I recommend removing any items from it and breaking the mana chargers.
-  - Quest for mana charger updated to have the proper item again. Recommended as with whenever quests change to use `/bq_admin default load` to load any changes I have made to the quest book.
-- Warning: Black Quartz block id has changed, if you used any or have any blocks of it I recommend converting them to EMC and then making them again after the update.
+- WARNING: This is a massive update and is not fully compatible for 1.x worlds as some mods have been changed out, and a decent number of block/item ids have shifted.
 - Restructured the loot scripts so they are easier to read. Uses zenClasses instead of one dimensional maps
 - Further cleaned up the block, item, and fluid creation scripts for emc generations by using custom zenClasses as a wrapper.
 - Added attack lock to lens of the killer.
@@ -40,14 +38,14 @@ Added
   - Thaumic Augmentation
   - Thaumic Wonders
 Updated
-  - Actually Additions (r145 to r147)
+  - Actually Additions (r145 to r148)
   - Anger Management (1.0.0 to 1.0.2)
   - Animus (2.1.0 to 2.1.2)
   - AppleCore (3.1.4 to 3.2.0)
-  - Armory Expansion (0.2.0 to 1.1.10c)
+  - Armory Expansion (0.2.0 to 1.2.5)
   - Armor Toughness Bar (2.0 to 2.2)
   - Aroma1997Core (2.0.0.1.b163 to 2.0.0.2.b165)
-  - Astral Sorcery (1.10.11 to 1.10.17)
+  - Astral Sorcery (1.10.11 to 1.10.18)
   - Auxillium Equivalence (1.3.0 to 1.3.2)
   - B.A.S.E (3.11.0 to 3.12.1)
   - Baubley Heart Canisters (1.2.1 to 2.0.2)
@@ -56,6 +54,7 @@ Updated
   - Better Questing (3.5.291 to 3.5.299)
   - Better Questing - Standard Expansion (3.4.151 to 3.4.158)
   - Blood Arsenal (2.2.0-27 to 2.2.0-28)
+  - Blood Magic (2.4.0-102 to 2.4.1-103)
   - Botania (1.10-359 to 1.10-361)
   - Botania Needs These Things! (1.1.1 to 2.1)
   - Botania Tweaks (1.8.4 to 1.8.5)
@@ -65,7 +64,7 @@ Updated
   - CompatSkills (1.13.4 to 1.15.0)
   - Construct's Armory (1.2.3 to 1.2.3.4)
   - Cosmetic Armor Reworked (v4 to v4a)
-  - CraftTweaker (4.1.14 to 4.1.17)
+  - CraftTweaker (4.1.14 to 4.1.18)
   - CreativeCore (1.9.39 to 1.9.45)
   - Dimensional Edibles (1.3 to 1.3.1)
   - Ender IO (5.0.40 to 5.0.44)
@@ -78,23 +77,24 @@ Updated
   - FastWorkbench (1.6.0 to 1.7.1)
   - FindMe (1.0.2-6 to 1.1.0-8)
   - FoamFix (0.10.3 to 0.10.5)
-  - Forge (14.23.5.2814 to 14.23.5.2836)
+  - Forge (14.23.5.2814 to 14.23.5.2838)
   - Garbage Bins (1.1.0 to 1.1.1)
   - Gas Conduits (1.0.0 to 1.2.1)
-  - Hammer (Lib) Core (2.0.4.2 to 2.0.4.6)
+  - Hammer (Lib) Core (2.0.4.2 to 2.0.4.7)
   - In Control (3.9.2 to 3.9.7)
-  - Incorporeal (1.0.3 to 1.1.1)
+  - Incorporeal (1.0.3 to 1.1.2)
   - InWorldCrafting (1.0.0 to 1.2.0)
-  - JAOPCA (2.2.8.100 to 2.2.8.101)
-  - JEI (4.14.4.264 to 4.15.0.278)
-  - JourneyMap (5.5.3 to 5.5.5b5)
+  - JAOPCA (2.2.8.100 to 2.2.8.102)
+  - JEI (4.14.4.264 to 4.15.0.279)
+  - JourneyMap (5.5.3 to 5.5.5b6)
   - Just Enough Throwing In Fluids (1.3.0 to 1.4.1)
   - LittleTiles (1.5.0-pre125 to 1.5.0-pre135)
   - LootTweaker (0.0.8 to 0.0.9)
-  - Mantle (1.3.3.42 to 1.3.3.49)
+  - Mantle (1.3.3.42 to 1.3.3.55)
   - McJtyLib (3.1.1 to 3.5.2)
-  - Mekanism (9.4.13.349 to 9.7.4.375)
-  - Mekanism Generators (9.4.13.349 to 9.7.4.375)
+  - Mekanism (9.4.13.349 to 9.7.5.376)
+  - Mekanism Generators (9.4.13.349 to 9.7.5.376)
+  - MetalChests (4.0.1 to 4.6.9)
   - ModTweaker (4.0.16 to 4.0.17)
   - MTLib (3.0.5 to 3.0.6)
   - Mystical Agriculture (1.7.1 to 1.7.5)
@@ -104,7 +104,7 @@ Updated
   - Overloaded Armor Bar (1.0.2 to 1.0.4f)
   - p455w0rd's Library (2.0.36 to 2.1.44)
   - Placebo (1.5.1 to 1.6.0)
-  - PlusTiC (7.0.5.0 to 7.0.6.1)
+  - PlusTiC (7.0.5.0 to 7.0.7.0)
   - Progressive Bosses (1.4.1 to 1.4.2)
   - ProjectE (1.4.0 to 1.4.1)
   - RandomPatches (1.13.0.1 to 1.15.1.0)
@@ -122,7 +122,7 @@ Updated
   - Thaumic JEI (1.5.5-23 to 1.6.0-27)
   - Thaumic Restoration (1.2.1a to 1.3.1)
   - Tinkers' Construct (2.12.0.115 to 2.12.0.135)
-  - Tinkers' Complement (0.3.0 to 0.3.2)
+  - Tinkers' Complement (0.3.0 to 0.4.1)
   - Tinker's JEI (1.0 to 1.2)
   - TipTheScales (1.0.3 to 1.0.4)
   - Toast Control (1.8.0 to 1.8.1)

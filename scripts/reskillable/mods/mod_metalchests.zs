@@ -85,8 +85,8 @@ for item in obsidian {
 //Hungry Chests
 
 val copperHungry = [
-    <metalchests:hungry_metal_chest>,
-    <metalchests:hungry_chest_upgrade>
+    <metalchests:metal_hungry_chest>,
+    <metalchests:metal_hungry_sorting_chest>
 ] as IItemStack[];
 
 for item in copperHungry {
@@ -95,9 +95,8 @@ for item in copperHungry {
 
 
 val ironHungry = [
-    <metalchests:hungry_metal_chest:1>,
-    <metalchests:hungry_chest_upgrade:1>,
-    <metalchests:hungry_chest_upgrade:6>
+    <metalchests:metal_hungry_chest:1>,
+    <metalchests:metal_hungry_sorting_chest:1>
 ] as IItemStack[];
 
 for item in ironHungry {
@@ -106,10 +105,8 @@ for item in ironHungry {
 
 
 val silverHungry = [
-    <metalchests:hungry_metal_chest:2>,
-    <metalchests:hungry_chest_upgrade:2>,
-    <metalchests:hungry_chest_upgrade:7>,
-    <metalchests:hungry_chest_upgrade:11>
+    <metalchests:metal_hungry_chest:2>,
+    <metalchests:metal_hungry_sorting_chest:2>
 ] as IItemStack[];
 
 for item in silverHungry {
@@ -118,11 +115,8 @@ for item in silverHungry {
 
 
 val goldHungry = [
-    <metalchests:hungry_metal_chest:3>,
-    <metalchests:hungry_chest_upgrade:3>,
-    <metalchests:hungry_chest_upgrade:8>,
-    <metalchests:hungry_chest_upgrade:12>,
-    <metalchests:hungry_chest_upgrade:15>
+    <metalchests:metal_hungry_chest:3>,
+    <metalchests:metal_hungry_sorting_chest:3>
 ] as IItemStack[];
 
 for item in goldHungry {
@@ -131,12 +125,8 @@ for item in goldHungry {
 
 
 val diamondHungry = [
-    <metalchests:hungry_metal_chest:4>,
-    <metalchests:hungry_chest_upgrade:4>,
-    <metalchests:hungry_chest_upgrade:9>,
-    <metalchests:hungry_chest_upgrade:13>,
-    <metalchests:hungry_chest_upgrade:16>,
-    <metalchests:hungry_chest_upgrade:18>
+    <metalchests:metal_hungry_chest:4>,
+    <metalchests:metal_hungry_sorting_chest:4>
 ] as IItemStack[];
 
 for item in diamondHungry {
@@ -145,13 +135,8 @@ for item in diamondHungry {
 
 
 val obsidianHungry = [
-    <metalchests:hungry_metal_chest:5>,
-    <metalchests:hungry_chest_upgrade:5>,
-    <metalchests:hungry_chest_upgrade:10>,
-    <metalchests:hungry_chest_upgrade:14>,
-    <metalchests:hungry_chest_upgrade:17>,
-    <metalchests:hungry_chest_upgrade:19>,
-    <metalchests:hungry_chest_upgrade:20>
+    <metalchests:metal_hungry_chest:5>,
+    <metalchests:metal_hungry_sorting_chest:5>
 ] as IItemStack[];
 
 for item in obsidianHungry {
