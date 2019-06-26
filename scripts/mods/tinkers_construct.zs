@@ -18,9 +18,6 @@ JEI.removeAndHide(<tinker_io:ore_crusher>);
 JEI.removeAndHide(<tinker_io:what_a_beautiful_block>);
 JEI.removeAndHide(<tinker_io:crushed_ore>);
 
-JEI.removeAndHide(<tcomplement:melter>);
-JEI.removeAndHide(<tcomplement:melter:8>);
-
 
 Fuel.registerFuel(<liquid:aeternalis>, 160);
 Fuel.registerFuel(<liquid:dark_matter>, 320);

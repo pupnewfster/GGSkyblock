@@ -3,7 +3,6 @@ import crafttweaker.item.IItemStack;
 
 val copper = [
     <metalchests:metal_chest>,
-    <metalchests:minecart_metal_chest>,
     <metalchests:chest_upgrade>
 ] as IItemStack[];
 
@@ -14,7 +13,6 @@ for item in copper {
 
 val iron = [
     <metalchests:metal_chest:1>,
-    <metalchests:minecart_metal_chest:1>,
     <metalchests:chest_upgrade:1>,
     <metalchests:chest_upgrade:6>
 ] as IItemStack[];
@@ -26,7 +24,6 @@ for item in iron {
 
 val silver = [
     <metalchests:metal_chest:2>,
-    <metalchests:minecart_metal_chest:2>,
     <metalchests:chest_upgrade:2>,
     <metalchests:chest_upgrade:7>,
     <metalchests:chest_upgrade:11>
@@ -39,7 +36,6 @@ for item in silver {
 
 val gold = [
     <metalchests:metal_chest:3>,
-    <metalchests:minecart_metal_chest:3>,
     <metalchests:chest_upgrade:3>,
     <metalchests:chest_upgrade:8>,
     <metalchests:chest_upgrade:12>,
@@ -53,7 +49,6 @@ for item in gold {
 
 val diamond = [
     <metalchests:metal_chest:4>,
-    <metalchests:minecart_metal_chest:4>,
     <metalchests:chest_upgrade:4>,
     <metalchests:chest_upgrade:9>,
     <metalchests:chest_upgrade:13>,
@@ -68,7 +63,6 @@ for item in diamond {
 
 val obsidian = [
     <metalchests:metal_chest:5>,
-    <metalchests:minecart_metal_chest:5>,
     <metalchests:chest_upgrade:5>,
     <metalchests:chest_upgrade:10>,
     <metalchests:chest_upgrade:14>,
