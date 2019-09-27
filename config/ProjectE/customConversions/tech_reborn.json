@@ -1,19 +1,6 @@
 {
   "comment": "Tech Reborn",
   "groups": {
-    "electrolyzer": {
-      "comment": "Industrial electrolyzer",
-      "conversions": [
-        {
-          "count": 1,
-          "output": "techreborn:dust|54",
-          "ingredients": {
-            "techreborn:dust|5": 24,
-            "techreborn:dust|1": -16
-          }
-        }
-      ]
-    },
     "missed_crafting": {
       "comment": "Missed crafting, player detectors",
       "conversions": [

@@ -4,48 +4,48 @@
     "tinkers_alloys": {
       "comment": "Tinker alloying",
       "conversions": [
-		{
+        {
           "count": 1,
           "output": "OD|ingotOsgloglas",
           "ingredients": {
             "OD|ingotRefinedGlowstone": 1,
-			"OD|ingotRefinedObsidian": 1,
-			"OD|ingotOsmium": 1
+            "OD|ingotRefinedObsidian": 1,
+            "OD|ingotOsmium": 1
           }
         },
-		{
+        {
           "count": 2,
           "output": "OD|ingotOsmiridium",
           "ingredients": {
             "OD|ingotIridium": 1,
-			"OD|ingotOsmium": 1
+            "OD|ingotOsmium": 1
           }
         },
-		{
+        {
           "count": 72,
           "output": "OD|ingotMirion",
           "ingredients": {
             "OD|ingotTerrasteel": 18,
-			"OD|ingotManasteel": 18,
-			"OD|ingotElvenElementium": 18,
-			"OD|ingotCobalt": 18,
-			"OD|blockGlass": 125
+            "OD|ingotManasteel": 18,
+            "OD|ingotElvenElementium": 18,
+            "OD|ingotCobalt": 18,
+            "OD|blockGlass": 125
           }
         },
-		{
+        {
           "count": 4,
           "output": "tconstruct:firewood|0",
           "ingredients": {
             "OD|plankWood": 4,
-			"minecraft:lava_bucket|0": 1,
-			"minecraft:bucket|0": -1
+            "minecraft:lava_bucket|0": 1,
+            "minecraft:bucket|0": -1
           }
         },
-		{
+        {
           "count": 1,
           "output": "tconstruct:materials|1",
           "ingredients": {
-			"minecraft:dirt|0": 1
+            "minecraft:dirt|0": 1
           }
         }
       ]

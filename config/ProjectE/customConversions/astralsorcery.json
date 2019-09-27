@@ -4,7 +4,7 @@
     "astral": {
       "comment": "Recipes",
       "conversions": [
-		{
+        {
           "count": 1,
           "output": "astralsorcery:blockinfusedwood|0",
           "ingredients": {
