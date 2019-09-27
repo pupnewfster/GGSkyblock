@@ -104,7 +104,6 @@ furnace.addRecipe(<techreborn:ingot:20>, <techreborn:ingot:21>, 1.0000 as float)
 furnace.addRecipe(<techreborn:ingot:5>, <techreborn:dust:17>, 1.0000 as float);
 furnace.addRecipe(<techreborn:ingot:6>, <techreborn:dust:26>, 1.0000 as float);
 furnace.addRecipe(<techreborn:ingot:7> * 2, <jaopca:item_clusteriridium>, 0.7000 as float);
-furnace.addRecipe(<techreborn:ingot:7>, <jaopca:item_dustiridium>, 0.7000 as float);
 furnace.addRecipe(<techreborn:ingot:7>, <techreborn:ore:1>, 0.7000 as float);
 furnace.addRecipe(<techreborn:ingot:8> * 2, <thaumcraft:cluster:5>, 1.0000 as float);
 furnace.addRecipe(<techreborn:ingot:8>, <mekanism:dust:6>, 1.0000 as float);

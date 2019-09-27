@@ -79,8 +79,7 @@ for item in obsidian {
 //Hungry Chests
 
 val copperHungry = [
-    <metalchests:metal_hungry_chest>,
-    <metalchests:metal_hungry_sorting_chest>
+    <metalchests:metal_hungry_chest>
 ] as IItemStack[];
 
 for item in copperHungry {
@@ -89,8 +88,7 @@ for item in copperHungry {
 
 
 val ironHungry = [
-    <metalchests:metal_hungry_chest:1>,
-    <metalchests:metal_hungry_sorting_chest:1>
+    <metalchests:metal_hungry_chest:1>
 ] as IItemStack[];
 
 for item in ironHungry {
@@ -99,8 +97,7 @@ for item in ironHungry {
 
 
 val silverHungry = [
-    <metalchests:metal_hungry_chest:2>,
-    <metalchests:metal_hungry_sorting_chest:2>
+    <metalchests:metal_hungry_chest:2>
 ] as IItemStack[];
 
 for item in silverHungry {
@@ -109,8 +106,7 @@ for item in silverHungry {
 
 
 val goldHungry = [
-    <metalchests:metal_hungry_chest:3>,
-    <metalchests:metal_hungry_sorting_chest:3>
+    <metalchests:metal_hungry_chest:3>
 ] as IItemStack[];
 
 for item in goldHungry {
@@ -119,8 +115,7 @@ for item in goldHungry {
 
 
 val diamondHungry = [
-    <metalchests:metal_hungry_chest:4>,
-    <metalchests:metal_hungry_sorting_chest:4>
+    <metalchests:metal_hungry_chest:4>
 ] as IItemStack[];
 
 for item in diamondHungry {
@@ -129,8 +124,7 @@ for item in diamondHungry {
 
 
 val obsidianHungry = [
-    <metalchests:metal_hungry_chest:5>,
-    <metalchests:metal_hungry_sorting_chest:5>
+    <metalchests:metal_hungry_chest:5>
 ] as IItemStack[];
 
 for item in obsidianHungry {

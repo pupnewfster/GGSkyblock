@@ -55,7 +55,7 @@ import mods.mekanism.thermalevaporation;
 //Tech Reborn
 import mods.techreborn.blastFurnace;
 import mods.techreborn.centrifuge;
-import mods.techreborn.chemicalReactorRecipe;
+import mods.techreborn.chemicalReactor;
 import mods.techreborn.extractor;
 import mods.techreborn.fusionReactor;
 import mods.techreborn.implosionCompressor;
@@ -371,9 +371,12 @@ AlchemyTable.addRecipe(<mysticalagriculture:void_metal_seeds>, [<contenttweaker:
 //<mysticalagriculture:void_metal_seeds>
 //<projecte:matter_block:1> //21,932,605,440
 
-//essence into 2 outputs
+//enrichment.addRecipe(<mysticalagriculture:void_metal_essence>, <contenttweaker:enriched_tier36_essence> * 2);
 //those 2 outputs into 2 and 3 things
+//compressor.addRecipe(<contenttweaker:enriched_tier36_essence>, <gas:aeternalis>, <contenttweaker:> * 2);
+//SagMill.addRecipe([, , ], [1, 1, 1], <contenttweaker:enriched_tier36_essence>, "NONE", 7500000, [1, 1, 1]);
 //1 of 2 modified
+//combiner.addRecipe(IItemStack itemInput, @Optional IItemStack extraInput, IItemStack itemOutput);
 //2 of 3 modified
 //use all in empowerer
 //5 inputs from the essence
@@ -385,7 +388,7 @@ recipes.addShaped("CTT35Block", <contenttweaker:tier35_block>, [[<mysticalagricu
 recipes.addShaped("CTT36Block", <contenttweaker:tier36_block>, [[<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>], [<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>], [<mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>, <mysticalagriculture:void_metal_essence>]]);
 
 industrialGrinder.addRecipe(<contenttweaker:tier36_beam>, <contenttweaker:tier36_bolt>, <contenttweaker:tier36_gear>, <contenttweaker:tier36_rod>, <mysticalagriculture:void_metal_seeds>, null, <liquid:yellow_matter> * 250, 3000, 50000);
-chemicalReactorRecipe.addRecipe(<contenttweaker:tier36_casing>, <contenttweaker:tier36_beam>, <contenttweaker:tier36_bolt>, 1200, 10000);
+chemicalReactor.addRecipe(<contenttweaker:tier36_casing>, <contenttweaker:tier36_beam>, <contenttweaker:tier36_bolt>, 10000, 1200);
 implosionCompressor.addRecipe(<contenttweaker:tier36_cluster>, <contenttweaker:tier36_powder>, <contenttweaker:tier36_rod>, <techreborn:nuke> * 16, 1200, 10000);
 AlloySmelter.addRecipe(<contenttweaker:tier36_plate>, [<contenttweaker:tier36_gear>, <contenttweaker:tier36_powder>], 1500000, 1);
 Agglomeration.addRecipe(<mysticalagriculture:osmium_seeds>, [<contenttweaker:tier36_casing>, <contenttweaker:tier36_cluster>, <contenttweaker:tier36_plate>], 750000, 0x1D0C30, 0xB2BED3, <auxiliumequivalence:matter_block:4>, <contenttweaker:tier36_block>, <contenttweaker:tier35_block>);
@@ -395,7 +398,7 @@ addTypeObject(<mysticalagriculture:vibrant_alloy_essence>, "TIER30", 10);
 addTypeObject(<contenttweaker:compressed_tier30>, "TIER30", 80);
 enrichment.addRecipe(<mysticalagriculture:vibrant_alloy_essence>, <contenttweaker:compressed_tier30>);
 
-extractor.addRecipe(<contenttweaker:extracted_tier37_essence>, <mysticalagriculture:osmium_essence>, 1200, 10000);
+extractor.add(<contenttweaker:extracted_tier37_essence>, <mysticalagriculture:osmium_essence>, 1200, 10000);
 infuser.addRecipe("TIER30", 400, <contenttweaker:extracted_tier37_essence>, <contenttweaker:infused_tier37_essence>);
 dissolution.addRecipe(<contenttweaker:infused_tier37_essence>, <gas:tier37_dirty> * 1000);
 washer.addRecipe(<gas:tier37_dirty>, <gas:tier37_clean>);
@@ -409,6 +412,7 @@ reaction.addRecipe(<avaritia:resource:5>, <liquid:tier37_clean> * 500, <gas:tier
 
 //Use green matter
 
+//LightTransmutation.addTransmutation(IItemStack stackIn, IItemStack stackOut, double cost);
 
 //Empowerer.addRecipe(IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, @Optional float[] particleColourArray);
 
@@ -501,7 +505,7 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //injection.addRecipe(IItemStack inputStack, IGasStack inputGas, IItemStack outputStack);
 //oxidizer.addRecipe(IItemStack inputStack, IGasStack outputGas);
 //washer.addRecipe(IGasStack inputGas, IGasStack outputGas);
-//combiner.addRecipe(IItemStack itemInput, @Optional IGasStack gasInput, IItemStack itemOutput);
+//combiner.addRecipe(IItemStack itemInput, @Optional IItemStack extraInput, IItemStack itemOutput);
 //crusher.addRecipe(IItemStack inputStack, IItemStack outputStack);
 //separator.addRecipe(ILiquidStack inputFluid, double inputRF, IGasStack outputGas1, IGasStack outputGas2);
 //enrichment.addRecipe(IItemStack inputStack, IItemStack outputStack);
@@ -517,8 +521,8 @@ TableCrafting.addShaped(<mysticalagriculture:starmetal_seeds>, [[<mysticalagricu
 //blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int tickTime, int euTick, int neededHeat); //3730 given heating coils dont seem to work
 //centrifuge.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick);
 //fusionReactor.addRecipe(IIngredient topInput, IIngredient bottomInput, IItemStack output, int startEU, int euTick, int tickTime);
-//chemicalReactorRecipe.addRecipe(IItemStack output1, IIngredient input1, IIngredient input2, int tickTime, int euTick);
-//extractor.addRecipe(IItemStack output, IIngredient input1, int tickTime, int euTick);
+//chemicalReactor.addRecipe(IItemStack output1, IIngredient input1, IIngredient input2, int energyCostPerTick, int operationDuration);
+//extractor.add(IItemStack output, IIngredient input1, int tickTime, int euTick);
 //implosionCompressor.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int tickTime, int euTick);
 //rollingMachine.addShaped(IItemStack output, IIngredient[][] ingredients);
 //rollingMachine.addShapeless(IItemStack output, IIngredient[] ingredients);

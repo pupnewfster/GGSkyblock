@@ -2,7 +2,11 @@
   {
     "dimension": -1,
     "maxlight": 11,
-    "maxcount": "12,Blaze",
+    "maxcount": {
+      "amount": 12,
+      "mob": "minecraft:blaze",
+      "perplayer": true
+    },
     "mobs": [
       {
         "mob": "Blaze",
